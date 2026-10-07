@@ -92,9 +92,41 @@ async function login(){
   n.classList.add("hidden");if(!m||!pin){n.textContent="Informe matrícula e PIN.";n.classList.remove("hidden");return}
   if(!db){n.textContent="Banco de dados não conectado.";n.classList.remove("hidden");return}
   b.disabled=true;b.textContent="ENTRANDO...";
-  const r=await db.rpc("academia_login",{p_matricula:m,p_pin:pin});
-  if(r.error||!r.data||!r.data.length){n.textContent="Matrícula ou PIN inválido.";n.classList.remove("hidden");b.disabled=false;b.textContent="ENTRAR";return}
-  await loadProfile(r.data[0],m);$("loginModal").classList.remove("show");b.disabled=false;b.textContent="ENTRAR";
+  try{
+    const r=await db.rpc("academia_login",{p_matricula:m,p_pin:pin});
+
+    console.log("Academia login RPC:",r);
+
+    if(r.error){
+      console.error("Erro no academia_login:",r.error);
+      n.textContent="Erro ao conectar ao banco: "+(r.error.message||"erro desconhecido");
+      n.classList.remove("hidden");
+      b.disabled=false;
+      b.textContent="ENTRAR";
+      return;
+    }
+
+    const rows=Array.isArray(r.data)?r.data:(r.data?[r.data]:[]);
+
+    if(!rows.length){
+      n.textContent="Matrícula ou PIN inválido.";
+      n.classList.remove("hidden");
+      b.disabled=false;
+      b.textContent="ENTRAR";
+      return;
+    }
+
+    await loadProfile(rows[0],m);
+    $("loginModal").classList.remove("show");
+    b.disabled=false;
+    b.textContent="ENTRAR";
+  }catch(err){
+    console.error("Erro inesperado no login:",err);
+    n.textContent="Erro inesperado: "+(err.message||err);
+    n.classList.remove("hidden");
+    b.disabled=false;
+    b.textContent="ENTRAR";
+  }
 }
 async function loadProfile(row,mat){
   user={id:row.profile_id};profileId=row.profile_id;
