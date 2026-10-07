@@ -1,291 +1,37 @@
 (()=>{"use strict";
-const $=id=>document.getElementById(id),KEY="omSolarSafetyV4",cfg=window.OM_SUPABASE||{};
-const db=window.supabase&&cfg.url&&cfg.publishableKey?window.supabase.createClient(cfg.url,cfg.publishableKey):null;
-
-const tracks=[
-["NR-10 • O primeiro contato","Zona Elétrica","⚡"],["CC x CA • O perigo invisível","Campo Fotovoltaico","☀️"],["LOTO • Controle total","Sala de Bloqueio","🔒"],["Arco elétrico • Reação","Subestação","🔥"],["NR-35 • Altura","Torre de Acesso","🪜"],["Tracker • Zona de movimento","Campo de Trackers","⚙️"],["EPI/EPC • Arsenal","Almoxarifado","🛡️"],["Ferramentas • Equipamento certo","Oficina","🧰"],["Potência • Transformadores e inversores","Casa Elétrica","🔌"],["Emergência • Incêndio","Ponto de Emergência","🚒"],["Calor • Sobreviva ao turno","Zona Solar","🌡️"],["Clima • Raios e ventos","Centro Meteorológico","⛈️"],["Fauna • Área rural","Área Rural","🐍"],["Químicos • FDS","Área Ambiental","🧪"],["Direção • Chegue inteiro","Garagem","🚗"],["APR • Veja antes de fazer","Planejamento","👁️"],["Quase acidente • Fale antes","Centro de Segurança","🚨"],["COG • Comunicação","Centro de Operações","📡"],["Fadiga • Seu cérebro também trabalha","Base Operacional","🧠"],["Primeiros socorros • Resposta","Ponto Médico","⛑️"],["Regras de Ouro • Guardião","Portal Final","🏆"]
-];
-
-const questions=[
-["Você recebe uma ordem para intervir em um circuito. Qual é a primeira decisão?","Identificar fontes, controlar a energia e verificar a condição segura.",["Começar imediatamente","Identificar fontes, controlar a energia e verificar a condição segura.","Pedir para alguém olhar","Usar apenas EPI"],1],
-["O inversor está desligado. O sistema FV está automaticamente sem tensão?","Não. Circuitos CC podem permanecer energizados com irradiância.",["Sim, sempre","Não. Circuitos CC podem permanecer energizados com irradiância.","Somente à noite","Somente se houver alarme"],1],
-["A intervenção vai começar. O que o LOTO exige como princípio?","Isolar, bloquear, identificar e verificar o controle da energia conforme procedimento.",["Retirar a etiqueta","Isolar, bloquear, identificar e verificar o controle da energia conforme procedimento.","Somente desligar o disjuntor","Avisar depois"],1],
-["Você percebe condição que pode gerar arco. Qual reação?","Interromper, afastar-se e aplicar o controle previsto no procedimento.",["Continuar com pressa","Interromper, afastar-se e aplicar o controle previsto no procedimento.","Abrir o painel para ver","Tirar o EPI"],1],
-["O acesso em altura não está adequado. O que fazer?","Parar e corrigir o sistema de proteção antes de prosseguir.",["Improvisar","Parar e corrigir o sistema de proteção antes de prosseguir.","Pedir para outro fazer","Ir rápido"],1],
-["O tracker começou a movimentar. Você está dentro da área. O que faz?","Sair da zona de risco e controlar a condição antes de intervir.",["Segurar o tracker","Sair da zona de risco e controlar a condição antes de intervir.","Correr para o motor","Ignorar"],1],
-["Qual proteção deve ser priorizada?","Eliminação e controles coletivos; EPI complementa quando aplicável.",["Somente EPI","Eliminação e controles coletivos; EPI complementa quando aplicável.","Velocidade","Improviso"],1],
-["Ferramenta com isolamento danificado:","Retire de uso e trate conforme procedimento.",["Use com cuidado","Retire de uso e trate conforme procedimento.","Cubra com fita e continue","Empreste"],1],
-["Temperatura fora do padrão em equipamento:","Registre, comunique e avalie conforme procedimento.",["Ignore","Registre, comunique e avalie conforme procedimento.","Resfrie com água","Esconda"],1],
-["Princípio de incêndio:","Acione a resposta de emergência e siga o plano aplicável.",["Se arrisque","Acione a resposta de emergência e siga o plano aplicável.","Filme","Continue"],1],
-["Calor intenso:","Hidrate-se, faça pausas e controle a exposição.",["Evite pausas","Hidrate-se, faça pausas e controle a exposição.","Acelere","Ignore sintomas"],1],
-["Raios na região:","Interrompa atividades expostas quando houver condição insegura.",["Continue","Interrompa atividades expostas quando houver condição insegura.","Acelere","Ignore"],1],
-["Animal peçonhento:","Mantenha distância e acione orientação apropriada.",["Capture","Mantenha distância e acione orientação apropriada.","Pegue","Provoque"],1],
-["Produto químico:","Consulte rótulo e FDS/FISPQ antes do uso.",["Use pelo cheiro","Consulte rótulo e FDS/FISPQ antes do uso.","Misture","Ignore"],1],
-["Direção defensiva:","Antecipe riscos e adapte a condução.",["Velocidade","Antecipe riscos e adapte a condução.","Celular","Ignore checklist"],1],
-["APR:","Identifique perigos e defina controles antes da tarefa.",["Burocracia","Identifique perigos e defina controles antes da tarefa.","Substitua treinamento","Registre acidente"],1],
-["Quase acidente:","Comunique e use o evento para corrigir controles.",["Ignore","Comunique e use o evento para corrigir controles.","Espere repetir","Só fale se houver dano"],1],
-["Comunicação COG/campo:","Seja claro, objetivo e confirme entendimento.",["Ambígua","Seja claro, objetivo e confirme entendimento.","Sem risco","Somente informal"],1],
-["Fadiga:","Reduz atenção e aumenta a chance de erro.",["Melhora atenção","Reduz atenção e aumenta a chance de erro.","Não muda nada","Substitui descanso"],1],
-["Emergência:","Acione o plano e recursos aplicáveis sem se colocar em risco.",["Se arrisque","Acione o plano e recursos aplicáveis sem se colocar em risco.","Improvisar","Mover todos"],1],
-["Cultura:","Todos são responsáveis por comportamento seguro e liderança pelo exemplo.",["Só HSE","Todos são responsáveis por comportamento seguro e liderança pelo exemplo.","Só gestão","Só placas"],1]
-];
-
-let state={profile:{},completed:[],xp:0},user=null,profileId=null;
-
-try{state=JSON.parse(localStorage.getItem(KEY)||"null")||state}catch(e){}
-const saveLocal=()=>localStorage.setItem(KEY,JSON.stringify(state));
+const $=id=>document.getElementById(id),cfg=window.OM_SUPABASE||{},db=window.supabase&&cfg.url?window.supabase.createClient(cfg.url,cfg.publishableKey):null;
+const KEY="omSolarAcademiaV6";
+let state={profile:null,completed:[],xp:0};
+let profileId=null,currentTrack=0,slide=0,qi=0,score=0;
+try{state=JSON.parse(localStorage.getItem(KEY))||state}catch(e){}
+profileId=state.profile?.profile_id||null;
+const save=()=>localStorage.setItem(KEY,JSON.stringify(state));
 const esc=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
-const rank=x=>x<200?"RECRUTA":x<500?"OPERADOR":x<900?"GUARDIÃO":x<1500?"VETERANO":"MESTRE";
-
-function unlocked(i){
-  if(!state.profile.start)return i===0;
-  const a=new Date(state.profile.start+"T00:00:00"),b=new Date();
-  b.setHours(0,0,0,0);
-  return Math.floor((b-a)/86400000)>=i*7;
-}
-
-function render(){
-  const d=state.completed.length,x=state.xp||0;
-  $("xp").textContent=x;
-  $("level").textContent=String(Math.floor(x/100)+1).padStart(2,"0");
-  $("xpFill").style.width=x%100+"%";
-  $("missionsDone").textContent=d+"/21";
-  $("rankName").textContent=rank(x);
-  $("playerName").textContent=state.profile.name?state.profile.name.split(" ")[0].toUpperCase():"ENTRAR";
-  $("streak").textContent=d?Math.min(d,7):0;
-
-  const bs=[["⚡","Elétrico",0],["🔒","LOTO",2],["🪜","Altura",4],["🔥","Emergência",9],["🚗","Motorista",14],["👁️","Olho de Águia",15],["🏆","Guardião",20]];
-  const n=bs.filter(b=>d>b[2]).length;
-  $("badgeCount").textContent=n+"/7";
-  $("badgeProgress").textContent=n+"/7";
-  $("badges").innerHTML=bs.map(b=>'<div class="badge '+(d>b[2]?"":"off")+'">'+b[0]+"<small>"+b[1]+"</small></div>").join("");
-
-  const next=Math.max(0,tracks.findIndex((_,i)=>!state.completed.includes(i)));
-  $("nextTitle").textContent=tracks[next][0];
-  $("nextDesc").textContent=tracks[next][1];
-  $("unlockName").textContent=next>=20?"PORTAL FINAL":"FASE "+String(next+1).padStart(2,"0");
-  $("unlockText").textContent=next===0?"Seu primeiro treinamento está pronto.":"Conclua o treinamento atual para liberar o próximo.";
-  $("unlockFill").style.width=Math.max(5,Math.round(d/21*100))+"%";
-  renderWorlds();
-}
-
-function renderWorlds(){
-  const el=$("worlds");el.innerHTML="";
-  tracks.forEach((t,i)=>{
-    const d=state.completed.includes(i),u=unlocked(i),w=document.createElement("div");
-    w.className="world "+(d?"done":u?"available":"locked");
-    w.innerHTML='<div class="node">'+(d?"✓":u?t[2]:"🔒")+'</div><h4>'+(i+1)+". "+esc(t[0].split("•")[0])+'</h4><small>'+esc(t[1])+"</small>"+(u&&!d?'<span class="tag">TREINAR</span>':d?'<span class="tag">CONCLUÍDO</span>':"");
-    w.onclick=()=>u&&openTraining(i);
-    el.appendChild(w);
-  });
-}
-
-function loginModal(){
-  if($("loginModal"))return;
-  const m=document.createElement("div");m.className="modal show";m.id="loginModal";
-  m.innerHTML='<div class="modal-box profile-box" style="max-width:520px;position:relative;z-index:9999"><div class="modal-head"><div><span class="eyebrow">ACESSO À ACADEMIA</span><h2>Entrar</h2></div></div><div class="profile-hero"><div class="big-avatar">🛡️</div><div><h3>Academia de Segurança O&M Solar</h3><p>Entre com sua matrícula e PIN.</p></div></div><div class="form-grid"><label class="wide">Matrícula<input id="loginMat" type="text" inputmode="numeric" autocomplete="off" placeholder="Ex.: 101"></label><label class="wide">PIN<input id="loginPin" type="text" inputmode="numeric" autocomplete="off" maxlength="4" placeholder="Ex.: 2026"></label></div><div id="loginNotice" class="notice hidden"></div><button type="button" class="btn primary wide" id="loginBtn">ENTRAR</button></div>';
-  document.body.appendChild(m);const mat=$("loginMat"),pin=$("loginPin");
-  $("loginBtn").onclick=login;mat.onkeydown=e=>{if(e.key==="Enter"){e.preventDefault();pin.focus()}};pin.onkeydown=e=>{if(e.key==="Enter"){e.preventDefault();login()}};setTimeout(()=>mat.focus(),100);
-}
-async function login(){
-  const m=$("loginMat").value.trim(),pin=$("loginPin").value.trim(),n=$("loginNotice"),b=$("loginBtn");
-  n.classList.add("hidden");if(!m||!pin){n.textContent="Informe matrícula e PIN.";n.classList.remove("hidden");return}
-  if(!db){n.textContent="Banco de dados não conectado.";n.classList.remove("hidden");return}
-  b.disabled=true;b.textContent="ENTRANDO...";
-  try{
-    const r=await db.rpc("academia_login",{p_matricula:m,p_pin:pin});
-
-    console.log("Academia login RPC:",r);
-
-    if(r.error){
-      console.error("Erro no academia_login:",r.error);
-      n.textContent="Erro ao conectar ao banco: "+(r.error.message||"erro desconhecido");
-      n.classList.remove("hidden");
-      b.disabled=false;
-      b.textContent="ENTRAR";
-      return;
-    }
-
-    const rows=Array.isArray(r.data)?r.data:(r.data?[r.data]:[]);
-
-    if(!rows.length){
-      n.textContent="Matrícula ou PIN inválido.";
-      n.classList.remove("hidden");
-      b.disabled=false;
-      b.textContent="ENTRAR";
-      return;
-    }
-
-    await loadProfile(rows[0],m);
-    $("loginModal").classList.remove("show");
-    b.disabled=false;
-    b.textContent="ENTRAR";
-  }catch(err){
-    console.error("Erro inesperado no login:",err);
-    n.textContent="Erro inesperado: "+(err.message||err);
-    n.classList.remove("hidden");
-    b.disabled=false;
-    b.textContent="ENTRAR";
-  }
-}
-async function loadProfile(row,mat){
-  user={id:row.profile_id};profileId=row.profile_id;
-  state.profile={name:row.full_name,mat:row.employee_code||mat,role:row.job_title||"",unit:row.plant||"",start:row.admission_date};
-  await loadProgress();render();
-}
-async function loadProgress(){
-  if(!profileId||!db)return;
-  const r=await db.rpc("academia_progress",{p_profile_id:profileId});
-  if(r.error){console.error(r.error);return}
-  state.completed=(r.data||[]).filter(x=>x.status==="completed").map(x=>x.track_number-1).sort((a,b)=>a-b);
-  state.xp=(r.data||[]).reduce((s,x)=>s+(x.status==="completed"?Number(x.xp||0):0),0);saveLocal();
-}
-function openProfile(force){
-  $("pName").value=state.profile.name||"";
-  $("pMat").value=state.profile.mat||"";
-  $("pRole").value=state.profile.role||"";
-  $("pUnit").value=state.profile.unit||"";
-  $("pStart").value=state.profile.start||"";
-  $("profilePreview").textContent=state.profile.name||"Novo Guardião";
-  $("pMat").disabled=!!state.profile.mat;
-  $("saveProfile").textContent=force?"CRIAR PERFIL E ENTRAR":"SALVAR PERFIL";
-  $("profileModal").classList.add("show");
-}
-
-async function saveProfile(){
-  if(!db||!user){
-    alert("Entre pela matrícula primeiro.");
-    return;
-  }
-
-  const name=$("pName").value.trim();
-  const mat=$("pMat").value.trim();
-  const role=$("pRole").value.trim();
-  const unit=$("pUnit").value.trim();
-  const start=$("pStart").value;
-
-  if(!name||!mat||!start){
-    alert("Preencha nome, matrícula e data de admissão.");
-    return;
-  }
-
-  const payload={
-    auth_user_id:user.id,
-    full_name:name,
-    employee_code:mat,
-    job_title:role,
-    plant:unit,
-    admission_date:start
-  };
-
-  const r=await db.from("profiles").update(payload).eq("id",profileId).select().single();
-
-  if(r.error){
-    alert("Não foi possível salvar o perfil: "+r.error.message);
-    return;
-  }
-
-  profileId=r.data.id;
-  state.profile={name,mat,role,unit,start};
-  $("profileModal").classList.remove("show");
-  await loadProgress();
-  render();
-}
-
-function openTraining(i){
-  if(!state.profile.start){
-    openProfile(true);
-    return;
-  }
-
-  if(!unlocked(i)){
-    alert("Este treinamento ainda não está liberado pela sua data de admissão.");
-    return;
-  }
-
-  const t=tracks[i],q=questions[i];
-
-  $("mEyebrow").textContent="TREINAMENTO "+String(i+1).padStart(2,"0")+" • "+t[2]+" • +100 XP";
-  $("mTitle").textContent=t[0];
-
-  $("missionBody").innerHTML=
-    '<div class="phase"><span class="eyebrow">BRIEFING</span><h3>Você está entrando na '+esc(t[1])+'.</h3><p>Observe o cenário. O objetivo é tomar a decisão segura.</p></div>'+
-    '<div class="phase"><span class="eyebrow">DESAFIO DE FIXAÇÃO</span><p>'+esc(q[0])+'</p><div id="choices"></div><div id="feedback" class="notice hidden"></div></div>'+
-    '<div class="phase hidden" id="win"><span class="eyebrow">TREINAMENTO CONCLUÍDO</span><h3>Zona segura!</h3><p>'+esc(q[1])+'</p><button class="btn primary" id="finish">CONCLUIR E REGISTRAR +100 XP</button></div>';
-
-  q[2].forEach((a,n)=>{
-    const b=document.createElement("button");
-    b.className="choice";
-    b.textContent=a;
-    b.onclick=()=>answer(i,n,b);
-    $("choices").appendChild(b);
-  });
-
-  $("missionModal").classList.add("show");
-}
-
-function answer(i,n,b){
-  const q=questions[i],f=$("feedback");
-
-  if(n===q[3]){
-    b.classList.add("correct");
-    f.textContent="✓ DECISÃO SEGURA.";
-    f.classList.remove("hidden");
-    $("win").classList.remove("hidden");
-    $("choices").querySelectorAll("button").forEach(x=>x.disabled=true);
-    $("finish").onclick=()=>complete(i);
-  }else{
-    b.classList.add("wrong");
-    f.textContent="⚠ DECISÃO DE RISCO. Escolha uma ação que controle a exposição.";
-    f.classList.remove("hidden");
-    setTimeout(()=>b.classList.remove("wrong"),700);
-  }
-}
-
-async function complete(i){
-  if(state.completed.includes(i))return;
-  if(!db||!profileId){alert("Seu perfil ainda não está conectado ao banco.");return}
-  const code="OMS-"+String(i+1).padStart(2,"0")+"-"+(state.profile.name||"GUARDIAO").replace(/\W/g,"").slice(0,8).toUpperCase()+"-"+Date.now().toString(36).toUpperCase();
-  const r=await db.rpc("academia_complete_training",{p_profile_id:profileId,p_track_number:i+1,p_certificate_code:code});
-  if(r.error){alert("Não foi possível registrar o treinamento: "+r.error.message);return}
-  await loadProgress();$("missionModal").classList.remove("show");certificate(i,code);
-}
-function certificate(i,code){
-  const p=state.profile;
-  const w=window.open("","_blank","width=900,height=800");
-
-  if(!w){
-    alert("Permita pop-ups para visualizar o certificado.");
-    return;
-  }
-
-  w.document.write(
-    '<html><head><meta charset="utf-8"><title>Certificado O&M Solar</title>'+
-    '<style>body{font-family:Arial;background:#e6edf2;padding:30px}.c{background:#fff;border:8px solid #0c3852;padding:55px;text-align:center;min-height:560px;color:#0a2232}.logo{width:180px}.name{font-size:34px;font-weight:bold;margin:25px}.small{font-size:12px;color:#536b78}button{margin:25px;padding:12px 18px;background:#0b4262;color:#fff;border:0;border-radius:8px}@media print{button{display:none}body{padding:0;background:#fff}}</style></head><body>'+
-    '<div class="c"><img class="logo" src="https://alemec01-design.github.io/academia-seguranca-oem-solar/logo-om-solar.png">'+
-    '<h1>Certificado de Participação e Conclusão</h1>'+
-    '<p>Academia de Segurança O&M Solar</p>'+
-    '<div class="name">'+esc(p.name)+'</div>'+
-    '<p>Concluiu o Treinamento '+String(i+1).padStart(2,"0")+' — <b>'+esc(tracks[i][0])+'</b></p>'+
-    '<p>Matrícula: '+esc(p.mat||"—")+' • Cargo: '+esc(p.role||"—")+' • Unidade: '+esc(p.unit||"—")+'</p>'+
-    '<p>Data: '+new Date().toLocaleDateString("pt-BR")+'</p>'+
-    '<p class="small">Certificado interno de participação e conclusão. Não constitui, por si só, certificação legal de NR.</p>'+
-    '<p class="small">Código: '+esc(code)+'</p>'+
-    '<button onclick="window.print()">Imprimir / Salvar em PDF</button></div></body></html>'
-  );
-
-  w.document.close();
-}
-
-async function init(){
-  loginModal();
-  $("profileBtn").onclick=()=>user?openProfile():$("loginModal").classList.add("show");
-  $("profileHero").onclick=()=>user?openProfile():$("loginModal").classList.add("show");
-  $("saveProfile").onclick=saveProfile;
-  $("continueBtn").onclick=()=>openTraining(Math.max(0,tracks.findIndex((_,x)=>!state.completed.includes(x))));
-  $("missionBtn").onclick=()=>openTraining(Math.max(0,tracks.findIndex((_,x)=>!state.completed.includes(x))));
-  document.querySelectorAll("[data-close]").forEach(b=>b.onclick=()=>$(b.dataset.close).classList.remove("show"));
-  render();if(!db)console.error("Supabase não configurado");
-}
-document.addEventListener("DOMContentLoaded",init);
+const isAdmin=()=>state.profile?.access_role==="ADMIN";
+function unlocked(i){if(isAdmin())return true;if(!state.profile?.admission_date)return i===0;const a=new Date(state.profile.admission_date+"T00:00:00"),b=new Date();b.setHours(0,0,0,0);return Math.floor((b-a)/86400000)>=i*7}
+function rank(x){return x<200?"RECRUTA":x<500?"OPERADOR":x<900?"GUARDIÃO":x<1500?"VETERANO":"MESTRE"}
+function setHeader(){const p=state.profile,x=state.xp||0;$('playerName').textContent=p?p.full_name.split(" ")[0].toUpperCase():"ENTRAR";$('roleLabel').textContent=p?.access_role||"COLABORADOR";$('level').textContent=String(Math.floor(x/100)+1).padStart(2,"0");const a=$('adminViewBtn');if(a)a.hidden=!isAdmin()}
+function render(){setHeader();home()}
+function home(){const p=state.profile,d=state.completed.length,x=state.xp||0,next=Math.max(0,window.ACADEMIA_CONTENT.findIndex((_,i)=>!state.completed.includes(i)));const phase=[["01","FUNDAMENTOS","01–05"],["02","OPERAÇÃO SEGURA","06–10"],["03","RISCOS DA UFV","11–15"],["04","CULTURA","16–20"],["05","GUARDIÃO","21"]];$('appMain').innerHTML=`<section class="hero"><div class="hero-copy"><span class="eyebrow">CENTRO DE COMANDO • ACADEMIA DE SEGURANÇA</span><h1>Sua jornada:<br><em>aprender segurança</em><br>para voltar seguro para casa.</h1><p>Conteúdo técnico, situações da prática, vídeos, imagens e avaliações para transformar conhecimento em comportamento seguro.</p><button class="primary" id="continueBtn">▶ CONTINUAR TREINAMENTO</button></div><img class="mascot" src="media/mascote-3d.png"></section><section class="stats"><div class="stat"><small>TREINAMENTOS</small><b>${d}/21</b></div><div class="stat"><small>XP TOTAL</small><b>${x}</b></div><div class="stat"><small>RANKING</small><b>${rank(x)}</b></div><div class="stat"><small>PRÓXIMO</small><b>${next<21?"T"+String(next+1).padStart(2,"0"):"🏆"}</b></div></section><section class="journey"><div class="journey-head"><div><span class="eyebrow">TRILHA DE APRENDIZAGEM</span><h2>21 treinamentos • 5 fases</h2></div><button class="primary" id="allTrainings">VER TREINAMENTOS</button></div><div class="phases">${phase.map((v,i)=>`<div class="phase ${i===Math.floor(next/5)?"active":""}"><b>${v[0]}</b><strong>${v[1]}</strong><small>${v[2]}</small></div>`).join("")}</div><div class="cards">${window.ACADEMIA_CONTENT.slice(0,6).map(courseHtml).join("")}</div></section>`;bindCourseButtons();$('continueBtn').onclick=()=>{if(!state.profile){openLogin();return}openTraining(next<21?next:20)};$('allTrainings').onclick=showTrainings}
+function courseHtml(t,i){const done=state.completed.includes(i),u=unlocked(i);return `<article class="course ${u?"":"locked"}"><div class="course-img" style="background-image:url('${t.slides[0].image}')"><span>${t.icon} ${String(t.id).padStart(2,"0")}</span></div><div class="course-body"><small class="eyebrow">${esc(t.phase)}</small><h3>${esc(t.title)}</h3><p>${esc(t.description)}</p><div class="progress"><span style="width:${done?100:0}%"></span></div><div class="course-foot"><span class="tag">${done?"✓ CONCLUÍDO":u?"DISPONÍVEL":"🔒 BLOQUEADO"}</span><button class="primary btnStart" data-i="${i}" ${u?"":"disabled"}>${done?"REVER":"INICIAR"}</button></div></div></article>`}
+function bindCourseButtons(){document.querySelectorAll(".btnStart").forEach(b=>b.onclick=()=>openTraining(Number(b.dataset.i)))}
+function showTrainings(){if(!state.profile){openLogin();return}$('appMain').innerHTML=`<section class="view"><span class="eyebrow">BIBLIOTECA COMPLETA</span><h1>Treinamentos</h1><p>21 conteúdos. A liberação padrão é semanal; o perfil 101 possui acesso integral.</p><div class="cards">${window.ACADEMIA_CONTENT.map(courseHtml).join("")}</div></section>`;bindCourseButtons()}
+function showJourney(){if(!state.profile){openLogin();return}const d=state.completed.length;const next=Math.max(0,window.ACADEMIA_CONTENT.findIndex((_,i)=>!state.completed.includes(i)));$('appMain').innerHTML=`<section class="view"><span class="eyebrow">MINHA JORNADA</span><h1>${d}/21 treinamentos concluídos</h1><div class="journey-progress"><div><b>${Math.round(d/21*100)}%</b><span>da jornada concluída</span></div><div class="big-progress"><i style="width:${d/21*100}%"></i></div></div><div class="cards">${window.ACADEMIA_CONTENT.map(courseHtml).join("")}</div></section>`;bindCourseButtons()}
+async function showCertificates(){if(!state.profile){openLogin();return}const items=state.completed.map(i=>window.ACADEMIA_CONTENT[i]);$('appMain').innerHTML=`<section class="view"><span class="eyebrow">MEUS CERTIFICADOS</span><h1>${items.length} certificado(s)</h1><div class="cert-list">${items.length?items.map((t,k)=>`<div class="panel cert-row"><div><span class="eyebrow">TREINAMENTO ${String(state.completed[k]+1).padStart(2,"0")}</span><h3>${esc(t.title)}</h3><p>Participação e conclusão • 100 XP</p></div><span class="tag">✓ EMITIDO</span></div>`).join(""):"<div class=\"empty\">Conclua seu primeiro treinamento para emitir o certificado.</div>"}</div></section>`}
+function showRanking(){if(!state.profile){openLogin();return}$('appMain').innerHTML=`<section class="view"><span class="eyebrow">COMPETIÇÃO SAUDÁVEL</span><h1>Ranking da Academia</h1><p>O ranking valoriza consistência, conclusão e aproveitamento.</p><div class="panel ranking-me"><b>VOCÊ</b><strong>${esc(state.profile.full_name)}</strong><span>${state.xp} XP • ${rank(state.xp)}</span></div><div class="empty">O ranking completo da equipe fica disponível no Painel de Evolução para o perfil 101.</div></section>`}
+async function showAdminDashboard(){if(!isAdmin()){alert("Área disponível apenas para o perfil 101.");return}if(!db){alert("Banco não conectado.");return}$('appMain').innerHTML=`<section class="view"><div class="admin-head"><div><span class="eyebrow">ADMIN • PERFIL 101</span><h1>Painel de Evolução</h1><p>Acompanhamento da evolução de segurança da equipe.</p></div><button class="primary" id="refreshAdmin">↻ ATUALIZAR</button></div><div id="adminArea"><div class="empty">Carregando indicadores...</div></div></section>`;$('refreshAdmin').onclick=showAdminDashboard;const r=await db.rpc("academia_admin_dashboard",{p_profile_id:profileId});if(r.error){$('adminArea').innerHTML=`<div class="notice">Não foi possível carregar o painel: ${esc(r.error.message)}<br><br>Execute o arquivo admin_dashboard_update.sql no Supabase.</div>`;return}renderAdmin(r.data||{})}
+function renderAdmin(d){const people=Array.isArray(d.people)?d.people:[],weekly=Array.isArray(d.weekly)?d.weekly:[],tracks=Array.isArray(d.tracks)?d.tracks:[];const maxW=Math.max(1,...weekly.map(x=>Number(x.completed||0)));$('adminArea').innerHTML=`<div class="admin-kpis"><div class="stat"><small>COLABORADORES</small><b>${d.collaborators||0}</b></div><div class="stat"><small>CONCLUSÕES</small><b>${d.completed||0}</b></div><div class="stat"><small>MÉDIA GERAL</small><b>${d.avg_score||0}%</b></div><div class="stat"><small>CERTIFICADOS</small><b>${d.certificates||0}</b></div></div><div class="admin-grid"><section class="panel"><div class="panel-head"><div><span class="eyebrow">EVOLUÇÃO</span><h2>Conclusões por semana</h2></div></div><div class="weekly-chart">${weekly.map(w=>`<div class="week"><div class="bar" style="height:${Math.max(6,Number(w.completed||0)/maxW*170)}px"><span>${w.completed||0}</span></div><small>${esc(w.label)}</small></div>`).join("")}</div></section><section class="panel"><span class="eyebrow">ATENÇÃO</span><h2>Quem precisa de acompanhamento?</h2><div class="attention-list">${attention(people)}</div></section></div><section class="panel"><div class="panel-head"><div><span class="eyebrow">EQUIPE</span><h2>Evolução por colaborador</h2></div></div><div class="table-wrap"><table><thead><tr><th>Colaborador</th><th>Matrícula</th><th>Progresso</th><th>Média</th><th>XP</th><th>Status</th></tr></thead><tbody>${people.map(p=>{const c=Number(p.completed||0),status=c>=21?"CONCLUÍDO":c>0?"EM JORNADA":"NÃO INICIADO";return `<tr><td><b>${esc(p.full_name)}</b><small>${esc(p.job_title||"")}</small></td><td>${esc(p.employee_code)}</td><td><div class="mini-progress"><i style="width:${c/21*100}%"></i></div><span>${c}/21</span></td><td>${p.avg_score||0}%</td><td>${p.xp||0}</td><td><span class="status ${c>=21?"ok":c>0?"mid":"late"}">${status}</span></td></tr>`}).join("")}</tbody></table></div></section><section class="panel"><span class="eyebrow">TREINAMENTOS</span><h2>Desempenho por tema</h2><div class="track-grid">${tracks.map(t=>`<div class="track-stat"><b>T${String(t.track_number).padStart(2,"0")}</b><span>${esc(t.title||"")}</span><strong>${t.completed||0} concluíram</strong><small>Média ${t.avg_score||0}%</small></div>`).join("")}</div></section>`}
+function attention(people){const list=people.filter(p=>Number(p.completed||0)<21).sort((a,b)=>Number(a.completed||0)-Number(b.completed||0)).slice(0,6);if(!list.length)return '<div class="notice">✓ Todos concluíram a jornada.</div>';return list.map(p=>`<div class="attention-item"><span>⚠</span><div><b>${esc(p.full_name)}</b><small>${p.completed||0}/21 treinamentos • ${p.avg_score||0}% média</small></div></div>`).join("")}
+function openLogin(){$('loginNotice').classList.add('hidden');$('loginModal').classList.add('show');setTimeout(()=>$('loginMat').focus(),50)}
+function openTraining(i){if(!state.profile){openLogin();return}if(!unlocked(i)){alert("Este treinamento ainda não está liberado. A próxima etapa é liberada conforme a data de cadastro.");return}currentTrack=i;slide=0;qi=0;score=0;const t=window.ACADEMIA_CONTENT[i];$('lessonEyebrow').textContent=`TREINAMENTO ${String(i+1).padStart(2,"0")} • ${t.icon} • ${t.duration} • +100 XP`;$('lessonTitle').textContent=t.title;$('lessonDesc').textContent=t.description;document.querySelectorAll('.lesson-tabs button').forEach(b=>b.classList.remove('active'));document.querySelector('[data-tab="aula"]').classList.add('active');renderTab('aula');$('trainingModal').classList.add('show')}
+function renderTab(tab){document.querySelectorAll('.lesson-tabs button').forEach(b=>b.classList.toggle('active',b.dataset.tab===tab));const t=window.ACADEMIA_CONTENT[currentTrack],s=t.slides[slide];if(tab==='aula'){$('lessonArea').innerHTML=`<div class="slide"><div class="slide-copy"><span class="eyebrow">SLIDE ${slide+1} / ${t.slides.length}</span><h3>${esc(s.title)}</h3><p>${esc(s.body)}</p><ul>${s.bullets.map(x=>`<li>${esc(x)}</li>`).join('')}</ul>${s.tip?`<div class="tip">⚠ ${esc(s.tip)}</div>`:''}</div><div class="slide-img" style="background-image:url('${s.image}')"></div></div><div class="lesson-nav"><button class="primary" id="prev" ${slide===0?'disabled':''}>← ANTERIOR</button><span class="lesson-count">${slide+1} / ${t.slides.length}</span><button class="primary" id="next">${slide===t.slides.length-1?'IR PARA AVALIAÇÃO':'PRÓXIMO →'}</button></div>`;$('prev').onclick=()=>{if(slide>0){slide--;renderTab('aula')}};$('next').onclick=()=>{if(slide<t.slides.length-1){slide++;renderTab('aula')}else{qi=0;score=0;renderTab('avaliacao')}}}else if(tab==='video'){const v=t.video;$('lessonArea').innerHTML=v?`<div class="video-wrap"><span class="eyebrow">VÍDEO RECOMENDADO</span><h3>${esc(v.title)}</h3><iframe class="video-frame" src="https://www.youtube-nocookie.com/embed/${v.id}?rel=0" title="${esc(v.title)}" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe><p class="notice">O vídeo permanece dentro da Academia. Se a incorporação for bloqueada pelo autor, use o próprio player.</p></div>`:`<div class="empty"><div style="font-size:45px">🎥</div><h3>Vídeo da operação</h3><p>Este treinamento está preparado para receber vídeo próprio da O&M Solar.</p></div>`}else if(tab==='caso'){$('lessonArea').innerHTML=`<div class="case"><div class="panel"><span class="eyebrow">CASO DE CAMPO</span><h3>Você chegou à UFV.</h3><p>Durante a preparação da atividade, você identifica uma condição relacionada a <b>${esc(t.objective.toLowerCase())}</b>.</p><p>A equipe está pressionada pelo prazo. O que deve acontecer?</p></div><div class="panel"><h3>Escolha a decisão</h3><button class="choice" data-case="bad">Executar e corrigir depois.</button><button class="choice" data-case="good">Parar, controlar a exposição, comunicar e só retomar com condição segura.</button><div id="caseFeedback" class="notice hidden"></div></div></div>`;document.querySelectorAll('[data-case]').forEach(b=>b.onclick=()=>{const good=b.dataset.case==='good';$('caseFeedback').textContent=good?'✓ DECISÃO SEGURA. Controle antes da exposição.':'⚠ DECISÃO DE RISCO. Pressa não substitui controle.';$('caseFeedback').classList.remove('hidden');b.classList.add(good?'correct':'wrong')})}else renderQuiz()}
+function renderQuiz(){const t=window.ACADEMIA_CONTENT[currentTrack];if(qi>=t.questions.length){finishQuiz();return}const q=t.questions[qi];$('lessonArea').innerHTML=`<div class="panel"><span class="eyebrow">AVALIAÇÃO • QUESTÃO ${qi+1}/${t.questions.length}</span><h3>${esc(q.q)}</h3><div id="choices">${q.options.map((x,n)=>`<button class="choice" data-q="${n}">${esc(x)}</button>`).join('')}</div><div id="qFeedback" class="notice hidden"></div></div>`;document.querySelectorAll('[data-q]').forEach(b=>b.onclick=()=>{const n=Number(b.dataset.q),ok=n===q.correct;b.classList.add(ok?'correct':'wrong');if(ok)score+=10;$('qFeedback').textContent=ok?'✓ Correto. '+q.a:'⚠ Revise o conceito. A próxima questão seguirá automaticamente.';$('qFeedback').classList.remove('hidden');document.querySelectorAll('[data-q]').forEach(x=>x.disabled=true);setTimeout(()=>{qi++;renderQuiz()},650)})}
+async function finishQuiz(){const t=window.ACADEMIA_CONTENT[currentTrack],passed=score>=70;$('lessonArea').innerHTML=`<div class="cert"><div class="cert-card"><div style="font-size:55px">${passed?'🏆':'📚'}</div><span class="eyebrow">${passed?'TREINAMENTO CONCLUÍDO':'REVISÃO NECESSÁRIA'}</span><h2>${score}/100</h2><p>${passed?'Você atingiu o mínimo de aprovação. Registre o treinamento para receber XP e certificado.':'Você precisa de pelo menos 70 pontos. Revise o conteúdo e refaça a avaliação.'}</p>${passed?'<button class="primary" id="registerTraining">CONCLUIR E GANHAR +100 XP</button>':'<button class="primary" id="retryQuiz">REFAZER AVALIAÇÃO</button>'}</div></div>`;if(passed)$('registerTraining').onclick=()=>completeTraining(currentTrack,score);else $('retryQuiz').onclick=()=>{qi=0;score=0;renderQuiz()}}
+async function completeTraining(i,sc){if(state.completed.includes(i)){alert('Treinamento já concluído.');return}if(!db||!profileId){alert('Faça login novamente para registrar.');return}const code=`OMS-${String(i+1).padStart(2,'0')}-${Date.now().toString(36).toUpperCase()}`;const r=await db.rpc('academia_complete_training',{p_profile_id:profileId,p_track_number:i+1,p_certificate_code:code,p_score:sc});if(r.error){alert('Não foi possível registrar: '+r.error.message);return}await loadProgress();$('trainingModal').classList.remove('show');render();showCertificate(i,code,sc)}
+function showCertificate(i,code,sc){const t=window.ACADEMIA_CONTENT[i];$('appMain').innerHTML=`<section class="view cert"><span class="eyebrow">NOVO CERTIFICADO</span><div class="cert-card"><img src="logo-om-solar.png" style="width:110px"><h2>Certificado de Participação e Conclusão</h2><p>Academia de Segurança O&M Solar</p><h1>${esc(state.profile.full_name)}</h1><p>Concluiu o Treinamento ${String(i+1).padStart(2,'0')} — <b>${esc(t.title)}</b></p><p>Nota: ${sc}/100 • XP: +100</p><p class="notice">Certificado interno de participação e conclusão. Não constitui, por si só, certificação legal de NR.</p><small>Código: ${esc(code)}</small></div></section>`}
+async function loadProgress(){if(!profileId||!db)return;const r=await db.rpc('academia_progress',{p_profile_id:profileId});if(r.error)return;const rows=r.data||[];state.completed=rows.filter(x=>x.status==='completed').map(x=>x.track_number-1);state.xp=rows.reduce((a,x)=>a+(x.status==='completed'?Number(x.xp||0):0),0);save()}
+async function login(){const m=$('loginMat').value.trim(),pin=$('loginPin').value.trim(),n=$('loginNotice'),b=$('loginBtn');n.classList.add('hidden');if(!db){n.textContent='Banco não conectado.';n.classList.remove('hidden');return}b.disabled=true;try{const r=await db.rpc('academia_login',{p_matricula:m,p_pin:pin});if(r.error||!r.data?.length){n.textContent=r.error?.message||'Matrícula ou PIN inválido.';n.classList.remove('hidden');return}state.profile=r.data[0];profileId=state.profile.profile_id;await loadProgress();save();$('loginModal').classList.remove('show');render()}catch(e){n.textContent='Erro de conexão: '+e.message;n.classList.remove('hidden')}finally{b.disabled=false}}
+function openProfile(){if(!state.profile){openLogin();return}$('profileBody').innerHTML=`<div class="panel"><h3>${esc(state.profile.full_name)}</h3><p>Matrícula: ${esc(state.profile.employee_code)}</p><p>Cargo: ${esc(state.profile.job_title||'—')}</p><p>Unidade: ${esc(state.profile.plant||'—')}</p><p>Cadastro: ${esc(state.profile.admission_date)}</p><p>Acesso: <b>${esc(state.profile.access_role||'COLABORADOR')}</b></p>${isAdmin()?'<button class="primary" id="profileEvolution">📊 ABRIR EVOLUÇÃO</button>':''}<button class="secondary wide" id="logoutBtn">SAIR DA CONTA</button></div>`;$('profileModal').classList.add('show');if(isAdmin())$('profileEvolution').onclick=()=>{$('profileModal').classList.remove('show');showAdminDashboard()};$('logoutBtn').onclick=()=>{state={profile:null,completed:[],xp:0};profileId=null;save();$('profileModal').classList.remove('show');render()}}
+function bindNav(){document.querySelectorAll('nav [data-view]').forEach(b=>b.onclick=()=>{const v=b.dataset.view;if(v==='home')home();if(v==='journey')showJourney();if(v==='trainings')showTrainings();if(v==='certs')showCertificates();if(v==='ranking')showRanking();if(v==='admin')showAdminDashboard()})}
+document.addEventListener('DOMContentLoaded',()=>{document.querySelectorAll('[data-close]').forEach(x=>x.onclick=()=>$(x.dataset.close).classList.remove('show'));document.querySelectorAll('[data-tab]').forEach(x=>x.onclick=()=>{if(!state.profile){openLogin();return}if(x.dataset.tab==='avaliacao'){qi=0;score=0}renderTab(x.dataset.tab)});$('profileBtn').onclick=openProfile;$('loginBtn').onclick=login;$('loginPin').onkeydown=e=>e.key==='Enter'&&login();bindNav();render()});
 })();
