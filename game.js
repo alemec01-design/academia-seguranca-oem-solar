@@ -23,18 +23,40 @@ async function showAdminDashboard(){if(!isAdmin()){alert("Área disponível apen
 function renderAdmin(d){const people=Array.isArray(d.people)?d.people:[],weekly=Array.isArray(d.weekly)?d.weekly:[],tracks=Array.isArray(d.tracks)?d.tracks:[];const maxW=Math.max(1,...weekly.map(x=>Number(x.completed||0)));$('adminArea').innerHTML=`<div class="admin-kpis"><div class="stat"><small>COLABORADORES</small><b>${d.collaborators||0}</b></div><div class="stat"><small>CONCLUSÕES</small><b>${d.completed||0}</b></div><div class="stat"><small>MÉDIA GERAL</small><b>${d.avg_score||0}%</b></div><div class="stat"><small>CERTIFICADOS</small><b>${d.certificates||0}</b></div></div><div class="admin-grid"><section class="panel"><div class="panel-head"><div><span class="eyebrow">EVOLUÇÃO</span><h2>Conclusões por semana</h2></div></div><div class="weekly-chart">${weekly.map(w=>`<div class="week"><div class="bar" style="height:${Math.max(6,Number(w.completed||0)/maxW*170)}px"><span>${w.completed||0}</span></div><small>${esc(w.label)}</small></div>`).join("")}</div></section><section class="panel"><span class="eyebrow">ATENÇÃO</span><h2>Quem precisa de acompanhamento?</h2><div class="attention-list">${attention(people)}</div></section></div><section class="panel"><div class="panel-head"><div><span class="eyebrow">EQUIPE</span><h2>Evolução por colaborador</h2></div></div><div class="table-wrap"><table><thead><tr><th>Colaborador</th><th>Matrícula</th><th>Progresso</th><th>Média</th><th>XP</th><th>Status</th></tr></thead><tbody>${people.map(p=>{const c=Number(p.completed||0),status=c>=21?"CONCLUÍDO":c>0?"EM JORNADA":"NÃO INICIADO";return `<tr><td><b>${esc(p.full_name)}</b><small>${esc(p.job_title||"")}</small></td><td>${esc(p.employee_code)}</td><td><div class="mini-progress"><i style="width:${c/21*100}%"></i></div><span>${c}/21</span></td><td>${p.avg_score||0}%</td><td>${p.xp||0}</td><td><span class="status ${c>=21?"ok":c>0?"mid":"late"}">${status}</span></td></tr>`}).join("")}</tbody></table></div></section><section class="panel"><span class="eyebrow">TREINAMENTOS</span><h2>Desempenho por tema</h2><div class="track-grid">${tracks.map(t=>`<div class="track-stat"><b>T${String(t.track_number).padStart(2,"0")}</b><span>${esc(t.title||"")}</span><strong>${t.completed||0} concluíram</strong><small>Média ${t.avg_score||0}%</small></div>`).join("")}</div></section>`}
 function attention(people){const list=people.filter(p=>Number(p.completed||0)<21).sort((a,b)=>Number(a.completed||0)-Number(b.completed||0)).slice(0,6);if(!list.length)return '<div class="notice">✓ Todos concluíram a jornada.</div>';return list.map(p=>`<div class="attention-item"><span>⚠</span><div><b>${esc(p.full_name)}</b><small>${p.completed||0}/21 treinamentos • ${p.avg_score||0}% média</small></div></div>`).join("")}
 function openLogin(){$('loginNotice').classList.add('hidden');$('loginModal').classList.add('show');setTimeout(()=>$('loginMat').focus(),50)}
+function renderLessonChrome(){
+  const t=window.ACADEMIA_CONTENT[currentTrack], phaseMap={};
+  window.ACADEMIA_CONTENT.forEach((x,i)=>{const ph=x.phase||'TRILHA';(phaseMap[ph]??=[]).push({x,i})});
+  const groups=Object.entries(phaseMap);
+  $('lessonTrackList').innerHTML=groups.map(([phase,items],g)=>`<div class="side-phase ${g===2?'phase-gold':g===0?'phase-green':''}">${String(g+1).padStart(2,'0')} • ${esc(phase)}</div>${items.map(({x,i})=>`<button class="side-track ${i===currentTrack?'active':''} ${state.completed.includes(i)?'done':''} ${unlocked(i)?'':'locked'}" data-track-side="${i}" ${unlocked(i)?'':'disabled'}><span class="side-num">${String(i+1).padStart(2,'0')}</span><span>${esc(x.title)}</span><span>${state.completed.includes(i)?'✓':unlocked(i)?'':'🔒'}</span></button>`).join('')}`).join('');
+  document.querySelectorAll('[data-track-side]').forEach(b=>b.onclick=()=>openTraining(Number(b.dataset.trackSide)));
+  $('lessonUserName').textContent=(state.profile?.full_name||'COLABORADOR').split(' ')[0].toUpperCase();
+  $('lessonLevel').textContent=`NÍVEL ${String(Math.floor((state.xp||0)/100)+1).padStart(2,'0')}`;
+  $('lessonXp').textContent=`${state.xp||0} XP`;
+  $('lessonDuration').textContent=t.duration||'25 min';
+  $('lessonSlidesCount').textContent=`${t.slides.length} slides`;
+  $('outlineCount').textContent=`${t.slides.length} SLIDES`;
+  $('lessonProgressPct').textContent=`${Math.round(((slide+1)/t.slides.length)*100)}%`;
+  $('lessonProgressText').textContent=`${slide+1}/${t.slides.length}`;
+  const deg=Math.round(((slide+1)/t.slides.length)*360);
+  $('lessonProgressPct').parentElement.style.background=`conic-gradient(#49e779 0deg,#49e779 ${deg}deg,#e0ebef ${deg}deg,#e0ebef 360deg)`;
+  $('lessonOutline').innerHTML=t.slides.map((s,i)=>`<div class="outline-item ${i===slide?'active':''} ${i<slide?'done':''}"><span class="outline-num">${i<slide?'✓':i+1}</span><span>${esc(s.title)}</span></div>`).join('');
+  $('backTrainings').onclick=()=>{$('trainingModal').classList.remove('show');showTrainings()};
+  $('lessonContinue').onclick=()=>{if(slide<t.slides.length-1){slide++;renderTab('aula')}else{lessonRead=true;const at=$('assessmentTab');if(at)at.disabled=false;qi=0;score=0;renderTab('avaliacao')}};
+}
 function openTraining(i){
   if(!state.profile){openLogin();return}
   if(!unlocked(i)){alert("Este treinamento ainda não está liberado. A próxima etapa é liberada conforme a data de cadastro.");return}
   currentTrack=i;slide=0;qi=0;score=0;lessonRead=false;courseFailed=false;
   const t=window.ACADEMIA_CONTENT[i];
-  $('lessonEyebrow').textContent=`TREINAMENTO ${String(i+1).padStart(2,'0')} • ${t.icon} • ${t.duration} • +100 XP`;
+  $('lessonEyebrow').textContent=`TREINAMENTO ${String(i+1).padStart(2,'0')} • ${t.icon||'🛡️'} • ${t.phase||''}`;
   $('lessonTitle').textContent=t.title;
   $('lessonDesc').textContent=t.description;
-  const vt=$('videoTab'); if(vt) vt.hidden=!t.video;
+  const vt=$('videoTab'); if(vt){vt.hidden=!t.video;}
   const at=$('assessmentTab'); if(at){at.disabled=true;at.title='Conclua toda a aula para liberar a avaliação';}
+  const ct=$('certificateTab'); if(ct){ct.disabled=!state.completed.includes(i);}
   document.querySelectorAll('.lesson-tabs button').forEach(b=>b.classList.remove('active'));
   document.querySelector('[data-tab="aula"]').classList.add('active');
+  renderLessonChrome();
   renderTab('aula');
   $('trainingModal').classList.add('show');
 }
@@ -45,6 +67,7 @@ function inlineVideo(t){
 }
 function renderTab(tab){
   const t=window.ACADEMIA_CONTENT[currentTrack],s=t.slides[slide];
+  renderLessonChrome();
   if(tab==='avaliacao' && !lessonRead){
     tab='aula';
     const n=$('loginNotice');
@@ -65,6 +88,10 @@ function renderTab(tab){
   }else if(tab==='caso'){
     $('lessonArea').innerHTML=`<div class="case"><div class="panel"><span class="eyebrow">CASO DE CAMPO</span><h3>Você chegou à UFV.</h3><p>Durante a preparação da atividade, você identifica uma condição relacionada a <b>${esc(t.objective.toLowerCase())}</b>.</p><p>A equipe está pressionada pelo prazo. O que deve acontecer?</p></div><div class="panel"><h3>Escolha a decisão</h3><button class="choice" data-case="bad">Executar e corrigir depois.</button><button class="choice" data-case="good">Parar, controlar a exposição, comunicar e só retomar com condição segura.</button><div id="caseFeedback" class="notice hidden"></div></div></div>`;
     document.querySelectorAll('[data-case]').forEach(b=>b.onclick=()=>{const good=b.dataset.case==='good';$('caseFeedback').textContent=good?'✓ DECISÃO SEGURA. Controle antes da exposição.':'⚠ DECISÃO DE RISCO. Pressa não substitui controle.';$('caseFeedback').classList.remove('hidden');b.classList.add(good?'correct':'wrong')});
+  }else if(tab==='materiais'){
+    $('lessonArea').innerHTML=`<div class="lesson-materials"><div class="material-card"><span class="eyebrow">CHECKLIST</span><h3>Antes da atividade</h3><p>Confirme APR, EPI/EPC, condições ambientais, comunicação, bloqueios e autorização aplicável.</p></div><div class="material-card"><span class="eyebrow">PONTO DE CONTROLE</span><h3>Durante a atividade</h3><p>Se surgir uma condição não prevista, pare, comunique e reavalie o risco antes de continuar.</p></div><div class="material-card"><span class="eyebrow">REGRA DE OURO</span><h3>${esc(t.title)}</h3><p>Segurança não é etapa burocrática: é condição para executar.</p></div><div class="material-card"><span class="eyebrow">OBSERVAÇÃO</span><h3>Conteúdo interno</h3><p>Este material complementa os procedimentos internos da O&M Solar e não substitui treinamentos legais obrigatórios.</p></div></div>`;
+  }else if(tab==='certificado'){
+    $('lessonArea').innerHTML=state.completed.includes(currentTrack)?`<div class="cert"><div class="cert-card"><img src="logo-om-solar.png" style="width:110px"><span class="eyebrow">CERTIFICADO EMITIDO</span><h2>Treinamento ${String(currentTrack+1).padStart(2,'0')}</h2><h1>${esc(t.title)}</h1><p>${esc(state.profile.full_name)} • +100 XP</p><div class="notice">Certificado interno de participação e conclusão.</div></div></div>`:'<div class="empty">Conclua o treinamento para liberar o certificado.</div>';
   }else renderQuiz();
 }
 function renderQuiz(){const t=window.ACADEMIA_CONTENT[currentTrack];if(qi>=t.questions.length){finishQuiz();return}const q=t.questions[qi];$('lessonArea').innerHTML=`<div class="panel"><span class="eyebrow">AVALIAÇÃO • QUESTÃO ${qi+1}/${t.questions.length}</span><h3>${esc(q.q)}</h3><div id="choices">${q.options.map((x,n)=>`<button class="choice" data-q="${n}">${esc(x)}</button>`).join('')}</div><div id="qFeedback" class="notice hidden"></div></div>`;document.querySelectorAll('[data-q]').forEach(b=>b.onclick=()=>{const n=Number(b.dataset.q),ok=n===q.correct;b.classList.add(ok?'correct':'wrong');if(ok)score+=10;$('qFeedback').textContent=ok?'✓ Correto. '+q.a:'⚠ Revise o conceito. A próxima questão seguirá automaticamente.';$('qFeedback').classList.remove('hidden');document.querySelectorAll('[data-q]').forEach(x=>x.disabled=true);setTimeout(()=>{qi++;renderQuiz()},650)})}
