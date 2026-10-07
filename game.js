@@ -85,10 +85,14 @@ function loginModal(){
   const m=document.createElement("div");
   m.className="modal show";
   m.id="loginModal";
-  m.innerHTML='<div class="modal-box profile-box" style="max-width:520px"><div class="modal-head"><div><span class="eyebrow">ACESSO À ACADEMIA</span><h2>Entrar</h2></div></div><div class="profile-hero"><div class="big-avatar">🛡️</div><div><h3>Academia de Segurança O&M Solar</h3><p>Use sua matrícula e senha.</p></div></div><div class="form-grid"><label class="wide">Matrícula<input id="loginMat" inputmode="numeric" autocomplete="username" placeholder="Ex.: 1025"></label><label class="wide">Senha<input id="loginPass" type="password" autocomplete="current-password" placeholder="Senha"></label></div><div id="loginNotice" class="notice hidden"></div><button class="btn primary wide" id="loginBtn">ENTRAR</button></div>';
+  m.innerHTML='<div class="modal-box profile-box login-access-box" style="max-width:520px;position:relative;z-index:9999;pointer-events:auto"><div class="modal-head"><div><span class="eyebrow">ACESSO À ACADEMIA</span><h2>Entrar</h2></div></div><div class="profile-hero"><div class="big-avatar">🛡️</div><div><h3>Academia de Segurança O&M Solar</h3><p>Use sua matrícula e senha.</p></div></div><div class="form-grid" style="position:relative;z-index:10000;pointer-events:auto"><label class="wide">Matrícula<input id="loginMat" type="text" inputmode="numeric" autocomplete="username" placeholder="Ex.: 1025" style="position:relative;z-index:10001;pointer-events:auto;user-select:text"></label><label class="wide">Senha<input id="loginPass" type="password" autocomplete="current-password" placeholder="Senha" style="position:relative;z-index:10001;pointer-events:auto;user-select:text"></label></div><div id="loginNotice" class="notice hidden"></div><button type="button" class="btn primary wide" id="loginBtn" style="position:relative;z-index:10001;pointer-events:auto">ENTRAR</button></div>';
   document.body.appendChild(m);
-  $("loginBtn").onclick=login;
-  $("loginPass").onkeydown=e=>e.key==="Enter"&&login();
+
+  const mat=$("loginMat"),pass=$("loginPass"),btn=$("loginBtn");
+  btn.onclick=login;
+  pass.onkeydown=e=>{if(e.key==="Enter"){e.preventDefault();login()}};
+  mat.onkeydown=e=>{if(e.key==="Enter"){e.preventDefault();pass.focus()}};
+  setTimeout(()=>mat.focus(),50);
 }
 
 /*
