@@ -5,124 +5,540 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="theme-color" content="#06101c">
 <title>O&M Solar | Academia de Segurança</title>
-<link rel="stylesheet" href="css/game.css">
+
+<link rel="stylesheet" href="game.css">
 </head>
+
 <body>
+
 <div class="noise"></div>
+
 <div class="game-shell">
 
 <header class="hud">
+
   <div class="brand">
-    <div class="brand-logo"><img src="assets/logo-om-solar.png" alt="O&M Solar"></div>
-    <div><strong>ACADEMIA DE SEGURANÇA</strong><small>O&M SOLAR • OPERAÇÃO & MANUTENÇÃO</small></div>
+
+    <div class="brand-logo">
+      <img src="logo-om-solar.png" alt="O&M Solar">
+    </div>
+
+    <div>
+      <strong>ACADEMIA DE SEGURANÇA</strong>
+      <small>O&M SOLAR • OPERAÇÃO & MANUTENÇÃO</small>
+    </div>
+
   </div>
+
   <div class="hud-center">
-    <div class="level-ring"><span id="level">01</span><small>NÍVEL</small></div>
-    <div class="xpbar"><div><span id="xpFill"></span></div><small><b id="xp">0</b> / <b id="nextXp">100</b> XP</small></div>
+
+    <div class="level-ring">
+      <span id="level">01</span>
+      <small>NÍVEL</small>
+    </div>
+
+    <div class="xpbar">
+      <div>
+        <span id="xpFill"></span>
+      </div>
+
+      <small>
+        <b id="xp">0</b> /
+        <b id="nextXp">100</b> XP
+      </small>
+    </div>
+
   </div>
+
   <div class="hud-right">
-    <div class="hud-stat"><span>🔥</span><b id="streak">0</b><small>dias</small></div>
-    <button class="profile-btn" id="profileBtn"><span id="avatar">◉</span><b id="playerName">GUARDIÃO</b></button>
+
+    <div class="hud-stat">
+      <span>🔥</span>
+      <b id="streak">0</b>
+      <small>dias</small>
+    </div>
+
+    <button class="profile-btn" id="profileBtn">
+      <span id="avatar">◉</span>
+      <b id="playerName">GUARDIÃO</b>
+    </button>
+
   </div>
+
 </header>
 
+
 <main>
+
 <section class="command">
+
   <div class="command-copy">
-    <div class="eyebrow">CENTRO DE COMANDO • TRILHA 01</div>
-    <h1>Sua jornada:<br><em>aprender segurança para voltar seguro para casa.</em></h1>
-    <p>Você está construindo conhecimento. Explore os temas, assista aos conteúdos, responda aos desafios e avance na sua trilha de segurança.</p>
+
+    <div class="eyebrow">
+      CENTRO DE COMANDO • ACADEMIA DE SEGURANÇA
+    </div>
+
+    <h1>
+      Sua jornada:<br>
+      <em>aprender segurança para voltar seguro para casa.</em>
+    </h1>
+
+    <p>
+      Você está construindo conhecimento. Explore os treinamentos,
+      assista aos conteúdos, responda aos desafios e avance na sua
+      trilha de segurança.
+    </p>
+
     <div class="command-actions">
-      <button class="btn primary" id="continueBtn">▶ CONTINUAR TREINAMENTO</button>
-      <button class="btn ghost" id="profileHero">👤 PERFIL</button>
+
+      <button class="btn primary" id="continueBtn">
+        ▶ CONTINUAR TREINAMENTO
+      </button>
+
+      <button class="btn ghost" id="profileHero">
+        👤 PERFIL
+      </button>
+
     </div>
+
     <div class="micro-stats">
-      <div><small>TREINAMENTOS</small><b id="missionsDone">0/21</b></div>
-      <div><small>BADGES</small><b id="badgeCount">0/7</b></div>
-      <div><small>RANK</small><b id="rankName">RECRUTA</b></div>
+
+      <div>
+        <small>TREINAMENTOS</small>
+        <b id="missionsDone">0/21</b>
+      </div>
+
+      <div>
+        <small>BADGES</small>
+        <b id="badgeCount">0/7</b>
+      </div>
+
+      <div>
+        <small>RANK</small>
+        <b id="rankName">RECRUTA</b>
+      </div>
+
     </div>
+
   </div>
+
+
   <div class="command-art">
-    <div class="radar"><div class="radar-sweep"></div><span class="radar-dot d1"></span><span class="radar-dot d2"></span><span class="radar-dot d3"></span></div>
-    <div class="art-label"><span class="pulse"></span> USINA ONLINE</div>
+
+    <div class="radar">
+
+      <div class="radar-sweep"></div>
+
+      <span class="radar-dot d1"></span>
+      <span class="radar-dot d2"></span>
+      <span class="radar-dot d3"></span>
+
+    </div>
+
+    <div class="art-label">
+      <span class="pulse"></span>
+      USINA ONLINE
+    </div>
+
     <div class="sun"></div>
     <div class="panel-field"></div>
     <div class="tower"></div>
+
   </div>
+
 </section>
+
 
 <section class="mission-banner">
-  <div class="mission-icon">01</div>
+
+  <div class="mission-icon">
+    01
+  </div>
+
   <div class="mission-main">
-    <span class="eyebrow">TREINAMENTO DISPONÍVEL</span>
-    <h2 id="nextTitle">NR-10 • O primeiro contato</h2>
-    <p id="nextDesc">Entre na Zona Elétrica e complete sua primeira missão.</p>
+
+    <span class="eyebrow">
+      TREINAMENTO DISPONÍVEL
+    </span>
+
+    <h2 id="nextTitle">
+      NR-10 • O primeiro contato
+    </h2>
+
+    <p id="nextDesc">
+      Entre na Zona Elétrica e complete seu primeiro treinamento.
+    </p>
+
   </div>
+
   <div class="mission-side">
-    <span>RECOMPENSA</span><strong>+100 XP</strong><button class="btn primary small" id="missionBtn">ESTUDAR ▶</button>
+
+    <span>RECOMPENSA</span>
+
+    <strong>
+      +100 XP
+    </strong>
+
+    <button class="btn primary small" id="missionBtn">
+      ESTUDAR ▶
+    </button>
+
   </div>
+
 </section>
+
 
 <section class="world-section">
+
   <div class="section-head">
-    <div><span class="eyebrow">MAPA DE APRENDIZAGEM</span><h2>Cada zona representa um tema da sua trilha de segurança.</h2></div>
-    <div class="legend"><span><i class="available"></i> disponível</span><span><i class="locked"></i> bloqueada</span><span><i class="done"></i> concluída</span></div>
+
+    <div>
+
+      <span class="eyebrow">
+        MAPA DE APRENDIZAGEM
+      </span>
+
+      <h2>
+        Cada zona representa um tema da sua trilha de segurança.
+      </h2>
+
+    </div>
+
+    <div class="legend">
+
+      <span>
+        <i class="available"></i>
+        disponível
+      </span>
+
+      <span>
+        <i class="locked"></i>
+        bloqueada
+      </span>
+
+      <span>
+        <i class="done"></i>
+        concluída
+      </span>
+
+    </div>
+
   </div>
+
 
   <div class="map-game">
-    <svg class="route" viewBox="0 0 1000 470" preserveAspectRatio="none" aria-hidden="true">
-      <path d="M90 350 C160 285 160 185 250 210 S340 350 430 300 S520 155 620 190 S700 350 790 280 S875 150 930 120" />
-      <path d="M90 350 C160 285 160 185 250 210 S340 350 430 300 S520 155 620 190 S700 350 790 280 S875 150 930 120" class="route-glow"/>
+
+    <svg
+      class="route"
+      viewBox="0 0 1000 470"
+      preserveAspectRatio="none"
+      aria-hidden="true"
+    >
+
+      <path
+        d="M90 350 C160 285 160 185 250 210 S340 350 430 300 S520 155 620 190 S700 350 790 280 S875 150 930 120"
+      />
+
+      <path
+        d="M90 350 C160 285 160 185 250 210 S340 350 430 300 S520 155 620 190 S700 350 790 280 S875 150 930 120"
+        class="route-glow"
+      />
+
     </svg>
+
+
     <div class="map-bg">
+
       <div class="gridlines"></div>
-      <div class="field f1"></div><div class="field f2"></div><div class="field f3"></div>
-      <div class="road r1"></div><div class="road r2"></div>
-      <div class="substation">⚡</div><div class="cog">COG</div><div class="water">H₂O</div>
+
+      <div class="field f1"></div>
+      <div class="field f2"></div>
+      <div class="field f3"></div>
+
+      <div class="road r1"></div>
+      <div class="road r2"></div>
+
+      <div class="substation">⚡</div>
+      <div class="cog">COG</div>
+      <div class="water">H₂O</div>
+
     </div>
+
+
     <div class="worlds" id="worlds"></div>
+
   </div>
+
 </section>
+
 
 <section class="bottom-grid">
+
   <div class="panel-card">
-    <div class="card-head"><div><span class="eyebrow">ARSENAL</span><h3>Badges do Guardião</h3></div><span class="chip" id="badgeProgress">0/7</span></div>
+
+    <div class="card-head">
+
+      <div>
+
+        <span class="eyebrow">
+          ARSENAL
+        </span>
+
+        <h3>
+          Badges do Guardião
+        </h3>
+
+      </div>
+
+      <span class="chip" id="badgeProgress">
+        0/7
+      </span>
+
+    </div>
+
     <div class="badge-row" id="badges"></div>
+
   </div>
+
+
   <div class="panel-card">
-    <div class="card-head"><div><span class="eyebrow">PROGRESSÃO</span><h3>Próximo desbloqueio</h3></div></div>
-    <div class="unlock-card"><div class="unlock-icon">🔒</div><div><b id="unlockName">Fase 02</b><small id="unlockText">Complete a missão atual para avançar.</small></div><div class="unlock-progress"><span id="unlockFill"></span></div></div>
+
+    <div class="card-head">
+
+      <div>
+
+        <span class="eyebrow">
+          PROGRESSÃO
+        </span>
+
+        <h3>
+          Próximo desbloqueio
+        </h3>
+
+      </div>
+
+    </div>
+
+
+    <div class="unlock-card">
+
+      <div class="unlock-icon">
+        🔒
+      </div>
+
+      <div>
+
+        <b id="unlockName">
+          Fase 02
+        </b>
+
+        <small id="unlockText">
+          Complete o treinamento atual para avançar.
+        </small>
+
+      </div>
+
+      <div class="unlock-progress">
+        <span id="unlockFill"></span>
+      </div>
+
+    </div>
+
   </div>
+
 </section>
+
 </main>
 
-<footer>ACADEMIA DE SEGURANÇA O&M SOLAR • V4 GAME • Conteúdo técnico e procedimentos internos devem ser validados pelo HSE/O&M Solar.</footer>
+
+<footer>
+ACADEMIA DE SEGURANÇA O&M SOLAR • V4 GAME •
+Conteúdo técnico e procedimentos internos devem ser validados pelo HSE/O&M Solar.
+</footer>
+
 </div>
 
-<!-- Profile -->
-<div class="modal" id="profileModal"><div class="modal-box profile-box">
-  <div class="modal-head"><div><span class="eyebrow">IDENTIDADE DO JOGADOR</span><h2>Perfil do Guardião</h2></div><button class="close" data-close="profileModal">×</button></div>
-  <div class="profile-hero"><div class="big-avatar">🛡️</div><div><h3 id="profilePreview">Novo Guardião</h3><p>Seu progresso será associado a este perfil.</p></div></div>
-  <div class="form-grid">
-    <label>Nome completo<input id="pName" placeholder="Nome do colaborador"></label>
-    <label>Matrícula<input id="pMat" placeholder="Matrícula"></label>
-    <label>Cargo<input id="pRole" placeholder="Cargo"></label>
-    <label>Unidade / UFV<input id="pUnit" placeholder="Ex.: BSL400"></label>
-    <label class="wide">Data de admissão<input id="pStart" type="date"></label>
-  </div>
-  <div class="notice">A data de admissão controla a liberação semanal das missões.</div>
-  <button class="btn primary wide" id="saveProfile">SALVAR E ENTRAR NA JORNADA</button>
-</div></div>
 
-<!-- Mission -->
-<div class="modal" id="missionModal"><div class="modal-box mission-box">
-  <div class="mission-top"><div><span class="eyebrow" id="mEyebrow">TREINAMENTO 01</span><h2 id="mTitle">NR-10</h2></div><button class="close" data-close="missionModal">×</button></div>
-  <div class="mission-steps"><span class="active" id="s1">01 BRIEFING</span><i></i><span id="s2">02 OBSERVE</span><i></i><span id="s3">03 DECIDA</span><i></i><span id="s4">04 CONQUISTE</span></div>
-  <div id="missionBody"></div>
-</div></div>
+<!-- PERFIL -->
+
+<div class="modal" id="profileModal">
+
+  <div class="modal-box profile-box">
+
+    <div class="modal-head">
+
+      <div>
+
+        <span class="eyebrow">
+          IDENTIDADE DO JOGADOR
+        </span>
+
+        <h2>
+          Perfil do Guardião
+        </h2>
+
+      </div>
+
+      <button class="close" data-close="profileModal">
+        ×
+      </button>
+
+    </div>
+
+
+    <div class="profile-hero">
+
+      <div class="big-avatar">
+        🛡️
+      </div>
+
+      <div>
+
+        <h3 id="profilePreview">
+          Novo Guardião
+        </h3>
+
+        <p>
+          Seu progresso será associado a este perfil.
+        </p>
+
+      </div>
+
+    </div>
+
+
+    <div class="form-grid">
+
+      <label>
+        Nome completo
+        <input
+          id="pName"
+          placeholder="Nome do colaborador"
+        >
+      </label>
+
+
+      <label>
+        Matrícula
+        <input
+          id="pMat"
+          placeholder="Matrícula"
+        >
+      </label>
+
+
+      <label>
+        Cargo
+        <input
+          id="pRole"
+          placeholder="Cargo"
+        >
+      </label>
+
+
+      <label>
+        Unidade / UFV
+        <input
+          id="pUnit"
+          placeholder="Ex.: BSL400"
+        >
+      </label>
+
+
+      <label class="wide">
+        Data de admissão
+        <input
+          id="pStart"
+          type="date"
+        >
+      </label>
+
+    </div>
+
+
+    <div class="notice">
+      A data de admissão controla a liberação semanal dos treinamentos.
+    </div>
+
+
+    <button
+      class="btn primary wide"
+      id="saveProfile"
+    >
+      SALVAR E ENTRAR NA JORNADA
+    </button>
+
+  </div>
+
+</div>
+
+
+<!-- TREINAMENTO -->
+
+<div class="modal" id="missionModal">
+
+  <div class="modal-box mission-box">
+
+    <div class="mission-top">
+
+      <div>
+
+        <span class="eyebrow" id="mEyebrow">
+          TREINAMENTO 01
+        </span>
+
+        <h2 id="mTitle">
+          NR-10
+        </h2>
+
+      </div>
+
+      <button class="close" data-close="missionModal">
+        ×
+      </button>
+
+    </div>
+
+
+    <div class="mission-steps">
+
+      <span class="active" id="s1">
+        01 BRIEFING
+      </span>
+
+      <i></i>
+
+      <span id="s2">
+        02 OBSERVE
+      </span>
+
+      <i></i>
+
+      <span id="s3">
+        03 DECIDA
+      </span>
+
+      <i></i>
+
+      <span id="s4">
+        04 CONQUISTE
+      </span>
+
+    </div>
+
+
+    <div id="missionBody"></div>
+
+  </div>
+
+</div>
+
 
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
-<script src="js/config.js"></script>
-<script src="js/game.js"></script>
+
+<script src="config.js"></script>
+
+<script src="game.js"></script>
+
 </body>
 </html>
