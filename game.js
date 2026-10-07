@@ -85,36 +85,27 @@ function loginModal(){
   const m=document.createElement("div");
   m.className="modal show";
   m.id="loginModal";
-  m.innerHTML='<div class="modal-box profile-box login-access-box" style="max-width:520px;position:relative;z-index:9999;pointer-events:auto"><div class="modal-head"><div><span class="eyebrow">ACESSO À ACADEMIA</span><h2>Entrar</h2></div></div><div class="profile-hero"><div class="big-avatar">🛡️</div><div><h3>Academia de Segurança O&M Solar</h3><p>Use sua matrícula e senha.</p></div></div><div class="form-grid" style="position:relative;z-index:10000;pointer-events:auto"><label class="wide">Matrícula<input id="loginMat" type="text" inputmode="numeric" autocomplete="username" placeholder="Ex.: 1025" style="position:relative;z-index:10001;pointer-events:auto;user-select:text"></label><label class="wide">Senha<input id="loginPass" type="text" inputmode="numeric" autocomplete="off" autocapitalize="off" spellcheck="false" placeholder="PIN / senha" style="position:relative;z-index:10001;pointer-events:auto;user-select:text"></label></div><div id="loginNotice" class="notice hidden"></div><button type="button" class="btn primary wide" id="loginBtn" style="position:relative;z-index:10001;pointer-events:auto">ENTRAR</button></div>';
+  m.innerHTML='<div class="modal-box profile-box login-access-box" style="max-width:520px;position:relative;z-index:9999"><div class="modal-head"><div><span class="eyebrow">ACESSO À ACADEMIA</span><h2>Entrar</h2></div></div><div class="profile-hero"><div class="big-avatar">🛡️</div><div><h3>Academia de Segurança O&M Solar</h3><p>Informe sua matrícula para acessar seus treinamentos.</p></div></div><div class="form-grid"><label class="wide">Matrícula<input id="loginMat" type="text" inputmode="numeric" autocomplete="off" placeholder="Ex.: 0001"></label></div><div id="loginNotice" class="notice hidden"></div><button type="button" class="btn primary wide" id="loginBtn">ENTRAR</button></div>';
   document.body.appendChild(m);
-
-  const mat=$("loginMat"),pass=$("loginPass"),btn=$("loginBtn");\n  mat.tabIndex=1; pass.tabIndex=2; btn.tabIndex=3;\n  mat.addEventListener("click",()=>mat.focus());\n  pass.addEventListener("click",()=>pass.focus());
+  const mat=$("loginMat"),btn=$("loginBtn");
   btn.onclick=login;
-  pass.onkeydown=e=>{if(e.key==="Enter"){e.preventDefault();login()}};
-  mat.onkeydown=e=>{if(e.key==="Enter"){e.preventDefault();pass.focus()}};
-  setTimeout(()=>mat.focus(),50);
+  mat.onkeydown=e=>{if(e.key==="Enter"){e.preventDefault();login()}};
+  setTimeout(()=>mat.focus(),100);
 }
 
-/*
-  IMPORTANTE:
-  O login visual é por matrícula.
-  Internamente, o Supabase Auth utiliza um identificador de e-mail
-  técnico criado para cada matrícula.
-*/
-const authEmail=m=>String(m).trim().toLowerCase().replace(/[^a-z0-9_-]/g,"")+"@acesso.oemsolar.com.br";
-
 async function login(){
-  const m=$("loginMat").value.trim(),p=$("loginPass").value,n=$("loginNotice"),b=$("loginBtn");
+  const m=$("loginMat").value.trim(),n=$("loginNotice"),b=$("loginBtn");
   n.classList.add("hidden");
 
-  if(!m||!p){
-    n.textContent="Informe matrícula e senha.";
+  if(!m){
+    n.textContent="Informe sua matrícula.";
     n.classList.remove("hidden");
+    $("loginMat").focus();
     return;
   }
 
   if(!db){
-    n.textContent="Supabase não está conectado.";
+    n.textContent="Banco de dados não conectado.";
     n.classList.remove("hidden");
     return;
   }
@@ -122,21 +113,42 @@ async function login(){
   b.disabled=true;
   b.textContent="ENTRANDO...";
 
-  const r=await db.auth.signInWithPassword({
-    email:authEmail(m),
-    password:p
-  });
+  const r=await db.from("profiles")
+    .select("*")
+    .eq("employee_code",m)
+    .maybeSingle();
 
   if(r.error){
-    n.textContent="Matrícula ou senha inválida.";
+    console.error(r.error);
+    n.textContent="Não foi possível consultar a matrícula.";
     n.classList.remove("hidden");
     b.disabled=false;
     b.textContent="ENTRAR";
     return;
   }
 
-  await loadProfile(r.data.user,m);
+  if(!r.data){
+    n.textContent="Matrícula não encontrada. Procure o responsável pela Academia.";
+    n.classList.remove("hidden");
+    b.disabled=false;
+    b.textContent="ENTRAR";
+    return;
+  }
+
+  user={id:r.data.auth_user_id||("matricula-"+m)};
+  profileId=r.data.id;
+  state.profile={
+    name:r.data.full_name,
+    mat:r.data.employee_code||m,
+    role:r.data.job_title||"",
+    unit:r.data.plant||"",
+    start:r.data.admission_date
+  };
+
+  await loadProgress();
   $("loginModal").classList.remove("show");
+  render();
+
   b.disabled=false;
   b.textContent="ENTRAR";
 }
@@ -210,7 +222,7 @@ function openProfile(force){
 
 async function saveProfile(){
   if(!db||!user){
-    alert("Faça login primeiro.");
+    alert("Entre pela matrícula primeiro.");
     return;
   }
 
@@ -234,9 +246,7 @@ async function saveProfile(){
     admission_date:start
   };
 
-  const r=profileId
-    ?await db.from("profiles").update(payload).eq("id",profileId).select().single()
-    :await db.from("profiles").insert(payload).select().single();
+  const r=await db.from("profiles").update(payload).eq("id",profileId).select().single();
 
   if(r.error){
     alert("Não foi possível salvar o perfil: "+r.error.message);
@@ -390,27 +400,7 @@ async function init(){
     return;
   }
 
-  const s=await db.auth.getSession();
-
-  if(s.data.session){
-    await loadProfile(s.data.session.user);
-    $("loginModal").classList.remove("show");
-  }else{
-    $("loginModal").classList.add("show");
-  }
-
-  db.auth.onAuthStateChange(async(e,s)=>{
-    if(e==="SIGNED_OUT"){
-      user=null;
-      profileId=null;
-      state={profile:{},completed:[],xp:0};
-      render();
-      $("loginModal").classList.add("show");
-    }else if(e==="SIGNED_IN"&&s){
-      await loadProfile(s.user);
-      $("loginModal").classList.remove("show");
-    }
-  });
+  $("loginModal").classList.add("show");
 }
 
 document.addEventListener("DOMContentLoaded",init);
