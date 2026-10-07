@@ -1,0 +1,1 @@
+window.OM_SUPABASE={url:"",publishableKey:""};
