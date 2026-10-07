@@ -82,132 +82,32 @@ function renderWorlds(){
 
 function loginModal(){
   if($("loginModal"))return;
-  const m=document.createElement("div");
-  m.className="modal show";
-  m.id="loginModal";
-  m.innerHTML='<div class="modal-box profile-box login-access-box" style="max-width:520px;position:relative;z-index:9999"><div class="modal-head"><div><span class="eyebrow">ACESSO À ACADEMIA</span><h2>Entrar</h2></div></div><div class="profile-hero"><div class="big-avatar">🛡️</div><div><h3>Academia de Segurança O&M Solar</h3><p>Informe sua matrícula para acessar seus treinamentos.</p></div></div><div class="form-grid"><label class="wide">Matrícula<input id="loginMat" type="text" inputmode="numeric" autocomplete="off" placeholder="Ex.: 0001"></label></div><div id="loginNotice" class="notice hidden"></div><button type="button" class="btn primary wide" id="loginBtn">ENTRAR</button></div>';
-  document.body.appendChild(m);
-  const mat=$("loginMat"),btn=$("loginBtn");
-  btn.onclick=login;
-  mat.onkeydown=e=>{if(e.key==="Enter"){e.preventDefault();login()}};
-  setTimeout(()=>mat.focus(),100);
+  const m=document.createElement("div");m.className="modal show";m.id="loginModal";
+  m.innerHTML='<div class="modal-box profile-box" style="max-width:520px;position:relative;z-index:9999"><div class="modal-head"><div><span class="eyebrow">ACESSO À ACADEMIA</span><h2>Entrar</h2></div></div><div class="profile-hero"><div class="big-avatar">🛡️</div><div><h3>Academia de Segurança O&M Solar</h3><p>Entre com sua matrícula e PIN.</p></div></div><div class="form-grid"><label class="wide">Matrícula<input id="loginMat" type="text" inputmode="numeric" autocomplete="off" placeholder="Ex.: 101"></label><label class="wide">PIN<input id="loginPin" type="text" inputmode="numeric" autocomplete="off" maxlength="4" placeholder="Ex.: 2026"></label></div><div id="loginNotice" class="notice hidden"></div><button type="button" class="btn primary wide" id="loginBtn">ENTRAR</button></div>';
+  document.body.appendChild(m);const mat=$("loginMat"),pin=$("loginPin");
+  $("loginBtn").onclick=login;mat.onkeydown=e=>{if(e.key==="Enter"){e.preventDefault();pin.focus()}};pin.onkeydown=e=>{if(e.key==="Enter"){e.preventDefault();login()}};setTimeout(()=>mat.focus(),100);
 }
-
 async function login(){
-  const m=$("loginMat").value.trim(),n=$("loginNotice"),b=$("loginBtn");
-  n.classList.add("hidden");
-
-  if(!m){
-    n.textContent="Informe sua matrícula.";
-    n.classList.remove("hidden");
-    $("loginMat").focus();
-    return;
-  }
-
-  if(!db){
-    n.textContent="Banco de dados não conectado.";
-    n.classList.remove("hidden");
-    return;
-  }
-
-  b.disabled=true;
-  b.textContent="ENTRANDO...";
-
-  const r=await db.from("profiles")
-    .select("*")
-    .eq("employee_code",m)
-    .maybeSingle();
-
-  if(r.error){
-    console.error(r.error);
-    n.textContent="Não foi possível consultar a matrícula.";
-    n.classList.remove("hidden");
-    b.disabled=false;
-    b.textContent="ENTRAR";
-    return;
-  }
-
-  if(!r.data){
-    n.textContent="Matrícula não encontrada. Procure o responsável pela Academia.";
-    n.classList.remove("hidden");
-    b.disabled=false;
-    b.textContent="ENTRAR";
-    return;
-  }
-
-  user={id:r.data.auth_user_id||("matricula-"+m)};
-  profileId=r.data.id;
-  state.profile={
-    name:r.data.full_name,
-    mat:r.data.employee_code||m,
-    role:r.data.job_title||"",
-    unit:r.data.plant||"",
-    start:r.data.admission_date
-  };
-
-  await loadProgress();
-  $("loginModal").classList.remove("show");
-  render();
-
-  b.disabled=false;
-  b.textContent="ENTRAR";
+  const m=$("loginMat").value.trim(),pin=$("loginPin").value.trim(),n=$("loginNotice"),b=$("loginBtn");
+  n.classList.add("hidden");if(!m||!pin){n.textContent="Informe matrícula e PIN.";n.classList.remove("hidden");return}
+  if(!db){n.textContent="Banco de dados não conectado.";n.classList.remove("hidden");return}
+  b.disabled=true;b.textContent="ENTRANDO...";
+  const r=await db.rpc("academia_login",{p_matricula:m,p_pin:pin});
+  if(r.error||!r.data||!r.data.length){n.textContent="Matrícula ou PIN inválido.";n.classList.remove("hidden");b.disabled=false;b.textContent="ENTRAR";return}
+  await loadProfile(r.data[0],m);$("loginModal").classList.remove("show");b.disabled=false;b.textContent="ENTRAR";
 }
-
-async function loadProfile(u,mat){
-  user=u;
-  const r=await db.from("profiles").select("*").eq("auth_user_id",u.id).maybeSingle();
-
-  if(r.error){
-    console.error(r.error);
-    alert("Não foi possível carregar seu perfil.");
-    return;
-  }
-
-  if(!r.data){
-    state.profile={mat};
-    state.completed=[];
-    state.xp=0;
-    openProfile(true);
-    render();
-    return;
-  }
-
-  profileId=r.data.id;
-  state.profile={
-    name:r.data.full_name,
-    mat:r.data.employee_code||mat,
-    role:r.data.job_title||"",
-    unit:r.data.plant||"",
-    start:r.data.admission_date
-  };
-
-  await loadProgress();
-  render();
+async function loadProfile(row,mat){
+  user={id:row.profile_id};profileId=row.profile_id;
+  state.profile={name:row.full_name,mat:row.employee_code||mat,role:row.job_title||"",unit:row.plant||"",start:row.admission_date};
+  await loadProgress();render();
 }
-
 async function loadProgress(){
-  if(!profileId)return;
-
-  const r=await db.from("training_progress")
-    .select("track_number,status,xp")
-    .eq("profile_id",profileId);
-
-  if(r.error){
-    console.error(r.error);
-    return;
-  }
-
-  state.completed=(r.data||[])
-    .filter(x=>x.status==="completed")
-    .map(x=>x.track_number-1)
-    .sort((a,b)=>a-b);
-
-  state.xp=(r.data||[])
-    .reduce((s,x)=>s+(x.status==="completed"?Number(x.xp||0):0),0);
-
-  saveLocal();
+  if(!profileId||!db)return;
+  const r=await db.rpc("academia_progress",{p_profile_id:profileId});
+  if(r.error){console.error(r.error);return}
+  state.completed=(r.data||[]).filter(x=>x.status==="completed").map(x=>x.track_number-1).sort((a,b)=>a-b);
+  state.xp=(r.data||[]).reduce((s,x)=>s+(x.status==="completed"?Number(x.xp||0):0),0);saveLocal();
 }
-
 function openProfile(force){
   $("pName").value=state.profile.name||"";
   $("pMat").value=state.profile.mat||"";
@@ -312,41 +212,12 @@ function answer(i,n,b){
 
 async function complete(i){
   if(state.completed.includes(i))return;
-
-  if(!db||!profileId){
-    alert("Seu perfil ainda não está conectado ao banco.");
-    return;
-  }
-
+  if(!db||!profileId){alert("Seu perfil ainda não está conectado ao banco.");return}
   const code="OMS-"+String(i+1).padStart(2,"0")+"-"+(state.profile.name||"GUARDIAO").replace(/\W/g,"").slice(0,8).toUpperCase()+"-"+Date.now().toString(36).toUpperCase();
-
-  const p=await db.from("training_progress").upsert({
-    profile_id:profileId,
-    track_number:i+1,
-    status:"completed",
-    score:100,
-    xp:100,
-    completed_at:new Date().toISOString()
-  },{onConflict:"profile_id,track_number"});
-
-  if(p.error){
-    alert("Não foi possível registrar o treinamento: "+p.error.message);
-    return;
-  }
-
-  const c=await db.from("certificates").insert({
-    profile_id:profileId,
-    track_number:i+1,
-    certificate_code:code
-  });
-
-  if(c.error)console.warn(c.error);
-
-  await loadProgress();
-  $("missionModal").classList.remove("show");
-  certificate(i,code);
+  const r=await db.rpc("academia_complete_training",{p_profile_id:profileId,p_track_number:i+1,p_certificate_code:code});
+  if(r.error){alert("Não foi possível registrar o treinamento: "+r.error.message);return}
+  await loadProgress();$("missionModal").classList.remove("show");certificate(i,code);
 }
-
 function certificate(i,code){
   const p=state.profile;
   const w=window.open("","_blank","width=900,height=800");
@@ -376,32 +247,13 @@ function certificate(i,code){
 
 async function init(){
   loginModal();
-
   $("profileBtn").onclick=()=>user?openProfile():$("loginModal").classList.add("show");
   $("profileHero").onclick=()=>user?openProfile():$("loginModal").classList.add("show");
   $("saveProfile").onclick=saveProfile;
-
-  $("continueBtn").onclick=()=>{
-    openTraining(Math.max(0,tracks.findIndex((_,x)=>!state.completed.includes(x))));
-  };
-
-  $("missionBtn").onclick=()=>{
-    openTraining(Math.max(0,tracks.findIndex((_,x)=>!state.completed.includes(x))));
-  };
-
-  document.querySelectorAll("[data-close]").forEach(b=>{
-    b.onclick=()=>$(b.dataset.close).classList.remove("show");
-  });
-
-  render();
-
-  if(!db){
-    console.error("Supabase não configurado");
-    return;
-  }
-
-  $("loginModal").classList.add("show");
+  $("continueBtn").onclick=()=>openTraining(Math.max(0,tracks.findIndex((_,x)=>!state.completed.includes(x))));
+  $("missionBtn").onclick=()=>openTraining(Math.max(0,tracks.findIndex((_,x)=>!state.completed.includes(x))));
+  document.querySelectorAll("[data-close]").forEach(b=>b.onclick=()=>$(b.dataset.close).classList.remove("show"));
+  render();if(!db)console.error("Supabase não configurado");
 }
-
 document.addEventListener("DOMContentLoaded",init);
 })();
