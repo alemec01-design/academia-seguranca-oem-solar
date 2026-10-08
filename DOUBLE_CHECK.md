@@ -20,3 +20,9 @@ Treinamentos: 21
 Lições: 105
 Questões: 210
 Tamanho index.html: 94,843 bytes
+
+## Correção v2 — interação dos exercícios
+- Corrigido bug em que selecionar alternativa zerava `selected` imediatamente.
+- Corrigido bug em que verificar resposta zerava `result` imediatamente.
+- Seleção agora permanece marcada até VERIFICAR.
+- Feedback correto/incorreto agora permanece visível e CONTINUAR avança.
