@@ -1,19 +1,12 @@
-# Academia de Segurança O&M Solar — DUO FINAL FUNCIONAL
+# Academia de Segurança O&M Solar — Jornada dos 300 Dias
 
-Interface inspirada na lógica de trilha de plataformas gamificadas de aprendizagem, usando a referência fornecida pelo usuário.
+Versão de conteúdo revisado: 300 microtreinamentos organizados em 12 blocos de 25 dias.
 
-## Funcionalidades
-- 21 treinamentos em 5 seções
-- trilha vertical com nós concluídos, atual e bloqueados
-- 5 etapas de conteúdo + 10 exercícios por treinamento
-- 5 vidas por tentativa
-- aprovação mínima de 70%
-- +100 XP por treinamento concluído
-- desbloqueio semanal a partir da data de admissão
-- ADMIN libera todos os treinamentos
-- login por matrícula + PIN via Supabase RPC `academia_login`
-- progresso via `academia_progress`
-- conclusão via `academia_complete_training`
-- certificados internos
-- perfil e logout
-- sem dependência de imagens de treinamento externas/quebradas
+- 1 nó liberado por dia, a partir do cadastro.
+- Concluídos permanecem disponíveis para revisão.
+- 3 microlições + 3 desafios por nó.
+- XP e progresso preservados pelo fluxo existente.
+- Conteúdo interno de capacitação; não substitui treinamentos formais exigidos pelas NRs.
+
+## Publicação
+Substitua o `index.html` no repositório GitHub Pages da Academia.
