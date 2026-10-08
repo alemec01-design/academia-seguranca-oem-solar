@@ -1,15 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="720" height="430" viewBox="0 0 720 430">
-<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#071521"/><stop offset="1" stop-color="#0b2233"/></linearGradient>
-<marker id="a" markerWidth="8" markerHeight="8" refX="7" refY="3" orient="auto"><path d="M0,0 L0,6 L7,3 z" fill="#5c7384"/></marker></defs>
-<rect width="720" height="430" rx="24" fill="url(#g)"/>
-<path d="M0 70 H720 M0 390 H720" stroke="#173246"/>
-<text x="48" y="50" fill="#f59e0b" font-size="13" font-weight="700" letter-spacing="2">ACADEMIA DE SEGURANÇA O&amp;M SOLAR</text>
-<text x="48" y="102" fill="#f4fbff" font-size="25" font-weight="800">Fadiga, Sono, Ergonomia e Saúde Ocupacional</text>
-<text x="48" y="130" fill="#8da8bb" font-size="13">Cultura de Segurança • VISUAL TÉCNICO</text>
-<g transform="translate(48,158)">
-<rect x="0" y="0" width="112" height="72" rx="12" fill="#0e2a3b" stroke="#f59e0b" stroke-width="2"/>
-<text x="56" y="47" text-anchor="middle" font-size="34">🧍</text>
-</g>
-<path d="M 235 333 L 275 333" stroke="#5c7384" stroke-width="3" marker-end="url(#a)"/><path d="M 455 333 L 495 333" stroke="#5c7384" stroke-width="3" marker-end="url(#a)"/><rect x="55" y="290" width="180" height="86" rx="12" fill="#0d2030" stroke="#f59e0b" stroke-width="2"/><text x="145" y="327" text-anchor="middle" fill="#e7f4ff" font-size="16" font-weight="700">SONO</text><text x="145" y="350" text-anchor="middle" fill="#8da8bb" font-size="11">CONTROLE 1</text><rect x="275" y="290" width="180" height="86" rx="12" fill="#0d2030" stroke="#f59e0b" stroke-width="2"/><text x="365" y="327" text-anchor="middle" fill="#e7f4ff" font-size="16" font-weight="700">PAUSAS</text><text x="365" y="350" text-anchor="middle" fill="#8da8bb" font-size="11">CONTROLE 2</text><rect x="495" y="290" width="180" height="86" rx="12" fill="#0d2030" stroke="#f59e0b" stroke-width="2"/><text x="585" y="327" text-anchor="middle" fill="#e7f4ff" font-size="16" font-weight="700">PRONTIDÃO</text><text x="585" y="350" text-anchor="middle" fill="#8da8bb" font-size="11">CONTROLE 3</text>
-<text x="48" y="405" fill="#6f8b9e" font-size="11">Ilustração didática — sempre confirme o procedimento, projeto e manual aplicáveis à instalação.</text>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 650">
+<defs><linearGradient id="g" x1="0" x2="1"><stop stop-color="#071624"/><stop offset="1" stop-color="#0c2435"/></linearGradient></defs>
+<rect width="1200" height="650" rx="34" fill="url(#g)"/>
+<path d="M0 510 Q300 410 600 510 T1200 500 V650 H0Z" fill="#06111d"/>
+<g opacity=".25" stroke="#ffb020" fill="none"><path d="M80 460H1120M80 500H1120M80 540H1120"/><path d="M160 420L260 360L360 420L460 360L560 420L660 360L760 420L860 360L960 420"/></g>
+<g transform="translate(120 135)"><rect x="0" y="90" width="250" height="150" rx="18" fill="#102d40" stroke="#ffb020" stroke-width="4"/><rect x="35" y="120" width="180" height="55" rx="8" fill="#07131f"/><circle cx="65" cy="205" r="12" fill="#ffb020"/><circle cx="105" cy="205" r="12" fill="#39d98a"/><circle cx="145" cy="205" r="12" fill="#ffb020"/><path d="M250 165H390M390 165V95M390 165V235" stroke="#ffb020" stroke-width="10" fill="none"/><circle cx="390" cy="95" r="20" fill="#0c2435" stroke="#ffb020" stroke-width="5"/><circle cx="390" cy="235" r="20" fill="#0c2435" stroke="#ffb020" stroke-width="5"/></g>
+<g transform="translate(550 115)"><circle cx="170" cy="170" r="120" fill="#081a29" stroke="#ffb020" stroke-width="6"/><path d="M170 60V280M60 170H280M95 95L245 245M245 95L95 245" stroke="#ffb020" stroke-width="4" opacity=".8"/><circle cx="170" cy="170" r="38" fill="#ffb020" opacity=".9"/></g>
+<g font-family="Arial,sans-serif" fill="white"><text x="80" y="82" font-size="28" font-weight="700">ACADEMIA O&amp;M SOLAR • TREINAMENTO 19</text><text x="80" y="575" font-size="24" font-weight="700">FADIGA</text><text x="450" y="575" font-size="24" font-weight="700">ERGONOMIA</text><text x="820" y="575" font-size="24" font-weight="700">ATENÇÃO</text></g></svg>
