@@ -3,6166 +3,7215 @@ window.ACADEMIA_CONTENT = [
     "id": 1,
     "phase": "Fundamentos",
     "title": "NR-10 e Segurança em Instalações Elétricas",
-    "description": "Domine os princípios de segurança elétrica aplicados à operação e manutenção de usinas fotovoltaicas.",
-    "objective": "NR-10, risco elétrico, desenergização, aproximação e controles",
+    "description": "Aplique os princípios de segurança elétrica ao planejamento, execução e liberação de atividades em usinas fotovoltaicas.",
+    "objective": "NR-10 e Segurança em Instalações Elétricas",
     "icon": "⚡",
     "duration": 25,
     "slides": [
       {
-        "title": "O que a NR-10 protege",
-        "body": "A NR-10 estabelece requisitos e condições mínimas para segurança em instalações e serviços em eletricidade. Para a UFV, isso alcança projeto, operação, manutenção e intervenção conforme aplicabilidade.",
+        "title": "Escopo da NR-10",
+        "body": "A NR-10 estabelece requisitos de segurança para instalações e serviços em eletricidade. Na UFV, a aplicação deve considerar a instalação real, a atividade e os controles definidos.",
         "bullets": [
-          "Identifique o perigo",
-          "Controle a exposição",
-          "Confirme a condição segura"
+          "A NR-10 estabelece requisitos de segurança para instalações e serviços em eletricidade",
+          "Na UFV, a aplicação deve considerar a instalação real, a atividade e os controles definidos",
+          "Aplique o procedimento elétrico correspondente à instalação antes de se expor."
         ],
-        "image": "https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-01-1.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Escopo da NR-10»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Fontes de energia na UFV",
-        "body": "Módulos e strings geram energia sob iluminação. Inversores, quadros, transformadores e circuitos CA podem apresentar fontes distintas e interdependentes.",
+        "title": "Mapa das fontes",
+        "body": "Módulos, strings, inversores, quadros, transformadores, circuitos auxiliares e fontes externas podem alimentar ou manter energia no ponto de trabalho.",
         "bullets": [
-          "Identifique o perigo",
-          "Controle a exposição",
-          "Confirme a condição segura"
+          "Módulos, strings, inversores, quadros, transformadores, circuitos auxiliares e fontes externas podem alimentar ou manter energia no ponto de trabalho",
+          "Aplicação de campo: Mapa das fontes.",
+          "Aplique o procedimento elétrico correspondente à instalação antes de se expor."
         ],
-        "image": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-01-2.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Mapa das fontes»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Desenergização não é simplesmente desligar",
-        "body": "Desligar um comando não prova ausência de energia. A sequência segura exige identificação, seccionamento, impedimento de reenergização, constatação da ausência de tensão e demais etapas previstas.",
+        "title": "Perigo, risco e exposição",
+        "body": "Perigo é a fonte com potencial de dano; risco considera a exposição e as consequências. Antes de agir, descreva exatamente como a pessoa pode ser atingida.",
         "bullets": [
-          "Aplique no contexto da UFV",
-          "Registre ou comunique quando necessário",
-          "Mantenha a barreira até o fim da atividade"
+          "Perigo é a fonte com potencial de dano; risco considera a exposição e as consequências",
+          "Antes de agir, descreva exatamente como a pessoa pode ser atingida",
+          "Aplique o procedimento elétrico correspondente à instalação antes de se expor."
         ],
-        "image": "https://images.unsplash.com/photo-1581092795360-fd1ca04f0952?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-01-3.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Perigo, risco e exposição»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Distância e zona de risco",
-        "body": "A proximidade de partes energizadas aumenta a consequência potencial de um erro. A delimitação e as barreiras devem respeitar o procedimento e as condições reais.",
+        "title": "Desenergização",
+        "body": "Desligar um comando não prova condição segura. A sequência de desenergização deve seguir o procedimento aplicável e ser confirmada no ponto de trabalho.",
         "bullets": [
-          "Responda antes de avançar",
-          "Não improvise controle",
-          "Se houver dúvida, comunique e reavalie"
+          "Desligar um comando não prova condição segura",
+          "A sequência de desenergização deve seguir o procedimento aplicável e ser confirmada no ponto de trabalho",
+          "Aplique o procedimento elétrico correspondente à instalação antes de se expor."
         ],
-        "image": "https://images.unsplash.com/photo-1586864387967-d02ef85d93e8?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": true
+        "image": "media/treino-01-1.svg",
+        "checkpoint": true,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Desenergização»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Atenção ao retorno de energia",
-        "body": "Fontes alternativas, alimentação auxiliar, capacitores e geração fotovoltaica podem alterar o estado esperado. Identifique todas as fontes antes da intervenção.",
+        "title": "Bloqueio e impedimento",
+        "body": "Depois do seccionamento, impeça a reenergização não autorizada usando o método previsto. O bloqueio precisa corresponder ao equipamento correto.",
         "bullets": [
-          "Identifique o perigo",
-          "Controle a exposição",
-          "Confirme a condição segura"
+          "Depois do seccionamento, impeça a reenergização não autorizada usando o método previsto",
+          "O bloqueio precisa corresponder ao equipamento correto",
+          "Aplique o procedimento elétrico correspondente à instalação antes de se expor."
         ],
-        "image": "https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-01-2.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Bloqueio e impedimento»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Autorização e competência",
-        "body": "Somente pessoas autorizadas e capacitadas conforme a atividade devem executar intervenções elétricas. A equipe deve respeitar os limites de sua função.",
+        "title": "Ausência de tensão",
+        "body": "A ausência de tensão deve ser constatada com instrumento adequado e método seguro. Supervisório, LED ou aplicativo não substituem a verificação elétrica.",
         "bullets": [
-          "Identifique o perigo",
-          "Controle a exposição",
-          "Confirme a condição segura"
+          "A ausência de tensão deve ser constatada com instrumento adequado e método seguro",
+          "Supervisório, LED ou aplicativo não substituem a verificação elétrica",
+          "Aplique o procedimento elétrico correspondente à instalação antes de se expor."
         ],
-        "image": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-01-3.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Ausência de tensão»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "EPC antes de EPI",
-        "body": "Barreiras, invólucros, sinalização, seccionamento e bloqueio reduzem a exposição na fonte. EPI complementa os controles quando indicado.",
+        "title": "Aterramento temporário",
+        "body": "Quando aplicável, aterramento temporário e equipotencialização devem seguir projeto, procedimento e método definido por pessoa competente. Não improvise conexões.",
         "bullets": [
-          "Identifique o perigo",
-          "Controle a exposição",
-          "Confirme a condição segura"
+          "Quando aplicável, aterramento temporário e equipotencialização devem seguir projeto, procedimento e método definido por pessoa competente",
+          "Não improvise conexões",
+          "Aplique o procedimento elétrico correspondente à instalação antes de se expor."
         ],
-        "image": "https://images.unsplash.com/photo-1581092795360-fd1ca04f0952?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-01-1.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Aterramento temporário»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Teste antes de tocar",
-        "body": "A constatação da ausência de tensão deve seguir instrumento adequado, procedimento e método seguro. O instrumento também precisa ser verificado conforme o procedimento aplicável.",
+        "title": "Barreiras e sinalização",
+        "body": "Delimitação, barreiras e sinalização controlam acesso e proximidade. O controle deve permanecer enquanto houver exposição.",
         "bullets": [
-          "Responda antes de avançar",
-          "Não improvise controle",
-          "Se houver dúvida, comunique e reavalie"
+          "Delimitação, barreiras e sinalização controlam acesso e proximidade",
+          "O controle deve permanecer enquanto houver exposição",
+          "Aplique o procedimento elétrico correspondente à instalação antes de se expor."
         ],
-        "image": "https://images.unsplash.com/photo-1586864387967-d02ef85d93e8?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": true
+        "image": "media/treino-01-2.svg",
+        "checkpoint": true,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Barreiras e sinalização»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Reenergização controlada",
-        "body": "Antes de reenergizar, retire ferramentas, pessoas e dispositivos não pertencentes à condição normal, confirme comunicação e siga a sequência definida.",
+        "title": "EPI e EPC",
+        "body": "Priorize controles de engenharia e proteção coletiva quando aplicáveis. EPI complementa a proteção e deve ser selecionado para o perigo real.",
         "bullets": [
-          "Identifique o perigo",
-          "Controle a exposição",
-          "Confirme a condição segura"
+          "Priorize controles de engenharia e proteção coletiva quando aplicáveis",
+          "EPI complementa a proteção e deve ser selecionado para o perigo real",
+          "Aplique o procedimento elétrico correspondente à instalação antes de se expor."
         ],
-        "image": "https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-01-3.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «EPI e EPC»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Caso: string e quadro",
-        "body": "Uma equipe precisa intervir em um quadro após desligar o inversor. O fato de o inversor estar desligado não encerra a análise: a string e outras fontes precisam ser consideradas.",
+        "title": "Proximidade",
+        "body": "Atividades próximas de partes energizadas exigem avaliação da zona de trabalho, distâncias, barreiras e competência da equipe.",
         "bullets": [
-          "Identifique o perigo",
-          "Controle a exposição",
-          "Confirme a condição segura"
+          "Atividades próximas de partes energizadas exigem avaliação da zona de trabalho, distâncias, barreiras e competência da equipe",
+          "Aplicação de campo: Proximidade.",
+          "Aplique o procedimento elétrico correspondente à instalação antes de se expor."
         ],
-        "image": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-01-1.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Proximidade»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Desvio crítico",
-        "body": "Se não for possível comprovar o estado seguro, a atividade deve parar. A pressão por produtividade não substitui a verificação de segurança.",
+        "title": "Autorização",
+        "body": "Somente pessoas capacitadas, autorizadas e designadas conforme a atividade devem executar intervenções elétricas. Experiência não substitui requisito formal.",
         "bullets": [
-          "Responda antes de avançar",
-          "Não improvise controle",
-          "Se houver dúvida, comunique e reavalie"
+          "Somente pessoas capacitadas, autorizadas e designadas conforme a atividade devem executar intervenções elétricas",
+          "Experiência não substitui requisito formal",
+          "Aplique o procedimento elétrico correspondente à instalação antes de se expor."
         ],
-        "image": "https://images.unsplash.com/photo-1581092795360-fd1ca04f0952?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": true
+        "image": "media/treino-01-2.svg",
+        "checkpoint": true,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Autorização»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Checklist NR-10 para a UFV",
-        "body": "Identificação do circuito; fontes; seccionamento; bloqueio; sinalização; ausência de tensão; delimitação; EPI/EPC; comunicação; liberação.",
+        "title": "Comunicação operacional",
+        "body": "Campo, COG e supervisão devem compartilhar equipamento, estado, escopo, isolamento e liberação. Mensagens ambíguas são uma barreira fraca.",
         "bullets": [
-          "Identifique o perigo",
-          "Controle a exposição",
-          "Confirme a condição segura"
+          "Campo, COG e supervisão devem compartilhar equipamento, estado, escopo, isolamento e liberação",
+          "Mensagens ambíguas são uma barreira fraca",
+          "Aplique o procedimento elétrico correspondente à instalação antes de se expor."
         ],
-        "image": "https://images.unsplash.com/photo-1586864387967-d02ef85d93e8?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-01-3.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Comunicação operacional»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Quem precisa saber?",
-        "body": "Campo, COG e supervisão devem ter entendimento comum sobre o estado do equipamento e a autorização para intervenção. Registre o que for necessário para rastreabilidade.",
+        "title": "Reenergização",
+        "body": "Antes do retorno, confirme pessoas, ferramentas, proteções, encerramento do bloqueio e comunicação conforme o procedimento.",
         "bullets": [
-          "Identifique o perigo",
-          "Controle a exposição",
-          "Confirme a condição segura"
+          "Antes do retorno, confirme pessoas, ferramentas, proteções, encerramento do bloqueio e comunicação conforme o procedimento",
+          "Aplicação de campo: Reenergização.",
+          "Aplique o procedimento elétrico correspondente à instalação antes de se expor."
         ],
-        "image": "https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-01-1.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Reenergização»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Fixação",
-        "body": "A pergunta central é simples: consigo demonstrar que a energia perigosa foi controlada? Se a resposta for não, não avance.",
+        "title": "Caso: QGBT",
+        "body": "Uma equipe desligou o inversor e quer abrir um QGBT. A decisão segura é mapear todas as fontes, seccionar corretamente e comprovar a condição segura no ponto de trabalho.",
         "bullets": [
-          "Aplique no contexto da UFV",
-          "Registre ou comunique quando necessário",
-          "Mantenha a barreira até o fim da atividade"
+          "Uma equipe desligou o inversor e quer abrir um QGBT",
+          "A decisão segura é mapear todas as fontes, seccionar corretamente e comprovar a condição segura no ponto de trabalho",
+          "Aplique o procedimento elétrico correspondente à instalação antes de se expor."
         ],
-        "image": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-01-2.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Caso: QGBT»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Fechamento",
-        "body": "Trabalhar com eletricidade exige método. A melhor intervenção é aquela em que cada barreira foi planejada, executada e confirmada.",
+        "title": "Critérios de parada",
+        "body": "Pare diante de fonte não identificada, ausência de verificação, bloqueio inadequado, condição diferente do planejado ou dúvida sobre a competência para executar.",
         "bullets": [
-          "Aplique no contexto da UFV",
-          "Registre ou comunique quando necessário",
-          "Mantenha a barreira até o fim da atividade"
+          "Pare diante de fonte não identificada, ausência de verificação, bloqueio inadequado, condição diferente do planejado ou dúvida sobre a competência para executar",
+          "Aplicação de campo: Critérios de parada.",
+          "Aplique o procedimento elétrico correspondente à instalação antes de se expor."
         ],
-        "image": "https://images.unsplash.com/photo-1581092795360-fd1ca04f0952?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-01-3.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Critérios de parada»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       }
     ],
     "questions": [
       {
-        "q": "Qual é a melhor abordagem de segurança em uma atividade relacionada a NR-10, risco elétrico, desenergização, aproximação e controles?",
+        "q": "Qual é a conduta tecnicamente mais adequada neste tema? Considerando «Escopo da NR-10», qual alternativa está correta?",
         "options": [
-          "Executar rapidamente e corrigir depois",
-          "Identificar a exposição, aplicar controles e confirmar a condição segura antes de executar",
-          "Confiar somente na experiência do operador",
-          "Improvisar um controle temporário sem comunicar"
+          "Continuar com base apenas no hábito da equipe, sem rever a condição real.",
+          "A NR-10 estabelece requisitos de segurança para instalações e serviços em eletricidade",
+          "Substituir o controle previsto por improviso e registrar depois.",
+          "Aguardar o final da atividade para comunicar qualquer desvio."
         ],
         "correct": 1,
-        "a": "Controle antes da exposição. Segurança precisa ser verificável."
+        "a": "A resposta correta está alinhada ao controle específico apresentado neste bloco."
       },
       {
-        "q": "Se uma condição relevante mudar durante a atividade, o que deve acontecer?",
+        "q": "Qual condição deve ser confirmada antes de avançar? Considerando «Mapa das fontes», qual alternativa está correta?",
         "options": [
-          "Continuar para não perder produtividade",
-          "Parar, comunicar e reavaliar o risco antes de continuar",
-          "Ignorar se a equipe já estiver acostumada",
-          "Esperar o final da tarefa para registrar"
-        ],
-        "correct": 1,
-        "a": "Mudança de cenário exige nova avaliação e controle."
-      },
-      {
-        "q": "Qual princípio é mais importante ao escolher controles?",
-        "options": [
-          "Usar somente EPI",
-          "Priorizar controles que reduzam a exposição na fonte e usar barreiras complementares",
-          "Escolher o controle mais barato",
-          "Deixar a decisão para depois da execução"
-        ],
-        "correct": 1,
-        "a": "A prevenção começa na fonte e nas barreiras, não somente no comportamento individual."
-      },
-      {
-        "q": "O que fazer quando você não consegue demonstrar que uma condição está segura?",
-        "options": [
-          "Assumir que está segura",
-          "Executar com cuidado redobrado",
-          "Parar e buscar esclarecimento/controle adequado",
-          "Pedir para outra pessoa executar"
+          "Substituir o controle previsto por improviso e registrar depois.",
+          "Continuar com base apenas no hábito da equipe, sem rever a condição real.",
+          "Módulos, strings, inversores, quadros, transformadores, circuitos auxiliares e fontes externas podem alimentar ou manter energia no ponto de trabalho",
+          "Aguardar o final da atividade para comunicar qualquer desvio."
         ],
         "correct": 2,
-        "a": "Dúvida sobre condição segura é motivo para não avançar."
+        "a": "A resposta correta está alinhada ao controle específico apresentado neste bloco."
       },
       {
-        "q": "Qual situação caracteriza um bom comportamento de segurança?",
+        "q": "Qual alternativa representa o controle correto? Considerando «Perigo, risco e exposição», qual alternativa está correta?",
         "options": [
-          "Pular uma etapa porque a atividade é conhecida",
-          "Comunicar desvio e interromper quando o controle necessário não está disponível",
-          "Manter silêncio para evitar conflito",
-          "Adaptar o procedimento sem comunicar"
+          "Perigo é a fonte com potencial de dano; risco considera a exposição e as consequências",
+          "Continuar com base apenas no hábito da equipe, sem rever a condição real.",
+          "Substituir o controle previsto por improviso e registrar depois.",
+          "Aguardar o final da atividade para comunicar qualquer desvio."
+        ],
+        "correct": 0,
+        "a": "A resposta correta está alinhada ao controle específico apresentado neste bloco."
+      },
+      {
+        "q": "O que caracteriza uma resposta segura nesta situação? Considerando «Desenergização», qual alternativa está correta?",
+        "options": [
+          "Aguardar o final da atividade para comunicar qualquer desvio.",
+          "Continuar com base apenas no hábito da equipe, sem rever a condição real.",
+          "Substituir o controle previsto por improviso e registrar depois.",
+          "Desligar um comando não prova condição segura"
+        ],
+        "correct": 3,
+        "a": "A resposta correta está alinhada ao controle específico apresentado neste bloco."
+      },
+      {
+        "q": "Qual erro deve ser evitado no campo? Considerando «Bloqueio e impedimento», qual alternativa está correta?",
+        "options": [
+          "Continuar com base apenas no hábito da equipe, sem rever a condição real.",
+          "Depois do seccionamento, impeça a reenergização não autorizada usando o método previsto",
+          "Substituir o controle previsto por improviso e registrar depois.",
+          "Aguardar o final da atividade para comunicar qualquer desvio."
         ],
         "correct": 1,
-        "a": "A autoridade para interromper diante de risco é parte da cultura de prevenção."
+        "a": "A resposta correta está alinhada ao controle específico apresentado neste bloco."
       },
       {
-        "q": "Por que procedimentos e checklists são importantes?",
+        "q": "Qual informação é essencial para a decisão? Considerando «Ausência de tensão», qual alternativa está correta?",
         "options": [
-          "Para aumentar burocracia",
-          "Para tornar controles críticos repetíveis e verificáveis",
-          "Para substituir treinamento",
-          "Para eliminar a necessidade de julgamento"
-        ],
-        "correct": 1,
-        "a": "Procedimentos ajudam a tornar barreiras críticas consistentes e rastreáveis."
-      },
-      {
-        "q": "Qual é uma pergunta útil antes de iniciar uma tarefa?",
-        "options": [
-          "Quanto tempo falta para terminar?",
-          "Quem será culpado se algo der errado?",
-          "O que pode me atingir e como vou controlar essa exposição?",
-          "Como posso fazer sem comunicar?"
+          "Substituir o controle previsto por improviso e registrar depois.",
+          "Continuar com base apenas no hábito da equipe, sem rever a condição real.",
+          "A ausência de tensão deve ser constatada com instrumento adequado e método seguro",
+          "Aguardar o final da atividade para comunicar qualquer desvio."
         ],
         "correct": 2,
-        "a": "Comece pela exposição e pelos controles."
+        "a": "A resposta correta está alinhada ao controle específico apresentado neste bloco."
       },
       {
-        "q": "Um equipamento apresenta uma condição diferente da prevista. O que é mais seguro?",
+        "q": "Diante de uma condição diferente da prevista, o que fazer? Considerando «Aterramento temporário», qual alternativa está correta?",
         "options": [
-          "Improvisar",
-          "Parar e escalar para decisão técnica",
-          "Continuar porque já começou",
-          "Remover uma barreira para facilitar"
+          "Aguardar o final da atividade para comunicar qualquer desvio.",
+          "Continuar com base apenas no hábito da equipe, sem rever a condição real.",
+          "Substituir o controle previsto por improviso e registrar depois.",
+          "Quando aplicável, aterramento temporário e equipotencialização devem seguir projeto, procedimento e método definido por pessoa competente"
         ],
-        "correct": 1,
-        "a": "Condição não prevista exige interrupção e avaliação."
+        "correct": 3,
+        "a": "A resposta correta está alinhada ao controle específico apresentado neste bloco."
       },
       {
-        "q": "Qual afirmação melhor representa a cultura de segurança?",
+        "q": "Qual medida reduz diretamente a exposição? Considerando «Barreiras e sinalização», qual alternativa está correta?",
         "options": [
-          "Segurança é responsabilidade do técnico de segurança",
-          "Segurança é condição de execução compartilhada pela equipe",
-          "Só o supervisor pode parar a atividade",
-          "Produção sempre vem primeiro"
+          "Delimitação, barreiras e sinalização controlam acesso e proximidade",
+          "Continuar com base apenas no hábito da equipe, sem rever a condição real.",
+          "Substituir o controle previsto por improviso e registrar depois.",
+          "Aguardar o final da atividade para comunicar qualquer desvio."
         ],
-        "correct": 1,
-        "a": "A prevenção é responsabilidade de todos dentro dos papéis definidos."
+        "correct": 0,
+        "a": "A resposta correta está alinhada ao controle específico apresentado neste bloco."
       },
       {
-        "q": "Ao final de uma atividade, o que completa o ciclo seguro?",
+        "q": "Qual afirmação está correta para esta atividade? Considerando «EPI e EPC», qual alternativa está correta?",
         "options": [
-          "Sair rapidamente",
-          "Restabelecer condições conforme procedimento, comunicar estado e registrar o necessário",
-          "Deixar o equipamento como ficou",
-          "Apagar os registros"
+          "Substituir o controle previsto por improviso e registrar depois.",
+          "Continuar com base apenas no hábito da equipe, sem rever a condição real.",
+          "Priorize controles de engenharia e proteção coletiva quando aplicáveis",
+          "Aguardar o final da atividade para comunicar qualquer desvio."
+        ],
+        "correct": 2,
+        "a": "A resposta correta está alinhada ao controle específico apresentado neste bloco."
+      },
+      {
+        "q": "Qual é o principal critério de parada? Considerando «Proximidade», qual alternativa está correta?",
+        "options": [
+          "Continuar com base apenas no hábito da equipe, sem rever a condição real.",
+          "Atividades próximas de partes energizadas exigem avaliação da zona de trabalho, distâncias, barreiras e competência da equipe",
+          "Substituir o controle previsto por improviso e registrar depois.",
+          "Aguardar o final da atividade para comunicar qualquer desvio."
         ],
         "correct": 1,
-        "a": "O encerramento seguro inclui restauração, comunicação e registro conforme aplicável."
+        "a": "A resposta correta está alinhada ao controle específico apresentado neste bloco."
       }
     ],
     "references": [
-      "NR-10 MTE",
-      "NR-01 GRO/PGR",
-      "Procedimentos internos O&M Solar"
+      "NR-10 — Ministério do Trabalho e Emprego (texto vigente em 2026)",
+      "NR-01 — Gerenciamento de Riscos Ocupacionais",
+      "ABNT NBR 5410 — Instalações elétricas de baixa tensão (edição vigente)",
+      "Procedimentos elétricos e de bloqueio O&M Solar — versão controlada"
     ],
     "video": {
       "id": "su8A-stwb9c",
       "title": "NR-10 e energias renováveis — segurança em sistemas fotovoltaicos"
+    },
+    "case": {
+      "title": "Reenergização",
+      "scenario": "Antes do retorno, confirme pessoas, ferramentas, proteções, encerramento do bloqueio e comunicação conforme o procedimento.",
+      "question": "Qual deve ser a primeira decisão da equipe?",
+      "options": [
+        {
+          "text": "Interromper a exposição, aplicar os controles previstos e reavaliar antes de continuar.",
+          "correct": true
+        },
+        {
+          "text": "Continuar porque a atividade já começou e corrigir a condição durante a execução.",
+          "correct": false
+        },
+        {
+          "text": "Improvisar um controle temporário e comunicar somente depois da atividade.",
+          "correct": false
+        }
+      ]
     }
   },
   {
     "id": 2,
     "phase": "Fundamentos",
     "title": "Riscos Elétricos em Sistemas Fotovoltaicos – CC e CA",
-    "description": "Entenda onde a energia permanece presente em módulos, strings, inversores, quadros e circuitos CA.",
-    "objective": "energia CC, energia CA, tensão presente, corrente de curto, fontes de exposição",
+    "description": "Reconheça fontes de energia CC e CA, pontos de exposição e controles antes de intervir em sistemas fotovoltaicos.",
+    "objective": "Riscos Elétricos em Sistemas Fotovoltaicos",
     "icon": "⚡",
     "duration": 25,
     "slides": [
       {
-        "title": "CC e CA: duas realidades",
-        "body": "A parte CC começa nos módulos e strings e pode permanecer presente enquanto houver irradiância. A parte CA aparece após a conversão e distribuição, com fontes e controles próprios.",
+        "title": "Arquitetura CC e CA",
+        "body": "A UFV possui caminhos CC e CA com fontes e riscos distintos. O circuito deve ser identificado antes de medir, desconectar ou intervir.",
         "bullets": [
-          "Identifique o perigo",
-          "Controle a exposição",
-          "Confirme a condição segura"
+          "A UFV possui caminhos CC e CA com fontes e riscos distintos",
+          "O circuito deve ser identificado antes de medir, desconectar ou intervir",
+          "Confirme a fonte e o ponto de trabalho antes de medir ou desconectar."
         ],
-        "image": "https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-02-1.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Arquitetura CC e CA»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "O módulo continua gerando",
-        "body": "Desconectar uma parte do circuito não significa que o módulo deixou de gerar. Luz incidente mantém geração elétrica.",
+        "title": "Geração sob irradiância",
+        "body": "Módulos continuam produzindo energia quando recebem luz. A condição de geração precisa entrar na análise mesmo com o inversor desligado.",
         "bullets": [
-          "Identifique o perigo",
-          "Controle a exposição",
-          "Confirme a condição segura"
+          "Módulos continuam produzindo energia quando recebem luz",
+          "A condição de geração precisa entrar na análise mesmo com o inversor desligado",
+          "Confirme a fonte e o ponto de trabalho antes de medir ou desconectar."
         ],
-        "image": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-02-2.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Geração sob irradiância»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Corrente de curto não é pequena por ser solar",
-        "body": "Uma falha de conexão pode gerar arco, aquecimento e danos. Conectores e cabos devem ser tratados conforme especificação e procedimento.",
+        "title": "Tensão de string",
+        "body": "A tensão do arranjo depende da associação dos módulos e das condições do sistema. Confirme o circuito e a documentação antes da intervenção.",
         "bullets": [
-          "Aplique no contexto da UFV",
-          "Registre ou comunique quando necessário",
-          "Mantenha a barreira até o fim da atividade"
+          "A tensão do arranjo depende da associação dos módulos e das condições do sistema",
+          "Confirme o circuito e a documentação antes da intervenção",
+          "Confirme a fonte e o ponto de trabalho antes de medir ou desconectar."
         ],
-        "image": "https://images.unsplash.com/photo-1581092795360-fd1ca04f0952?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-02-3.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Tensão de string»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Conectores e polaridade",
-        "body": "Conexões incompatíveis, mal acopladas ou contaminadas podem aumentar resistência de contato, aquecimento e risco de arco. Use componentes compatíveis e confirme o encaixe.",
+        "title": "Corrente e curto",
+        "body": "Falhas de conexão podem produzir correntes elevadas, aquecimento e arco. Proteções reduzem consequências, mas não eliminam a exposição durante a intervenção.",
         "bullets": [
-          "Responda antes de avançar",
-          "Não improvise controle",
-          "Se houver dúvida, comunique e reavalie"
+          "Falhas de conexão podem produzir correntes elevadas, aquecimento e arco",
+          "Proteções reduzem consequências, mas não eliminam a exposição durante a intervenção",
+          "Confirme a fonte e o ponto de trabalho antes de medir ou desconectar."
         ],
-        "image": "https://images.unsplash.com/photo-1586864387967-d02ef85d93e8?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": true
+        "image": "media/treino-02-1.svg",
+        "checkpoint": true,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Corrente e curto»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Tensão presente",
-        "body": "A tensão pode existir entre condutores e para partes aterradas. Medição deve ser feita com instrumento adequado e método seguro.",
+        "title": "Conectores",
+        "body": "Conectores incompatíveis, mal acoplados ou contaminados podem aumentar resistência de contato e aquecimento. Use componentes compatíveis e verifique o acoplamento.",
         "bullets": [
-          "Identifique o perigo",
-          "Controle a exposição",
-          "Confirme a condição segura"
+          "Conectores incompatíveis, mal acoplados ou contaminados podem aumentar resistência de contato e aquecimento",
+          "Use componentes compatíveis e verifique o acoplamento",
+          "Confirme a fonte e o ponto de trabalho antes de medir ou desconectar."
         ],
-        "image": "https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-02-2.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Conectores»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Capacitores e inversores",
-        "body": "Após desligamento, componentes internos podem manter energia por algum tempo. Aguarde os tempos e confirme o estado conforme manual e procedimento do fabricante.",
+        "title": "Polaridade",
+        "body": "Polaridade incorreta pode causar falhas e danos. Identifique condutores e confirme a condição por método definido, sem improvisar.",
         "bullets": [
-          "Identifique o perigo",
-          "Controle a exposição",
-          "Confirme a condição segura"
+          "Polaridade incorreta pode causar falhas e danos",
+          "Identifique condutores e confirme a condição por método definido, sem improvisar",
+          "Confirme a fonte e o ponto de trabalho antes de medir ou desconectar."
         ],
-        "image": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-02-3.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Polaridade»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Seccionamento correto",
-        "body": "Identifique exatamente o circuito a intervir. Um seccionador aberto não substitui a análise das outras fontes possíveis.",
+        "title": "Inversor",
+        "body": "O inversor possui circuitos de entrada, conversão e saída. Acesso interno exige respeito ao manual, aos tempos de descarga e ao procedimento.",
         "bullets": [
-          "Identifique o perigo",
-          "Controle a exposição",
-          "Confirme a condição segura"
+          "O inversor possui circuitos de entrada, conversão e saída",
+          "Acesso interno exige respeito ao manual, aos tempos de descarga e ao procedimento",
+          "Confirme a fonte e o ponto de trabalho antes de medir ou desconectar."
         ],
-        "image": "https://images.unsplash.com/photo-1581092795360-fd1ca04f0952?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-02-1.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Inversor»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Ausência de tensão",
-        "body": "A confirmação deve ser feita no ponto de trabalho e com método apropriado. Não confie apenas em indicação de tela, LED ou aplicativo.",
+        "title": "Energia residual",
+        "body": "Capacitores e outros componentes podem permanecer energizados após desligamento. Aguarde o tempo especificado e confirme a condição segura.",
         "bullets": [
-          "Responda antes de avançar",
-          "Não improvise controle",
-          "Se houver dúvida, comunique e reavalie"
+          "Capacitores e outros componentes podem permanecer energizados após desligamento",
+          "Aguarde o tempo especificado e confirme a condição segura",
+          "Confirme a fonte e o ponto de trabalho antes de medir ou desconectar."
         ],
-        "image": "https://images.unsplash.com/photo-1586864387967-d02ef85d93e8?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": true
+        "image": "media/treino-02-2.svg",
+        "checkpoint": true,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Energia residual»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "CA de saída",
-        "body": "Transformadores, quadros e circuitos de saída podem apresentar tensões perigosas mesmo com partes CC isoladas. O controle precisa considerar o sistema completo.",
+        "title": "Quadros CC",
+        "body": "Avalie invólucro, conexões, proteção, sinais de aquecimento, identificação e integridade antes de abrir ou intervir.",
         "bullets": [
-          "Identifique o perigo",
-          "Controle a exposição",
-          "Confirme a condição segura"
+          "Avalie invólucro, conexões, proteção, sinais de aquecimento, identificação e integridade antes de abrir ou intervir",
+          "Aplicação de campo: Quadros CC.",
+          "Confirme a fonte e o ponto de trabalho antes de medir ou desconectar."
         ],
-        "image": "https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-02-3.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Quadros CC»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
+      },
+      {
+        "title": "Circuitos CA",
+        "body": "Transformadores, quadros e circuitos de saída podem permanecer energizados mesmo com partes CC isoladas. Analise o sistema completo.",
+        "bullets": [
+          "Transformadores, quadros e circuitos de saída podem permanecer energizados mesmo com partes CC isoladas",
+          "Analise o sistema completo",
+          "Confirme a fonte e o ponto de trabalho antes de medir ou desconectar."
+        ],
+        "image": "media/treino-02-1.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Circuitos CA»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
+      },
+      {
+        "title": "Medição segura",
+        "body": "Instrumento, categoria de medição, cabos e método precisam ser adequados. A medição deve minimizar a exposição ao ponto energizado.",
+        "bullets": [
+          "Instrumento, categoria de medição, cabos e método precisam ser adequados",
+          "A medição deve minimizar a exposição ao ponto energizado",
+          "Confirme a fonte e o ponto de trabalho antes de medir ou desconectar."
+        ],
+        "image": "media/treino-02-2.svg",
+        "checkpoint": true,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Medição segura»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
+      },
+      {
+        "title": "Falhas de cabos",
+        "body": "Isolação danificada, aquecimento, conectores deformados e cabos fora da rota são desvios técnicos que exigem controle e tratamento.",
+        "bullets": [
+          "Isolação danificada, aquecimento, conectores deformados e cabos fora da rota são desvios técnicos que exigem controle e tratamento",
+          "Aplicação de campo: Falhas de cabos.",
+          "Confirme a fonte e o ponto de trabalho antes de medir ou desconectar."
+        ],
+        "image": "media/treino-02-3.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Falhas de cabos»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
         "title": "Caso: string indisponível",
-        "body": "Uma string está fora de operação no monitoramento. Antes de abrir a caixa, confirme estado, isolamento, fontes presentes e autorização da atividade.",
+        "body": "Antes de abrir uma caixa de string fora de operação, confirme circuito, fontes presentes, estado operacional, autorização e método de intervenção.",
         "bullets": [
-          "Identifique o perigo",
-          "Controle a exposição",
-          "Confirme a condição segura"
+          "Antes de abrir uma caixa de string fora de operação, confirme circuito, fontes presentes, estado operacional, autorização e método de intervenção",
+          "Aplicação de campo: Caso: string indisponível.",
+          "Confirme a fonte e o ponto de trabalho antes de medir ou desconectar."
         ],
-        "image": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
-      },
-      {
-        "title": "Erro clássico",
-        "body": "Assumir que 'inversor desligado' significa 'toda a usina desenergizada' é uma conclusão incorreta. A análise precisa seguir o circuito e as fontes.",
-        "bullets": [
-          "Responda antes de avançar",
-          "Não improvise controle",
-          "Se houver dúvida, comunique e reavalie"
-        ],
-        "image": "https://images.unsplash.com/photo-1581092795360-fd1ca04f0952?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": true
+        "image": "media/treino-02-1.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Caso: string indisponível»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
         "title": "Checklist CC/CA",
-        "body": "Identifique circuito; fontes; seccionamento; bloqueio; ausência de tensão; condição dos conectores; EPI/EPC; área; comunicação.",
+        "body": "Identifique fontes, seccione, bloqueie quando aplicável, confirme condição elétrica, delimite a área, use proteção adequada e comunique.",
         "bullets": [
-          "Identifique o perigo",
-          "Controle a exposição",
-          "Confirme a condição segura"
+          "Identifique fontes, seccione, bloqueie quando aplicável, confirme condição elétrica, delimite a área, use proteção adequada e comunique",
+          "Aplicação de campo: Checklist CC/CA.",
+          "Confirme a fonte e o ponto de trabalho antes de medir ou desconectar."
         ],
-        "image": "https://images.unsplash.com/photo-1586864387967-d02ef85d93e8?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-02-2.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Checklist CC/CA»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Quando parar",
-        "body": "Medição incoerente, componente danificado, odor de aquecimento, arco, isolamento comprometido ou condição não prevista exigem interrupção e escalonamento.",
+        "title": "Critérios de parada",
+        "body": "Pare diante de tensão inesperada, polaridade incerta, circuito não identificado, componente incompatível ou dano que não possa ser controlado.",
         "bullets": [
-          "Identifique o perigo",
-          "Controle a exposição",
-          "Confirme a condição segura"
+          "Pare diante de tensão inesperada, polaridade incerta, circuito não identificado, componente incompatível ou dano que não possa ser controlado",
+          "Aplicação de campo: Critérios de parada.",
+          "Confirme a fonte e o ponto de trabalho antes de medir ou desconectar."
         ],
-        "image": "https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
-      },
-      {
-        "title": "Fixação",
-        "body": "Em FV, a pergunta não é apenas 'está desligado?'. Pergunte: 'de onde ainda pode vir energia e como eu provo que a exposição está controlada?'",
-        "bullets": [
-          "Aplique no contexto da UFV",
-          "Registre ou comunique quando necessário",
-          "Mantenha a barreira até o fim da atividade"
-        ],
-        "image": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
-      },
-      {
-        "title": "Fechamento",
-        "body": "Conhecer o caminho da energia é parte da segurança. Antes da intervenção, desenhe mentalmente o circuito e identifique cada fonte.",
-        "bullets": [
-          "Aplique no contexto da UFV",
-          "Registre ou comunique quando necessário",
-          "Mantenha a barreira até o fim da atividade"
-        ],
-        "image": "https://images.unsplash.com/photo-1581092795360-fd1ca04f0952?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-02-3.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Critérios de parada»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       }
     ],
     "questions": [
       {
-        "q": "Qual é a melhor abordagem de segurança em uma atividade relacionada a energia CC, energia CA, tensão presente, corrente de curto, fontes de exposição?",
+        "q": "Qual é a conduta tecnicamente mais adequada neste tema? Considerando «Arquitetura CC e CA», qual alternativa está correta?",
         "options": [
-          "Executar rapidamente e corrigir depois",
-          "Identificar a exposição, aplicar controles e confirmar a condição segura antes de executar",
-          "Confiar somente na experiência do operador",
-          "Improvisar um controle temporário sem comunicar"
+          "Continuar com base apenas no hábito da equipe, sem rever a condição real.",
+          "A UFV possui caminhos CC e CA com fontes e riscos distintos",
+          "Substituir o controle previsto por improviso e registrar depois.",
+          "Aguardar o final da atividade para comunicar qualquer desvio."
         ],
         "correct": 1,
-        "a": "Controle antes da exposição. Segurança precisa ser verificável."
+        "a": "A resposta correta está alinhada ao controle específico apresentado neste bloco."
       },
       {
-        "q": "Se uma condição relevante mudar durante a atividade, o que deve acontecer?",
+        "q": "Qual condição deve ser confirmada antes de avançar? Considerando «Geração sob irradiância», qual alternativa está correta?",
         "options": [
-          "Continuar para não perder produtividade",
-          "Parar, comunicar e reavaliar o risco antes de continuar",
-          "Ignorar se a equipe já estiver acostumada",
-          "Esperar o final da tarefa para registrar"
-        ],
-        "correct": 1,
-        "a": "Mudança de cenário exige nova avaliação e controle."
-      },
-      {
-        "q": "Qual princípio é mais importante ao escolher controles?",
-        "options": [
-          "Usar somente EPI",
-          "Priorizar controles que reduzam a exposição na fonte e usar barreiras complementares",
-          "Escolher o controle mais barato",
-          "Deixar a decisão para depois da execução"
-        ],
-        "correct": 1,
-        "a": "A prevenção começa na fonte e nas barreiras, não somente no comportamento individual."
-      },
-      {
-        "q": "O que fazer quando você não consegue demonstrar que uma condição está segura?",
-        "options": [
-          "Assumir que está segura",
-          "Executar com cuidado redobrado",
-          "Parar e buscar esclarecimento/controle adequado",
-          "Pedir para outra pessoa executar"
+          "Substituir o controle previsto por improviso e registrar depois.",
+          "Continuar com base apenas no hábito da equipe, sem rever a condição real.",
+          "Módulos continuam produzindo energia quando recebem luz",
+          "Aguardar o final da atividade para comunicar qualquer desvio."
         ],
         "correct": 2,
-        "a": "Dúvida sobre condição segura é motivo para não avançar."
+        "a": "A resposta correta está alinhada ao controle específico apresentado neste bloco."
       },
       {
-        "q": "Qual situação caracteriza um bom comportamento de segurança?",
+        "q": "Qual alternativa representa o controle correto? Considerando «Tensão de string», qual alternativa está correta?",
         "options": [
-          "Pular uma etapa porque a atividade é conhecida",
-          "Comunicar desvio e interromper quando o controle necessário não está disponível",
-          "Manter silêncio para evitar conflito",
-          "Adaptar o procedimento sem comunicar"
+          "A tensão do arranjo depende da associação dos módulos e das condições do sistema",
+          "Continuar com base apenas no hábito da equipe, sem rever a condição real.",
+          "Substituir o controle previsto por improviso e registrar depois.",
+          "Aguardar o final da atividade para comunicar qualquer desvio."
+        ],
+        "correct": 0,
+        "a": "A resposta correta está alinhada ao controle específico apresentado neste bloco."
+      },
+      {
+        "q": "O que caracteriza uma resposta segura nesta situação? Considerando «Corrente e curto», qual alternativa está correta?",
+        "options": [
+          "Aguardar o final da atividade para comunicar qualquer desvio.",
+          "Continuar com base apenas no hábito da equipe, sem rever a condição real.",
+          "Substituir o controle previsto por improviso e registrar depois.",
+          "Falhas de conexão podem produzir correntes elevadas, aquecimento e arco"
+        ],
+        "correct": 3,
+        "a": "A resposta correta está alinhada ao controle específico apresentado neste bloco."
+      },
+      {
+        "q": "Qual erro deve ser evitado no campo? Considerando «Conectores», qual alternativa está correta?",
+        "options": [
+          "Continuar com base apenas no hábito da equipe, sem rever a condição real.",
+          "Conectores incompatíveis, mal acoplados ou contaminados podem aumentar resistência de contato e aquecimento",
+          "Substituir o controle previsto por improviso e registrar depois.",
+          "Aguardar o final da atividade para comunicar qualquer desvio."
         ],
         "correct": 1,
-        "a": "A autoridade para interromper diante de risco é parte da cultura de prevenção."
+        "a": "A resposta correta está alinhada ao controle específico apresentado neste bloco."
       },
       {
-        "q": "Por que procedimentos e checklists são importantes?",
+        "q": "Qual informação é essencial para a decisão? Considerando «Polaridade», qual alternativa está correta?",
         "options": [
-          "Para aumentar burocracia",
-          "Para tornar controles críticos repetíveis e verificáveis",
-          "Para substituir treinamento",
-          "Para eliminar a necessidade de julgamento"
-        ],
-        "correct": 1,
-        "a": "Procedimentos ajudam a tornar barreiras críticas consistentes e rastreáveis."
-      },
-      {
-        "q": "Qual é uma pergunta útil antes de iniciar uma tarefa?",
-        "options": [
-          "Quanto tempo falta para terminar?",
-          "Quem será culpado se algo der errado?",
-          "O que pode me atingir e como vou controlar essa exposição?",
-          "Como posso fazer sem comunicar?"
+          "Substituir o controle previsto por improviso e registrar depois.",
+          "Continuar com base apenas no hábito da equipe, sem rever a condição real.",
+          "Polaridade incorreta pode causar falhas e danos",
+          "Aguardar o final da atividade para comunicar qualquer desvio."
         ],
         "correct": 2,
-        "a": "Comece pela exposição e pelos controles."
+        "a": "A resposta correta está alinhada ao controle específico apresentado neste bloco."
       },
       {
-        "q": "Um equipamento apresenta uma condição diferente da prevista. O que é mais seguro?",
+        "q": "Diante de uma condição diferente da prevista, o que fazer? Considerando «Inversor», qual alternativa está correta?",
         "options": [
-          "Improvisar",
-          "Parar e escalar para decisão técnica",
-          "Continuar porque já começou",
-          "Remover uma barreira para facilitar"
+          "Aguardar o final da atividade para comunicar qualquer desvio.",
+          "Continuar com base apenas no hábito da equipe, sem rever a condição real.",
+          "Substituir o controle previsto por improviso e registrar depois.",
+          "O inversor possui circuitos de entrada, conversão e saída"
         ],
-        "correct": 1,
-        "a": "Condição não prevista exige interrupção e avaliação."
+        "correct": 3,
+        "a": "A resposta correta está alinhada ao controle específico apresentado neste bloco."
       },
       {
-        "q": "Qual afirmação melhor representa a cultura de segurança?",
+        "q": "Qual medida reduz diretamente a exposição? Considerando «Energia residual», qual alternativa está correta?",
         "options": [
-          "Segurança é responsabilidade do técnico de segurança",
-          "Segurança é condição de execução compartilhada pela equipe",
-          "Só o supervisor pode parar a atividade",
-          "Produção sempre vem primeiro"
+          "Capacitores e outros componentes podem permanecer energizados após desligamento",
+          "Continuar com base apenas no hábito da equipe, sem rever a condição real.",
+          "Substituir o controle previsto por improviso e registrar depois.",
+          "Aguardar o final da atividade para comunicar qualquer desvio."
         ],
-        "correct": 1,
-        "a": "A prevenção é responsabilidade de todos dentro dos papéis definidos."
+        "correct": 0,
+        "a": "A resposta correta está alinhada ao controle específico apresentado neste bloco."
       },
       {
-        "q": "Ao final de uma atividade, o que completa o ciclo seguro?",
+        "q": "Qual afirmação está correta para esta atividade? Considerando «Quadros CC», qual alternativa está correta?",
         "options": [
-          "Sair rapidamente",
-          "Restabelecer condições conforme procedimento, comunicar estado e registrar o necessário",
-          "Deixar o equipamento como ficou",
-          "Apagar os registros"
+          "Substituir o controle previsto por improviso e registrar depois.",
+          "Continuar com base apenas no hábito da equipe, sem rever a condição real.",
+          "Avalie invólucro, conexões, proteção, sinais de aquecimento, identificação e integridade antes de abrir ou intervir",
+          "Aguardar o final da atividade para comunicar qualquer desvio."
+        ],
+        "correct": 2,
+        "a": "A resposta correta está alinhada ao controle específico apresentado neste bloco."
+      },
+      {
+        "q": "Qual é o principal critério de parada? Considerando «Circuitos CA», qual alternativa está correta?",
+        "options": [
+          "Continuar com base apenas no hábito da equipe, sem rever a condição real.",
+          "Transformadores, quadros e circuitos de saída podem permanecer energizados mesmo com partes CC isoladas",
+          "Substituir o controle previsto por improviso e registrar depois.",
+          "Aguardar o final da atividade para comunicar qualquer desvio."
         ],
         "correct": 1,
-        "a": "O encerramento seguro inclui restauração, comunicação e registro conforme aplicável."
+        "a": "A resposta correta está alinhada ao controle específico apresentado neste bloco."
       }
     ],
     "references": [
-      "NR-10 MTE",
-      "Manual de Auxílio à NR-10",
-      "Procedimentos internos O&M Solar"
-    ]
+      "NR-10 — Ministério do Trabalho e Emprego",
+      "ABNT NBR 16690 — Instalações elétricas de arranjos fotovoltaicos (edição vigente)",
+      "ABNT NBR 5410 — Instalações elétricas de baixa tensão (edição vigente)",
+      "Manuais dos fabricantes de módulos, conectores, inversores e quadros"
+    ],
+    "case": {
+      "title": "Caso: string indisponível",
+      "scenario": "Antes de abrir uma caixa de string fora de operação, confirme circuito, fontes presentes, estado operacional, autorização e método de intervenção.",
+      "question": "Qual deve ser a primeira decisão da equipe?",
+      "options": [
+        {
+          "text": "Interromper a exposição, aplicar os controles previstos e reavaliar antes de continuar.",
+          "correct": true
+        },
+        {
+          "text": "Continuar porque a atividade já começou e corrigir a condição durante a execução.",
+          "correct": false
+        },
+        {
+          "text": "Improvisar um controle temporário e comunicar somente depois da atividade.",
+          "correct": false
+        }
+      ]
+    }
   },
   {
     "id": 3,
     "phase": "Fundamentos",
     "title": "LOTO – Bloqueio, Etiquetagem e Controle de Energias",
-    "description": "Aprenda a controlar fontes de energia antes de intervir em equipamentos e sistemas.",
-    "objective": "isolamento, bloqueio, etiquetagem, teste e liberação",
-    "icon": "⚡",
+    "description": "Controle energias perigosas com uma metodologia de bloqueio, etiquetagem e verificação compatível com a atividade.",
+    "objective": "LOTO",
+    "icon": "🔒",
     "duration": 25,
     "slides": [
       {
-        "title": "O que é LOTO",
-        "body": "LOTO é um método de controle de energias perigosas baseado em identificar, isolar, bloquear, sinalizar e verificar a condição segura antes da intervenção.",
+        "title": "Controle de energia perigosa",
+        "body": "LOTO é uma metodologia para impedir que energias perigosas alcancem trabalhadores durante intervenção. Deve ser compatibilizada com NR-10, NR-12, NR-01 e procedimento interno.",
         "bullets": [
-          "Identifique o perigo",
-          "Controle a exposição",
-          "Confirme a condição segura"
+          "LOTO é uma metodologia para impedir que energias perigosas alcancem trabalhadores durante intervenção",
+          "Deve ser compatibilizada com NR-10, NR-12, NR-01 e procedimento interno",
+          "Bloqueie a fonte e verifique a condição controlada antes de tocar."
         ],
-        "image": "https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-03-1.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Controle de energia perigosa»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Mapeie todas as energias",
-        "body": "Considere energia elétrica CC e CA, mecânica, hidráulica, pneumática, gravitacional, térmica e qualquer energia armazenada relevante ao equipamento.",
+        "title": "Fontes de energia",
+        "body": "Liste energia elétrica CC/CA, mecânica, gravitacional, térmica, hidráulica, pneumática ou outra que possa gerar movimento ou liberação inesperada.",
         "bullets": [
-          "Identifique o perigo",
-          "Controle a exposição",
-          "Confirme a condição segura"
+          "Liste energia elétrica CC/CA, mecânica, gravitacional, térmica, hidráulica, pneumática ou outra que possa gerar movimento ou liberação inesperada",
+          "Aplicação de campo: Fontes de energia.",
+          "Bloqueie a fonte e verifique a condição controlada antes de tocar."
         ],
-        "image": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-03-2.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Fontes de energia»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Desligar não é bloquear",
-        "body": "Um botão em OFF pode ser alterado por outra pessoa. O bloqueio cria uma barreira física contra acionamento não autorizado, conforme o procedimento.",
+        "title": "Preparação",
+        "body": "Antes do desligamento, comunique escopo, equipamento e limites. Todos os envolvidos precisam entender o estado que será criado.",
         "bullets": [
-          "Aplique no contexto da UFV",
-          "Registre ou comunique quando necessário",
-          "Mantenha a barreira até o fim da atividade"
+          "Antes do desligamento, comunique escopo, equipamento e limites",
+          "Todos os envolvidos precisam entender o estado que será criado",
+          "Bloqueie a fonte e verifique a condição controlada antes de tocar."
         ],
-        "image": "https://images.unsplash.com/photo-1581092795360-fd1ca04f0952?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-03-3.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Preparação»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Quem controla a chave?",
-        "body": "A regra deve definir responsabilidade e rastreabilidade. O trabalhador precisa saber qual bloqueio está sob seu controle e como ocorre a liberação.",
+        "title": "Seccionamento",
+        "body": "Execute o desligamento e seccionamento previstos, identificando fisicamente o dispositivo correto. Nome no supervisório não substitui identificação de campo.",
         "bullets": [
-          "Responda antes de avançar",
-          "Não improvise controle",
-          "Se houver dúvida, comunique e reavalie"
+          "Execute o desligamento e seccionamento previstos, identificando fisicamente o dispositivo correto",
+          "Nome no supervisório não substitui identificação de campo",
+          "Bloqueie a fonte e verifique a condição controlada antes de tocar."
         ],
-        "image": "https://images.unsplash.com/photo-1586864387967-d02ef85d93e8?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": true
+        "image": "media/treino-03-1.svg",
+        "checkpoint": true,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Seccionamento»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Etiquetagem",
-        "body": "A identificação deve comunicar claramente quem bloqueou, por que, quando e qual equipamento está sob intervenção, conforme o padrão interno.",
+        "title": "Bloqueio",
+        "body": "Use dispositivo que impeça operação não autorizada e etiqueta com informação clara, conforme o sistema adotado pela empresa.",
         "bullets": [
-          "Identifique o perigo",
-          "Controle a exposição",
-          "Confirme a condição segura"
+          "Use dispositivo que impeça operação não autorizada e etiqueta com informação clara, conforme o sistema adotado pela empresa",
+          "Aplicação de campo: Bloqueio.",
+          "Bloqueie a fonte e verifique a condição controlada antes de tocar."
         ],
-        "image": "https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-03-2.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Bloqueio»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Teste de energia zero",
-        "body": "Depois do isolamento e bloqueio, a condição segura precisa ser verificada com método apropriado. Teste e instrumento devem ser adequados à energia envolvida.",
+        "title": "Energia residual",
+        "body": "Elimine, contenha ou aguarde energia residual. Capacitores, partes móveis e gravidade são exemplos comuns em O&M.",
         "bullets": [
-          "Identifique o perigo",
-          "Controle a exposição",
-          "Confirme a condição segura"
+          "Elimine, contenha ou aguarde energia residual",
+          "Capacitores, partes móveis e gravidade são exemplos comuns em O&M",
+          "Bloqueie a fonte e verifique a condição controlada antes de tocar."
         ],
-        "image": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-03-3.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Energia residual»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Energia armazenada",
-        "body": "Capacitores, partes móveis, cargas suspensas e pressão podem continuar perigosos depois do desligamento. Dissipe, descarregue ou imobilize conforme procedimento.",
+        "title": "Verificação",
+        "body": "Antes de tocar, confirme que a energia perigosa está controlada pelo método previsto. A verificação precisa corresponder ao risco.",
         "bullets": [
-          "Identifique o perigo",
-          "Controle a exposição",
-          "Confirme a condição segura"
+          "Antes de tocar, confirme que a energia perigosa está controlada pelo método previsto",
+          "A verificação precisa corresponder ao risco",
+          "Bloqueie a fonte e verifique a condição controlada antes de tocar."
         ],
-        "image": "https://images.unsplash.com/photo-1581092795360-fd1ca04f0952?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-03-1.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Verificação»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Trabalho em equipe",
-        "body": "Cada pessoa deve seguir o método de bloqueio definido. Nunca retire o bloqueio de outra pessoa sem o procedimento formal aplicável.",
+        "title": "Bloqueio individual",
+        "body": "Em bloqueios de equipe, cada trabalhador deve ter sua proteção individual conforme o sistema adotado. O líder não deve ser a única barreira.",
         "bullets": [
-          "Responda antes de avançar",
-          "Não improvise controle",
-          "Se houver dúvida, comunique e reavalie"
+          "Em bloqueios de equipe, cada trabalhador deve ter sua proteção individual conforme o sistema adotado",
+          "O líder não deve ser a única barreira",
+          "Bloqueie a fonte e verifique a condição controlada antes de tocar."
         ],
-        "image": "https://images.unsplash.com/photo-1586864387967-d02ef85d93e8?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": true
+        "image": "media/treino-03-2.svg",
+        "checkpoint": true,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Bloqueio individual»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Retorno à operação",
-        "body": "A área deve ser inspecionada, ferramentas retiradas, pessoas informadas e condições normais restabelecidas antes da reenergização.",
+        "title": "Troca de turno",
+        "body": "A continuidade exige transferência formal do controle. Quem entra deve assumir sua proteção antes de entrar na zona de exposição.",
         "bullets": [
-          "Identifique o perigo",
-          "Controle a exposição",
-          "Confirme a condição segura"
+          "A continuidade exige transferência formal do controle",
+          "Quem entra deve assumir sua proteção antes de entrar na zona de exposição",
+          "Bloqueie a fonte e verifique a condição controlada antes de tocar."
         ],
-        "image": "https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-03-3.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Troca de turno»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Caso: manutenção em tracker",
-        "body": "O tracker precisa de intervenção. Desligar o comando não basta se o motor ou movimento puder ser acionado remotamente. O controle precisa impedir movimento inesperado.",
+        "title": "Retirada",
+        "body": "Retire bloqueios somente conforme a regra definida, após verificar pessoas, ferramentas, proteções e comunicação.",
         "bullets": [
-          "Identifique o perigo",
-          "Controle a exposição",
-          "Confirme a condição segura"
+          "Retire bloqueios somente conforme a regra definida, após verificar pessoas, ferramentas, proteções e comunicação",
+          "Aplicação de campo: Retirada.",
+          "Bloqueie a fonte e verifique a condição controlada antes de tocar."
         ],
-        "image": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-03-1.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Retirada»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Erro clássico",
-        "body": "Confiar na memória ou em 'ninguém vai ligar' não é controle. LOTO existe para tornar a condição segura independente da intenção das pessoas.",
+        "title": "LOTO em FV",
+        "body": "Considere geração CC, circuitos CA, capacitores e, em trackers, energia mecânica e movimento. Um único comando pode não controlar todas as fontes.",
         "bullets": [
-          "Responda antes de avançar",
-          "Não improvise controle",
-          "Se houver dúvida, comunique e reavalie"
+          "Considere geração CC, circuitos CA, capacitores e, em trackers, energia mecânica e movimento",
+          "Um único comando pode não controlar todas as fontes",
+          "Bloqueie a fonte e verifique a condição controlada antes de tocar."
         ],
-        "image": "https://images.unsplash.com/photo-1581092795360-fd1ca04f0952?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": true
+        "image": "media/treino-03-2.svg",
+        "checkpoint": true,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «LOTO em FV»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Checklist LOTO",
-        "body": "Identificar; desligar; isolar; bloquear; etiquetar; dissipar energia; testar; delimitar; executar; retirar pessoas; restaurar controladamente.",
+        "title": "Falha de bloqueio",
+        "body": "Se o dispositivo estiver danificado, ausente ou aplicado ao equipamento errado, interrompa. Não aceite uma proteção que não seja efetiva.",
         "bullets": [
-          "Identifique o perigo",
-          "Controle a exposição",
-          "Confirme a condição segura"
+          "Se o dispositivo estiver danificado, ausente ou aplicado ao equipamento errado, interrompa",
+          "Não aceite uma proteção que não seja efetiva",
+          "Bloqueie a fonte e verifique a condição controlada antes de tocar."
         ],
-        "image": "https://images.unsplash.com/photo-1586864387967-d02ef85d93e8?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-03-3.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Falha de bloqueio»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Se o procedimento não fecha",
-        "body": "Se uma fonte não pode ser isolada ou verificada, pare e escale. Não improvise um bloqueio que não ofereça controle confiável.",
+        "title": "Caso: tracker",
+        "body": "Uma manutenção de tracker exige controle elétrico e mecânico. O desligamento do motor isoladamente não prova que o movimento perigoso está controlado.",
         "bullets": [
-          "Identifique o perigo",
-          "Controle a exposição",
-          "Confirme a condição segura"
+          "Uma manutenção de tracker exige controle elétrico e mecânico",
+          "O desligamento do motor isoladamente não prova que o movimento perigoso está controlado",
+          "Bloqueie a fonte e verifique a condição controlada antes de tocar."
         ],
-        "image": "https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-03-1.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Caso: tracker»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Fixação",
-        "body": "A pergunta-chave: outra pessoa consegue restaurar a energia enquanto estou exposto? Se sim, o controle ainda não está adequado.",
+        "title": "Liberação",
+        "body": "Após concluir, confirme recomposição, retirada de pessoas e ferramentas, fechamento de proteções e comunicação antes do retorno.",
         "bullets": [
-          "Aplique no contexto da UFV",
-          "Registre ou comunique quando necessário",
-          "Mantenha a barreira até o fim da atividade"
+          "Após concluir, confirme recomposição, retirada de pessoas e ferramentas, fechamento de proteções e comunicação antes do retorno",
+          "Aplicação de campo: Liberação.",
+          "Bloqueie a fonte e verifique a condição controlada antes de tocar."
         ],
-        "image": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-03-2.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Liberação»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Fechamento",
-        "body": "LOTO transforma intenção em barreira. O objetivo é impedir que a energia retorne enquanto alguém ainda estiver exposto.",
+        "title": "Critérios de parada",
+        "body": "Pare se houver fonte não identificada, bloqueio incorreto, energia residual não controlada ou impossibilidade de verificar a condição segura.",
         "bullets": [
-          "Aplique no contexto da UFV",
-          "Registre ou comunique quando necessário",
-          "Mantenha a barreira até o fim da atividade"
+          "Pare se houver fonte não identificada, bloqueio incorreto, energia residual não controlada ou impossibilidade de verificar a condição segura",
+          "Aplicação de campo: Critérios de parada.",
+          "Bloqueie a fonte e verifique a condição controlada antes de tocar."
         ],
-        "image": "https://images.unsplash.com/photo-1581092795360-fd1ca04f0952?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-03-3.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Critérios de parada»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       }
     ],
     "questions": [
       {
-        "q": "Qual é a melhor abordagem de segurança em uma atividade relacionada a isolamento, bloqueio, etiquetagem, teste e liberação?",
+        "q": "Qual é a conduta tecnicamente mais adequada neste tema? Considerando «Controle de energia perigosa», qual alternativa está correta?",
         "options": [
-          "Executar rapidamente e corrigir depois",
-          "Identificar a exposição, aplicar controles e confirmar a condição segura antes de executar",
-          "Confiar somente na experiência do operador",
-          "Improvisar um controle temporário sem comunicar"
+          "Continuar com base apenas no hábito da equipe, sem rever a condição real.",
+          "LOTO é uma metodologia para impedir que energias perigosas alcancem trabalhadores durante intervenção",
+          "Substituir o controle previsto por improviso e registrar depois.",
+          "Aguardar o final da atividade para comunicar qualquer desvio."
         ],
         "correct": 1,
-        "a": "Controle antes da exposição. Segurança precisa ser verificável."
+        "a": "A resposta correta está alinhada ao controle específico apresentado neste bloco."
       },
       {
-        "q": "Se uma condição relevante mudar durante a atividade, o que deve acontecer?",
+        "q": "Qual condição deve ser confirmada antes de avançar? Considerando «Fontes de energia», qual alternativa está correta?",
         "options": [
-          "Continuar para não perder produtividade",
-          "Parar, comunicar e reavaliar o risco antes de continuar",
-          "Ignorar se a equipe já estiver acostumada",
-          "Esperar o final da tarefa para registrar"
-        ],
-        "correct": 1,
-        "a": "Mudança de cenário exige nova avaliação e controle."
-      },
-      {
-        "q": "Qual princípio é mais importante ao escolher controles?",
-        "options": [
-          "Usar somente EPI",
-          "Priorizar controles que reduzam a exposição na fonte e usar barreiras complementares",
-          "Escolher o controle mais barato",
-          "Deixar a decisão para depois da execução"
-        ],
-        "correct": 1,
-        "a": "A prevenção começa na fonte e nas barreiras, não somente no comportamento individual."
-      },
-      {
-        "q": "O que fazer quando você não consegue demonstrar que uma condição está segura?",
-        "options": [
-          "Assumir que está segura",
-          "Executar com cuidado redobrado",
-          "Parar e buscar esclarecimento/controle adequado",
-          "Pedir para outra pessoa executar"
+          "Substituir o controle previsto por improviso e registrar depois.",
+          "Continuar com base apenas no hábito da equipe, sem rever a condição real.",
+          "Liste energia elétrica CC/CA, mecânica, gravitacional, térmica, hidráulica, pneumática ou outra que possa gerar movimento ou liberação inesperada",
+          "Aguardar o final da atividade para comunicar qualquer desvio."
         ],
         "correct": 2,
-        "a": "Dúvida sobre condição segura é motivo para não avançar."
+        "a": "A resposta correta está alinhada ao controle específico apresentado neste bloco."
       },
       {
-        "q": "Qual situação caracteriza um bom comportamento de segurança?",
+        "q": "Qual alternativa representa o controle correto? Considerando «Preparação», qual alternativa está correta?",
         "options": [
-          "Pular uma etapa porque a atividade é conhecida",
-          "Comunicar desvio e interromper quando o controle necessário não está disponível",
-          "Manter silêncio para evitar conflito",
-          "Adaptar o procedimento sem comunicar"
+          "Antes do desligamento, comunique escopo, equipamento e limites",
+          "Continuar com base apenas no hábito da equipe, sem rever a condição real.",
+          "Substituir o controle previsto por improviso e registrar depois.",
+          "Aguardar o final da atividade para comunicar qualquer desvio."
+        ],
+        "correct": 0,
+        "a": "A resposta correta está alinhada ao controle específico apresentado neste bloco."
+      },
+      {
+        "q": "O que caracteriza uma resposta segura nesta situação? Considerando «Seccionamento», qual alternativa está correta?",
+        "options": [
+          "Aguardar o final da atividade para comunicar qualquer desvio.",
+          "Continuar com base apenas no hábito da equipe, sem rever a condição real.",
+          "Substituir o controle previsto por improviso e registrar depois.",
+          "Execute o desligamento e seccionamento previstos, identificando fisicamente o dispositivo correto"
+        ],
+        "correct": 3,
+        "a": "A resposta correta está alinhada ao controle específico apresentado neste bloco."
+      },
+      {
+        "q": "Qual erro deve ser evitado no campo? Considerando «Bloqueio», qual alternativa está correta?",
+        "options": [
+          "Continuar com base apenas no hábito da equipe, sem rever a condição real.",
+          "Use dispositivo que impeça operação não autorizada e etiqueta com informação clara, conforme o sistema adotado pela empresa",
+          "Substituir o controle previsto por improviso e registrar depois.",
+          "Aguardar o final da atividade para comunicar qualquer desvio."
         ],
         "correct": 1,
-        "a": "A autoridade para interromper diante de risco é parte da cultura de prevenção."
+        "a": "A resposta correta está alinhada ao controle específico apresentado neste bloco."
       },
       {
-        "q": "Por que procedimentos e checklists são importantes?",
+        "q": "Qual informação é essencial para a decisão? Considerando «Energia residual», qual alternativa está correta?",
         "options": [
-          "Para aumentar burocracia",
-          "Para tornar controles críticos repetíveis e verificáveis",
-          "Para substituir treinamento",
-          "Para eliminar a necessidade de julgamento"
-        ],
-        "correct": 1,
-        "a": "Procedimentos ajudam a tornar barreiras críticas consistentes e rastreáveis."
-      },
-      {
-        "q": "Qual é uma pergunta útil antes de iniciar uma tarefa?",
-        "options": [
-          "Quanto tempo falta para terminar?",
-          "Quem será culpado se algo der errado?",
-          "O que pode me atingir e como vou controlar essa exposição?",
-          "Como posso fazer sem comunicar?"
+          "Substituir o controle previsto por improviso e registrar depois.",
+          "Continuar com base apenas no hábito da equipe, sem rever a condição real.",
+          "Elimine, contenha ou aguarde energia residual",
+          "Aguardar o final da atividade para comunicar qualquer desvio."
         ],
         "correct": 2,
-        "a": "Comece pela exposição e pelos controles."
+        "a": "A resposta correta está alinhada ao controle específico apresentado neste bloco."
       },
       {
-        "q": "Um equipamento apresenta uma condição diferente da prevista. O que é mais seguro?",
+        "q": "Diante de uma condição diferente da prevista, o que fazer? Considerando «Verificação», qual alternativa está correta?",
         "options": [
-          "Improvisar",
-          "Parar e escalar para decisão técnica",
-          "Continuar porque já começou",
-          "Remover uma barreira para facilitar"
+          "Aguardar o final da atividade para comunicar qualquer desvio.",
+          "Continuar com base apenas no hábito da equipe, sem rever a condição real.",
+          "Substituir o controle previsto por improviso e registrar depois.",
+          "Antes de tocar, confirme que a energia perigosa está controlada pelo método previsto"
         ],
-        "correct": 1,
-        "a": "Condição não prevista exige interrupção e avaliação."
+        "correct": 3,
+        "a": "A resposta correta está alinhada ao controle específico apresentado neste bloco."
       },
       {
-        "q": "Qual afirmação melhor representa a cultura de segurança?",
+        "q": "Qual medida reduz diretamente a exposição? Considerando «Bloqueio individual», qual alternativa está correta?",
         "options": [
-          "Segurança é responsabilidade do técnico de segurança",
-          "Segurança é condição de execução compartilhada pela equipe",
-          "Só o supervisor pode parar a atividade",
-          "Produção sempre vem primeiro"
+          "Em bloqueios de equipe, cada trabalhador deve ter sua proteção individual conforme o sistema adotado",
+          "Continuar com base apenas no hábito da equipe, sem rever a condição real.",
+          "Substituir o controle previsto por improviso e registrar depois.",
+          "Aguardar o final da atividade para comunicar qualquer desvio."
         ],
-        "correct": 1,
-        "a": "A prevenção é responsabilidade de todos dentro dos papéis definidos."
+        "correct": 0,
+        "a": "A resposta correta está alinhada ao controle específico apresentado neste bloco."
       },
       {
-        "q": "Ao final de uma atividade, o que completa o ciclo seguro?",
+        "q": "Qual afirmação está correta para esta atividade? Considerando «Troca de turno», qual alternativa está correta?",
         "options": [
-          "Sair rapidamente",
-          "Restabelecer condições conforme procedimento, comunicar estado e registrar o necessário",
-          "Deixar o equipamento como ficou",
-          "Apagar os registros"
+          "Substituir o controle previsto por improviso e registrar depois.",
+          "Continuar com base apenas no hábito da equipe, sem rever a condição real.",
+          "A continuidade exige transferência formal do controle",
+          "Aguardar o final da atividade para comunicar qualquer desvio."
+        ],
+        "correct": 2,
+        "a": "A resposta correta está alinhada ao controle específico apresentado neste bloco."
+      },
+      {
+        "q": "Qual é o principal critério de parada? Considerando «Retirada», qual alternativa está correta?",
+        "options": [
+          "Continuar com base apenas no hábito da equipe, sem rever a condição real.",
+          "Retire bloqueios somente conforme a regra definida, após verificar pessoas, ferramentas, proteções e comunicação",
+          "Substituir o controle previsto por improviso e registrar depois.",
+          "Aguardar o final da atividade para comunicar qualquer desvio."
         ],
         "correct": 1,
-        "a": "O encerramento seguro inclui restauração, comunicação e registro conforme aplicável."
+        "a": "A resposta correta está alinhada ao controle específico apresentado neste bloco."
       }
     ],
     "references": [
-      "NR-10 MTE",
-      "NR-12 MTE",
-      "Procedimentos internos O&M Solar"
+      "NR-10 — Ministério do Trabalho e Emprego",
+      "NR-12 — Segurança no Trabalho em Máquinas e Equipamentos, quando aplicável",
+      "NR-01 — Gerenciamento de Riscos Ocupacionais",
+      "Procedimento interno O&M Solar para bloqueio e controle de energias — versão controlada"
     ],
     "video": {
       "id": "Zo-073SL_94",
-      "title": "LOTO — bloqueio e etiquetagem"
+      "title": "Sistema LOTO — Bloqueio e Etiquetagem"
+    },
+    "case": {
+      "title": "Caso: tracker",
+      "scenario": "Uma manutenção de tracker exige controle elétrico e mecânico. O desligamento do motor isoladamente não prova que o movimento perigoso está controlado.",
+      "question": "Qual deve ser a primeira decisão da equipe?",
+      "options": [
+        {
+          "text": "Interromper a exposição, aplicar os controles previstos e reavaliar antes de continuar.",
+          "correct": true
+        },
+        {
+          "text": "Continuar porque a atividade já começou e corrigir a condição durante a execução.",
+          "correct": false
+        },
+        {
+          "text": "Improvisar um controle temporário e comunicar somente depois da atividade.",
+          "correct": false
+        }
+      ]
     }
   },
   {
     "id": 4,
     "phase": "Fundamentos",
     "title": "Arco Elétrico e Segurança em Painéis",
-    "description": "Reconheça condições que podem gerar arco elétrico e saiba quais barreiras e controles devem existir.",
-    "objective": "arco elétrico, energia incidente, distância, painéis e controles",
-    "icon": "⚡",
+    "description": "Entenda o mecanismo do arco elétrico e os controles necessários para reduzir a exposição em painéis e equipamentos.",
+    "objective": "Arco Elétrico e Segurança em Painéis",
+    "icon": "🔥",
     "duration": 25,
     "slides": [
       {
-        "title": "O que você precisa dominar",
-        "body": "Neste treinamento vamos tratar de arco elétrico, energia incidente, distância, painéis e controles. O objetivo é reconhecer a exposição, selecionar controles e tomar decisões seguras no campo.",
+        "title": "Mecanismo do arco",
+        "body": "Arco elétrico é uma descarga capaz de liberar calor, luz, pressão e partículas. Em painéis FV, o risco depende da energia disponível e das condições do circuito.",
         "bullets": [
-          "Identifique o perigo",
-          "Controle a exposição",
-          "Confirme a condição segura"
+          "Arco elétrico é uma descarga capaz de liberar calor, luz, pressão e partículas",
+          "Em painéis FV, o risco depende da energia disponível e das condições do circuito",
+          "Reduza a exposição antes do diagnóstico e não remova barreiras sem condição segura."
         ],
-        "image": "https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-04-1.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Mecanismo do arco»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Onde esse risco aparece na UFV",
-        "body": "Observe equipamentos, circulação, ferramentas, ambiente e comportamento. Em uma usina, a mesma atividade pode mudar de risco conforme local e condição.",
+        "title": "Pontos de ocorrência",
+        "body": "Conexões CC, caixas, inversores, QGBT e seccionadores podem apresentar falhas capazes de iniciar arco. Identifique os pontos críticos da instalação.",
         "bullets": [
-          "Identifique o perigo",
-          "Controle a exposição",
-          "Confirme a condição segura"
+          "Conexões CC, caixas, inversores, QGBT e seccionadores podem apresentar falhas capazes de iniciar arco",
+          "Identifique os pontos críticos da instalação",
+          "Reduza a exposição antes do diagnóstico e não remova barreiras sem condição segura."
         ],
-        "image": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-04-2.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Pontos de ocorrência»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Identifique o mecanismo de dano",
-        "body": "Pergunte qual é o mecanismo capaz de causar lesão neste tema: energia, movimento, queda, contato, exposição ambiental, produto ou falha de comunicação.",
+        "title": "Curto-circuito",
+        "body": "Um curto cria um caminho de baixa impedância e pode elevar rapidamente a corrente. Proteções limitam duração e energia, mas não eliminam a necessidade de controle.",
         "bullets": [
-          "Aplique no contexto da UFV",
-          "Registre ou comunique quando necessário",
-          "Mantenha a barreira até o fim da atividade"
+          "Um curto cria um caminho de baixa impedância e pode elevar rapidamente a corrente",
+          "Proteções limitam duração e energia, mas não eliminam a necessidade de controle",
+          "Reduza a exposição antes do diagnóstico e não remova barreiras sem condição segura."
         ],
-        "image": "https://images.unsplash.com/photo-1581092795360-fd1ca04f0952?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-04-3.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Curto-circuito»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Checkpoint 1 — pare e pense",
-        "body": "Antes de executar, descreva mentalmente: perigo → exposição → consequência → controle. Se uma etapa não estiver clara, pare e esclareça.",
+        "title": "Conexão frouxa",
+        "body": "Torque inadequado, corrosão, contaminação e incompatibilidade podem aumentar resistência de contato e aquecimento. Siga especificações do fabricante.",
         "bullets": [
-          "Responda antes de avançar",
-          "Não improvise controle",
-          "Se houver dúvida, comunique e reavalie"
+          "Torque inadequado, corrosão, contaminação e incompatibilidade podem aumentar resistência de contato e aquecimento",
+          "Siga especificações do fabricante",
+          "Reduza a exposição antes do diagnóstico e não remova barreiras sem condição segura."
         ],
-        "image": "https://images.unsplash.com/photo-1586864387967-d02ef85d93e8?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": true
+        "image": "media/treino-04-1.svg",
+        "checkpoint": true,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Conexão frouxa»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Controle na fonte",
-        "body": "Sempre que possível, reduza o risco antes da pessoa entrar na zona de exposição. Use barreiras, isolamento, organização e procedimentos antes de depender somente do comportamento individual.",
+        "title": "Seccionamento",
+        "body": "Antes de abrir painel, identifique fontes, circuito e condição de energia. Seccione pelo dispositivo correto e siga o procedimento.",
         "bullets": [
-          "Identifique o perigo",
-          "Controle a exposição",
-          "Confirme a condição segura"
+          "Antes de abrir painel, identifique fontes, circuito e condição de energia",
+          "Seccione pelo dispositivo correto e siga o procedimento",
+          "Reduza a exposição antes do diagnóstico e não remova barreiras sem condição segura."
         ],
-        "image": "https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-04-2.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Seccionamento»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Condição segura",
-        "body": "Para este tema, condição segura significa que os controles relevantes foram verificados. Não confie apenas em aparência, hábito ou experiência anterior.",
+        "title": "Invólucros e barreiras",
+        "body": "Portas, tampas e barreiras são controles de engenharia. Não remova uma proteção sem garantir a condição de trabalho prevista.",
         "bullets": [
-          "Identifique o perigo",
-          "Controle a exposição",
-          "Confirme a condição segura"
+          "Portas, tampas e barreiras são controles de engenharia",
+          "Não remova uma proteção sem garantir a condição de trabalho prevista",
+          "Reduza a exposição antes do diagnóstico e não remova barreiras sem condição segura."
         ],
-        "image": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-04-3.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Invólucros e barreiras»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Comunicação operacional",
-        "body": "Quem executa precisa saber o escopo, as limitações e os sinais de parada. Quando houver mudança relevante, comunique antes de continuar.",
+        "title": "Ferramentas",
+        "body": "Objetos metálicos podem criar caminhos de corrente. Organize ferramentas e utilize equipamentos adequados ao serviço.",
         "bullets": [
-          "Identifique o perigo",
-          "Controle a exposição",
-          "Confirme a condição segura"
+          "Objetos metálicos podem criar caminhos de corrente",
+          "Organize ferramentas e utilize equipamentos adequados ao serviço",
+          "Reduza a exposição antes do diagnóstico e não remova barreiras sem condição segura."
         ],
-        "image": "https://images.unsplash.com/photo-1581092795360-fd1ca04f0952?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-04-1.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Ferramentas»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Checkpoint 2 — o cenário mudou",
-        "body": "Se surgir uma condição não prevista, a resposta segura é interromper, proteger a equipe, comunicar e reavaliar o risco. Não 'adapte no improviso'.",
+        "title": "Medição",
+        "body": "Diagnóstico elétrico exige instrumento, método e posicionamento seguros. Uma medição improvisada pode criar o próprio acidente que se pretende investigar.",
         "bullets": [
-          "Responda antes de avançar",
-          "Não improvise controle",
-          "Se houver dúvida, comunique e reavalie"
+          "Diagnóstico elétrico exige instrumento, método e posicionamento seguros",
+          "Uma medição improvisada pode criar o próprio acidente que se pretende investigar",
+          "Reduza a exposição antes do diagnóstico e não remova barreiras sem condição segura."
         ],
-        "image": "https://images.unsplash.com/photo-1586864387967-d02ef85d93e8?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": true
+        "image": "media/treino-04-2.svg",
+        "checkpoint": true,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Medição»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Erro comum no campo",
-        "body": "Um erro recorrente é normalizar pequenas anomalias porque 'sempre foi assim'. Desvio repetido não deixa de ser risco por ser familiar.",
+        "title": "Proteção contra arco",
+        "body": "Proteção depende de projeto, dispositivos, manutenção e procedimentos. Não aplique um limite genérico de uma instalação em outra.",
         "bullets": [
-          "Identifique o perigo",
-          "Controle a exposição",
-          "Confirme a condição segura"
+          "Proteção depende de projeto, dispositivos, manutenção e procedimentos",
+          "Não aplique um limite genérico de uma instalação em outra",
+          "Reduza a exposição antes do diagnóstico e não remova barreiras sem condição segura."
         ],
-        "image": "https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-04-3.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Proteção contra arco»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Aplicação prática — ARC",
-        "body": "Imagine uma atividade real relacionada a arco elétrico e segurança em painéis. Antes de iniciar, faça uma inspeção do local, confirme os controles e combine como a equipe vai interromper a atividade.",
+        "title": "EPI",
+        "body": "EPI deve ser selecionado conforme avaliação de risco e atividade. Ele complementa, mas não substitui, desenergização e barreiras quando aplicáveis.",
         "bullets": [
-          "Identifique o perigo",
-          "Controle a exposição",
-          "Confirme a condição segura"
+          "EPI deve ser selecionado conforme avaliação de risco e atividade",
+          "Ele complementa, mas não substitui, desenergização e barreiras quando aplicáveis",
+          "Reduza a exposição antes do diagnóstico e não remova barreiras sem condição segura."
         ],
-        "image": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-04-1.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «EPI»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Checkpoint 3 — decisão segura",
-        "body": "Escolha sempre a alternativa que controla a exposição antes de executar e que mantém a comunicação e a rastreabilidade da decisão.",
+        "title": "Termografia",
+        "body": "Pontos quentes podem indicar resistência de contato ou sobrecarga. Registre carga, ambiente e condições de medição antes de concluir a causa.",
         "bullets": [
-          "Responda antes de avançar",
-          "Não improvise controle",
-          "Se houver dúvida, comunique e reavalie"
+          "Pontos quentes podem indicar resistência de contato ou sobrecarga",
+          "Registre carga, ambiente e condições de medição antes de concluir a causa",
+          "Reduza a exposição antes do diagnóstico e não remova barreiras sem condição segura."
         ],
-        "image": "https://images.unsplash.com/photo-1581092795360-fd1ca04f0952?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": true
+        "image": "media/treino-04-2.svg",
+        "checkpoint": true,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Termografia»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Checklist de campo",
-        "body": "Escopo; local; perigos; exposição; controles; EPI/EPC quando aplicável; comunicação; condição ambiental; ferramentas; plano de resposta.",
+        "title": "Caso: conexão quente",
+        "body": "Ao encontrar conexão com temperatura anormal, controle a exposição, preserve evidências e programe a correção somente em condição segura.",
         "bullets": [
-          "Identifique o perigo",
-          "Controle a exposição",
-          "Confirme a condição segura"
+          "Ao encontrar conexão com temperatura anormal, controle a exposição, preserve evidências e programe a correção somente em condição segura",
+          "Aplicação de campo: Caso: conexão quente.",
+          "Reduza a exposição antes do diagnóstico e não remova barreiras sem condição segura."
         ],
-        "image": "https://images.unsplash.com/photo-1586864387967-d02ef85d93e8?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-04-3.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Caso: conexão quente»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Quando parar",
-        "body": "Pare diante de condição não prevista, falha de controle, equipamento danificado, clima incompatível, dúvida sobre procedimento ou qualquer exposição que não esteja controlada.",
+        "title": "Após um arco",
+        "body": "Isole a área, comunique, siga emergência e preserve informações. Não reenergize equipamento danificado para testar sem avaliação técnica.",
         "bullets": [
-          "Identifique o perigo",
-          "Controle a exposição",
-          "Confirme a condição segura"
+          "Isole a área, comunique, siga emergência e preserve informações",
+          "Não reenergize equipamento danificado para testar sem avaliação técnica",
+          "Reduza a exposição antes do diagnóstico e não remova barreiras sem condição segura."
         ],
-        "image": "https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-04-1.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Após um arco»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Fixação antes da prova",
-        "body": "Você já percorreu os fundamentos de Arco Elétrico e Segurança em Painéis. Agora faça o caso prático, revise os checkpoints e só então avance para a avaliação final.",
+        "title": "Checklist de painel",
+        "body": "Confirme identificação, invólucro, barreiras, conexões, sinalização, condição elétrica, ferramentas e proteção.",
         "bullets": [
-          "Aplique no contexto da UFV",
-          "Registre ou comunique quando necessário",
-          "Mantenha a barreira até o fim da atividade"
+          "Confirme identificação, invólucro, barreiras, conexões, sinalização, condição elétrica, ferramentas e proteção",
+          "Aplicação de campo: Checklist de painel.",
+          "Reduza a exposição antes do diagnóstico e não remova barreiras sem condição segura."
         ],
-        "image": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-04-2.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Checklist de painel»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Fechamento",
-        "body": "Segurança é uma condição para executar. O resultado esperado é que você reconheça o risco antes que ele vire incidente e saiba quando parar e pedir suporte.",
+        "title": "Critérios de parada",
+        "body": "Pare diante de dano por arco, fumaça, odor de queimado, aquecimento severo ou impossibilidade de controlar a exposição.",
         "bullets": [
-          "Aplique no contexto da UFV",
-          "Registre ou comunique quando necessário",
-          "Mantenha a barreira até o fim da atividade"
+          "Pare diante de dano por arco, fumaça, odor de queimado, aquecimento severo ou impossibilidade de controlar a exposição",
+          "Aplicação de campo: Critérios de parada.",
+          "Reduza a exposição antes do diagnóstico e não remova barreiras sem condição segura."
         ],
-        "image": "https://images.unsplash.com/photo-1581092795360-fd1ca04f0952?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-04-3.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Critérios de parada»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       }
     ],
     "questions": [
       {
-        "q": "Qual é a melhor abordagem de segurança em uma atividade relacionada a arco elétrico, energia incidente, distância, painéis e controles?",
+        "q": "Qual é a conduta tecnicamente mais adequada neste tema? Considerando «Mecanismo do arco», qual alternativa está correta?",
         "options": [
-          "Executar rapidamente e corrigir depois",
-          "Identificar a exposição, aplicar controles e confirmar a condição segura antes de executar",
-          "Confiar somente na experiência do operador",
-          "Improvisar um controle temporário sem comunicar"
+          "Continuar com base apenas no hábito da equipe, sem rever a condição real.",
+          "Arco elétrico é uma descarga capaz de liberar calor, luz, pressão e partículas",
+          "Substituir o controle previsto por improviso e registrar depois.",
+          "Aguardar o final da atividade para comunicar qualquer desvio."
         ],
         "correct": 1,
-        "a": "Controle antes da exposição. Segurança precisa ser verificável."
+        "a": "A resposta correta está alinhada ao controle específico apresentado neste bloco."
       },
       {
-        "q": "Se uma condição relevante mudar durante a atividade, o que deve acontecer?",
+        "q": "Qual condição deve ser confirmada antes de avançar? Considerando «Pontos de ocorrência», qual alternativa está correta?",
         "options": [
-          "Continuar para não perder produtividade",
-          "Parar, comunicar e reavaliar o risco antes de continuar",
-          "Ignorar se a equipe já estiver acostumada",
-          "Esperar o final da tarefa para registrar"
-        ],
-        "correct": 1,
-        "a": "Mudança de cenário exige nova avaliação e controle."
-      },
-      {
-        "q": "Qual princípio é mais importante ao escolher controles?",
-        "options": [
-          "Usar somente EPI",
-          "Priorizar controles que reduzam a exposição na fonte e usar barreiras complementares",
-          "Escolher o controle mais barato",
-          "Deixar a decisão para depois da execução"
-        ],
-        "correct": 1,
-        "a": "A prevenção começa na fonte e nas barreiras, não somente no comportamento individual."
-      },
-      {
-        "q": "O que fazer quando você não consegue demonstrar que uma condição está segura?",
-        "options": [
-          "Assumir que está segura",
-          "Executar com cuidado redobrado",
-          "Parar e buscar esclarecimento/controle adequado",
-          "Pedir para outra pessoa executar"
+          "Substituir o controle previsto por improviso e registrar depois.",
+          "Continuar com base apenas no hábito da equipe, sem rever a condição real.",
+          "Conexões CC, caixas, inversores, QGBT e seccionadores podem apresentar falhas capazes de iniciar arco",
+          "Aguardar o final da atividade para comunicar qualquer desvio."
         ],
         "correct": 2,
-        "a": "Dúvida sobre condição segura é motivo para não avançar."
+        "a": "A resposta correta está alinhada ao controle específico apresentado neste bloco."
       },
       {
-        "q": "Qual situação caracteriza um bom comportamento de segurança?",
+        "q": "Qual alternativa representa o controle correto? Considerando «Curto-circuito», qual alternativa está correta?",
         "options": [
-          "Pular uma etapa porque a atividade é conhecida",
-          "Comunicar desvio e interromper quando o controle necessário não está disponível",
-          "Manter silêncio para evitar conflito",
-          "Adaptar o procedimento sem comunicar"
+          "Um curto cria um caminho de baixa impedância e pode elevar rapidamente a corrente",
+          "Continuar com base apenas no hábito da equipe, sem rever a condição real.",
+          "Substituir o controle previsto por improviso e registrar depois.",
+          "Aguardar o final da atividade para comunicar qualquer desvio."
+        ],
+        "correct": 0,
+        "a": "A resposta correta está alinhada ao controle específico apresentado neste bloco."
+      },
+      {
+        "q": "O que caracteriza uma resposta segura nesta situação? Considerando «Conexão frouxa», qual alternativa está correta?",
+        "options": [
+          "Aguardar o final da atividade para comunicar qualquer desvio.",
+          "Continuar com base apenas no hábito da equipe, sem rever a condição real.",
+          "Substituir o controle previsto por improviso e registrar depois.",
+          "Torque inadequado, corrosão, contaminação e incompatibilidade podem aumentar resistência de contato e aquecimento"
+        ],
+        "correct": 3,
+        "a": "A resposta correta está alinhada ao controle específico apresentado neste bloco."
+      },
+      {
+        "q": "Qual erro deve ser evitado no campo? Considerando «Seccionamento», qual alternativa está correta?",
+        "options": [
+          "Continuar com base apenas no hábito da equipe, sem rever a condição real.",
+          "Antes de abrir painel, identifique fontes, circuito e condição de energia",
+          "Substituir o controle previsto por improviso e registrar depois.",
+          "Aguardar o final da atividade para comunicar qualquer desvio."
         ],
         "correct": 1,
-        "a": "A autoridade para interromper diante de risco é parte da cultura de prevenção."
+        "a": "A resposta correta está alinhada ao controle específico apresentado neste bloco."
       },
       {
-        "q": "Por que procedimentos e checklists são importantes?",
+        "q": "Qual informação é essencial para a decisão? Considerando «Invólucros e barreiras», qual alternativa está correta?",
         "options": [
-          "Para aumentar burocracia",
-          "Para tornar controles críticos repetíveis e verificáveis",
-          "Para substituir treinamento",
-          "Para eliminar a necessidade de julgamento"
-        ],
-        "correct": 1,
-        "a": "Procedimentos ajudam a tornar barreiras críticas consistentes e rastreáveis."
-      },
-      {
-        "q": "Qual é uma pergunta útil antes de iniciar uma tarefa?",
-        "options": [
-          "Quanto tempo falta para terminar?",
-          "Quem será culpado se algo der errado?",
-          "O que pode me atingir e como vou controlar essa exposição?",
-          "Como posso fazer sem comunicar?"
+          "Substituir o controle previsto por improviso e registrar depois.",
+          "Continuar com base apenas no hábito da equipe, sem rever a condição real.",
+          "Portas, tampas e barreiras são controles de engenharia",
+          "Aguardar o final da atividade para comunicar qualquer desvio."
         ],
         "correct": 2,
-        "a": "Comece pela exposição e pelos controles."
+        "a": "A resposta correta está alinhada ao controle específico apresentado neste bloco."
       },
       {
-        "q": "Um equipamento apresenta uma condição diferente da prevista. O que é mais seguro?",
+        "q": "Diante de uma condição diferente da prevista, o que fazer? Considerando «Ferramentas», qual alternativa está correta?",
         "options": [
-          "Improvisar",
-          "Parar e escalar para decisão técnica",
-          "Continuar porque já começou",
-          "Remover uma barreira para facilitar"
+          "Aguardar o final da atividade para comunicar qualquer desvio.",
+          "Continuar com base apenas no hábito da equipe, sem rever a condição real.",
+          "Substituir o controle previsto por improviso e registrar depois.",
+          "Objetos metálicos podem criar caminhos de corrente"
         ],
-        "correct": 1,
-        "a": "Condição não prevista exige interrupção e avaliação."
+        "correct": 3,
+        "a": "A resposta correta está alinhada ao controle específico apresentado neste bloco."
       },
       {
-        "q": "Qual afirmação melhor representa a cultura de segurança?",
+        "q": "Qual medida reduz diretamente a exposição? Considerando «Medição», qual alternativa está correta?",
         "options": [
-          "Segurança é responsabilidade do técnico de segurança",
-          "Segurança é condição de execução compartilhada pela equipe",
-          "Só o supervisor pode parar a atividade",
-          "Produção sempre vem primeiro"
+          "Diagnóstico elétrico exige instrumento, método e posicionamento seguros",
+          "Continuar com base apenas no hábito da equipe, sem rever a condição real.",
+          "Substituir o controle previsto por improviso e registrar depois.",
+          "Aguardar o final da atividade para comunicar qualquer desvio."
         ],
-        "correct": 1,
-        "a": "A prevenção é responsabilidade de todos dentro dos papéis definidos."
+        "correct": 0,
+        "a": "A resposta correta está alinhada ao controle específico apresentado neste bloco."
       },
       {
-        "q": "Ao final de uma atividade, o que completa o ciclo seguro?",
+        "q": "Qual afirmação está correta para esta atividade? Considerando «Proteção contra arco», qual alternativa está correta?",
         "options": [
-          "Sair rapidamente",
-          "Restabelecer condições conforme procedimento, comunicar estado e registrar o necessário",
-          "Deixar o equipamento como ficou",
-          "Apagar os registros"
+          "Substituir o controle previsto por improviso e registrar depois.",
+          "Continuar com base apenas no hábito da equipe, sem rever a condição real.",
+          "Proteção depende de projeto, dispositivos, manutenção e procedimentos",
+          "Aguardar o final da atividade para comunicar qualquer desvio."
+        ],
+        "correct": 2,
+        "a": "A resposta correta está alinhada ao controle específico apresentado neste bloco."
+      },
+      {
+        "q": "Qual é o principal critério de parada? Considerando «EPI», qual alternativa está correta?",
+        "options": [
+          "Continuar com base apenas no hábito da equipe, sem rever a condição real.",
+          "EPI deve ser selecionado conforme avaliação de risco e atividade",
+          "Substituir o controle previsto por improviso e registrar depois.",
+          "Aguardar o final da atividade para comunicar qualquer desvio."
         ],
         "correct": 1,
-        "a": "O encerramento seguro inclui restauração, comunicação e registro conforme aplicável."
+        "a": "A resposta correta está alinhada ao controle específico apresentado neste bloco."
       }
     ],
     "references": [
-      "NR-10 MTE",
-      "NR-06 EPI",
-      "Procedimentos internos O&M Solar"
-    ]
+      "NR-10 — Ministério do Trabalho e Emprego",
+      "NR-01 — Gerenciamento de Riscos Ocupacionais",
+      "ABNT NBR 5410 / ABNT NBR 14039, conforme tensão e aplicação",
+      "NFPA 70E / IEEE 1584 como referências técnicas complementares, quando adotadas — não substituem requisitos legais brasileiros"
+    ],
+    "case": {
+      "title": "Após um arco",
+      "scenario": "Isole a área, comunique, siga emergência e preserve informações. Não reenergize equipamento danificado para testar sem avaliação técnica.",
+      "question": "Qual deve ser a primeira decisão da equipe?",
+      "options": [
+        {
+          "text": "Interromper a exposição, aplicar os controles previstos e reavaliar antes de continuar.",
+          "correct": true
+        },
+        {
+          "text": "Continuar porque a atividade já começou e corrigir a condição durante a execução.",
+          "correct": false
+        },
+        {
+          "text": "Improvisar um controle temporário e comunicar somente depois da atividade.",
+          "correct": false
+        }
+      ]
+    }
   },
   {
     "id": 5,
     "phase": "Fundamentos",
     "title": "Trabalho em Altura – NR-35",
-    "description": "Aplique planejamento, sistemas de proteção contra quedas e critérios de interrupção em trabalho em altura.",
-    "objective": "NR-35, planejamento, sistema de proteção contra quedas, resgate",
-    "icon": "⚡",
+    "description": "Planeje e execute trabalho em altura com sistemas de proteção, inspeção, resgate e critérios claros de parada.",
+    "objective": "Trabalho em Altura",
+    "icon": "🧗",
     "duration": 25,
     "slides": [
       {
-        "title": "Por que trabalho em altura exige método",
-        "body": "Queda de altura pode produzir lesões graves ou fatais. A NR-35 estabelece requisitos para planejamento, organização e execução segura das atividades abrangidas.",
+        "title": "Aplicação da NR-35",
+        "body": "A NR-35 estabelece requisitos para planejamento, organização e execução do trabalho em altura. A aplicação depende da atividade e das condições reais.",
         "bullets": [
-          "Identifique o perigo",
-          "Controle a exposição",
-          "Confirme a condição segura"
+          "A NR-35 estabelece requisitos para planejamento, organização e execução do trabalho em altura",
+          "A aplicação depende da atividade e das condições reais",
+          "Confirme proteção contra quedas, ancoragem e resgate antes da subida."
         ],
-        "image": "https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-05-1.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Aplicação da NR-35»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Antes de subir",
-        "body": "Avalie local, acesso, clima, estrutura, sistema de proteção, ferramentas, comunicação e necessidade de resgate. Não comece pelo EPI.",
+        "title": "Planejamento",
+        "body": "Defina acesso, trajeto, ponto de trabalho, ferramentas, proteção contra quedas, comunicação e plano de emergência antes da subida.",
         "bullets": [
-          "Identifique o perigo",
-          "Controle a exposição",
-          "Confirme a condição segura"
+          "Defina acesso, trajeto, ponto de trabalho, ferramentas, proteção contra quedas, comunicação e plano de emergência antes da subida",
+          "Aplicação de campo: Planejamento.",
+          "Confirme proteção contra quedas, ancoragem e resgate antes da subida."
         ],
-        "image": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-05-2.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Planejamento»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Sistema de proteção contra quedas",
-        "body": "O sistema precisa ser compatível com a tarefa e com a estrutura. O trabalhador deve conhecer os pontos, conexões, limitações e procedimento aplicável.",
+        "title": "Análise de risco",
+        "body": "Considere desníveis, superfície, obstáculos, energia elétrica, vento, chuva e possibilidade de resgate.",
         "bullets": [
-          "Aplique no contexto da UFV",
-          "Registre ou comunique quando necessário",
-          "Mantenha a barreira até o fim da atividade"
+          "Considere desníveis, superfície, obstáculos, energia elétrica, vento, chuva e possibilidade de resgate",
+          "Aplicação de campo: Análise de risco.",
+          "Confirme proteção contra quedas, ancoragem e resgate antes da subida."
         ],
-        "image": "https://images.unsplash.com/photo-1581092795360-fd1ca04f0952?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-05-3.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Análise de risco»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
+      },
+      {
+        "title": "Proteção coletiva",
+        "body": "Priorize proteção coletiva quando aplicável. O sistema individual deve ser adequado ao risco e ao método de trabalho.",
+        "bullets": [
+          "Priorize proteção coletiva quando aplicável",
+          "O sistema individual deve ser adequado ao risco e ao método de trabalho",
+          "Confirme proteção contra quedas, ancoragem e resgate antes da subida."
+        ],
+        "image": "media/treino-05-1.svg",
+        "checkpoint": true,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Proteção coletiva»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
+      },
+      {
+        "title": "Cinturão e conectores",
+        "body": "Cinturão, talabarte, trava-quedas e conectores devem ser compatíveis e utilizados conforme fabricante e sistema projetado.",
+        "bullets": [
+          "Cinturão, talabarte, trava-quedas e conectores devem ser compatíveis e utilizados conforme fabricante e sistema projetado",
+          "Aplicação de campo: Cinturão e conectores.",
+          "Confirme proteção contra quedas, ancoragem e resgate antes da subida."
+        ],
+        "image": "media/treino-05-2.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Cinturão e conectores»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
         "title": "Ancoragem",
-        "body": "Ponto de ancoragem precisa ser apropriado e definido conforme projeto/procedimento. Nunca use uma estrutura apenas porque parece resistente.",
+        "body": "O ponto de ancoragem deve ser compatível com o sistema e com a estrutura. Aparência de resistência não é validação.",
         "bullets": [
-          "Responda antes de avançar",
-          "Não improvise controle",
-          "Se houver dúvida, comunique e reavalie"
+          "O ponto de ancoragem deve ser compatível com o sistema e com a estrutura",
+          "Aparência de resistência não é validação",
+          "Confirme proteção contra quedas, ancoragem e resgate antes da subida."
         ],
-        "image": "https://images.unsplash.com/photo-1586864387967-d02ef85d93e8?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": true
+        "image": "media/treino-05-3.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Ancoragem»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Conexão contínua",
-        "body": "Ao transitar, a proteção deve permanecer conforme o sistema previsto. Evite criar momento sem proteção durante troca de conexão.",
+        "title": "Inspeção",
+        "body": "Verifique cortes, deformações, desgaste, contaminação e outros critérios do fabricante antes do uso.",
         "bullets": [
-          "Identifique o perigo",
-          "Controle a exposição",
-          "Confirme a condição segura"
+          "Verifique cortes, deformações, desgaste, contaminação e outros critérios do fabricante antes do uso",
+          "Aplicação de campo: Inspeção.",
+          "Confirme proteção contra quedas, ancoragem e resgate antes da subida."
         ],
-        "image": "https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-05-1.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Inspeção»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Ferramentas e objetos",
-        "body": "Ferramentas podem cair e atingir pessoas abaixo. Controle ferramentas e delimite a área inferior quando necessário.",
+        "title": "Movimentação",
+        "body": "Em trackers e estruturas, atenção a vãos, superfícies escorregadias, partes móveis e posicionamento corporal.",
         "bullets": [
-          "Identifique o perigo",
-          "Controle a exposição",
-          "Confirme a condição segura"
+          "Em trackers e estruturas, atenção a vãos, superfícies escorregadias, partes móveis e posicionamento corporal",
+          "Aplicação de campo: Movimentação.",
+          "Confirme proteção contra quedas, ancoragem e resgate antes da subida."
         ],
-        "image": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-05-2.svg",
+        "checkpoint": true,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Movimentação»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Clima muda o risco",
-        "body": "Vento, chuva e superfície molhada podem alterar drasticamente o risco. Se a condição deixar de ser segura, interrompa.",
+        "title": "Consequência da queda",
+        "body": "O sistema deve prevenir a queda quando possível e limitar consequências quando necessário. O planejamento deve considerar distância livre.",
         "bullets": [
-          "Identifique o perigo",
-          "Controle a exposição",
-          "Confirme a condição segura"
+          "O sistema deve prevenir a queda quando possível e limitar consequências quando necessário",
+          "O planejamento deve considerar distância livre",
+          "Confirme proteção contra quedas, ancoragem e resgate antes da subida."
         ],
-        "image": "https://images.unsplash.com/photo-1581092795360-fd1ca04f0952?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
-      },
-      {
-        "title": "Escadas e acessos",
-        "body": "O acesso precisa ser adequado à atividade. Uma escada não transforma automaticamente qualquer tarefa em trabalho seguro.",
-        "bullets": [
-          "Responda antes de avançar",
-          "Não improvise controle",
-          "Se houver dúvida, comunique e reavalie"
-        ],
-        "image": "https://images.unsplash.com/photo-1586864387967-d02ef85d93e8?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": true
+        "image": "media/treino-05-3.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Consequência da queda»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
         "title": "Resgate",
-        "body": "Antes de subir, pense como retirar alguém se ocorrer uma queda. Resgate não pode ser improvisado depois do acidente.",
+        "body": "O plano de resgate deve ser compatível com local, equipe e equipamentos. Não dependa de improviso após a queda.",
         "bullets": [
-          "Identifique o perigo",
-          "Controle a exposição",
-          "Confirme a condição segura"
+          "O plano de resgate deve ser compatível com local, equipe e equipamentos",
+          "Não dependa de improviso após a queda",
+          "Confirme proteção contra quedas, ancoragem e resgate antes da subida."
         ],
-        "image": "https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-05-1.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Resgate»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Caso: limpeza próxima ao tracker",
-        "body": "A equipe precisa acessar uma região elevada. A pergunta não é 'tem cinto?'; é 'o sistema completo evita a queda e permite resgate?'",
+        "title": "Clima",
+        "body": "Vento, chuva e descargas atmosféricas podem alterar o risco. Os critérios de suspensão devem estar definidos no planejamento.",
         "bullets": [
-          "Identifique o perigo",
-          "Controle a exposição",
-          "Confirme a condição segura"
+          "Vento, chuva e descargas atmosféricas podem alterar o risco",
+          "Os critérios de suspensão devem estar definidos no planejamento",
+          "Confirme proteção contra quedas, ancoragem e resgate antes da subida."
         ],
-        "image": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-05-2.svg",
+        "checkpoint": true,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Clima»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Erro clássico",
-        "body": "Conectar o talabarte depois de chegar ao ponto exposto é criar uma etapa sem proteção. Planeje a conexão antes da exposição.",
+        "title": "Caso: acesso ao tracker",
+        "body": "Antes de subir, confirme sistema de proteção, acesso, ancoragem, clima, comunicação e resgate.",
         "bullets": [
-          "Responda antes de avançar",
-          "Não improvise controle",
-          "Se houver dúvida, comunique e reavalie"
+          "Antes de subir, confirme sistema de proteção, acesso, ancoragem, clima, comunicação e resgate",
+          "Aplicação de campo: Caso: acesso ao tracker.",
+          "Confirme proteção contra quedas, ancoragem e resgate antes da subida."
         ],
-        "image": "https://images.unsplash.com/photo-1581092795360-fd1ca04f0952?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": true
+        "image": "media/treino-05-3.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Caso: acesso ao tracker»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Checklist altura",
-        "body": "Planejamento; acesso; estrutura; ancoragem; sistema de proteção; ferramentas; clima; isolamento da área; comunicação; resgate.",
+        "title": "Desvio",
+        "body": "Se o sistema não puder ser instalado ou houver equipamento danificado, não adapte improvisadamente. Interrompa e corrija.",
         "bullets": [
-          "Identifique o perigo",
-          "Controle a exposição",
-          "Confirme a condição segura"
+          "Se o sistema não puder ser instalado ou houver equipamento danificado, não adapte improvisadamente",
+          "Interrompa e corrija",
+          "Confirme proteção contra quedas, ancoragem e resgate antes da subida."
         ],
-        "image": "https://images.unsplash.com/photo-1586864387967-d02ef85d93e8?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-05-1.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Desvio»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Autoridade para parar",
-        "body": "Qualquer trabalhador deve comunicar condição que torne a atividade insegura e seguir o fluxo de interrupção definido pela organização.",
+        "title": "Checklist",
+        "body": "Confirme autorização, análise de risco, equipamentos, ancoragem, acesso, ferramentas, clima e emergência.",
         "bullets": [
-          "Identifique o perigo",
-          "Controle a exposição",
-          "Confirme a condição segura"
+          "Confirme autorização, análise de risco, equipamentos, ancoragem, acesso, ferramentas, clima e emergência",
+          "Aplicação de campo: Checklist.",
+          "Confirme proteção contra quedas, ancoragem e resgate antes da subida."
         ],
-        "image": "https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-05-2.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Checklist»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Fixação",
-        "body": "Altura segura é altura planejada. Se não existe sistema confiável de proteção e resgate, não existe autorização prática para iniciar.",
+        "title": "Critérios de parada",
+        "body": "Pare diante de ancoragem duvidosa, equipamento danificado, clima incompatível, acesso inseguro ou ausência de resgate.",
         "bullets": [
-          "Aplique no contexto da UFV",
-          "Registre ou comunique quando necessário",
-          "Mantenha a barreira até o fim da atividade"
+          "Pare diante de ancoragem duvidosa, equipamento danificado, clima incompatível, acesso inseguro ou ausência de resgate",
+          "Aplicação de campo: Critérios de parada.",
+          "Confirme proteção contra quedas, ancoragem e resgate antes da subida."
         ],
-        "image": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
-      },
-      {
-        "title": "Fechamento",
-        "body": "A NR-35 deve ser aplicada conforme a atividade e os requisitos vigentes. Este treinamento interno não substitui a capacitação legal exigida.",
-        "bullets": [
-          "Aplique no contexto da UFV",
-          "Registre ou comunique quando necessário",
-          "Mantenha a barreira até o fim da atividade"
-        ],
-        "image": "https://images.unsplash.com/photo-1581092795360-fd1ca04f0952?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-05-3.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Critérios de parada»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       }
     ],
     "questions": [
       {
-        "q": "Qual é a melhor abordagem de segurança em uma atividade relacionada a NR-35, planejamento, sistema de proteção contra quedas, resgate?",
+        "q": "Qual é a conduta tecnicamente mais adequada neste tema? Considerando «Aplicação da NR-35», qual alternativa está correta?",
         "options": [
-          "Executar rapidamente e corrigir depois",
-          "Identificar a exposição, aplicar controles e confirmar a condição segura antes de executar",
-          "Confiar somente na experiência do operador",
-          "Improvisar um controle temporário sem comunicar"
+          "Continuar com base apenas no hábito da equipe, sem rever a condição real.",
+          "A NR-35 estabelece requisitos para planejamento, organização e execução do trabalho em altura",
+          "Substituir o controle previsto por improviso e registrar depois.",
+          "Aguardar o final da atividade para comunicar qualquer desvio."
         ],
         "correct": 1,
-        "a": "Controle antes da exposição. Segurança precisa ser verificável."
+        "a": "A resposta correta está alinhada ao controle específico apresentado neste bloco."
       },
       {
-        "q": "Se uma condição relevante mudar durante a atividade, o que deve acontecer?",
+        "q": "Qual condição deve ser confirmada antes de avançar? Considerando «Planejamento», qual alternativa está correta?",
         "options": [
-          "Continuar para não perder produtividade",
-          "Parar, comunicar e reavaliar o risco antes de continuar",
-          "Ignorar se a equipe já estiver acostumada",
-          "Esperar o final da tarefa para registrar"
-        ],
-        "correct": 1,
-        "a": "Mudança de cenário exige nova avaliação e controle."
-      },
-      {
-        "q": "Qual princípio é mais importante ao escolher controles?",
-        "options": [
-          "Usar somente EPI",
-          "Priorizar controles que reduzam a exposição na fonte e usar barreiras complementares",
-          "Escolher o controle mais barato",
-          "Deixar a decisão para depois da execução"
-        ],
-        "correct": 1,
-        "a": "A prevenção começa na fonte e nas barreiras, não somente no comportamento individual."
-      },
-      {
-        "q": "O que fazer quando você não consegue demonstrar que uma condição está segura?",
-        "options": [
-          "Assumir que está segura",
-          "Executar com cuidado redobrado",
-          "Parar e buscar esclarecimento/controle adequado",
-          "Pedir para outra pessoa executar"
+          "Substituir o controle previsto por improviso e registrar depois.",
+          "Continuar com base apenas no hábito da equipe, sem rever a condição real.",
+          "Defina acesso, trajeto, ponto de trabalho, ferramentas, proteção contra quedas, comunicação e plano de emergência antes da subida",
+          "Aguardar o final da atividade para comunicar qualquer desvio."
         ],
         "correct": 2,
-        "a": "Dúvida sobre condição segura é motivo para não avançar."
+        "a": "A resposta correta está alinhada ao controle específico apresentado neste bloco."
       },
       {
-        "q": "Qual situação caracteriza um bom comportamento de segurança?",
+        "q": "Qual alternativa representa o controle correto? Considerando «Análise de risco», qual alternativa está correta?",
         "options": [
-          "Pular uma etapa porque a atividade é conhecida",
-          "Comunicar desvio e interromper quando o controle necessário não está disponível",
-          "Manter silêncio para evitar conflito",
-          "Adaptar o procedimento sem comunicar"
+          "Considere desníveis, superfície, obstáculos, energia elétrica, vento, chuva e possibilidade de resgate",
+          "Continuar com base apenas no hábito da equipe, sem rever a condição real.",
+          "Substituir o controle previsto por improviso e registrar depois.",
+          "Aguardar o final da atividade para comunicar qualquer desvio."
+        ],
+        "correct": 0,
+        "a": "A resposta correta está alinhada ao controle específico apresentado neste bloco."
+      },
+      {
+        "q": "O que caracteriza uma resposta segura nesta situação? Considerando «Proteção coletiva», qual alternativa está correta?",
+        "options": [
+          "Aguardar o final da atividade para comunicar qualquer desvio.",
+          "Continuar com base apenas no hábito da equipe, sem rever a condição real.",
+          "Substituir o controle previsto por improviso e registrar depois.",
+          "Priorize proteção coletiva quando aplicável"
+        ],
+        "correct": 3,
+        "a": "A resposta correta está alinhada ao controle específico apresentado neste bloco."
+      },
+      {
+        "q": "Qual erro deve ser evitado no campo? Considerando «Cinturão e conectores», qual alternativa está correta?",
+        "options": [
+          "Continuar com base apenas no hábito da equipe, sem rever a condição real.",
+          "Cinturão, talabarte, trava-quedas e conectores devem ser compatíveis e utilizados conforme fabricante e sistema projetado",
+          "Substituir o controle previsto por improviso e registrar depois.",
+          "Aguardar o final da atividade para comunicar qualquer desvio."
         ],
         "correct": 1,
-        "a": "A autoridade para interromper diante de risco é parte da cultura de prevenção."
+        "a": "A resposta correta está alinhada ao controle específico apresentado neste bloco."
       },
       {
-        "q": "Por que procedimentos e checklists são importantes?",
+        "q": "Qual informação é essencial para a decisão? Considerando «Ancoragem», qual alternativa está correta?",
         "options": [
-          "Para aumentar burocracia",
-          "Para tornar controles críticos repetíveis e verificáveis",
-          "Para substituir treinamento",
-          "Para eliminar a necessidade de julgamento"
-        ],
-        "correct": 1,
-        "a": "Procedimentos ajudam a tornar barreiras críticas consistentes e rastreáveis."
-      },
-      {
-        "q": "Qual é uma pergunta útil antes de iniciar uma tarefa?",
-        "options": [
-          "Quanto tempo falta para terminar?",
-          "Quem será culpado se algo der errado?",
-          "O que pode me atingir e como vou controlar essa exposição?",
-          "Como posso fazer sem comunicar?"
+          "Substituir o controle previsto por improviso e registrar depois.",
+          "Continuar com base apenas no hábito da equipe, sem rever a condição real.",
+          "O ponto de ancoragem deve ser compatível com o sistema e com a estrutura",
+          "Aguardar o final da atividade para comunicar qualquer desvio."
         ],
         "correct": 2,
-        "a": "Comece pela exposição e pelos controles."
+        "a": "A resposta correta está alinhada ao controle específico apresentado neste bloco."
       },
       {
-        "q": "Um equipamento apresenta uma condição diferente da prevista. O que é mais seguro?",
+        "q": "Diante de uma condição diferente da prevista, o que fazer? Considerando «Inspeção», qual alternativa está correta?",
         "options": [
-          "Improvisar",
-          "Parar e escalar para decisão técnica",
-          "Continuar porque já começou",
-          "Remover uma barreira para facilitar"
+          "Aguardar o final da atividade para comunicar qualquer desvio.",
+          "Continuar com base apenas no hábito da equipe, sem rever a condição real.",
+          "Substituir o controle previsto por improviso e registrar depois.",
+          "Verifique cortes, deformações, desgaste, contaminação e outros critérios do fabricante antes do uso"
         ],
-        "correct": 1,
-        "a": "Condição não prevista exige interrupção e avaliação."
+        "correct": 3,
+        "a": "A resposta correta está alinhada ao controle específico apresentado neste bloco."
       },
       {
-        "q": "Qual afirmação melhor representa a cultura de segurança?",
+        "q": "Qual medida reduz diretamente a exposição? Considerando «Movimentação», qual alternativa está correta?",
         "options": [
-          "Segurança é responsabilidade do técnico de segurança",
-          "Segurança é condição de execução compartilhada pela equipe",
-          "Só o supervisor pode parar a atividade",
-          "Produção sempre vem primeiro"
+          "Em trackers e estruturas, atenção a vãos, superfícies escorregadias, partes móveis e posicionamento corporal",
+          "Continuar com base apenas no hábito da equipe, sem rever a condição real.",
+          "Substituir o controle previsto por improviso e registrar depois.",
+          "Aguardar o final da atividade para comunicar qualquer desvio."
         ],
-        "correct": 1,
-        "a": "A prevenção é responsabilidade de todos dentro dos papéis definidos."
+        "correct": 0,
+        "a": "A resposta correta está alinhada ao controle específico apresentado neste bloco."
       },
       {
-        "q": "Ao final de uma atividade, o que completa o ciclo seguro?",
+        "q": "Qual afirmação está correta para esta atividade? Considerando «Consequência da queda», qual alternativa está correta?",
         "options": [
-          "Sair rapidamente",
-          "Restabelecer condições conforme procedimento, comunicar estado e registrar o necessário",
-          "Deixar o equipamento como ficou",
-          "Apagar os registros"
+          "Substituir o controle previsto por improviso e registrar depois.",
+          "Continuar com base apenas no hábito da equipe, sem rever a condição real.",
+          "O sistema deve prevenir a queda quando possível e limitar consequências quando necessário",
+          "Aguardar o final da atividade para comunicar qualquer desvio."
+        ],
+        "correct": 2,
+        "a": "A resposta correta está alinhada ao controle específico apresentado neste bloco."
+      },
+      {
+        "q": "Qual é o principal critério de parada? Considerando «Resgate», qual alternativa está correta?",
+        "options": [
+          "Continuar com base apenas no hábito da equipe, sem rever a condição real.",
+          "O plano de resgate deve ser compatível com local, equipe e equipamentos",
+          "Substituir o controle previsto por improviso e registrar depois.",
+          "Aguardar o final da atividade para comunicar qualquer desvio."
         ],
         "correct": 1,
-        "a": "O encerramento seguro inclui restauração, comunicação e registro conforme aplicável."
+        "a": "A resposta correta está alinhada ao controle específico apresentado neste bloco."
       }
     ],
     "references": [
-      "NR-35 MTE",
-      "NR-01 GRO/PGR",
-      "Procedimentos internos O&M Solar"
+      "NR-35 — Trabalho em Altura",
+      "NR-01 — Gerenciamento de Riscos Ocupacionais",
+      "NR-06 — Equipamento de Proteção Individual",
+      "Procedimento O&M Solar de trabalho em altura e resgate — versão controlada"
     ],
     "video": {
       "id": "BXhWRuxdUCs",
-      "title": "NR-35 atualizada — trabalho em altura + prática e procedimentos"
+      "title": "NR-35 Atualizada — Trabalho em Altura"
+    },
+    "case": {
+      "title": "Desvio",
+      "scenario": "Se o sistema não puder ser instalado ou houver equipamento danificado, não adapte improvisadamente. Interrompa e corrija.",
+      "question": "Qual deve ser a primeira decisão da equipe?",
+      "options": [
+        {
+          "text": "Interromper a exposição, aplicar os controles previstos e reavaliar antes de continuar.",
+          "correct": true
+        },
+        {
+          "text": "Continuar porque a atividade já começou e corrigir a condição durante a execução.",
+          "correct": false
+        },
+        {
+          "text": "Improvisar um controle temporário e comunicar somente depois da atividade.",
+          "correct": false
+        }
+      ]
     }
   },
   {
     "id": 6,
     "phase": "Operação Segura",
     "title": "Trackers, Partes Móveis e Risco de Esmagamento",
-    "description": "Trabalhe com trackers e mecanismos móveis sem criar exposição a esmagamento, cisalhamento ou movimento inesperado.",
-    "objective": "zonas de esmagamento, movimento inesperado, comando e bloqueio",
-    "icon": "🛠️",
-    "duration": 22,
+    "description": "Controle movimentos automáticos e partes móveis de trackers para evitar esmagamento, cisalhamento e aprisionamento.",
+    "objective": "Trackers, Partes Móveis e Risco de Esmagamento",
+    "icon": "⚙️",
+    "duration": 25,
     "slides": [
       {
-        "title": "O que você precisa dominar",
-        "body": "Neste treinamento vamos tratar de zonas de esmagamento, movimento inesperado, comando e bloqueio. O objetivo é reconhecer a exposição, selecionar controles e tomar decisões seguras no campo.",
+        "title": "Pontos de esmagamento",
+        "body": "Trackers possuem articulações, mecanismos e acionamentos capazes de causar esmagamento, cisalhamento, impacto e aprisionamento.",
         "bullets": [
-          "Identifique o perigo",
-          "Controle a exposição",
-          "Confirme a condição segura"
+          "Trackers possuem articulações, mecanismos e acionamentos capazes de causar esmagamento, cisalhamento, impacto e aprisionamento",
+          "Aplicação de campo: Pontos de esmagamento.",
+          "Mantenha pessoas fora da zona de movimento até controlar todas as energias."
         ],
-        "image": "https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-06-1.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Pontos de esmagamento»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Onde esse risco aparece na UFV",
-        "body": "Observe equipamentos, circulação, ferramentas, ambiente e comportamento. Em uma usina, a mesma atividade pode mudar de risco conforme local e condição.",
+        "title": "Movimento do tracker",
+        "body": "Conheça eixo, motor, transmissão e limites de movimento. Identifique onde o corpo pode ficar entre partes.",
         "bullets": [
-          "Identifique o perigo",
-          "Controle a exposição",
-          "Confirme a condição segura"
+          "Conheça eixo, motor, transmissão e limites de movimento",
+          "Identifique onde o corpo pode ficar entre partes",
+          "Mantenha pessoas fora da zona de movimento até controlar todas as energias."
         ],
-        "image": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-06-2.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Movimento do tracker»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Identifique o mecanismo de dano",
-        "body": "Pergunte qual é o mecanismo capaz de causar lesão neste tema: energia, movimento, queda, contato, exposição ambiental, produto ou falha de comunicação.",
+        "title": "Zona de perigo",
+        "body": "Defina a zona antes da intervenção. A exposição aumenta quando alguém fica entre componentes móveis e estruturas fixas.",
         "bullets": [
-          "Aplique no contexto da UFV",
-          "Registre ou comunique quando necessário",
-          "Mantenha a barreira até o fim da atividade"
+          "Defina a zona antes da intervenção",
+          "A exposição aumenta quando alguém fica entre componentes móveis e estruturas fixas",
+          "Mantenha pessoas fora da zona de movimento até controlar todas as energias."
         ],
-        "image": "https://images.unsplash.com/photo-1581092795360-fd1ca04f0952?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-06-3.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Zona de perigo»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Checkpoint 1 — pare e pense",
-        "body": "Antes de executar, descreva mentalmente: perigo → exposição → consequência → controle. Se uma etapa não estiver clara, pare e esclareça.",
+        "title": "Comandos",
+        "body": "Comandos locais, remotos e automáticos podem iniciar movimento. Identifique todos os meios de acionamento.",
         "bullets": [
-          "Responda antes de avançar",
-          "Não improvise controle",
-          "Se houver dúvida, comunique e reavalie"
+          "Comandos locais, remotos e automáticos podem iniciar movimento",
+          "Identifique todos os meios de acionamento",
+          "Mantenha pessoas fora da zona de movimento até controlar todas as energias."
         ],
-        "image": "https://images.unsplash.com/photo-1586864387967-d02ef85d93e8?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": true
+        "image": "media/treino-06-1.svg",
+        "checkpoint": true,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Comandos»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Controle na fonte",
-        "body": "Sempre que possível, reduza o risco antes da pessoa entrar na zona de exposição. Use barreiras, isolamento, organização e procedimentos antes de depender somente do comportamento individual.",
+        "title": "Automação",
+        "body": "Programações de rastreamento podem movimentar o equipamento sem comando local. A automação deve ser colocada em condição segura.",
         "bullets": [
-          "Identifique o perigo",
-          "Controle a exposição",
-          "Confirme a condição segura"
+          "Programações de rastreamento podem movimentar o equipamento sem comando local",
+          "A automação deve ser colocada em condição segura",
+          "Mantenha pessoas fora da zona de movimento até controlar todas as energias."
         ],
-        "image": "https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-06-2.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Automação»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Condição segura",
-        "body": "Para este tema, condição segura significa que os controles relevantes foram verificados. Não confie apenas em aparência, hábito ou experiência anterior.",
+        "title": "Bloqueio elétrico",
+        "body": "Controle a alimentação conforme procedimento. Desligar software ou comando não prova ausência de energia perigosa.",
         "bullets": [
-          "Identifique o perigo",
-          "Controle a exposição",
-          "Confirme a condição segura"
+          "Controle a alimentação conforme procedimento",
+          "Desligar software ou comando não prova ausência de energia perigosa",
+          "Mantenha pessoas fora da zona de movimento até controlar todas as energias."
         ],
-        "image": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-06-3.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Bloqueio elétrico»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Comunicação operacional",
-        "body": "Quem executa precisa saber o escopo, as limitações e os sinais de parada. Quando houver mudança relevante, comunique antes de continuar.",
+        "title": "Energia mecânica",
+        "body": "Partes elevadas, tensionadas ou inclinadas podem armazenar energia. Use apoios e contenções quando previstos.",
         "bullets": [
-          "Identifique o perigo",
-          "Controle a exposição",
-          "Confirme a condição segura"
+          "Partes elevadas, tensionadas ou inclinadas podem armazenar energia",
+          "Use apoios e contenções quando previstos",
+          "Mantenha pessoas fora da zona de movimento até controlar todas as energias."
         ],
-        "image": "https://images.unsplash.com/photo-1581092795360-fd1ca04f0952?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-06-1.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Energia mecânica»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Checkpoint 2 — o cenário mudou",
-        "body": "Se surgir uma condição não prevista, a resposta segura é interromper, proteger a equipe, comunicar e reavaliar o risco. Não 'adapte no improviso'.",
+        "title": "TCU e motor",
+        "body": "Intervenções em TCU, motor e cabos podem combinar riscos elétricos e mecânicos. O controle precisa abranger ambos.",
         "bullets": [
-          "Responda antes de avançar",
-          "Não improvise controle",
-          "Se houver dúvida, comunique e reavalie"
+          "Intervenções em TCU, motor e cabos podem combinar riscos elétricos e mecânicos",
+          "O controle precisa abranger ambos",
+          "Mantenha pessoas fora da zona de movimento até controlar todas as energias."
         ],
-        "image": "https://images.unsplash.com/photo-1586864387967-d02ef85d93e8?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": true
+        "image": "media/treino-06-2.svg",
+        "checkpoint": true,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «TCU e motor»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Erro comum no campo",
-        "body": "Um erro recorrente é normalizar pequenas anomalias porque 'sempre foi assim'. Desvio repetido não deixa de ser risco por ser familiar.",
+        "title": "Falha de sensor",
+        "body": "Falha de sensor ou comunicação pode gerar comportamento inesperado. Não entre na zona de movimento para 'testar'.",
         "bullets": [
-          "Identifique o perigo",
-          "Controle a exposição",
-          "Confirme a condição segura"
+          "Falha de sensor ou comunicação pode gerar comportamento inesperado",
+          "Não entre na zona de movimento para 'testar'",
+          "Mantenha pessoas fora da zona de movimento até controlar todas as energias."
         ],
-        "image": "https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-06-3.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Falha de sensor»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Aplicação prática — TRK",
-        "body": "Imagine uma atividade real relacionada a trackers, partes móveis e risco de esmagamento. Antes de iniciar, faça uma inspeção do local, confirme os controles e combine como a equipe vai interromper a atividade.",
+        "title": "Posicionamento",
+        "body": "Mantenha mãos e corpo fora dos pontos de esmagamento e evite ficar entre uma parte móvel e uma estrutura fixa.",
         "bullets": [
-          "Identifique o perigo",
-          "Controle a exposição",
-          "Confirme a condição segura"
+          "Mantenha mãos e corpo fora dos pontos de esmagamento e evite ficar entre uma parte móvel e uma estrutura fixa",
+          "Aplicação de campo: Posicionamento.",
+          "Mantenha pessoas fora da zona de movimento até controlar todas as energias."
         ],
-        "image": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-06-1.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Posicionamento»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Checkpoint 3 — decisão segura",
-        "body": "Escolha sempre a alternativa que controla a exposição antes de executar e que mantém a comunicação e a rastreabilidade da decisão.",
+        "title": "Ferramentas",
+        "body": "Ferramentas esquecidas podem travar mecanismos ou ser projetadas. Faça controle antes da liberação.",
         "bullets": [
-          "Responda antes de avançar",
-          "Não improvise controle",
-          "Se houver dúvida, comunique e reavalie"
+          "Ferramentas esquecidas podem travar mecanismos ou ser projetadas",
+          "Faça controle antes da liberação",
+          "Mantenha pessoas fora da zona de movimento até controlar todas as energias."
         ],
-        "image": "https://images.unsplash.com/photo-1581092795360-fd1ca04f0952?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": true
+        "image": "media/treino-06-2.svg",
+        "checkpoint": true,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Ferramentas»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Checklist de campo",
-        "body": "Escopo; local; perigos; exposição; controles; EPI/EPC quando aplicável; comunicação; condição ambiental; ferramentas; plano de resposta.",
+        "title": "Caso: tracker sem resposta",
+        "body": "Primeiro estabeleça condição segura; depois diagnostique. Não comande movimentos repetidos com pessoas expostas.",
         "bullets": [
-          "Identifique o perigo",
-          "Controle a exposição",
-          "Confirme a condição segura"
+          "Primeiro estabeleça condição segura; depois diagnostique",
+          "Não comande movimentos repetidos com pessoas expostas",
+          "Mantenha pessoas fora da zona de movimento até controlar todas as energias."
         ],
-        "image": "https://images.unsplash.com/photo-1586864387967-d02ef85d93e8?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-06-3.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Caso: tracker sem resposta»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Quando parar",
-        "body": "Pare diante de condição não prevista, falha de controle, equipamento danificado, clima incompatível, dúvida sobre procedimento ou qualquer exposição que não esteja controlada.",
+        "title": "Retorno",
+        "body": "Antes de liberar, retire pessoas e ferramentas, confirme proteções e comunique o retorno. Teste de forma controlada.",
         "bullets": [
-          "Identifique o perigo",
-          "Controle a exposição",
-          "Confirme a condição segura"
+          "Antes de liberar, retire pessoas e ferramentas, confirme proteções e comunique o retorno",
+          "Teste de forma controlada",
+          "Mantenha pessoas fora da zona de movimento até controlar todas as energias."
         ],
-        "image": "https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-06-1.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Retorno»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Fixação antes da prova",
-        "body": "Você já percorreu os fundamentos de Trackers, Partes Móveis e Risco de Esmagamento. Agora faça o caso prático, revise os checkpoints e só então avance para a avaliação final.",
+        "title": "Checklist",
+        "body": "Identificação, bloqueio, energia residual, posição segura, ferramentas, comunicação, proteção e teste controlado.",
         "bullets": [
-          "Aplique no contexto da UFV",
-          "Registre ou comunique quando necessário",
-          "Mantenha a barreira até o fim da atividade"
+          "Identificação, bloqueio, energia residual, posição segura, ferramentas, comunicação, proteção e teste controlado",
+          "Aplicação de campo: Checklist.",
+          "Mantenha pessoas fora da zona de movimento até controlar todas as energias."
         ],
-        "image": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-06-2.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Checklist»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Fechamento",
-        "body": "Segurança é uma condição para executar. O resultado esperado é que você reconheça o risco antes que ele vire incidente e saiba quando parar e pedir suporte.",
+        "title": "Critérios de parada",
+        "body": "Pare diante de movimento inesperado, comando desconhecido, estrutura instável ou bloqueio incompleto.",
         "bullets": [
-          "Aplique no contexto da UFV",
-          "Registre ou comunique quando necessário",
-          "Mantenha a barreira até o fim da atividade"
+          "Pare diante de movimento inesperado, comando desconhecido, estrutura instável ou bloqueio incompleto",
+          "Aplicação de campo: Critérios de parada.",
+          "Mantenha pessoas fora da zona de movimento até controlar todas as energias."
         ],
-        "image": "https://images.unsplash.com/photo-1581092795360-fd1ca04f0952?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-06-3.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Critérios de parada»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       }
     ],
     "questions": [
       {
-        "q": "Qual é a melhor abordagem de segurança em uma atividade relacionada a zonas de esmagamento, movimento inesperado, comando e bloqueio?",
+        "q": "Qual é a conduta tecnicamente mais adequada neste tema? Considerando «Pontos de esmagamento», qual alternativa está correta?",
         "options": [
-          "Executar rapidamente e corrigir depois",
-          "Identificar a exposição, aplicar controles e confirmar a condição segura antes de executar",
-          "Confiar somente na experiência do operador",
-          "Improvisar um controle temporário sem comunicar"
+          "Continuar com base apenas no hábito da equipe, sem rever a condição real.",
+          "Trackers possuem articulações, mecanismos e acionamentos capazes de causar esmagamento, cisalhamento, impacto e aprisionamento",
+          "Substituir o controle previsto por improviso e registrar depois.",
+          "Aguardar o final da atividade para comunicar qualquer desvio."
         ],
         "correct": 1,
-        "a": "Controle antes da exposição. Segurança precisa ser verificável."
+        "a": "A resposta correta está alinhada ao controle específico apresentado neste bloco."
       },
       {
-        "q": "Se uma condição relevante mudar durante a atividade, o que deve acontecer?",
+        "q": "Qual condição deve ser confirmada antes de avançar? Considerando «Movimento do tracker», qual alternativa está correta?",
         "options": [
-          "Continuar para não perder produtividade",
-          "Parar, comunicar e reavaliar o risco antes de continuar",
-          "Ignorar se a equipe já estiver acostumada",
-          "Esperar o final da tarefa para registrar"
-        ],
-        "correct": 1,
-        "a": "Mudança de cenário exige nova avaliação e controle."
-      },
-      {
-        "q": "Qual princípio é mais importante ao escolher controles?",
-        "options": [
-          "Usar somente EPI",
-          "Priorizar controles que reduzam a exposição na fonte e usar barreiras complementares",
-          "Escolher o controle mais barato",
-          "Deixar a decisão para depois da execução"
-        ],
-        "correct": 1,
-        "a": "A prevenção começa na fonte e nas barreiras, não somente no comportamento individual."
-      },
-      {
-        "q": "O que fazer quando você não consegue demonstrar que uma condição está segura?",
-        "options": [
-          "Assumir que está segura",
-          "Executar com cuidado redobrado",
-          "Parar e buscar esclarecimento/controle adequado",
-          "Pedir para outra pessoa executar"
+          "Substituir o controle previsto por improviso e registrar depois.",
+          "Continuar com base apenas no hábito da equipe, sem rever a condição real.",
+          "Conheça eixo, motor, transmissão e limites de movimento",
+          "Aguardar o final da atividade para comunicar qualquer desvio."
         ],
         "correct": 2,
-        "a": "Dúvida sobre condição segura é motivo para não avançar."
+        "a": "A resposta correta está alinhada ao controle específico apresentado neste bloco."
       },
       {
-        "q": "Qual situação caracteriza um bom comportamento de segurança?",
+        "q": "Qual alternativa representa o controle correto? Considerando «Zona de perigo», qual alternativa está correta?",
         "options": [
-          "Pular uma etapa porque a atividade é conhecida",
-          "Comunicar desvio e interromper quando o controle necessário não está disponível",
-          "Manter silêncio para evitar conflito",
-          "Adaptar o procedimento sem comunicar"
+          "Defina a zona antes da intervenção",
+          "Continuar com base apenas no hábito da equipe, sem rever a condição real.",
+          "Substituir o controle previsto por improviso e registrar depois.",
+          "Aguardar o final da atividade para comunicar qualquer desvio."
+        ],
+        "correct": 0,
+        "a": "A resposta correta está alinhada ao controle específico apresentado neste bloco."
+      },
+      {
+        "q": "O que caracteriza uma resposta segura nesta situação? Considerando «Comandos», qual alternativa está correta?",
+        "options": [
+          "Aguardar o final da atividade para comunicar qualquer desvio.",
+          "Continuar com base apenas no hábito da equipe, sem rever a condição real.",
+          "Substituir o controle previsto por improviso e registrar depois.",
+          "Comandos locais, remotos e automáticos podem iniciar movimento"
+        ],
+        "correct": 3,
+        "a": "A resposta correta está alinhada ao controle específico apresentado neste bloco."
+      },
+      {
+        "q": "Qual erro deve ser evitado no campo? Considerando «Automação», qual alternativa está correta?",
+        "options": [
+          "Continuar com base apenas no hábito da equipe, sem rever a condição real.",
+          "Programações de rastreamento podem movimentar o equipamento sem comando local",
+          "Substituir o controle previsto por improviso e registrar depois.",
+          "Aguardar o final da atividade para comunicar qualquer desvio."
         ],
         "correct": 1,
-        "a": "A autoridade para interromper diante de risco é parte da cultura de prevenção."
+        "a": "A resposta correta está alinhada ao controle específico apresentado neste bloco."
       },
       {
-        "q": "Por que procedimentos e checklists são importantes?",
+        "q": "Qual informação é essencial para a decisão? Considerando «Bloqueio elétrico», qual alternativa está correta?",
         "options": [
-          "Para aumentar burocracia",
-          "Para tornar controles críticos repetíveis e verificáveis",
-          "Para substituir treinamento",
-          "Para eliminar a necessidade de julgamento"
-        ],
-        "correct": 1,
-        "a": "Procedimentos ajudam a tornar barreiras críticas consistentes e rastreáveis."
-      },
-      {
-        "q": "Qual é uma pergunta útil antes de iniciar uma tarefa?",
-        "options": [
-          "Quanto tempo falta para terminar?",
-          "Quem será culpado se algo der errado?",
-          "O que pode me atingir e como vou controlar essa exposição?",
-          "Como posso fazer sem comunicar?"
+          "Substituir o controle previsto por improviso e registrar depois.",
+          "Continuar com base apenas no hábito da equipe, sem rever a condição real.",
+          "Controle a alimentação conforme procedimento",
+          "Aguardar o final da atividade para comunicar qualquer desvio."
         ],
         "correct": 2,
-        "a": "Comece pela exposição e pelos controles."
+        "a": "A resposta correta está alinhada ao controle específico apresentado neste bloco."
       },
       {
-        "q": "Um equipamento apresenta uma condição diferente da prevista. O que é mais seguro?",
+        "q": "Diante de uma condição diferente da prevista, o que fazer? Considerando «Energia mecânica», qual alternativa está correta?",
         "options": [
-          "Improvisar",
-          "Parar e escalar para decisão técnica",
-          "Continuar porque já começou",
-          "Remover uma barreira para facilitar"
+          "Aguardar o final da atividade para comunicar qualquer desvio.",
+          "Continuar com base apenas no hábito da equipe, sem rever a condição real.",
+          "Substituir o controle previsto por improviso e registrar depois.",
+          "Partes elevadas, tensionadas ou inclinadas podem armazenar energia"
         ],
-        "correct": 1,
-        "a": "Condição não prevista exige interrupção e avaliação."
+        "correct": 3,
+        "a": "A resposta correta está alinhada ao controle específico apresentado neste bloco."
       },
       {
-        "q": "Qual afirmação melhor representa a cultura de segurança?",
+        "q": "Qual medida reduz diretamente a exposição? Considerando «TCU e motor», qual alternativa está correta?",
         "options": [
-          "Segurança é responsabilidade do técnico de segurança",
-          "Segurança é condição de execução compartilhada pela equipe",
-          "Só o supervisor pode parar a atividade",
-          "Produção sempre vem primeiro"
+          "Intervenções em TCU, motor e cabos podem combinar riscos elétricos e mecânicos",
+          "Continuar com base apenas no hábito da equipe, sem rever a condição real.",
+          "Substituir o controle previsto por improviso e registrar depois.",
+          "Aguardar o final da atividade para comunicar qualquer desvio."
         ],
-        "correct": 1,
-        "a": "A prevenção é responsabilidade de todos dentro dos papéis definidos."
+        "correct": 0,
+        "a": "A resposta correta está alinhada ao controle específico apresentado neste bloco."
       },
       {
-        "q": "Ao final de uma atividade, o que completa o ciclo seguro?",
+        "q": "Qual afirmação está correta para esta atividade? Considerando «Falha de sensor», qual alternativa está correta?",
         "options": [
-          "Sair rapidamente",
-          "Restabelecer condições conforme procedimento, comunicar estado e registrar o necessário",
-          "Deixar o equipamento como ficou",
-          "Apagar os registros"
+          "Substituir o controle previsto por improviso e registrar depois.",
+          "Continuar com base apenas no hábito da equipe, sem rever a condição real.",
+          "Falha de sensor ou comunicação pode gerar comportamento inesperado",
+          "Aguardar o final da atividade para comunicar qualquer desvio."
+        ],
+        "correct": 2,
+        "a": "A resposta correta está alinhada ao controle específico apresentado neste bloco."
+      },
+      {
+        "q": "Qual é o principal critério de parada? Considerando «Posicionamento», qual alternativa está correta?",
+        "options": [
+          "Continuar com base apenas no hábito da equipe, sem rever a condição real.",
+          "Mantenha mãos e corpo fora dos pontos de esmagamento e evite ficar entre uma parte móvel e uma estrutura fixa",
+          "Substituir o controle previsto por improviso e registrar depois.",
+          "Aguardar o final da atividade para comunicar qualquer desvio."
         ],
         "correct": 1,
-        "a": "O encerramento seguro inclui restauração, comunicação e registro conforme aplicável."
+        "a": "A resposta correta está alinhada ao controle específico apresentado neste bloco."
       }
     ],
     "references": [
-      "NR-12 MTE",
-      "NR-10 MTE",
-      "Manual do fabricante do tracker"
-    ]
+      "NR-12 — Segurança no Trabalho em Máquinas e Equipamentos",
+      "NR-10 — Segurança em Instalações e Serviços em Eletricidade, quando aplicável",
+      "NR-01 — Gerenciamento de Riscos Ocupacionais",
+      "Manual do fabricante do tracker e procedimento de manutenção — versão aplicável"
+    ],
+    "case": {
+      "title": "Retorno",
+      "scenario": "Antes de liberar, retire pessoas e ferramentas, confirme proteções e comunique o retorno. Teste de forma controlada.",
+      "question": "Qual deve ser a primeira decisão da equipe?",
+      "options": [
+        {
+          "text": "Interromper a exposição, aplicar os controles previstos e reavaliar antes de continuar.",
+          "correct": true
+        },
+        {
+          "text": "Continuar porque a atividade já começou e corrigir a condição durante a execução.",
+          "correct": false
+        },
+        {
+          "text": "Improvisar um controle temporário e comunicar somente depois da atividade.",
+          "correct": false
+        }
+      ]
+    }
   },
   {
     "id": 7,
     "phase": "Operação Segura",
     "title": "EPI, EPC e Proteção Coletiva",
-    "description": "Entenda a hierarquia de controles e selecione proteção adequada para cada exposição.",
-    "objective": "EPI, EPC, CA, proteção coletiva, inspeção e conservação",
-    "icon": "🛠️",
-    "duration": 22,
+    "description": "Selecione e utilize EPI e EPC como barreiras adequadas ao risco, sem substituir controles de engenharia.",
+    "objective": "EPI, EPC e Proteção Coletiva",
+    "icon": "🦺",
+    "duration": 25,
     "slides": [
       {
-        "title": "O que você precisa dominar",
-        "body": "Neste treinamento vamos tratar de EPI, EPC, CA, proteção coletiva, inspeção e conservação. O objetivo é reconhecer a exposição, selecionar controles e tomar decisões seguras no campo.",
+        "title": "Hierarquia de controles",
+        "body": "A prevenção deve priorizar eliminação, substituição e controles de engenharia/organização conforme a avaliação. EPI é barreira complementar.",
         "bullets": [
-          "Identifique o perigo",
-          "Controle a exposição",
-          "Confirme a condição segura"
+          "A prevenção deve priorizar eliminação, substituição e controles de engenharia/organização conforme a avaliação",
+          "EPI é barreira complementar",
+          "Verifique compatibilidade, integridade e adequação do EPI/EPC ao risco real."
         ],
-        "image": "https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-07-1.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Hierarquia de controles»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Onde esse risco aparece na UFV",
-        "body": "Observe equipamentos, circulação, ferramentas, ambiente e comportamento. Em uma usina, a mesma atividade pode mudar de risco conforme local e condição.",
+        "title": "EPI x EPC",
+        "body": "EPC controla o ambiente ou protege várias pessoas; EPI protege individualmente. Os dois podem ser necessários na mesma tarefa.",
         "bullets": [
-          "Identifique o perigo",
-          "Controle a exposição",
-          "Confirme a condição segura"
+          "EPC controla o ambiente ou protege várias pessoas; EPI protege individualmente",
+          "Os dois podem ser necessários na mesma tarefa",
+          "Verifique compatibilidade, integridade e adequação do EPI/EPC ao risco real."
         ],
-        "image": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-07-2.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «EPI x EPC»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Identifique o mecanismo de dano",
-        "body": "Pergunte qual é o mecanismo capaz de causar lesão neste tema: energia, movimento, queda, contato, exposição ambiental, produto ou falha de comunicação.",
+        "title": "Seleção por risco",
+        "body": "Selecione EPI conforme perigo, tarefa, exposição e orientação. Não escolha apenas pelo hábito.",
         "bullets": [
-          "Aplique no contexto da UFV",
-          "Registre ou comunique quando necessário",
-          "Mantenha a barreira até o fim da atividade"
+          "Selecione EPI conforme perigo, tarefa, exposição e orientação",
+          "Não escolha apenas pelo hábito",
+          "Verifique compatibilidade, integridade e adequação do EPI/EPC ao risco real."
         ],
-        "image": "https://images.unsplash.com/photo-1581092795360-fd1ca04f0952?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-07-3.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Seleção por risco»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Checkpoint 1 — pare e pense",
-        "body": "Antes de executar, descreva mentalmente: perigo → exposição → consequência → controle. Se uma etapa não estiver clara, pare e esclareça.",
+        "title": "CA e rastreabilidade",
+        "body": "Verifique a identificação e a adequação do EPI ao uso previsto, incluindo CA quando aplicável.",
         "bullets": [
-          "Responda antes de avançar",
-          "Não improvise controle",
-          "Se houver dúvida, comunique e reavalie"
+          "Verifique a identificação e a adequação do EPI ao uso previsto, incluindo CA quando aplicável",
+          "Aplicação de campo: CA e rastreabilidade.",
+          "Verifique compatibilidade, integridade e adequação do EPI/EPC ao risco real."
         ],
-        "image": "https://images.unsplash.com/photo-1586864387967-d02ef85d93e8?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": true
+        "image": "media/treino-07-1.svg",
+        "checkpoint": true,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «CA e rastreabilidade»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Controle na fonte",
-        "body": "Sempre que possível, reduza o risco antes da pessoa entrar na zona de exposição. Use barreiras, isolamento, organização e procedimentos antes de depender somente do comportamento individual.",
+        "title": "Inspeção",
+        "body": "Procure cortes, deformações, desgaste, contaminação e outros sinais definidos pelo fabricante antes do uso.",
         "bullets": [
-          "Identifique o perigo",
-          "Controle a exposição",
-          "Confirme a condição segura"
+          "Procure cortes, deformações, desgaste, contaminação e outros sinais definidos pelo fabricante antes do uso",
+          "Aplicação de campo: Inspeção.",
+          "Verifique compatibilidade, integridade e adequação do EPI/EPC ao risco real."
         ],
-        "image": "https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-07-2.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Inspeção»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Condição segura",
-        "body": "Para este tema, condição segura significa que os controles relevantes foram verificados. Não confie apenas em aparência, hábito ou experiência anterior.",
+        "title": "Conservação",
+        "body": "Armazene protegido de sol, calor, umidade e produtos incompatíveis, conforme orientação do fabricante.",
         "bullets": [
-          "Identifique o perigo",
-          "Controle a exposição",
-          "Confirme a condição segura"
+          "Armazene protegido de sol, calor, umidade e produtos incompatíveis, conforme orientação do fabricante",
+          "Aplicação de campo: Conservação.",
+          "Verifique compatibilidade, integridade e adequação do EPI/EPC ao risco real."
         ],
-        "image": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-07-3.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Conservação»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Comunicação operacional",
-        "body": "Quem executa precisa saber o escopo, as limitações e os sinais de parada. Quando houver mudança relevante, comunique antes de continuar.",
+        "title": "Risco elétrico",
+        "body": "A proteção para eletricidade deve considerar tensão, atividade e exposição. EPI não autoriza trabalho energizado por si só.",
         "bullets": [
-          "Identifique o perigo",
-          "Controle a exposição",
-          "Confirme a condição segura"
+          "A proteção para eletricidade deve considerar tensão, atividade e exposição",
+          "EPI não autoriza trabalho energizado por si só",
+          "Verifique compatibilidade, integridade e adequação do EPI/EPC ao risco real."
         ],
-        "image": "https://images.unsplash.com/photo-1581092795360-fd1ca04f0952?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-07-1.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Risco elétrico»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Checkpoint 2 — o cenário mudou",
-        "body": "Se surgir uma condição não prevista, a resposta segura é interromper, proteger a equipe, comunicar e reavaliar o risco. Não 'adapte no improviso'.",
+        "title": "Altura",
+        "body": "Cinturão e componentes de proteção contra quedas devem ser compatíveis e inspecionados antes do uso.",
         "bullets": [
-          "Responda antes de avançar",
-          "Não improvise controle",
-          "Se houver dúvida, comunique e reavalie"
+          "Cinturão e componentes de proteção contra quedas devem ser compatíveis e inspecionados antes do uso",
+          "Aplicação de campo: Altura.",
+          "Verifique compatibilidade, integridade e adequação do EPI/EPC ao risco real."
         ],
-        "image": "https://images.unsplash.com/photo-1586864387967-d02ef85d93e8?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": true
+        "image": "media/treino-07-2.svg",
+        "checkpoint": true,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Altura»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Erro comum no campo",
-        "body": "Um erro recorrente é normalizar pequenas anomalias porque 'sempre foi assim'. Desvio repetido não deixa de ser risco por ser familiar.",
+        "title": "Olhos, face e mãos",
+        "body": "Escolha proteção considerando projeção, arco, produtos químicos, calor e outras exposições específicas.",
         "bullets": [
-          "Identifique o perigo",
-          "Controle a exposição",
-          "Confirme a condição segura"
+          "Escolha proteção considerando projeção, arco, produtos químicos, calor e outras exposições específicas",
+          "Aplicação de campo: Olhos, face e mãos.",
+          "Verifique compatibilidade, integridade e adequação do EPI/EPC ao risco real."
         ],
-        "image": "https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-07-3.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Olhos, face e mãos»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Aplicação prática — EPI",
-        "body": "Imagine uma atividade real relacionada a epi, epc e proteção coletiva. Antes de iniciar, faça uma inspeção do local, confirme os controles e combine como a equipe vai interromper a atividade.",
+        "title": "Vestimentas",
+        "body": "Vestimentas devem ser compatíveis com riscos térmicos, elétricos e químicos quando presentes. Não existe EPI universal.",
         "bullets": [
-          "Identifique o perigo",
-          "Controle a exposição",
-          "Confirme a condição segura"
+          "Vestimentas devem ser compatíveis com riscos térmicos, elétricos e químicos quando presentes",
+          "Não existe EPI universal",
+          "Verifique compatibilidade, integridade e adequação do EPI/EPC ao risco real."
         ],
-        "image": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-07-1.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Vestimentas»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Checkpoint 3 — decisão segura",
-        "body": "Escolha sempre a alternativa que controla a exposição antes de executar e que mantém a comunicação e a rastreabilidade da decisão.",
+        "title": "Substituição",
+        "body": "EPI danificado, contaminado ou sem condição de uso deve ser retirado de serviço e tratado conforme procedimento.",
         "bullets": [
-          "Responda antes de avançar",
-          "Não improvise controle",
-          "Se houver dúvida, comunique e reavalie"
+          "EPI danificado, contaminado ou sem condição de uso deve ser retirado de serviço e tratado conforme procedimento",
+          "Aplicação de campo: Substituição.",
+          "Verifique compatibilidade, integridade e adequação do EPI/EPC ao risco real."
         ],
-        "image": "https://images.unsplash.com/photo-1581092795360-fd1ca04f0952?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": true
+        "image": "media/treino-07-2.svg",
+        "checkpoint": true,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Substituição»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Checklist de campo",
-        "body": "Escopo; local; perigos; exposição; controles; EPI/EPC quando aplicável; comunicação; condição ambiental; ferramentas; plano de resposta.",
+        "title": "Caso: EPI incompatível",
+        "body": "Se o equipamento não protege contra o risco real, interrompa e solicite a proteção correta; não improvise uma combinação.",
         "bullets": [
-          "Identifique o perigo",
-          "Controle a exposição",
-          "Confirme a condição segura"
+          "Se o equipamento não protege contra o risco real, interrompa e solicite a proteção correta; não improvise uma combinação",
+          "Aplicação de campo: Caso: EPI incompatível.",
+          "Verifique compatibilidade, integridade e adequação do EPI/EPC ao risco real."
         ],
-        "image": "https://images.unsplash.com/photo-1586864387967-d02ef85d93e8?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-07-3.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Caso: EPI incompatível»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Quando parar",
-        "body": "Pare diante de condição não prevista, falha de controle, equipamento danificado, clima incompatível, dúvida sobre procedimento ou qualquer exposição que não esteja controlada.",
+        "title": "Responsabilidades",
+        "body": "O trabalhador usa e conserva; a organização fornece, orienta, controla e substitui conforme os requisitos aplicáveis.",
         "bullets": [
-          "Identifique o perigo",
-          "Controle a exposição",
-          "Confirme a condição segura"
+          "O trabalhador usa e conserva; a organização fornece, orienta, controla e substitui conforme os requisitos aplicáveis",
+          "Aplicação de campo: Responsabilidades.",
+          "Verifique compatibilidade, integridade e adequação do EPI/EPC ao risco real."
         ],
-        "image": "https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-07-1.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Responsabilidades»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Fixação antes da prova",
-        "body": "Você já percorreu os fundamentos de EPI, EPC e Proteção Coletiva. Agora faça o caso prático, revise os checkpoints e só então avance para a avaliação final.",
+        "title": "Checklist",
+        "body": "Confirme risco, EPC, EPI, CA quando aplicável, tamanho, integridade, ajuste e compatibilidade.",
         "bullets": [
-          "Aplique no contexto da UFV",
-          "Registre ou comunique quando necessário",
-          "Mantenha a barreira até o fim da atividade"
+          "Confirme risco, EPC, EPI, CA quando aplicável, tamanho, integridade, ajuste e compatibilidade",
+          "Aplicação de campo: Checklist.",
+          "Verifique compatibilidade, integridade e adequação do EPI/EPC ao risco real."
         ],
-        "image": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-07-2.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Checklist»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Fechamento",
-        "body": "Segurança é uma condição para executar. O resultado esperado é que você reconheça o risco antes que ele vire incidente e saiba quando parar e pedir suporte.",
+        "title": "Critérios de parada",
+        "body": "Pare quando a proteção necessária não estiver disponível, estiver danificada ou for incompatível com a exposição.",
         "bullets": [
-          "Aplique no contexto da UFV",
-          "Registre ou comunique quando necessário",
-          "Mantenha a barreira até o fim da atividade"
+          "Pare quando a proteção necessária não estiver disponível, estiver danificada ou for incompatível com a exposição",
+          "Aplicação de campo: Critérios de parada.",
+          "Verifique compatibilidade, integridade e adequação do EPI/EPC ao risco real."
         ],
-        "image": "https://images.unsplash.com/photo-1581092795360-fd1ca04f0952?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-07-3.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Critérios de parada»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       }
     ],
     "questions": [
       {
-        "q": "Qual é a melhor abordagem de segurança em uma atividade relacionada a EPI, EPC, CA, proteção coletiva, inspeção e conservação?",
+        "q": "Qual é a conduta tecnicamente mais adequada neste tema? Considerando «Hierarquia de controles», qual alternativa está correta?",
         "options": [
-          "Executar rapidamente e corrigir depois",
-          "Identificar a exposição, aplicar controles e confirmar a condição segura antes de executar",
-          "Confiar somente na experiência do operador",
-          "Improvisar um controle temporário sem comunicar"
+          "Continuar com base apenas no hábito da equipe, sem rever a condição real.",
+          "A prevenção deve priorizar eliminação, substituição e controles de engenharia/organização conforme a avaliação",
+          "Substituir o controle previsto por improviso e registrar depois.",
+          "Aguardar o final da atividade para comunicar qualquer desvio."
         ],
         "correct": 1,
-        "a": "Controle antes da exposição. Segurança precisa ser verificável."
+        "a": "A resposta correta está alinhada ao controle específico apresentado neste bloco."
       },
       {
-        "q": "Se uma condição relevante mudar durante a atividade, o que deve acontecer?",
+        "q": "Qual condição deve ser confirmada antes de avançar? Considerando «EPI x EPC», qual alternativa está correta?",
         "options": [
-          "Continuar para não perder produtividade",
-          "Parar, comunicar e reavaliar o risco antes de continuar",
-          "Ignorar se a equipe já estiver acostumada",
-          "Esperar o final da tarefa para registrar"
-        ],
-        "correct": 1,
-        "a": "Mudança de cenário exige nova avaliação e controle."
-      },
-      {
-        "q": "Qual princípio é mais importante ao escolher controles?",
-        "options": [
-          "Usar somente EPI",
-          "Priorizar controles que reduzam a exposição na fonte e usar barreiras complementares",
-          "Escolher o controle mais barato",
-          "Deixar a decisão para depois da execução"
-        ],
-        "correct": 1,
-        "a": "A prevenção começa na fonte e nas barreiras, não somente no comportamento individual."
-      },
-      {
-        "q": "O que fazer quando você não consegue demonstrar que uma condição está segura?",
-        "options": [
-          "Assumir que está segura",
-          "Executar com cuidado redobrado",
-          "Parar e buscar esclarecimento/controle adequado",
-          "Pedir para outra pessoa executar"
+          "Substituir o controle previsto por improviso e registrar depois.",
+          "Continuar com base apenas no hábito da equipe, sem rever a condição real.",
+          "EPC controla o ambiente ou protege várias pessoas; EPI protege individualmente",
+          "Aguardar o final da atividade para comunicar qualquer desvio."
         ],
         "correct": 2,
-        "a": "Dúvida sobre condição segura é motivo para não avançar."
+        "a": "A resposta correta está alinhada ao controle específico apresentado neste bloco."
       },
       {
-        "q": "Qual situação caracteriza um bom comportamento de segurança?",
+        "q": "Qual alternativa representa o controle correto? Considerando «Seleção por risco», qual alternativa está correta?",
         "options": [
-          "Pular uma etapa porque a atividade é conhecida",
-          "Comunicar desvio e interromper quando o controle necessário não está disponível",
-          "Manter silêncio para evitar conflito",
-          "Adaptar o procedimento sem comunicar"
+          "Selecione EPI conforme perigo, tarefa, exposição e orientação",
+          "Continuar com base apenas no hábito da equipe, sem rever a condição real.",
+          "Substituir o controle previsto por improviso e registrar depois.",
+          "Aguardar o final da atividade para comunicar qualquer desvio."
+        ],
+        "correct": 0,
+        "a": "A resposta correta está alinhada ao controle específico apresentado neste bloco."
+      },
+      {
+        "q": "O que caracteriza uma resposta segura nesta situação? Considerando «CA e rastreabilidade», qual alternativa está correta?",
+        "options": [
+          "Aguardar o final da atividade para comunicar qualquer desvio.",
+          "Continuar com base apenas no hábito da equipe, sem rever a condição real.",
+          "Substituir o controle previsto por improviso e registrar depois.",
+          "Verifique a identificação e a adequação do EPI ao uso previsto, incluindo CA quando aplicável"
+        ],
+        "correct": 3,
+        "a": "A resposta correta está alinhada ao controle específico apresentado neste bloco."
+      },
+      {
+        "q": "Qual erro deve ser evitado no campo? Considerando «Inspeção», qual alternativa está correta?",
+        "options": [
+          "Continuar com base apenas no hábito da equipe, sem rever a condição real.",
+          "Procure cortes, deformações, desgaste, contaminação e outros sinais definidos pelo fabricante antes do uso",
+          "Substituir o controle previsto por improviso e registrar depois.",
+          "Aguardar o final da atividade para comunicar qualquer desvio."
         ],
         "correct": 1,
-        "a": "A autoridade para interromper diante de risco é parte da cultura de prevenção."
+        "a": "A resposta correta está alinhada ao controle específico apresentado neste bloco."
       },
       {
-        "q": "Por que procedimentos e checklists são importantes?",
+        "q": "Qual informação é essencial para a decisão? Considerando «Conservação», qual alternativa está correta?",
         "options": [
-          "Para aumentar burocracia",
-          "Para tornar controles críticos repetíveis e verificáveis",
-          "Para substituir treinamento",
-          "Para eliminar a necessidade de julgamento"
-        ],
-        "correct": 1,
-        "a": "Procedimentos ajudam a tornar barreiras críticas consistentes e rastreáveis."
-      },
-      {
-        "q": "Qual é uma pergunta útil antes de iniciar uma tarefa?",
-        "options": [
-          "Quanto tempo falta para terminar?",
-          "Quem será culpado se algo der errado?",
-          "O que pode me atingir e como vou controlar essa exposição?",
-          "Como posso fazer sem comunicar?"
+          "Substituir o controle previsto por improviso e registrar depois.",
+          "Continuar com base apenas no hábito da equipe, sem rever a condição real.",
+          "Armazene protegido de sol, calor, umidade e produtos incompatíveis, conforme orientação do fabricante",
+          "Aguardar o final da atividade para comunicar qualquer desvio."
         ],
         "correct": 2,
-        "a": "Comece pela exposição e pelos controles."
+        "a": "A resposta correta está alinhada ao controle específico apresentado neste bloco."
       },
       {
-        "q": "Um equipamento apresenta uma condição diferente da prevista. O que é mais seguro?",
+        "q": "Diante de uma condição diferente da prevista, o que fazer? Considerando «Risco elétrico», qual alternativa está correta?",
         "options": [
-          "Improvisar",
-          "Parar e escalar para decisão técnica",
-          "Continuar porque já começou",
-          "Remover uma barreira para facilitar"
+          "Aguardar o final da atividade para comunicar qualquer desvio.",
+          "Continuar com base apenas no hábito da equipe, sem rever a condição real.",
+          "Substituir o controle previsto por improviso e registrar depois.",
+          "A proteção para eletricidade deve considerar tensão, atividade e exposição"
         ],
-        "correct": 1,
-        "a": "Condição não prevista exige interrupção e avaliação."
+        "correct": 3,
+        "a": "A resposta correta está alinhada ao controle específico apresentado neste bloco."
       },
       {
-        "q": "Qual afirmação melhor representa a cultura de segurança?",
+        "q": "Qual medida reduz diretamente a exposição? Considerando «Altura», qual alternativa está correta?",
         "options": [
-          "Segurança é responsabilidade do técnico de segurança",
-          "Segurança é condição de execução compartilhada pela equipe",
-          "Só o supervisor pode parar a atividade",
-          "Produção sempre vem primeiro"
+          "Cinturão e componentes de proteção contra quedas devem ser compatíveis e inspecionados antes do uso",
+          "Continuar com base apenas no hábito da equipe, sem rever a condição real.",
+          "Substituir o controle previsto por improviso e registrar depois.",
+          "Aguardar o final da atividade para comunicar qualquer desvio."
         ],
-        "correct": 1,
-        "a": "A prevenção é responsabilidade de todos dentro dos papéis definidos."
+        "correct": 0,
+        "a": "A resposta correta está alinhada ao controle específico apresentado neste bloco."
       },
       {
-        "q": "Ao final de uma atividade, o que completa o ciclo seguro?",
+        "q": "Qual afirmação está correta para esta atividade? Considerando «Olhos, face e mãos», qual alternativa está correta?",
         "options": [
-          "Sair rapidamente",
-          "Restabelecer condições conforme procedimento, comunicar estado e registrar o necessário",
-          "Deixar o equipamento como ficou",
-          "Apagar os registros"
+          "Substituir o controle previsto por improviso e registrar depois.",
+          "Continuar com base apenas no hábito da equipe, sem rever a condição real.",
+          "Escolha proteção considerando projeção, arco, produtos químicos, calor e outras exposições específicas",
+          "Aguardar o final da atividade para comunicar qualquer desvio."
+        ],
+        "correct": 2,
+        "a": "A resposta correta está alinhada ao controle específico apresentado neste bloco."
+      },
+      {
+        "q": "Qual é o principal critério de parada? Considerando «Vestimentas», qual alternativa está correta?",
+        "options": [
+          "Continuar com base apenas no hábito da equipe, sem rever a condição real.",
+          "Vestimentas devem ser compatíveis com riscos térmicos, elétricos e químicos quando presentes",
+          "Substituir o controle previsto por improviso e registrar depois.",
+          "Aguardar o final da atividade para comunicar qualquer desvio."
         ],
         "correct": 1,
-        "a": "O encerramento seguro inclui restauração, comunicação e registro conforme aplicável."
+        "a": "A resposta correta está alinhada ao controle específico apresentado neste bloco."
       }
     ],
     "references": [
-      "NR-06 MTE",
-      "NR-01 GRO/PGR",
-      "Procedimentos internos O&M Solar"
-    ]
+      "NR-06 — Equipamento de Proteção Individual",
+      "NR-01 — Gerenciamento de Riscos Ocupacionais",
+      "NR-10 e NR-35, conforme a atividade",
+      "Procedimento O&M Solar de EPI/EPC — versão controlada"
+    ],
+    "case": {
+      "title": "Responsabilidades",
+      "scenario": "O trabalhador usa e conserva; a organização fornece, orienta, controla e substitui conforme os requisitos aplicáveis.",
+      "question": "Qual deve ser a primeira decisão da equipe?",
+      "options": [
+        {
+          "text": "Interromper a exposição, aplicar os controles previstos e reavaliar antes de continuar.",
+          "correct": true
+        },
+        {
+          "text": "Continuar porque a atividade já começou e corrigir a condição durante a execução.",
+          "correct": false
+        },
+        {
+          "text": "Improvisar um controle temporário e comunicar somente depois da atividade.",
+          "correct": false
+        }
+      ]
+    }
   },
   {
     "id": 8,
     "phase": "Operação Segura",
     "title": "Ferramentas, Equipamentos e Segurança na Manutenção",
-    "description": "Use ferramentas e equipamentos de manutenção de forma segura, inspecionando condições antes do uso.",
-    "objective": "inspeção, ferramenta adequada, integridade, elétrica e mecânica",
+    "description": "Use ferramentas e instrumentos adequados, íntegros e compatíveis com os riscos das atividades de manutenção.",
+    "objective": "Ferramentas, Equipamentos e Segurança na Manutenção",
     "icon": "🛠️",
-    "duration": 22,
+    "duration": 25,
     "slides": [
       {
-        "title": "O que você precisa dominar",
-        "body": "Neste treinamento vamos tratar de inspeção, ferramenta adequada, integridade, elétrica e mecânica. O objetivo é reconhecer a exposição, selecionar controles e tomar decisões seguras no campo.",
+        "title": "Ferramenta correta",
+        "body": "A ferramenta deve ser adequada ao serviço, material e risco. Improviso altera a condição de segurança e pode danificar o equipamento.",
         "bullets": [
-          "Identifique o perigo",
-          "Controle a exposição",
-          "Confirme a condição segura"
+          "A ferramenta deve ser adequada ao serviço, material e risco",
+          "Improviso altera a condição de segurança e pode danificar o equipamento",
+          "Retire de uso qualquer ferramenta ou instrumento que não ofereça condição segura."
         ],
-        "image": "https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-08-1.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Ferramenta correta»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Onde esse risco aparece na UFV",
-        "body": "Observe equipamentos, circulação, ferramentas, ambiente e comportamento. Em uma usina, a mesma atividade pode mudar de risco conforme local e condição.",
+        "title": "Inspeção pré-uso",
+        "body": "Verifique cabo, isolação, partes móveis, proteções, conectores, identificação e funcionamento conforme o tipo de equipamento.",
         "bullets": [
-          "Identifique o perigo",
-          "Controle a exposição",
-          "Confirme a condição segura"
+          "Verifique cabo, isolação, partes móveis, proteções, conectores, identificação e funcionamento conforme o tipo de equipamento",
+          "Aplicação de campo: Inspeção pré-uso.",
+          "Retire de uso qualquer ferramenta ou instrumento que não ofereça condição segura."
         ],
-        "image": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-08-2.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Inspeção pré-uso»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Identifique o mecanismo de dano",
-        "body": "Pergunte qual é o mecanismo capaz de causar lesão neste tema: energia, movimento, queda, contato, exposição ambiental, produto ou falha de comunicação.",
+        "title": "Ferramentas elétricas",
+        "body": "Equipamentos elétricos devem estar íntegros e ser usados conforme fabricante. Isolação não autoriza trabalho energizado.",
         "bullets": [
-          "Aplique no contexto da UFV",
-          "Registre ou comunique quando necessário",
-          "Mantenha a barreira até o fim da atividade"
+          "Equipamentos elétricos devem estar íntegros e ser usados conforme fabricante",
+          "Isolação não autoriza trabalho energizado",
+          "Retire de uso qualquer ferramenta ou instrumento que não ofereça condição segura."
         ],
-        "image": "https://images.unsplash.com/photo-1581092795360-fd1ca04f0952?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-08-3.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Ferramentas elétricas»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Checkpoint 1 — pare e pense",
-        "body": "Antes de executar, descreva mentalmente: perigo → exposição → consequência → controle. Se uma etapa não estiver clara, pare e esclareça.",
+        "title": "Instrumentos",
+        "body": "Instrumentos precisam ser adequados à grandeza, categoria de medição e ambiente. Cabos e pontas também devem ser inspecionados.",
         "bullets": [
-          "Responda antes de avançar",
-          "Não improvise controle",
-          "Se houver dúvida, comunique e reavalie"
+          "Instrumentos precisam ser adequados à grandeza, categoria de medição e ambiente",
+          "Cabos e pontas também devem ser inspecionados",
+          "Retire de uso qualquer ferramenta ou instrumento que não ofereça condição segura."
         ],
-        "image": "https://images.unsplash.com/photo-1586864387967-d02ef85d93e8?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": true
+        "image": "media/treino-08-1.svg",
+        "checkpoint": true,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Instrumentos»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Controle na fonte",
-        "body": "Sempre que possível, reduza o risco antes da pessoa entrar na zona de exposição. Use barreiras, isolamento, organização e procedimentos antes de depender somente do comportamento individual.",
+        "title": "Extensões",
+        "body": "Extensões e alimentação temporária devem estar dimensionadas e protegidas. Não use cabos danificados ou conexões expostas.",
         "bullets": [
-          "Identifique o perigo",
-          "Controle a exposição",
-          "Confirme a condição segura"
+          "Extensões e alimentação temporária devem estar dimensionadas e protegidas",
+          "Não use cabos danificados ou conexões expostas",
+          "Retire de uso qualquer ferramenta ou instrumento que não ofereça condição segura."
         ],
-        "image": "https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-08-2.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Extensões»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Condição segura",
-        "body": "Para este tema, condição segura significa que os controles relevantes foram verificados. Não confie apenas em aparência, hábito ou experiência anterior.",
+        "title": "Máquinas portáteis",
+        "body": "Furadeiras, esmerilhadeiras e similares exigem proteções. Nunca retire proteção para ganhar velocidade.",
         "bullets": [
-          "Identifique o perigo",
-          "Controle a exposição",
-          "Confirme a condição segura"
+          "Furadeiras, esmerilhadeiras e similares exigem proteções",
+          "Nunca retire proteção para ganhar velocidade",
+          "Retire de uso qualquer ferramenta ou instrumento que não ofereça condição segura."
         ],
-        "image": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-08-3.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Máquinas portáteis»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Comunicação operacional",
-        "body": "Quem executa precisa saber o escopo, as limitações e os sinais de parada. Quando houver mudança relevante, comunique antes de continuar.",
+        "title": "Queda de objetos",
+        "body": "Ferramentas em altura podem atingir pessoas. Organize a área e use retenção quando prevista.",
         "bullets": [
-          "Identifique o perigo",
-          "Controle a exposição",
-          "Confirme a condição segura"
+          "Ferramentas em altura podem atingir pessoas",
+          "Organize a área e use retenção quando prevista",
+          "Retire de uso qualquer ferramenta ou instrumento que não ofereça condição segura."
         ],
-        "image": "https://images.unsplash.com/photo-1581092795360-fd1ca04f0952?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-08-1.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Queda de objetos»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Checkpoint 2 — o cenário mudou",
-        "body": "Se surgir uma condição não prevista, a resposta segura é interromper, proteger a equipe, comunicar e reavaliar o risco. Não 'adapte no improviso'.",
+        "title": "Manutenção",
+        "body": "Ferramenta danificada deve ser identificada e retirada de uso. Reparo improvisado pode ocultar falhas.",
         "bullets": [
-          "Responda antes de avançar",
-          "Não improvise controle",
-          "Se houver dúvida, comunique e reavalie"
+          "Ferramenta danificada deve ser identificada e retirada de uso",
+          "Reparo improvisado pode ocultar falhas",
+          "Retire de uso qualquer ferramenta ou instrumento que não ofereça condição segura."
         ],
-        "image": "https://images.unsplash.com/photo-1586864387967-d02ef85d93e8?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": true
+        "image": "media/treino-08-2.svg",
+        "checkpoint": true,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Manutenção»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Erro comum no campo",
-        "body": "Um erro recorrente é normalizar pequenas anomalias porque 'sempre foi assim'. Desvio repetido não deixa de ser risco por ser familiar.",
+        "title": "Proteções",
+        "body": "Gatilhos, intertravamentos, capas e dispositivos de segurança não devem ser burlados.",
         "bullets": [
-          "Identifique o perigo",
-          "Controle a exposição",
-          "Confirme a condição segura"
+          "Gatilhos, intertravamentos, capas e dispositivos de segurança não devem ser burlados",
+          "Aplicação de campo: Proteções.",
+          "Retire de uso qualquer ferramenta ou instrumento que não ofereça condição segura."
         ],
-        "image": "https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-08-3.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Proteções»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Aplicação prática — FER",
-        "body": "Imagine uma atividade real relacionada a ferramentas, equipamentos e segurança na manutenção. Antes de iniciar, faça uma inspeção do local, confirme os controles e combine como a equipe vai interromper a atividade.",
+        "title": "Ergonomia",
+        "body": "Postura, força e alcance influenciam o risco. Ajuste posição e método antes de compensar com o corpo.",
         "bullets": [
-          "Identifique o perigo",
-          "Controle a exposição",
-          "Confirme a condição segura"
+          "Postura, força e alcance influenciam o risco",
+          "Ajuste posição e método antes de compensar com o corpo",
+          "Retire de uso qualquer ferramenta ou instrumento que não ofereça condição segura."
         ],
-        "image": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-08-1.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Ergonomia»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Checkpoint 3 — decisão segura",
-        "body": "Escolha sempre a alternativa que controla a exposição antes de executar e que mantém a comunicação e a rastreabilidade da decisão.",
+        "title": "Armazenamento",
+        "body": "Transporte e armazenamento devem evitar queda, impacto, umidade e contato incompatível.",
         "bullets": [
-          "Responda antes de avançar",
-          "Não improvise controle",
-          "Se houver dúvida, comunique e reavalie"
+          "Transporte e armazenamento devem evitar queda, impacto, umidade e contato incompatível",
+          "Aplicação de campo: Armazenamento.",
+          "Retire de uso qualquer ferramenta ou instrumento que não ofereça condição segura."
         ],
-        "image": "https://images.unsplash.com/photo-1581092795360-fd1ca04f0952?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": true
+        "image": "media/treino-08-2.svg",
+        "checkpoint": true,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Armazenamento»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Checklist de campo",
-        "body": "Escopo; local; perigos; exposição; controles; EPI/EPC quando aplicável; comunicação; condição ambiental; ferramentas; plano de resposta.",
+        "title": "Caso: improviso",
+        "body": "Se uma ferramenta não alcança o ponto, busque a ferramenta correta. Não adapte uma peça metálica para 'resolver rápido'.",
         "bullets": [
-          "Identifique o perigo",
-          "Controle a exposição",
-          "Confirme a condição segura"
+          "Se uma ferramenta não alcança o ponto, busque a ferramenta correta",
+          "Não adapte uma peça metálica para 'resolver rápido'",
+          "Retire de uso qualquer ferramenta ou instrumento que não ofereça condição segura."
         ],
-        "image": "https://images.unsplash.com/photo-1586864387967-d02ef85d93e8?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-08-3.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Caso: improviso»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Quando parar",
-        "body": "Pare diante de condição não prevista, falha de controle, equipamento danificado, clima incompatível, dúvida sobre procedimento ou qualquer exposição que não esteja controlada.",
+        "title": "Controle",
+        "body": "Mantenha controle das ferramentas retiradas e devolvidas, especialmente em painéis, trackers e áreas elevadas.",
         "bullets": [
-          "Identifique o perigo",
-          "Controle a exposição",
-          "Confirme a condição segura"
+          "Mantenha controle das ferramentas retiradas e devolvidas, especialmente em painéis, trackers e áreas elevadas",
+          "Aplicação de campo: Controle.",
+          "Retire de uso qualquer ferramenta ou instrumento que não ofereça condição segura."
         ],
-        "image": "https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-08-1.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Controle»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Fixação antes da prova",
-        "body": "Você já percorreu os fundamentos de Ferramentas, Equipamentos e Segurança na Manutenção. Agora faça o caso prático, revise os checkpoints e só então avance para a avaliação final.",
+        "title": "Checklist",
+        "body": "Confira integridade, proteção, alimentação, instrumento, acessórios, ambiente e EPI.",
         "bullets": [
-          "Aplique no contexto da UFV",
-          "Registre ou comunique quando necessário",
-          "Mantenha a barreira até o fim da atividade"
+          "Confira integridade, proteção, alimentação, instrumento, acessórios, ambiente e EPI",
+          "Aplicação de campo: Checklist.",
+          "Retire de uso qualquer ferramenta ou instrumento que não ofereça condição segura."
         ],
-        "image": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-08-2.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Checklist»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Fechamento",
-        "body": "Segurança é uma condição para executar. O resultado esperado é que você reconheça o risco antes que ele vire incidente e saiba quando parar e pedir suporte.",
+        "title": "Critérios de parada",
+        "body": "Pare diante de ferramenta danificada, proteção removida, instrumento inadequado ou necessidade de improviso.",
         "bullets": [
-          "Aplique no contexto da UFV",
-          "Registre ou comunique quando necessário",
-          "Mantenha a barreira até o fim da atividade"
+          "Pare diante de ferramenta danificada, proteção removida, instrumento inadequado ou necessidade de improviso",
+          "Aplicação de campo: Critérios de parada.",
+          "Retire de uso qualquer ferramenta ou instrumento que não ofereça condição segura."
         ],
-        "image": "https://images.unsplash.com/photo-1581092795360-fd1ca04f0952?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-08-3.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Critérios de parada»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       }
     ],
     "questions": [
       {
-        "q": "Qual é a melhor abordagem de segurança em uma atividade relacionada a inspeção, ferramenta adequada, integridade, elétrica e mecânica?",
+        "q": "Qual é a conduta tecnicamente mais adequada neste tema? Considerando «Ferramenta correta», qual alternativa está correta?",
         "options": [
-          "Executar rapidamente e corrigir depois",
-          "Identificar a exposição, aplicar controles e confirmar a condição segura antes de executar",
-          "Confiar somente na experiência do operador",
-          "Improvisar um controle temporário sem comunicar"
+          "Continuar com base apenas no hábito da equipe, sem rever a condição real.",
+          "A ferramenta deve ser adequada ao serviço, material e risco",
+          "Substituir o controle previsto por improviso e registrar depois.",
+          "Aguardar o final da atividade para comunicar qualquer desvio."
         ],
         "correct": 1,
-        "a": "Controle antes da exposição. Segurança precisa ser verificável."
+        "a": "A resposta correta está alinhada ao controle específico apresentado neste bloco."
       },
       {
-        "q": "Se uma condição relevante mudar durante a atividade, o que deve acontecer?",
+        "q": "Qual condição deve ser confirmada antes de avançar? Considerando «Inspeção pré-uso», qual alternativa está correta?",
         "options": [
-          "Continuar para não perder produtividade",
-          "Parar, comunicar e reavaliar o risco antes de continuar",
-          "Ignorar se a equipe já estiver acostumada",
-          "Esperar o final da tarefa para registrar"
-        ],
-        "correct": 1,
-        "a": "Mudança de cenário exige nova avaliação e controle."
-      },
-      {
-        "q": "Qual princípio é mais importante ao escolher controles?",
-        "options": [
-          "Usar somente EPI",
-          "Priorizar controles que reduzam a exposição na fonte e usar barreiras complementares",
-          "Escolher o controle mais barato",
-          "Deixar a decisão para depois da execução"
-        ],
-        "correct": 1,
-        "a": "A prevenção começa na fonte e nas barreiras, não somente no comportamento individual."
-      },
-      {
-        "q": "O que fazer quando você não consegue demonstrar que uma condição está segura?",
-        "options": [
-          "Assumir que está segura",
-          "Executar com cuidado redobrado",
-          "Parar e buscar esclarecimento/controle adequado",
-          "Pedir para outra pessoa executar"
+          "Substituir o controle previsto por improviso e registrar depois.",
+          "Continuar com base apenas no hábito da equipe, sem rever a condição real.",
+          "Verifique cabo, isolação, partes móveis, proteções, conectores, identificação e funcionamento conforme o tipo de equipamento",
+          "Aguardar o final da atividade para comunicar qualquer desvio."
         ],
         "correct": 2,
-        "a": "Dúvida sobre condição segura é motivo para não avançar."
+        "a": "A resposta correta está alinhada ao controle específico apresentado neste bloco."
       },
       {
-        "q": "Qual situação caracteriza um bom comportamento de segurança?",
+        "q": "Qual alternativa representa o controle correto? Considerando «Ferramentas elétricas», qual alternativa está correta?",
         "options": [
-          "Pular uma etapa porque a atividade é conhecida",
-          "Comunicar desvio e interromper quando o controle necessário não está disponível",
-          "Manter silêncio para evitar conflito",
-          "Adaptar o procedimento sem comunicar"
+          "Equipamentos elétricos devem estar íntegros e ser usados conforme fabricante",
+          "Continuar com base apenas no hábito da equipe, sem rever a condição real.",
+          "Substituir o controle previsto por improviso e registrar depois.",
+          "Aguardar o final da atividade para comunicar qualquer desvio."
+        ],
+        "correct": 0,
+        "a": "A resposta correta está alinhada ao controle específico apresentado neste bloco."
+      },
+      {
+        "q": "O que caracteriza uma resposta segura nesta situação? Considerando «Instrumentos», qual alternativa está correta?",
+        "options": [
+          "Aguardar o final da atividade para comunicar qualquer desvio.",
+          "Continuar com base apenas no hábito da equipe, sem rever a condição real.",
+          "Substituir o controle previsto por improviso e registrar depois.",
+          "Instrumentos precisam ser adequados à grandeza, categoria de medição e ambiente"
+        ],
+        "correct": 3,
+        "a": "A resposta correta está alinhada ao controle específico apresentado neste bloco."
+      },
+      {
+        "q": "Qual erro deve ser evitado no campo? Considerando «Extensões», qual alternativa está correta?",
+        "options": [
+          "Continuar com base apenas no hábito da equipe, sem rever a condição real.",
+          "Extensões e alimentação temporária devem estar dimensionadas e protegidas",
+          "Substituir o controle previsto por improviso e registrar depois.",
+          "Aguardar o final da atividade para comunicar qualquer desvio."
         ],
         "correct": 1,
-        "a": "A autoridade para interromper diante de risco é parte da cultura de prevenção."
+        "a": "A resposta correta está alinhada ao controle específico apresentado neste bloco."
       },
       {
-        "q": "Por que procedimentos e checklists são importantes?",
+        "q": "Qual informação é essencial para a decisão? Considerando «Máquinas portáteis», qual alternativa está correta?",
         "options": [
-          "Para aumentar burocracia",
-          "Para tornar controles críticos repetíveis e verificáveis",
-          "Para substituir treinamento",
-          "Para eliminar a necessidade de julgamento"
-        ],
-        "correct": 1,
-        "a": "Procedimentos ajudam a tornar barreiras críticas consistentes e rastreáveis."
-      },
-      {
-        "q": "Qual é uma pergunta útil antes de iniciar uma tarefa?",
-        "options": [
-          "Quanto tempo falta para terminar?",
-          "Quem será culpado se algo der errado?",
-          "O que pode me atingir e como vou controlar essa exposição?",
-          "Como posso fazer sem comunicar?"
+          "Substituir o controle previsto por improviso e registrar depois.",
+          "Continuar com base apenas no hábito da equipe, sem rever a condição real.",
+          "Furadeiras, esmerilhadeiras e similares exigem proteções",
+          "Aguardar o final da atividade para comunicar qualquer desvio."
         ],
         "correct": 2,
-        "a": "Comece pela exposição e pelos controles."
+        "a": "A resposta correta está alinhada ao controle específico apresentado neste bloco."
       },
       {
-        "q": "Um equipamento apresenta uma condição diferente da prevista. O que é mais seguro?",
+        "q": "Diante de uma condição diferente da prevista, o que fazer? Considerando «Queda de objetos», qual alternativa está correta?",
         "options": [
-          "Improvisar",
-          "Parar e escalar para decisão técnica",
-          "Continuar porque já começou",
-          "Remover uma barreira para facilitar"
+          "Aguardar o final da atividade para comunicar qualquer desvio.",
+          "Continuar com base apenas no hábito da equipe, sem rever a condição real.",
+          "Substituir o controle previsto por improviso e registrar depois.",
+          "Ferramentas em altura podem atingir pessoas"
         ],
-        "correct": 1,
-        "a": "Condição não prevista exige interrupção e avaliação."
+        "correct": 3,
+        "a": "A resposta correta está alinhada ao controle específico apresentado neste bloco."
       },
       {
-        "q": "Qual afirmação melhor representa a cultura de segurança?",
+        "q": "Qual medida reduz diretamente a exposição? Considerando «Manutenção», qual alternativa está correta?",
         "options": [
-          "Segurança é responsabilidade do técnico de segurança",
-          "Segurança é condição de execução compartilhada pela equipe",
-          "Só o supervisor pode parar a atividade",
-          "Produção sempre vem primeiro"
+          "Ferramenta danificada deve ser identificada e retirada de uso",
+          "Continuar com base apenas no hábito da equipe, sem rever a condição real.",
+          "Substituir o controle previsto por improviso e registrar depois.",
+          "Aguardar o final da atividade para comunicar qualquer desvio."
         ],
-        "correct": 1,
-        "a": "A prevenção é responsabilidade de todos dentro dos papéis definidos."
+        "correct": 0,
+        "a": "A resposta correta está alinhada ao controle específico apresentado neste bloco."
       },
       {
-        "q": "Ao final de uma atividade, o que completa o ciclo seguro?",
+        "q": "Qual afirmação está correta para esta atividade? Considerando «Proteções», qual alternativa está correta?",
         "options": [
-          "Sair rapidamente",
-          "Restabelecer condições conforme procedimento, comunicar estado e registrar o necessário",
-          "Deixar o equipamento como ficou",
-          "Apagar os registros"
+          "Substituir o controle previsto por improviso e registrar depois.",
+          "Continuar com base apenas no hábito da equipe, sem rever a condição real.",
+          "Gatilhos, intertravamentos, capas e dispositivos de segurança não devem ser burlados",
+          "Aguardar o final da atividade para comunicar qualquer desvio."
+        ],
+        "correct": 2,
+        "a": "A resposta correta está alinhada ao controle específico apresentado neste bloco."
+      },
+      {
+        "q": "Qual é o principal critério de parada? Considerando «Ergonomia», qual alternativa está correta?",
+        "options": [
+          "Continuar com base apenas no hábito da equipe, sem rever a condição real.",
+          "Postura, força e alcance influenciam o risco",
+          "Substituir o controle previsto por improviso e registrar depois.",
+          "Aguardar o final da atividade para comunicar qualquer desvio."
         ],
         "correct": 1,
-        "a": "O encerramento seguro inclui restauração, comunicação e registro conforme aplicável."
+        "a": "A resposta correta está alinhada ao controle específico apresentado neste bloco."
       }
     ],
     "references": [
-      "NR-12 MTE",
-      "NR-10 MTE",
-      "Procedimentos internos O&M Solar"
-    ]
+      "NR-12 — Segurança no Trabalho em Máquinas e Equipamentos, quando aplicável",
+      "NR-10 — Segurança em Instalações e Serviços em Eletricidade",
+      "NR-06 — Equipamento de Proteção Individual",
+      "Manuais dos fabricantes e procedimento de ferramentas O&M Solar"
+    ],
+    "case": {
+      "title": "Controle",
+      "scenario": "Mantenha controle das ferramentas retiradas e devolvidas, especialmente em painéis, trackers e áreas elevadas.",
+      "question": "Qual deve ser a primeira decisão da equipe?",
+      "options": [
+        {
+          "text": "Interromper a exposição, aplicar os controles previstos e reavaliar antes de continuar.",
+          "correct": true
+        },
+        {
+          "text": "Continuar porque a atividade já começou e corrigir a condição durante a execução.",
+          "correct": false
+        },
+        {
+          "text": "Improvisar um controle temporário e comunicar somente depois da atividade.",
+          "correct": false
+        }
+      ]
+    }
   },
   {
     "id": 9,
     "phase": "Operação Segura",
     "title": "Transformadores, Inversores e Equipamentos de Potência",
-    "description": "Identifique riscos de energia elétrica, térmica e mecânica em equipamentos de potência.",
-    "objective": "transformadores, inversores, temperatura, ventilação e acesso",
-    "icon": "🛠️",
-    "duration": 22,
+    "description": "Opere e mantenha inversores, transformadores e equipamentos de potência considerando carga, temperatura, proteção e energia residual.",
+    "objective": "Transformadores, Inversores e Equipamentos de Potência",
+    "icon": "🔌",
+    "duration": 25,
     "slides": [
       {
-        "title": "O que você precisa dominar",
-        "body": "Neste treinamento vamos tratar de transformadores, inversores, temperatura, ventilação e acesso. O objetivo é reconhecer a exposição, selecionar controles e tomar decisões seguras no campo.",
+        "title": "Caminho de potência",
+        "body": "Inversores e transformadores são elementos críticos do caminho de potência. A intervenção deve considerar tensão, corrente, temperatura, proteção e condição operacional.",
         "bullets": [
-          "Identifique o perigo",
-          "Controle a exposição",
-          "Confirme a condição segura"
+          "Inversores e transformadores são elementos críticos do caminho de potência",
+          "A intervenção deve considerar tensão, corrente, temperatura, proteção e condição operacional",
+          "Compare a condição observada com os limites documentados do equipamento."
         ],
-        "image": "https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-09-1.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Caminho de potência»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Onde esse risco aparece na UFV",
-        "body": "Observe equipamentos, circulação, ferramentas, ambiente e comportamento. Em uma usina, a mesma atividade pode mudar de risco conforme local e condição.",
+        "title": "Função do inversor",
+        "body": "O inversor converte CC em CA e possui circuitos de entrada, conversão, controle e saída. Acesso interno depende do fabricante e procedimento.",
         "bullets": [
-          "Identifique o perigo",
-          "Controle a exposição",
-          "Confirme a condição segura"
+          "O inversor converte CC em CA e possui circuitos de entrada, conversão, controle e saída",
+          "Acesso interno depende do fabricante e procedimento",
+          "Compare a condição observada com os limites documentados do equipamento."
         ],
-        "image": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-09-2.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Função do inversor»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Identifique o mecanismo de dano",
-        "body": "Pergunte qual é o mecanismo capaz de causar lesão neste tema: energia, movimento, queda, contato, exposição ambiental, produto ou falha de comunicação.",
+        "title": "Transformador",
+        "body": "Transformadores alteram níveis de tensão e possuem limites térmicos e elétricos definidos pelo projeto e fabricante.",
         "bullets": [
-          "Aplique no contexto da UFV",
-          "Registre ou comunique quando necessário",
-          "Mantenha a barreira até o fim da atividade"
+          "Transformadores alteram níveis de tensão e possuem limites térmicos e elétricos definidos pelo projeto e fabricante",
+          "Aplicação de campo: Transformador.",
+          "Compare a condição observada com os limites documentados do equipamento."
         ],
-        "image": "https://images.unsplash.com/photo-1581092795360-fd1ca04f0952?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-09-3.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Transformador»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Checkpoint 1 — pare e pense",
-        "body": "Antes de executar, descreva mentalmente: perigo → exposição → consequência → controle. Se uma etapa não estiver clara, pare e esclareça.",
+        "title": "Temperatura",
+        "body": "Temperatura depende de carga, ambiente, ventilação e condição do equipamento. Tendência é mais útil que uma leitura isolada.",
         "bullets": [
-          "Responda antes de avançar",
-          "Não improvise controle",
-          "Se houver dúvida, comunique e reavalie"
+          "Temperatura depende de carga, ambiente, ventilação e condição do equipamento",
+          "Tendência é mais útil que uma leitura isolada",
+          "Compare a condição observada com os limites documentados do equipamento."
         ],
-        "image": "https://images.unsplash.com/photo-1586864387967-d02ef85d93e8?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": true
+        "image": "media/treino-09-1.svg",
+        "checkpoint": true,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Temperatura»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Controle na fonte",
-        "body": "Sempre que possível, reduza o risco antes da pessoa entrar na zona de exposição. Use barreiras, isolamento, organização e procedimentos antes de depender somente do comportamento individual.",
+        "title": "Ventilação",
+        "body": "Entradas e saídas de ar devem permanecer livres quando o equipamento depende de dissipação natural ou forçada.",
         "bullets": [
-          "Identifique o perigo",
-          "Controle a exposição",
-          "Confirme a condição segura"
+          "Entradas e saídas de ar devem permanecer livres quando o equipamento depende de dissipação natural ou forçada",
+          "Aplicação de campo: Ventilação.",
+          "Compare a condição observada com os limites documentados do equipamento."
         ],
-        "image": "https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-09-2.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Ventilação»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Condição segura",
-        "body": "Para este tema, condição segura significa que os controles relevantes foram verificados. Não confie apenas em aparência, hábito ou experiência anterior.",
+        "title": "Alarmes",
+        "body": "Alarmes e proteções indicam condições que precisam ser interpretadas. Reset não substitui investigação da causa.",
         "bullets": [
-          "Identifique o perigo",
-          "Controle a exposição",
-          "Confirme a condição segura"
+          "Alarmes e proteções indicam condições que precisam ser interpretadas",
+          "Reset não substitui investigação da causa",
+          "Compare a condição observada com os limites documentados do equipamento."
         ],
-        "image": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-09-3.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Alarmes»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Comunicação operacional",
-        "body": "Quem executa precisa saber o escopo, as limitações e os sinais de parada. Quando houver mudança relevante, comunique antes de continuar.",
+        "title": "Inspeção visual",
+        "body": "Observe gabinete, conexões, sinais de aquecimento, ventilação, corrosão, sujeira e integridade.",
         "bullets": [
-          "Identifique o perigo",
-          "Controle a exposição",
-          "Confirme a condição segura"
+          "Observe gabinete, conexões, sinais de aquecimento, ventilação, corrosão, sujeira e integridade",
+          "Aplicação de campo: Inspeção visual.",
+          "Compare a condição observada com os limites documentados do equipamento."
         ],
-        "image": "https://images.unsplash.com/photo-1581092795360-fd1ca04f0952?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-09-1.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Inspeção visual»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Checkpoint 2 — o cenário mudou",
-        "body": "Se surgir uma condição não prevista, a resposta segura é interromper, proteger a equipe, comunicar e reavaliar o risco. Não 'adapte no improviso'.",
+        "title": "Sinais anormais",
+        "body": "Ruído, odor, fumaça ou aquecimento anormal podem indicar falha. Afaste a equipe e siga o procedimento.",
         "bullets": [
-          "Responda antes de avançar",
-          "Não improvise controle",
-          "Se houver dúvida, comunique e reavalie"
+          "Ruído, odor, fumaça ou aquecimento anormal podem indicar falha",
+          "Afaste a equipe e siga o procedimento",
+          "Compare a condição observada com os limites documentados do equipamento."
         ],
-        "image": "https://images.unsplash.com/photo-1586864387967-d02ef85d93e8?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": true
+        "image": "media/treino-09-2.svg",
+        "checkpoint": true,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Sinais anormais»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Erro comum no campo",
-        "body": "Um erro recorrente é normalizar pequenas anomalias porque 'sempre foi assim'. Desvio repetido não deixa de ser risco por ser familiar.",
+        "title": "Termografia",
+        "body": "Registre carga, ambiente e método de medição. Um ponto quente é evidência para análise, não diagnóstico isolado.",
         "bullets": [
-          "Identifique o perigo",
-          "Controle a exposição",
-          "Confirme a condição segura"
+          "Registre carga, ambiente e método de medição",
+          "Um ponto quente é evidência para análise, não diagnóstico isolado",
+          "Compare a condição observada com os limites documentados do equipamento."
         ],
-        "image": "https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-09-3.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Termografia»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Aplicação prática — POT",
-        "body": "Imagine uma atividade real relacionada a transformadores, inversores e equipamentos de potência. Antes de iniciar, faça uma inspeção do local, confirme os controles e combine como a equipe vai interromper a atividade.",
+        "title": "Preventiva",
+        "body": "Siga plano e recomendações do fabricante, incluindo inspeções, limpeza e verificação de proteções.",
         "bullets": [
-          "Identifique o perigo",
-          "Controle a exposição",
-          "Confirme a condição segura"
+          "Siga plano e recomendações do fabricante, incluindo inspeções, limpeza e verificação de proteções",
+          "Aplicação de campo: Preventiva.",
+          "Compare a condição observada com os limites documentados do equipamento."
         ],
-        "image": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-09-1.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Preventiva»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Checkpoint 3 — decisão segura",
-        "body": "Escolha sempre a alternativa que controla a exposição antes de executar e que mantém a comunicação e a rastreabilidade da decisão.",
+        "title": "Energia residual",
+        "body": "Componentes podem permanecer energizados após desligamento. Respeite tempos de descarga e critérios de acesso.",
         "bullets": [
-          "Responda antes de avançar",
-          "Não improvise controle",
-          "Se houver dúvida, comunique e reavalie"
+          "Componentes podem permanecer energizados após desligamento",
+          "Respeite tempos de descarga e critérios de acesso",
+          "Compare a condição observada com os limites documentados do equipamento."
         ],
-        "image": "https://images.unsplash.com/photo-1581092795360-fd1ca04f0952?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": true
+        "image": "media/treino-09-2.svg",
+        "checkpoint": true,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Energia residual»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Checklist de campo",
-        "body": "Escopo; local; perigos; exposição; controles; EPI/EPC quando aplicável; comunicação; condição ambiental; ferramentas; plano de resposta.",
+        "title": "Caso: transformador quente",
+        "body": "Registre temperatura, carga e ambiente, verifique ventilação e compare com o limite documentado antes de concluir a causa.",
         "bullets": [
-          "Identifique o perigo",
-          "Controle a exposição",
-          "Confirme a condição segura"
+          "Registre temperatura, carga e ambiente, verifique ventilação e compare com o limite documentado antes de concluir a causa",
+          "Aplicação de campo: Caso: transformador quente.",
+          "Compare a condição observada com os limites documentados do equipamento."
         ],
-        "image": "https://images.unsplash.com/photo-1586864387967-d02ef85d93e8?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-09-3.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Caso: transformador quente»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Quando parar",
-        "body": "Pare diante de condição não prevista, falha de controle, equipamento danificado, clima incompatível, dúvida sobre procedimento ou qualquer exposição que não esteja controlada.",
+        "title": "Caso: inversor em alarme",
+        "body": "Registre código, condições, histórico e evidências. Não trate reinicialização repetida como solução.",
         "bullets": [
-          "Identifique o perigo",
-          "Controle a exposição",
-          "Confirme a condição segura"
+          "Registre código, condições, histórico e evidências",
+          "Não trate reinicialização repetida como solução",
+          "Compare a condição observada com os limites documentados do equipamento."
         ],
-        "image": "https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-09-1.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Caso: inversor em alarme»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Fixação antes da prova",
-        "body": "Você já percorreu os fundamentos de Transformadores, Inversores e Equipamentos de Potência. Agora faça o caso prático, revise os checkpoints e só então avance para a avaliação final.",
+        "title": "Checklist",
+        "body": "Identificação, estado, alarmes, carga, temperatura, ventilação, integridade, proteção, comunicação e autorização.",
         "bullets": [
-          "Aplique no contexto da UFV",
-          "Registre ou comunique quando necessário",
-          "Mantenha a barreira até o fim da atividade"
+          "Identificação, estado, alarmes, carga, temperatura, ventilação, integridade, proteção, comunicação e autorização",
+          "Aplicação de campo: Checklist.",
+          "Compare a condição observada com os limites documentados do equipamento."
         ],
-        "image": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-09-2.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Checklist»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Fechamento",
-        "body": "Segurança é uma condição para executar. O resultado esperado é que você reconheça o risco antes que ele vire incidente e saiba quando parar e pedir suporte.",
+        "title": "Critérios de parada",
+        "body": "Pare diante de fumaça, odor de queimado, proteção desconhecida, temperatura fora do limite documentado ou condição sem controle.",
         "bullets": [
-          "Aplique no contexto da UFV",
-          "Registre ou comunique quando necessário",
-          "Mantenha a barreira até o fim da atividade"
+          "Pare diante de fumaça, odor de queimado, proteção desconhecida, temperatura fora do limite documentado ou condição sem controle",
+          "Aplicação de campo: Critérios de parada.",
+          "Compare a condição observada com os limites documentados do equipamento."
         ],
-        "image": "https://images.unsplash.com/photo-1581092795360-fd1ca04f0952?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-09-3.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Critérios de parada»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       }
     ],
     "questions": [
       {
-        "q": "Qual é a melhor abordagem de segurança em uma atividade relacionada a transformadores, inversores, temperatura, ventilação e acesso?",
+        "q": "Qual é a conduta tecnicamente mais adequada neste tema? Considerando «Caminho de potência», qual alternativa está correta?",
         "options": [
-          "Executar rapidamente e corrigir depois",
-          "Identificar a exposição, aplicar controles e confirmar a condição segura antes de executar",
-          "Confiar somente na experiência do operador",
-          "Improvisar um controle temporário sem comunicar"
+          "Continuar com base apenas no hábito da equipe, sem rever a condição real.",
+          "Inversores e transformadores são elementos críticos do caminho de potência",
+          "Substituir o controle previsto por improviso e registrar depois.",
+          "Aguardar o final da atividade para comunicar qualquer desvio."
         ],
         "correct": 1,
-        "a": "Controle antes da exposição. Segurança precisa ser verificável."
+        "a": "A resposta correta está alinhada ao controle específico apresentado neste bloco."
       },
       {
-        "q": "Se uma condição relevante mudar durante a atividade, o que deve acontecer?",
+        "q": "Qual condição deve ser confirmada antes de avançar? Considerando «Função do inversor», qual alternativa está correta?",
         "options": [
-          "Continuar para não perder produtividade",
-          "Parar, comunicar e reavaliar o risco antes de continuar",
-          "Ignorar se a equipe já estiver acostumada",
-          "Esperar o final da tarefa para registrar"
-        ],
-        "correct": 1,
-        "a": "Mudança de cenário exige nova avaliação e controle."
-      },
-      {
-        "q": "Qual princípio é mais importante ao escolher controles?",
-        "options": [
-          "Usar somente EPI",
-          "Priorizar controles que reduzam a exposição na fonte e usar barreiras complementares",
-          "Escolher o controle mais barato",
-          "Deixar a decisão para depois da execução"
-        ],
-        "correct": 1,
-        "a": "A prevenção começa na fonte e nas barreiras, não somente no comportamento individual."
-      },
-      {
-        "q": "O que fazer quando você não consegue demonstrar que uma condição está segura?",
-        "options": [
-          "Assumir que está segura",
-          "Executar com cuidado redobrado",
-          "Parar e buscar esclarecimento/controle adequado",
-          "Pedir para outra pessoa executar"
+          "Substituir o controle previsto por improviso e registrar depois.",
+          "Continuar com base apenas no hábito da equipe, sem rever a condição real.",
+          "O inversor converte CC em CA e possui circuitos de entrada, conversão, controle e saída",
+          "Aguardar o final da atividade para comunicar qualquer desvio."
         ],
         "correct": 2,
-        "a": "Dúvida sobre condição segura é motivo para não avançar."
+        "a": "A resposta correta está alinhada ao controle específico apresentado neste bloco."
       },
       {
-        "q": "Qual situação caracteriza um bom comportamento de segurança?",
+        "q": "Qual alternativa representa o controle correto? Considerando «Transformador», qual alternativa está correta?",
         "options": [
-          "Pular uma etapa porque a atividade é conhecida",
-          "Comunicar desvio e interromper quando o controle necessário não está disponível",
-          "Manter silêncio para evitar conflito",
-          "Adaptar o procedimento sem comunicar"
+          "Transformadores alteram níveis de tensão e possuem limites térmicos e elétricos definidos pelo projeto e fabricante",
+          "Continuar com base apenas no hábito da equipe, sem rever a condição real.",
+          "Substituir o controle previsto por improviso e registrar depois.",
+          "Aguardar o final da atividade para comunicar qualquer desvio."
+        ],
+        "correct": 0,
+        "a": "A resposta correta está alinhada ao controle específico apresentado neste bloco."
+      },
+      {
+        "q": "O que caracteriza uma resposta segura nesta situação? Considerando «Temperatura», qual alternativa está correta?",
+        "options": [
+          "Aguardar o final da atividade para comunicar qualquer desvio.",
+          "Continuar com base apenas no hábito da equipe, sem rever a condição real.",
+          "Substituir o controle previsto por improviso e registrar depois.",
+          "Temperatura depende de carga, ambiente, ventilação e condição do equipamento"
+        ],
+        "correct": 3,
+        "a": "A resposta correta está alinhada ao controle específico apresentado neste bloco."
+      },
+      {
+        "q": "Qual erro deve ser evitado no campo? Considerando «Ventilação», qual alternativa está correta?",
+        "options": [
+          "Continuar com base apenas no hábito da equipe, sem rever a condição real.",
+          "Entradas e saídas de ar devem permanecer livres quando o equipamento depende de dissipação natural ou forçada",
+          "Substituir o controle previsto por improviso e registrar depois.",
+          "Aguardar o final da atividade para comunicar qualquer desvio."
         ],
         "correct": 1,
-        "a": "A autoridade para interromper diante de risco é parte da cultura de prevenção."
+        "a": "A resposta correta está alinhada ao controle específico apresentado neste bloco."
       },
       {
-        "q": "Por que procedimentos e checklists são importantes?",
+        "q": "Qual informação é essencial para a decisão? Considerando «Alarmes», qual alternativa está correta?",
         "options": [
-          "Para aumentar burocracia",
-          "Para tornar controles críticos repetíveis e verificáveis",
-          "Para substituir treinamento",
-          "Para eliminar a necessidade de julgamento"
-        ],
-        "correct": 1,
-        "a": "Procedimentos ajudam a tornar barreiras críticas consistentes e rastreáveis."
-      },
-      {
-        "q": "Qual é uma pergunta útil antes de iniciar uma tarefa?",
-        "options": [
-          "Quanto tempo falta para terminar?",
-          "Quem será culpado se algo der errado?",
-          "O que pode me atingir e como vou controlar essa exposição?",
-          "Como posso fazer sem comunicar?"
+          "Substituir o controle previsto por improviso e registrar depois.",
+          "Continuar com base apenas no hábito da equipe, sem rever a condição real.",
+          "Alarmes e proteções indicam condições que precisam ser interpretadas",
+          "Aguardar o final da atividade para comunicar qualquer desvio."
         ],
         "correct": 2,
-        "a": "Comece pela exposição e pelos controles."
+        "a": "A resposta correta está alinhada ao controle específico apresentado neste bloco."
       },
       {
-        "q": "Um equipamento apresenta uma condição diferente da prevista. O que é mais seguro?",
+        "q": "Diante de uma condição diferente da prevista, o que fazer? Considerando «Inspeção visual», qual alternativa está correta?",
         "options": [
-          "Improvisar",
-          "Parar e escalar para decisão técnica",
-          "Continuar porque já começou",
-          "Remover uma barreira para facilitar"
+          "Aguardar o final da atividade para comunicar qualquer desvio.",
+          "Continuar com base apenas no hábito da equipe, sem rever a condição real.",
+          "Substituir o controle previsto por improviso e registrar depois.",
+          "Observe gabinete, conexões, sinais de aquecimento, ventilação, corrosão, sujeira e integridade"
         ],
-        "correct": 1,
-        "a": "Condição não prevista exige interrupção e avaliação."
+        "correct": 3,
+        "a": "A resposta correta está alinhada ao controle específico apresentado neste bloco."
       },
       {
-        "q": "Qual afirmação melhor representa a cultura de segurança?",
+        "q": "Qual medida reduz diretamente a exposição? Considerando «Sinais anormais», qual alternativa está correta?",
         "options": [
-          "Segurança é responsabilidade do técnico de segurança",
-          "Segurança é condição de execução compartilhada pela equipe",
-          "Só o supervisor pode parar a atividade",
-          "Produção sempre vem primeiro"
+          "Ruído, odor, fumaça ou aquecimento anormal podem indicar falha",
+          "Continuar com base apenas no hábito da equipe, sem rever a condição real.",
+          "Substituir o controle previsto por improviso e registrar depois.",
+          "Aguardar o final da atividade para comunicar qualquer desvio."
         ],
-        "correct": 1,
-        "a": "A prevenção é responsabilidade de todos dentro dos papéis definidos."
+        "correct": 0,
+        "a": "A resposta correta está alinhada ao controle específico apresentado neste bloco."
       },
       {
-        "q": "Ao final de uma atividade, o que completa o ciclo seguro?",
+        "q": "Qual afirmação está correta para esta atividade? Considerando «Termografia», qual alternativa está correta?",
         "options": [
-          "Sair rapidamente",
-          "Restabelecer condições conforme procedimento, comunicar estado e registrar o necessário",
-          "Deixar o equipamento como ficou",
-          "Apagar os registros"
+          "Substituir o controle previsto por improviso e registrar depois.",
+          "Continuar com base apenas no hábito da equipe, sem rever a condição real.",
+          "Registre carga, ambiente e método de medição",
+          "Aguardar o final da atividade para comunicar qualquer desvio."
+        ],
+        "correct": 2,
+        "a": "A resposta correta está alinhada ao controle específico apresentado neste bloco."
+      },
+      {
+        "q": "Qual é o principal critério de parada? Considerando «Preventiva», qual alternativa está correta?",
+        "options": [
+          "Continuar com base apenas no hábito da equipe, sem rever a condição real.",
+          "Siga plano e recomendações do fabricante, incluindo inspeções, limpeza e verificação de proteções",
+          "Substituir o controle previsto por improviso e registrar depois.",
+          "Aguardar o final da atividade para comunicar qualquer desvio."
         ],
         "correct": 1,
-        "a": "O encerramento seguro inclui restauração, comunicação e registro conforme aplicável."
+        "a": "A resposta correta está alinhada ao controle específico apresentado neste bloco."
       }
     ],
     "references": [
-      "NR-10 MTE",
-      "NR-12 MTE",
-      "Manual do fabricante"
-    ]
+      "NR-10 — Segurança em Instalações e Serviços em Eletricidade",
+      "ABNT NBR 14039 — Instalações elétricas de média tensão (edição vigente), quando aplicável",
+      "ABNT NBR 5410 — Instalações elétricas de baixa tensão, quando aplicável",
+      "Manuais dos fabricantes e plano de manutenção dos equipamentos"
+    ],
+    "case": {
+      "title": "Caso: inversor em alarme",
+      "scenario": "Registre código, condições, histórico e evidências. Não trate reinicialização repetida como solução.",
+      "question": "Qual deve ser a primeira decisão da equipe?",
+      "options": [
+        {
+          "text": "Interromper a exposição, aplicar os controles previstos e reavaliar antes de continuar.",
+          "correct": true
+        },
+        {
+          "text": "Continuar porque a atividade já começou e corrigir a condição durante a execução.",
+          "correct": false
+        },
+        {
+          "text": "Improvisar um controle temporário e comunicar somente depois da atividade.",
+          "correct": false
+        }
+      ]
+    }
   },
   {
     "id": 10,
-    "phase": "Operação Segura",
+    "phase": "Emergências",
     "title": "Incêndio, Prevenção e Emergências em Usinas Solares",
-    "description": "Reconheça condições de incêndio e responda com prioridade à vida, isolamento e comunicação.",
-    "objective": "triângulo do fogo, equipamentos energizados, evacuação e emergência",
-    "icon": "🛠️",
+    "description": "Previna incêndios, reconheça sinais de emergência e execute a resposta conforme o plano da usina.",
+    "objective": "Incêndio, Prevenção e Emergências em Usinas Solares",
+    "icon": "🚒",
     "duration": 22,
     "slides": [
       {
-        "title": "O que você precisa dominar",
-        "body": "Neste treinamento vamos tratar de triângulo do fogo, equipamentos energizados, evacuação e emergência. O objetivo é reconhecer a exposição, selecionar controles e tomar decisões seguras no campo.",
+        "title": "Prevenção de incêndio",
+        "body": "Prevenção combina controle de fontes de ignição, materiais combustíveis, manutenção e preparação. A NR-23 integra a base de proteção contra incêndios.",
         "bullets": [
-          "Identifique o perigo",
-          "Controle a exposição",
-          "Confirme a condição segura"
+          "Prevenção combina controle de fontes de ignição, materiais combustíveis, manutenção e preparação",
+          "A NR-23 integra a base de proteção contra incêndios",
+          "Priorize pessoas, alarme e evacuação antes de proteger o ativo."
         ],
-        "image": "https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-10-1.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Prevenção de incêndio»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Onde esse risco aparece na UFV",
-        "body": "Observe equipamentos, circulação, ferramentas, ambiente e comportamento. Em uma usina, a mesma atividade pode mudar de risco conforme local e condição.",
+        "title": "Triângulo do fogo",
+        "body": "Combustível, comburente e fonte de ignição são elementos do processo de combustão. A prevenção busca controlar essas condições.",
         "bullets": [
-          "Identifique o perigo",
-          "Controle a exposição",
-          "Confirme a condição segura"
+          "Combustível, comburente e fonte de ignição são elementos do processo de combustão",
+          "A prevenção busca controlar essas condições",
+          "Priorize pessoas, alarme e evacuação antes de proteger o ativo."
         ],
-        "image": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-10-2.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Triângulo do fogo»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Identifique o mecanismo de dano",
-        "body": "Pergunte qual é o mecanismo capaz de causar lesão neste tema: energia, movimento, queda, contato, exposição ambiental, produto ou falha de comunicação.",
+        "title": "Fontes na UFV",
+        "body": "Conexões aquecidas, falhas elétricas, equipamentos, veículos e atividades de manutenção podem criar fontes de ignição.",
         "bullets": [
-          "Aplique no contexto da UFV",
-          "Registre ou comunique quando necessário",
-          "Mantenha a barreira até o fim da atividade"
+          "Conexões aquecidas, falhas elétricas, equipamentos, veículos e atividades de manutenção podem criar fontes de ignição",
+          "Aplicação de campo: Fontes na UFV.",
+          "Priorize pessoas, alarme e evacuação antes de proteger o ativo."
         ],
-        "image": "https://images.unsplash.com/photo-1581092795360-fd1ca04f0952?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-10-3.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Fontes na UFV»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Checkpoint 1 — pare e pense",
-        "body": "Antes de executar, descreva mentalmente: perigo → exposição → consequência → controle. Se uma etapa não estiver clara, pare e esclareça.",
+        "title": "Equipamento elétrico",
+        "body": "Incêndios envolvendo equipamento energizado exigem método compatível com a condição elétrica e com o agente extintor previsto.",
         "bullets": [
-          "Responda antes de avançar",
-          "Não improvise controle",
-          "Se houver dúvida, comunique e reavalie"
+          "Incêndios envolvendo equipamento energizado exigem método compatível com a condição elétrica e com o agente extintor previsto",
+          "Aplicação de campo: Equipamento elétrico.",
+          "Priorize pessoas, alarme e evacuação antes de proteger o ativo."
         ],
-        "image": "https://images.unsplash.com/photo-1586864387967-d02ef85d93e8?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": true
+        "image": "media/treino-10-1.svg",
+        "checkpoint": true,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Equipamento elétrico»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Controle na fonte",
-        "body": "Sempre que possível, reduza o risco antes da pessoa entrar na zona de exposição. Use barreiras, isolamento, organização e procedimentos antes de depender somente do comportamento individual.",
+        "title": "Sinalização",
+        "body": "Rotas, acessos e sinalização devem permanecer livres. Recurso de emergência inacessível não cumpre sua função.",
         "bullets": [
-          "Identifique o perigo",
-          "Controle a exposição",
-          "Confirme a condição segura"
+          "Rotas, acessos e sinalização devem permanecer livres",
+          "Recurso de emergência inacessível não cumpre sua função",
+          "Priorize pessoas, alarme e evacuação antes de proteger o ativo."
         ],
-        "image": "https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-10-2.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Sinalização»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Condição segura",
-        "body": "Para este tema, condição segura significa que os controles relevantes foram verificados. Não confie apenas em aparência, hábito ou experiência anterior.",
+        "title": "Extintores",
+        "body": "Extintor é recurso inicial e não substitui evacuação. Só use se houver treinamento, condição segura e equipamento adequado.",
         "bullets": [
-          "Identifique o perigo",
-          "Controle a exposição",
-          "Confirme a condição segura"
+          "Extintor é recurso inicial e não substitui evacuação",
+          "Só use se houver treinamento, condição segura e equipamento adequado",
+          "Priorize pessoas, alarme e evacuação antes de proteger o ativo."
         ],
-        "image": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-10-3.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Extintores»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Comunicação operacional",
-        "body": "Quem executa precisa saber o escopo, as limitações e os sinais de parada. Quando houver mudança relevante, comunique antes de continuar.",
+        "title": "Alarme",
+        "body": "Ao identificar fumaça ou fogo, comunique e acione o plano de emergência imediatamente. Não retarde evacuação para salvar equipamento.",
         "bullets": [
-          "Identifique o perigo",
-          "Controle a exposição",
-          "Confirme a condição segura"
+          "Ao identificar fumaça ou fogo, comunique e acione o plano de emergência imediatamente",
+          "Não retarde evacuação para salvar equipamento",
+          "Priorize pessoas, alarme e evacuação antes de proteger o ativo."
         ],
-        "image": "https://images.unsplash.com/photo-1581092795360-fd1ca04f0952?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-10-1.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Alarme»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Checkpoint 2 — o cenário mudou",
-        "body": "Se surgir uma condição não prevista, a resposta segura é interromper, proteger a equipe, comunicar e reavaliar o risco. Não 'adapte no improviso'.",
+        "title": "Ponto de encontro",
+        "body": "Conheça rotas e ponto de encontro. A equipe deve ter forma definida de contabilizar pessoas após a evacuação.",
         "bullets": [
-          "Responda antes de avançar",
-          "Não improvise controle",
-          "Se houver dúvida, comunique e reavalie"
+          "Conheça rotas e ponto de encontro",
+          "A equipe deve ter forma definida de contabilizar pessoas após a evacuação",
+          "Priorize pessoas, alarme e evacuação antes de proteger o ativo."
         ],
-        "image": "https://images.unsplash.com/photo-1586864387967-d02ef85d93e8?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": true
+        "image": "media/treino-10-2.svg",
+        "checkpoint": true,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Ponto de encontro»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Erro comum no campo",
-        "body": "Um erro recorrente é normalizar pequenas anomalias porque 'sempre foi assim'. Desvio repetido não deixa de ser risco por ser familiar.",
+        "title": "Isolamento",
+        "body": "Restrinja acesso à área e mantenha distância de fumaça, estruturas comprometidas e equipamentos potencialmente energizados.",
         "bullets": [
-          "Identifique o perigo",
-          "Controle a exposição",
-          "Confirme a condição segura"
+          "Restrinja acesso à área e mantenha distância de fumaça, estruturas comprometidas e equipamentos potencialmente energizados",
+          "Aplicação de campo: Isolamento.",
+          "Priorize pessoas, alarme e evacuação antes de proteger o ativo."
         ],
-        "image": "https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-10-3.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Isolamento»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Aplicação prática — INC",
-        "body": "Imagine uma atividade real relacionada a incêndio, prevenção e emergências em usinas solares. Antes de iniciar, faça uma inspeção do local, confirme os controles e combine como a equipe vai interromper a atividade.",
+        "title": "Energia elétrica",
+        "body": "Não toque em equipamento possivelmente energizado para combater incêndio. A condição elétrica deve ser controlada por equipe competente.",
         "bullets": [
-          "Identifique o perigo",
-          "Controle a exposição",
-          "Confirme a condição segura"
+          "Não toque em equipamento possivelmente energizado para combater incêndio",
+          "A condição elétrica deve ser controlada por equipe competente",
+          "Priorize pessoas, alarme e evacuação antes de proteger o ativo."
         ],
-        "image": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-10-1.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Energia elétrica»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Checkpoint 3 — decisão segura",
-        "body": "Escolha sempre a alternativa que controla a exposição antes de executar e que mantém a comunicação e a rastreabilidade da decisão.",
+        "title": "Vegetação",
+        "body": "Vegetação seca e resíduos aumentam carga de incêndio. Controle do entorno é parte da prevenção.",
         "bullets": [
-          "Responda antes de avançar",
-          "Não improvise controle",
-          "Se houver dúvida, comunique e reavalie"
+          "Vegetação seca e resíduos aumentam carga de incêndio",
+          "Controle do entorno é parte da prevenção",
+          "Priorize pessoas, alarme e evacuação antes de proteger o ativo."
         ],
-        "image": "https://images.unsplash.com/photo-1581092795360-fd1ca04f0952?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": true
+        "image": "media/treino-10-2.svg",
+        "checkpoint": true,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Vegetação»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Checklist de campo",
-        "body": "Escopo; local; perigos; exposição; controles; EPI/EPC quando aplicável; comunicação; condição ambiental; ferramentas; plano de resposta.",
+        "title": "Caso: fumaça no inversor",
+        "body": "Priorize pessoas, comunicação, afastamento e emergência. Diagnóstico detalhado ocorre somente após condição segura.",
         "bullets": [
-          "Identifique o perigo",
-          "Controle a exposição",
-          "Confirme a condição segura"
+          "Priorize pessoas, comunicação, afastamento e emergência",
+          "Diagnóstico detalhado ocorre somente após condição segura",
+          "Priorize pessoas, alarme e evacuação antes de proteger o ativo."
         ],
-        "image": "https://images.unsplash.com/photo-1586864387967-d02ef85d93e8?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-10-3.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Caso: fumaça no inversor»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Quando parar",
-        "body": "Pare diante de condição não prevista, falha de controle, equipamento danificado, clima incompatível, dúvida sobre procedimento ou qualquer exposição que não esteja controlada.",
+        "title": "Pós-incidente",
+        "body": "Preserve evidências, registre informações e aguarde avaliação antes do retorno. Não reenergize equipamento danificado sem liberação.",
         "bullets": [
-          "Identifique o perigo",
-          "Controle a exposição",
-          "Confirme a condição segura"
+          "Preserve evidências, registre informações e aguarde avaliação antes do retorno",
+          "Não reenergize equipamento danificado sem liberação",
+          "Priorize pessoas, alarme e evacuação antes de proteger o ativo."
         ],
-        "image": "https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-10-1.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Pós-incidente»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Fixação antes da prova",
-        "body": "Você já percorreu os fundamentos de Incêndio, Prevenção e Emergências em Usinas Solares. Agora faça o caso prático, revise os checkpoints e só então avance para a avaliação final.",
+        "title": "Checklist",
+        "body": "Confirme rotas, comunicação, extintores, acessos, ponto de encontro e responsáveis.",
         "bullets": [
-          "Aplique no contexto da UFV",
-          "Registre ou comunique quando necessário",
-          "Mantenha a barreira até o fim da atividade"
+          "Confirme rotas, comunicação, extintores, acessos, ponto de encontro e responsáveis",
+          "Aplicação de campo: Checklist.",
+          "Priorize pessoas, alarme e evacuação antes de proteger o ativo."
         ],
-        "image": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-10-2.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Checklist»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Fechamento",
-        "body": "Segurança é uma condição para executar. O resultado esperado é que você reconheça o risco antes que ele vire incidente e saiba quando parar e pedir suporte.",
+        "title": "Critérios de parada",
+        "body": "Pare diante de fumaça, fogo, cheiro de queimado ou aquecimento severo e acione a resposta definida.",
         "bullets": [
-          "Aplique no contexto da UFV",
-          "Registre ou comunique quando necessário",
-          "Mantenha a barreira até o fim da atividade"
+          "Pare diante de fumaça, fogo, cheiro de queimado ou aquecimento severo e acione a resposta definida",
+          "Aplicação de campo: Critérios de parada.",
+          "Priorize pessoas, alarme e evacuação antes de proteger o ativo."
         ],
-        "image": "https://images.unsplash.com/photo-1581092795360-fd1ca04f0952?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-10-3.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Critérios de parada»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       }
     ],
     "questions": [
       {
-        "q": "Qual é a melhor abordagem de segurança em uma atividade relacionada a triângulo do fogo, equipamentos energizados, evacuação e emergência?",
+        "q": "Qual é a conduta tecnicamente mais adequada neste tema? Considerando «Prevenção de incêndio», qual alternativa está correta?",
         "options": [
-          "Executar rapidamente e corrigir depois",
-          "Identificar a exposição, aplicar controles e confirmar a condição segura antes de executar",
-          "Confiar somente na experiência do operador",
-          "Improvisar um controle temporário sem comunicar"
+          "Continuar com base apenas no hábito da equipe, sem rever a condição real.",
+          "Prevenção combina controle de fontes de ignição, materiais combustíveis, manutenção e preparação",
+          "Substituir o controle previsto por improviso e registrar depois.",
+          "Aguardar o final da atividade para comunicar qualquer desvio."
         ],
         "correct": 1,
-        "a": "Controle antes da exposição. Segurança precisa ser verificável."
+        "a": "A resposta correta está alinhada ao controle específico apresentado neste bloco."
       },
       {
-        "q": "Se uma condição relevante mudar durante a atividade, o que deve acontecer?",
+        "q": "Qual condição deve ser confirmada antes de avançar? Considerando «Triângulo do fogo», qual alternativa está correta?",
         "options": [
-          "Continuar para não perder produtividade",
-          "Parar, comunicar e reavaliar o risco antes de continuar",
-          "Ignorar se a equipe já estiver acostumada",
-          "Esperar o final da tarefa para registrar"
-        ],
-        "correct": 1,
-        "a": "Mudança de cenário exige nova avaliação e controle."
-      },
-      {
-        "q": "Qual princípio é mais importante ao escolher controles?",
-        "options": [
-          "Usar somente EPI",
-          "Priorizar controles que reduzam a exposição na fonte e usar barreiras complementares",
-          "Escolher o controle mais barato",
-          "Deixar a decisão para depois da execução"
-        ],
-        "correct": 1,
-        "a": "A prevenção começa na fonte e nas barreiras, não somente no comportamento individual."
-      },
-      {
-        "q": "O que fazer quando você não consegue demonstrar que uma condição está segura?",
-        "options": [
-          "Assumir que está segura",
-          "Executar com cuidado redobrado",
-          "Parar e buscar esclarecimento/controle adequado",
-          "Pedir para outra pessoa executar"
+          "Substituir o controle previsto por improviso e registrar depois.",
+          "Continuar com base apenas no hábito da equipe, sem rever a condição real.",
+          "Combustível, comburente e fonte de ignição são elementos do processo de combustão",
+          "Aguardar o final da atividade para comunicar qualquer desvio."
         ],
         "correct": 2,
-        "a": "Dúvida sobre condição segura é motivo para não avançar."
+        "a": "A resposta correta está alinhada ao controle específico apresentado neste bloco."
       },
       {
-        "q": "Qual situação caracteriza um bom comportamento de segurança?",
+        "q": "Qual alternativa representa o controle correto? Considerando «Fontes na UFV», qual alternativa está correta?",
         "options": [
-          "Pular uma etapa porque a atividade é conhecida",
-          "Comunicar desvio e interromper quando o controle necessário não está disponível",
-          "Manter silêncio para evitar conflito",
-          "Adaptar o procedimento sem comunicar"
+          "Conexões aquecidas, falhas elétricas, equipamentos, veículos e atividades de manutenção podem criar fontes de ignição",
+          "Continuar com base apenas no hábito da equipe, sem rever a condição real.",
+          "Substituir o controle previsto por improviso e registrar depois.",
+          "Aguardar o final da atividade para comunicar qualquer desvio."
+        ],
+        "correct": 0,
+        "a": "A resposta correta está alinhada ao controle específico apresentado neste bloco."
+      },
+      {
+        "q": "O que caracteriza uma resposta segura nesta situação? Considerando «Equipamento elétrico», qual alternativa está correta?",
+        "options": [
+          "Aguardar o final da atividade para comunicar qualquer desvio.",
+          "Continuar com base apenas no hábito da equipe, sem rever a condição real.",
+          "Substituir o controle previsto por improviso e registrar depois.",
+          "Incêndios envolvendo equipamento energizado exigem método compatível com a condição elétrica e com o agente extintor previsto"
+        ],
+        "correct": 3,
+        "a": "A resposta correta está alinhada ao controle específico apresentado neste bloco."
+      },
+      {
+        "q": "Qual erro deve ser evitado no campo? Considerando «Sinalização», qual alternativa está correta?",
+        "options": [
+          "Continuar com base apenas no hábito da equipe, sem rever a condição real.",
+          "Rotas, acessos e sinalização devem permanecer livres",
+          "Substituir o controle previsto por improviso e registrar depois.",
+          "Aguardar o final da atividade para comunicar qualquer desvio."
         ],
         "correct": 1,
-        "a": "A autoridade para interromper diante de risco é parte da cultura de prevenção."
+        "a": "A resposta correta está alinhada ao controle específico apresentado neste bloco."
       },
       {
-        "q": "Por que procedimentos e checklists são importantes?",
+        "q": "Qual informação é essencial para a decisão? Considerando «Extintores», qual alternativa está correta?",
         "options": [
-          "Para aumentar burocracia",
-          "Para tornar controles críticos repetíveis e verificáveis",
-          "Para substituir treinamento",
-          "Para eliminar a necessidade de julgamento"
-        ],
-        "correct": 1,
-        "a": "Procedimentos ajudam a tornar barreiras críticas consistentes e rastreáveis."
-      },
-      {
-        "q": "Qual é uma pergunta útil antes de iniciar uma tarefa?",
-        "options": [
-          "Quanto tempo falta para terminar?",
-          "Quem será culpado se algo der errado?",
-          "O que pode me atingir e como vou controlar essa exposição?",
-          "Como posso fazer sem comunicar?"
+          "Substituir o controle previsto por improviso e registrar depois.",
+          "Continuar com base apenas no hábito da equipe, sem rever a condição real.",
+          "Extintor é recurso inicial e não substitui evacuação",
+          "Aguardar o final da atividade para comunicar qualquer desvio."
         ],
         "correct": 2,
-        "a": "Comece pela exposição e pelos controles."
+        "a": "A resposta correta está alinhada ao controle específico apresentado neste bloco."
       },
       {
-        "q": "Um equipamento apresenta uma condição diferente da prevista. O que é mais seguro?",
+        "q": "Diante de uma condição diferente da prevista, o que fazer? Considerando «Alarme», qual alternativa está correta?",
         "options": [
-          "Improvisar",
-          "Parar e escalar para decisão técnica",
-          "Continuar porque já começou",
-          "Remover uma barreira para facilitar"
+          "Aguardar o final da atividade para comunicar qualquer desvio.",
+          "Continuar com base apenas no hábito da equipe, sem rever a condição real.",
+          "Substituir o controle previsto por improviso e registrar depois.",
+          "Ao identificar fumaça ou fogo, comunique e acione o plano de emergência imediatamente"
         ],
-        "correct": 1,
-        "a": "Condição não prevista exige interrupção e avaliação."
+        "correct": 3,
+        "a": "A resposta correta está alinhada ao controle específico apresentado neste bloco."
       },
       {
-        "q": "Qual afirmação melhor representa a cultura de segurança?",
+        "q": "Qual medida reduz diretamente a exposição? Considerando «Ponto de encontro», qual alternativa está correta?",
         "options": [
-          "Segurança é responsabilidade do técnico de segurança",
-          "Segurança é condição de execução compartilhada pela equipe",
-          "Só o supervisor pode parar a atividade",
-          "Produção sempre vem primeiro"
+          "Conheça rotas e ponto de encontro",
+          "Continuar com base apenas no hábito da equipe, sem rever a condição real.",
+          "Substituir o controle previsto por improviso e registrar depois.",
+          "Aguardar o final da atividade para comunicar qualquer desvio."
         ],
-        "correct": 1,
-        "a": "A prevenção é responsabilidade de todos dentro dos papéis definidos."
+        "correct": 0,
+        "a": "A resposta correta está alinhada ao controle específico apresentado neste bloco."
       },
       {
-        "q": "Ao final de uma atividade, o que completa o ciclo seguro?",
+        "q": "Qual afirmação está correta para esta atividade? Considerando «Isolamento», qual alternativa está correta?",
         "options": [
-          "Sair rapidamente",
-          "Restabelecer condições conforme procedimento, comunicar estado e registrar o necessário",
-          "Deixar o equipamento como ficou",
-          "Apagar os registros"
+          "Substituir o controle previsto por improviso e registrar depois.",
+          "Continuar com base apenas no hábito da equipe, sem rever a condição real.",
+          "Restrinja acesso à área e mantenha distância de fumaça, estruturas comprometidas e equipamentos potencialmente energizados",
+          "Aguardar o final da atividade para comunicar qualquer desvio."
+        ],
+        "correct": 2,
+        "a": "A resposta correta está alinhada ao controle específico apresentado neste bloco."
+      },
+      {
+        "q": "Qual é o principal critério de parada? Considerando «Energia elétrica», qual alternativa está correta?",
+        "options": [
+          "Continuar com base apenas no hábito da equipe, sem rever a condição real.",
+          "Não toque em equipamento possivelmente energizado para combater incêndio",
+          "Substituir o controle previsto por improviso e registrar depois.",
+          "Aguardar o final da atividade para comunicar qualquer desvio."
         ],
         "correct": 1,
-        "a": "O encerramento seguro inclui restauração, comunicação e registro conforme aplicável."
+        "a": "A resposta correta está alinhada ao controle específico apresentado neste bloco."
       }
     ],
     "references": [
-      "NR-23 MTE",
-      "NR-10 MTE",
-      "Plano de emergência O&M Solar"
-    ]
+      "NR-23 — Proteção Contra Incêndios",
+      "NR-01 — Gerenciamento de Riscos Ocupacionais",
+      "Legislação e requisitos do Corpo de Bombeiros aplicáveis à unidade",
+      "Plano de emergência e procedimentos internos O&M Solar"
+    ],
+    "case": {
+      "title": "Pós-incidente",
+      "scenario": "Preserve evidências, registre informações e aguarde avaliação antes do retorno. Não reenergize equipamento danificado sem liberação.",
+      "question": "Qual deve ser a primeira decisão da equipe?",
+      "options": [
+        {
+          "text": "Interromper a exposição, aplicar os controles previstos e reavaliar antes de continuar.",
+          "correct": true
+        },
+        {
+          "text": "Continuar porque a atividade já começou e corrigir a condição durante a execução.",
+          "correct": false
+        },
+        {
+          "text": "Improvisar um controle temporário e comunicar somente depois da atividade.",
+          "correct": false
+        }
+      ]
+    }
   },
   {
     "id": 11,
-    "phase": "Riscos da UFV",
+    "phase": "Ambiente e Saúde",
     "title": "Calor, Radiação Solar, Hidratação e Exposição Climática",
-    "description": "Reconheça sinais de sobrecarga térmica e organize pausas, hidratação e proteção contra exposição.",
-    "objective": "calor, radiação solar, hidratação, pausas e sinais de alerta",
+    "description": "Gerencie calor, radiação solar, hidratação, pausas e exposição climática durante o trabalho em campo.",
+    "objective": "Calor, Radiação Solar, Hidratação e Exposição Climática",
     "icon": "☀️",
-    "duration": 22,
+    "duration": 25,
     "slides": [
       {
-        "title": "O que você precisa dominar",
-        "body": "Neste treinamento vamos tratar de calor, radiação solar, hidratação, pausas e sinais de alerta. O objetivo é reconhecer a exposição, selecionar controles e tomar decisões seguras no campo.",
+        "title": "Exposição ao calor",
+        "body": "Usinas combinam radiação solar, temperatura elevada, esforço físico e pouca sombra. A avaliação deve considerar a tarefa e o ambiente.",
         "bullets": [
-          "Identifique o perigo",
-          "Controle a exposição",
-          "Confirme a condição segura"
+          "Usinas combinam radiação solar, temperatura elevada, esforço físico e pouca sombra",
+          "A avaliação deve considerar a tarefa e o ambiente",
+          "Ajuste exposição, pausas e recuperação conforme a condição real de campo."
         ],
-        "image": "https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-11-1.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Exposição ao calor»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Onde esse risco aparece na UFV",
-        "body": "Observe equipamentos, circulação, ferramentas, ambiente e comportamento. Em uma usina, a mesma atividade pode mudar de risco conforme local e condição.",
+        "title": "Radiação UV",
+        "body": "Radiação ultravioleta pode causar danos à pele e aos olhos. Reduza exposição com barreiras físicas e proteção definida.",
         "bullets": [
-          "Identifique o perigo",
-          "Controle a exposição",
-          "Confirme a condição segura"
+          "Radiação ultravioleta pode causar danos à pele e aos olhos",
+          "Reduza exposição com barreiras físicas e proteção definida",
+          "Ajuste exposição, pausas e recuperação conforme a condição real de campo."
         ],
-        "image": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-11-2.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Radiação UV»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Identifique o mecanismo de dano",
-        "body": "Pergunte qual é o mecanismo capaz de causar lesão neste tema: energia, movimento, queda, contato, exposição ambiental, produto ou falha de comunicação.",
+        "title": "Carga física",
+        "body": "Esforço físico aumenta a produção de calor metabólico. Uma tarefa pesada exige controles diferentes de uma tarefa leve.",
         "bullets": [
-          "Aplique no contexto da UFV",
-          "Registre ou comunique quando necessário",
-          "Mantenha a barreira até o fim da atividade"
+          "Esforço físico aumenta a produção de calor metabólico",
+          "Uma tarefa pesada exige controles diferentes de uma tarefa leve",
+          "Ajuste exposição, pausas e recuperação conforme a condição real de campo."
         ],
-        "image": "https://images.unsplash.com/photo-1581092795360-fd1ca04f0952?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-11-3.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Carga física»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Checkpoint 1 — pare e pense",
-        "body": "Antes de executar, descreva mentalmente: perigo → exposição → consequência → controle. Se uma etapa não estiver clara, pare e esclareça.",
+        "title": "Aclimatação",
+        "body": "A adaptação ao calor depende da exposição e das condições individuais. Siga orientação ocupacional e não presuma tolerância igual.",
         "bullets": [
-          "Responda antes de avançar",
-          "Não improvise controle",
-          "Se houver dúvida, comunique e reavalie"
+          "A adaptação ao calor depende da exposição e das condições individuais",
+          "Siga orientação ocupacional e não presuma tolerância igual",
+          "Ajuste exposição, pausas e recuperação conforme a condição real de campo."
         ],
-        "image": "https://images.unsplash.com/photo-1586864387967-d02ef85d93e8?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": true
+        "image": "media/treino-11-1.svg",
+        "checkpoint": true,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Aclimatação»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Controle na fonte",
-        "body": "Sempre que possível, reduza o risco antes da pessoa entrar na zona de exposição. Use barreiras, isolamento, organização e procedimentos antes de depender somente do comportamento individual.",
+        "title": "Hidratação",
+        "body": "Disponibilidade de água e pausas devem seguir o planejamento de SST e as condições do trabalho. Hidratação não substitui controle de exposição.",
         "bullets": [
-          "Identifique o perigo",
-          "Controle a exposição",
-          "Confirme a condição segura"
+          "Disponibilidade de água e pausas devem seguir o planejamento de SST e as condições do trabalho",
+          "Hidratação não substitui controle de exposição",
+          "Ajuste exposição, pausas e recuperação conforme a condição real de campo."
         ],
-        "image": "https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-11-2.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Hidratação»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Condição segura",
-        "body": "Para este tema, condição segura significa que os controles relevantes foram verificados. Não confie apenas em aparência, hábito ou experiência anterior.",
+        "title": "Sinais de alerta",
+        "body": "Fraqueza, tontura, confusão, dor de cabeça intensa, náusea ou alteração de comportamento exigem atenção e retirada da exposição.",
         "bullets": [
-          "Identifique o perigo",
-          "Controle a exposição",
-          "Confirme a condição segura"
+          "Fraqueza, tontura, confusão, dor de cabeça intensa, náusea ou alteração de comportamento exigem atenção e retirada da exposição",
+          "Aplicação de campo: Sinais de alerta.",
+          "Ajuste exposição, pausas e recuperação conforme a condição real de campo."
         ],
-        "image": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-11-3.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Sinais de alerta»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Comunicação operacional",
-        "body": "Quem executa precisa saber o escopo, as limitações e os sinais de parada. Quando houver mudança relevante, comunique antes de continuar.",
+        "title": "Roupas",
+        "body": "Vestimentas devem equilibrar proteção e conforto térmico sem comprometer outros riscos da tarefa.",
         "bullets": [
-          "Identifique o perigo",
-          "Controle a exposição",
-          "Confirme a condição segura"
+          "Vestimentas devem equilibrar proteção e conforto térmico sem comprometer outros riscos da tarefa",
+          "Aplicação de campo: Roupas.",
+          "Ajuste exposição, pausas e recuperação conforme a condição real de campo."
         ],
-        "image": "https://images.unsplash.com/photo-1581092795360-fd1ca04f0952?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-11-1.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Roupas»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Checkpoint 2 — o cenário mudou",
-        "body": "Se surgir uma condição não prevista, a resposta segura é interromper, proteger a equipe, comunicar e reavaliar o risco. Não 'adapte no improviso'.",
+        "title": "Horário",
+        "body": "Quando possível, programe tarefas mais pesadas em períodos de menor estresse térmico e organize pausas.",
         "bullets": [
-          "Responda antes de avançar",
-          "Não improvise controle",
-          "Se houver dúvida, comunique e reavalie"
+          "Quando possível, programe tarefas mais pesadas em períodos de menor estresse térmico e organize pausas",
+          "Aplicação de campo: Horário.",
+          "Ajuste exposição, pausas e recuperação conforme a condição real de campo."
         ],
-        "image": "https://images.unsplash.com/photo-1586864387967-d02ef85d93e8?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": true
+        "image": "media/treino-11-2.svg",
+        "checkpoint": true,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Horário»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Erro comum no campo",
-        "body": "Um erro recorrente é normalizar pequenas anomalias porque 'sempre foi assim'. Desvio repetido não deixa de ser risco por ser familiar.",
+        "title": "Sombra",
+        "body": "Áreas de recuperação devem ser acessíveis e compatíveis com a atividade. Planeje antes de iniciar.",
         "bullets": [
-          "Identifique o perigo",
-          "Controle a exposição",
-          "Confirme a condição segura"
+          "Áreas de recuperação devem ser acessíveis e compatíveis com a atividade",
+          "Planeje antes de iniciar",
+          "Ajuste exposição, pausas e recuperação conforme a condição real de campo."
         ],
-        "image": "https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-11-3.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Sombra»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Aplicação prática — CAL",
-        "body": "Imagine uma atividade real relacionada a calor, radiação solar, hidratação e exposição climática. Antes de iniciar, faça uma inspeção do local, confirme os controles e combine como a equipe vai interromper a atividade.",
+        "title": "Avaliação do calor",
+        "body": "Use o método previsto no programa de SST e as condições reais. Temperatura de aplicativo isoladamente não caracteriza toda a exposição.",
         "bullets": [
-          "Identifique o perigo",
-          "Controle a exposição",
-          "Confirme a condição segura"
+          "Use o método previsto no programa de SST e as condições reais",
+          "Temperatura de aplicativo isoladamente não caracteriza toda a exposição",
+          "Ajuste exposição, pausas e recuperação conforme a condição real de campo."
         ],
-        "image": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-11-1.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Avaliação do calor»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Checkpoint 3 — decisão segura",
-        "body": "Escolha sempre a alternativa que controla a exposição antes de executar e que mantém a comunicação e a rastreabilidade da decisão.",
+        "title": "Caso: meio do dia",
+        "body": "Reavalie equipe, ritmo, pausas, sombra e possibilidade de mudança de horário antes de manter uma atividade pesada.",
         "bullets": [
-          "Responda antes de avançar",
-          "Não improvise controle",
-          "Se houver dúvida, comunique e reavalie"
+          "Reavalie equipe, ritmo, pausas, sombra e possibilidade de mudança de horário antes de manter uma atividade pesada",
+          "Aplicação de campo: Caso: meio do dia.",
+          "Ajuste exposição, pausas e recuperação conforme a condição real de campo."
         ],
-        "image": "https://images.unsplash.com/photo-1581092795360-fd1ca04f0952?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": true
+        "image": "media/treino-11-2.svg",
+        "checkpoint": true,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Caso: meio do dia»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Checklist de campo",
-        "body": "Escopo; local; perigos; exposição; controles; EPI/EPC quando aplicável; comunicação; condição ambiental; ferramentas; plano de resposta.",
+        "title": "Mal-estar",
+        "body": "Interrompa a exposição, leve a pessoa para local seguro e acione o fluxo de atendimento. Não force retorno.",
         "bullets": [
-          "Identifique o perigo",
-          "Controle a exposição",
-          "Confirme a condição segura"
+          "Interrompa a exposição, leve a pessoa para local seguro e acione o fluxo de atendimento",
+          "Não force retorno",
+          "Ajuste exposição, pausas e recuperação conforme a condição real de campo."
         ],
-        "image": "https://images.unsplash.com/photo-1586864387967-d02ef85d93e8?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-11-3.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Mal-estar»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Quando parar",
-        "body": "Pare diante de condição não prevista, falha de controle, equipamento danificado, clima incompatível, dúvida sobre procedimento ou qualquer exposição que não esteja controlada.",
+        "title": "Organização",
+        "body": "Supervisão deve acompanhar condições ambientais, carga e sinais de fadiga e ajustar o plano quando necessário.",
         "bullets": [
-          "Identifique o perigo",
-          "Controle a exposição",
-          "Confirme a condição segura"
+          "Supervisão deve acompanhar condições ambientais, carga e sinais de fadiga e ajustar o plano quando necessário",
+          "Aplicação de campo: Organização.",
+          "Ajuste exposição, pausas e recuperação conforme a condição real de campo."
         ],
-        "image": "https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-11-1.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Organização»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Fixação antes da prova",
-        "body": "Você já percorreu os fundamentos de Calor, Radiação Solar, Hidratação e Exposição Climática. Agora faça o caso prático, revise os checkpoints e só então avance para a avaliação final.",
+        "title": "Checklist",
+        "body": "Previsão, temperatura, exposição solar, água, sombra, pausas, EPI, comunicação e plano para mal-estar.",
         "bullets": [
-          "Aplique no contexto da UFV",
-          "Registre ou comunique quando necessário",
-          "Mantenha a barreira até o fim da atividade"
+          "Previsão, temperatura, exposição solar, água, sombra, pausas, EPI, comunicação e plano para mal-estar",
+          "Aplicação de campo: Checklist.",
+          "Ajuste exposição, pausas e recuperação conforme a condição real de campo."
         ],
-        "image": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-11-2.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Checklist»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Fechamento",
-        "body": "Segurança é uma condição para executar. O resultado esperado é que você reconheça o risco antes que ele vire incidente e saiba quando parar e pedir suporte.",
+        "title": "Critérios de parada",
+        "body": "Ajuste ou suspenda quando os critérios da avaliação de risco forem excedidos ou surgirem sinais de adoecimento.",
         "bullets": [
-          "Aplique no contexto da UFV",
-          "Registre ou comunique quando necessário",
-          "Mantenha a barreira até o fim da atividade"
+          "Ajuste ou suspenda quando os critérios da avaliação de risco forem excedidos ou surgirem sinais de adoecimento",
+          "Aplicação de campo: Critérios de parada.",
+          "Ajuste exposição, pausas e recuperação conforme a condição real de campo."
         ],
-        "image": "https://images.unsplash.com/photo-1581092795360-fd1ca04f0952?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-11-3.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Critérios de parada»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       }
     ],
     "questions": [
       {
-        "q": "Qual é a melhor abordagem de segurança em uma atividade relacionada a calor, radiação solar, hidratação, pausas e sinais de alerta?",
+        "q": "Qual é a conduta tecnicamente mais adequada neste tema? Considerando «Exposição ao calor», qual alternativa está correta?",
         "options": [
-          "Executar rapidamente e corrigir depois",
-          "Identificar a exposição, aplicar controles e confirmar a condição segura antes de executar",
-          "Confiar somente na experiência do operador",
-          "Improvisar um controle temporário sem comunicar"
+          "Continuar com base apenas no hábito da equipe, sem rever a condição real.",
+          "Usinas combinam radiação solar, temperatura elevada, esforço físico e pouca sombra",
+          "Substituir o controle previsto por improviso e registrar depois.",
+          "Aguardar o final da atividade para comunicar qualquer desvio."
         ],
         "correct": 1,
-        "a": "Controle antes da exposição. Segurança precisa ser verificável."
+        "a": "A resposta correta está alinhada ao controle específico apresentado neste bloco."
       },
       {
-        "q": "Se uma condição relevante mudar durante a atividade, o que deve acontecer?",
+        "q": "Qual condição deve ser confirmada antes de avançar? Considerando «Radiação UV», qual alternativa está correta?",
         "options": [
-          "Continuar para não perder produtividade",
-          "Parar, comunicar e reavaliar o risco antes de continuar",
-          "Ignorar se a equipe já estiver acostumada",
-          "Esperar o final da tarefa para registrar"
-        ],
-        "correct": 1,
-        "a": "Mudança de cenário exige nova avaliação e controle."
-      },
-      {
-        "q": "Qual princípio é mais importante ao escolher controles?",
-        "options": [
-          "Usar somente EPI",
-          "Priorizar controles que reduzam a exposição na fonte e usar barreiras complementares",
-          "Escolher o controle mais barato",
-          "Deixar a decisão para depois da execução"
-        ],
-        "correct": 1,
-        "a": "A prevenção começa na fonte e nas barreiras, não somente no comportamento individual."
-      },
-      {
-        "q": "O que fazer quando você não consegue demonstrar que uma condição está segura?",
-        "options": [
-          "Assumir que está segura",
-          "Executar com cuidado redobrado",
-          "Parar e buscar esclarecimento/controle adequado",
-          "Pedir para outra pessoa executar"
+          "Substituir o controle previsto por improviso e registrar depois.",
+          "Continuar com base apenas no hábito da equipe, sem rever a condição real.",
+          "Radiação ultravioleta pode causar danos à pele e aos olhos",
+          "Aguardar o final da atividade para comunicar qualquer desvio."
         ],
         "correct": 2,
-        "a": "Dúvida sobre condição segura é motivo para não avançar."
+        "a": "A resposta correta está alinhada ao controle específico apresentado neste bloco."
       },
       {
-        "q": "Qual situação caracteriza um bom comportamento de segurança?",
+        "q": "Qual alternativa representa o controle correto? Considerando «Carga física», qual alternativa está correta?",
         "options": [
-          "Pular uma etapa porque a atividade é conhecida",
-          "Comunicar desvio e interromper quando o controle necessário não está disponível",
-          "Manter silêncio para evitar conflito",
-          "Adaptar o procedimento sem comunicar"
+          "Esforço físico aumenta a produção de calor metabólico",
+          "Continuar com base apenas no hábito da equipe, sem rever a condição real.",
+          "Substituir o controle previsto por improviso e registrar depois.",
+          "Aguardar o final da atividade para comunicar qualquer desvio."
+        ],
+        "correct": 0,
+        "a": "A resposta correta está alinhada ao controle específico apresentado neste bloco."
+      },
+      {
+        "q": "O que caracteriza uma resposta segura nesta situação? Considerando «Aclimatação», qual alternativa está correta?",
+        "options": [
+          "Aguardar o final da atividade para comunicar qualquer desvio.",
+          "Continuar com base apenas no hábito da equipe, sem rever a condição real.",
+          "Substituir o controle previsto por improviso e registrar depois.",
+          "A adaptação ao calor depende da exposição e das condições individuais"
+        ],
+        "correct": 3,
+        "a": "A resposta correta está alinhada ao controle específico apresentado neste bloco."
+      },
+      {
+        "q": "Qual erro deve ser evitado no campo? Considerando «Hidratação», qual alternativa está correta?",
+        "options": [
+          "Continuar com base apenas no hábito da equipe, sem rever a condição real.",
+          "Disponibilidade de água e pausas devem seguir o planejamento de SST e as condições do trabalho",
+          "Substituir o controle previsto por improviso e registrar depois.",
+          "Aguardar o final da atividade para comunicar qualquer desvio."
         ],
         "correct": 1,
-        "a": "A autoridade para interromper diante de risco é parte da cultura de prevenção."
+        "a": "A resposta correta está alinhada ao controle específico apresentado neste bloco."
       },
       {
-        "q": "Por que procedimentos e checklists são importantes?",
+        "q": "Qual informação é essencial para a decisão? Considerando «Sinais de alerta», qual alternativa está correta?",
         "options": [
-          "Para aumentar burocracia",
-          "Para tornar controles críticos repetíveis e verificáveis",
-          "Para substituir treinamento",
-          "Para eliminar a necessidade de julgamento"
-        ],
-        "correct": 1,
-        "a": "Procedimentos ajudam a tornar barreiras críticas consistentes e rastreáveis."
-      },
-      {
-        "q": "Qual é uma pergunta útil antes de iniciar uma tarefa?",
-        "options": [
-          "Quanto tempo falta para terminar?",
-          "Quem será culpado se algo der errado?",
-          "O que pode me atingir e como vou controlar essa exposição?",
-          "Como posso fazer sem comunicar?"
+          "Substituir o controle previsto por improviso e registrar depois.",
+          "Continuar com base apenas no hábito da equipe, sem rever a condição real.",
+          "Fraqueza, tontura, confusão, dor de cabeça intensa, náusea ou alteração de comportamento exigem atenção e retirada da exposição",
+          "Aguardar o final da atividade para comunicar qualquer desvio."
         ],
         "correct": 2,
-        "a": "Comece pela exposição e pelos controles."
+        "a": "A resposta correta está alinhada ao controle específico apresentado neste bloco."
       },
       {
-        "q": "Um equipamento apresenta uma condição diferente da prevista. O que é mais seguro?",
+        "q": "Diante de uma condição diferente da prevista, o que fazer? Considerando «Roupas», qual alternativa está correta?",
         "options": [
-          "Improvisar",
-          "Parar e escalar para decisão técnica",
-          "Continuar porque já começou",
-          "Remover uma barreira para facilitar"
+          "Aguardar o final da atividade para comunicar qualquer desvio.",
+          "Continuar com base apenas no hábito da equipe, sem rever a condição real.",
+          "Substituir o controle previsto por improviso e registrar depois.",
+          "Vestimentas devem equilibrar proteção e conforto térmico sem comprometer outros riscos da tarefa"
         ],
-        "correct": 1,
-        "a": "Condição não prevista exige interrupção e avaliação."
+        "correct": 3,
+        "a": "A resposta correta está alinhada ao controle específico apresentado neste bloco."
       },
       {
-        "q": "Qual afirmação melhor representa a cultura de segurança?",
+        "q": "Qual medida reduz diretamente a exposição? Considerando «Horário», qual alternativa está correta?",
         "options": [
-          "Segurança é responsabilidade do técnico de segurança",
-          "Segurança é condição de execução compartilhada pela equipe",
-          "Só o supervisor pode parar a atividade",
-          "Produção sempre vem primeiro"
+          "Quando possível, programe tarefas mais pesadas em períodos de menor estresse térmico e organize pausas",
+          "Continuar com base apenas no hábito da equipe, sem rever a condição real.",
+          "Substituir o controle previsto por improviso e registrar depois.",
+          "Aguardar o final da atividade para comunicar qualquer desvio."
         ],
-        "correct": 1,
-        "a": "A prevenção é responsabilidade de todos dentro dos papéis definidos."
+        "correct": 0,
+        "a": "A resposta correta está alinhada ao controle específico apresentado neste bloco."
       },
       {
-        "q": "Ao final de uma atividade, o que completa o ciclo seguro?",
+        "q": "Qual afirmação está correta para esta atividade? Considerando «Sombra», qual alternativa está correta?",
         "options": [
-          "Sair rapidamente",
-          "Restabelecer condições conforme procedimento, comunicar estado e registrar o necessário",
-          "Deixar o equipamento como ficou",
-          "Apagar os registros"
+          "Substituir o controle previsto por improviso e registrar depois.",
+          "Continuar com base apenas no hábito da equipe, sem rever a condição real.",
+          "Áreas de recuperação devem ser acessíveis e compatíveis com a atividade",
+          "Aguardar o final da atividade para comunicar qualquer desvio."
+        ],
+        "correct": 2,
+        "a": "A resposta correta está alinhada ao controle específico apresentado neste bloco."
+      },
+      {
+        "q": "Qual é o principal critério de parada? Considerando «Avaliação do calor», qual alternativa está correta?",
+        "options": [
+          "Continuar com base apenas no hábito da equipe, sem rever a condição real.",
+          "Use o método previsto no programa de SST e as condições reais",
+          "Substituir o controle previsto por improviso e registrar depois.",
+          "Aguardar o final da atividade para comunicar qualquer desvio."
         ],
         "correct": 1,
-        "a": "O encerramento seguro inclui restauração, comunicação e registro conforme aplicável."
+        "a": "A resposta correta está alinhada ao controle específico apresentado neste bloco."
       }
     ],
     "references": [
-      "NR-09 MTE",
-      "NR-01 GRO/PGR",
-      "Procedimentos internos O&M Solar"
-    ]
+      "NR-09 — Avaliação e Controle das Exposições Ocupacionais",
+      "NR-15, Anexo 3 — exposição ocupacional ao calor, quando aplicável",
+      "NR-21 — Trabalhos a Céu Aberto",
+      "Orientações técnicas da Fundacentro e procedimentos de exposição climática O&M Solar"
+    ],
+    "case": {
+      "title": "Organização",
+      "scenario": "Supervisão deve acompanhar condições ambientais, carga e sinais de fadiga e ajustar o plano quando necessário.",
+      "question": "Qual deve ser a primeira decisão da equipe?",
+      "options": [
+        {
+          "text": "Interromper a exposição, aplicar os controles previstos e reavaliar antes de continuar.",
+          "correct": true
+        },
+        {
+          "text": "Continuar porque a atividade já começou e corrigir a condição durante a execução.",
+          "correct": false
+        },
+        {
+          "text": "Improvisar um controle temporário e comunicar somente depois da atividade.",
+          "correct": false
+        }
+      ]
+    }
   },
   {
     "id": 12,
-    "phase": "Riscos da UFV",
+    "phase": "Ambiente e Saúde",
     "title": "Chuva, Raios, Ventos e Condições Meteorológicas",
-    "description": "Tome decisões seguras diante de mudanças meteorológicas que alterem a exposição da equipe.",
-    "objective": "chuva, descargas atmosféricas, vento, tempestade e parada segura",
-    "icon": "☀️",
-    "duration": 22,
+    "description": "Reconheça quando chuva, raios, vento e baixa visibilidade tornam uma atividade incompatível com a condição segura.",
+    "objective": "Chuva, Raios, Ventos e Condições Meteorológicas",
+    "icon": "⛈️",
+    "duration": 25,
     "slides": [
       {
-        "title": "O que você precisa dominar",
-        "body": "Neste treinamento vamos tratar de chuva, descargas atmosféricas, vento, tempestade e parada segura. O objetivo é reconhecer a exposição, selecionar controles e tomar decisões seguras no campo.",
+        "title": "Clima como risco",
+        "body": "Condições meteorológicas podem mudar rapidamente. Previsão e observação durante a atividade devem entrar no planejamento.",
         "bullets": [
-          "Identifique o perigo",
-          "Controle a exposição",
-          "Confirme a condição segura"
+          "Condições meteorológicas podem mudar rapidamente",
+          "Previsão e observação durante a atividade devem entrar no planejamento",
+          "Use os critérios de suspensão definidos para a atividade e a instalação."
         ],
-        "image": "https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-12-1.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Clima como risco»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Onde esse risco aparece na UFV",
-        "body": "Observe equipamentos, circulação, ferramentas, ambiente e comportamento. Em uma usina, a mesma atividade pode mudar de risco conforme local e condição.",
+        "title": "Chuva",
+        "body": "Chuva reduz aderência e pode afetar ferramentas e equipamentos. Altura e intervenções elétricas exigem atenção adicional.",
         "bullets": [
-          "Identifique o perigo",
-          "Controle a exposição",
-          "Confirme a condição segura"
+          "Chuva reduz aderência e pode afetar ferramentas e equipamentos",
+          "Altura e intervenções elétricas exigem atenção adicional",
+          "Use os critérios de suspensão definidos para a atividade e a instalação."
         ],
-        "image": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-12-2.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Chuva»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Identifique o mecanismo de dano",
-        "body": "Pergunte qual é o mecanismo capaz de causar lesão neste tema: energia, movimento, queda, contato, exposição ambiental, produto ou falha de comunicação.",
+        "title": "Descargas atmosféricas",
+        "body": "Raios podem atingir a área diretamente ou por efeitos associados. Siga o procedimento de afastamento e suspensão da instalação.",
         "bullets": [
-          "Aplique no contexto da UFV",
-          "Registre ou comunique quando necessário",
-          "Mantenha a barreira até o fim da atividade"
+          "Raios podem atingir a área diretamente ou por efeitos associados",
+          "Siga o procedimento de afastamento e suspensão da instalação",
+          "Use os critérios de suspensão definidos para a atividade e a instalação."
         ],
-        "image": "https://images.unsplash.com/photo-1581092795360-fd1ca04f0952?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-12-3.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Descargas atmosféricas»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Checkpoint 1 — pare e pense",
-        "body": "Antes de executar, descreva mentalmente: perigo → exposição → consequência → controle. Se uma etapa não estiver clara, pare e esclareça.",
+        "title": "Atividade elétrica",
+        "body": "Não prossiga quando a condição meteorológica tornar os controles inadequados. Não invente um limite universal.",
         "bullets": [
-          "Responda antes de avançar",
-          "Não improvise controle",
-          "Se houver dúvida, comunique e reavalie"
+          "Não prossiga quando a condição meteorológica tornar os controles inadequados",
+          "Não invente um limite universal",
+          "Use os critérios de suspensão definidos para a atividade e a instalação."
         ],
-        "image": "https://images.unsplash.com/photo-1586864387967-d02ef85d93e8?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": true
+        "image": "media/treino-12-1.svg",
+        "checkpoint": true,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Atividade elétrica»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Controle na fonte",
-        "body": "Sempre que possível, reduza o risco antes da pessoa entrar na zona de exposição. Use barreiras, isolamento, organização e procedimentos antes de depender somente do comportamento individual.",
+        "title": "Vento",
+        "body": "Vento e rajadas podem deslocar objetos, afetar equilíbrio e dificultar manuseio. Avalie a exposição específica.",
         "bullets": [
-          "Identifique o perigo",
-          "Controle a exposição",
-          "Confirme a condição segura"
+          "Vento e rajadas podem deslocar objetos, afetar equilíbrio e dificultar manuseio",
+          "Avalie a exposição específica",
+          "Use os critérios de suspensão definidos para a atividade e a instalação."
         ],
-        "image": "https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-12-2.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Vento»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Condição segura",
-        "body": "Para este tema, condição segura significa que os controles relevantes foram verificados. Não confie apenas em aparência, hábito ou experiência anterior.",
+        "title": "Visibilidade",
+        "body": "Chuva intensa, neblina ou baixa luminosidade reduzem percepção de obstáculos e condições do equipamento.",
         "bullets": [
-          "Identifique o perigo",
-          "Controle a exposição",
-          "Confirme a condição segura"
+          "Chuva intensa, neblina ou baixa luminosidade reduzem percepção de obstáculos e condições do equipamento",
+          "Aplicação de campo: Visibilidade.",
+          "Use os critérios de suspensão definidos para a atividade e a instalação."
         ],
-        "image": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-12-3.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Visibilidade»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Comunicação operacional",
-        "body": "Quem executa precisa saber o escopo, as limitações e os sinais de parada. Quando houver mudança relevante, comunique antes de continuar.",
+        "title": "Altura e tracker",
+        "body": "Vento e chuva aumentam risco de queda e perda de estabilidade em estruturas elevadas e trackers.",
         "bullets": [
-          "Identifique o perigo",
-          "Controle a exposição",
-          "Confirme a condição segura"
+          "Vento e chuva aumentam risco de queda e perda de estabilidade em estruturas elevadas e trackers",
+          "Aplicação de campo: Altura e tracker.",
+          "Use os critérios de suspensão definidos para a atividade e a instalação."
         ],
-        "image": "https://images.unsplash.com/photo-1581092795360-fd1ca04f0952?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-12-1.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Altura e tracker»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Checkpoint 2 — o cenário mudou",
-        "body": "Se surgir uma condição não prevista, a resposta segura é interromper, proteger a equipe, comunicar e reavaliar o risco. Não 'adapte no improviso'.",
+        "title": "Monitoramento",
+        "body": "Use fontes meteorológicas confiáveis e recursos definidos pela operação. Compare previsão com condição observada.",
         "bullets": [
-          "Responda antes de avançar",
-          "Não improvise controle",
-          "Se houver dúvida, comunique e reavalie"
+          "Use fontes meteorológicas confiáveis e recursos definidos pela operação",
+          "Compare previsão com condição observada",
+          "Use os critérios de suspensão definidos para a atividade e a instalação."
         ],
-        "image": "https://images.unsplash.com/photo-1586864387967-d02ef85d93e8?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": true
+        "image": "media/treino-12-2.svg",
+        "checkpoint": true,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Monitoramento»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Erro comum no campo",
-        "body": "Um erro recorrente é normalizar pequenas anomalias porque 'sempre foi assim'. Desvio repetido não deixa de ser risco por ser familiar.",
+        "title": "Critério de suspensão",
+        "body": "Critérios devem vir da avaliação de risco, procedimentos e características do equipamento; não use um número único sem base.",
         "bullets": [
-          "Identifique o perigo",
-          "Controle a exposição",
-          "Confirme a condição segura"
+          "Critérios devem vir da avaliação de risco, procedimentos e características do equipamento; não use um número único sem base",
+          "Aplicação de campo: Critério de suspensão.",
+          "Use os critérios de suspensão definidos para a atividade e a instalação."
         ],
-        "image": "https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-12-3.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Critério de suspensão»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Aplicação prática — MET",
-        "body": "Imagine uma atividade real relacionada a chuva, raios, ventos e condições meteorológicas. Antes de iniciar, faça uma inspeção do local, confirme os controles e combine como a equipe vai interromper a atividade.",
+        "title": "Retorno",
+        "body": "Depois da tempestade, avalie danos, água acumulada, cabos, estruturas e solo antes de retornar.",
         "bullets": [
-          "Identifique o perigo",
-          "Controle a exposição",
-          "Confirme a condição segura"
+          "Depois da tempestade, avalie danos, água acumulada, cabos, estruturas e solo antes de retornar",
+          "Aplicação de campo: Retorno.",
+          "Use os critérios de suspensão definidos para a atividade e a instalação."
         ],
-        "image": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-12-1.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Retorno»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Checkpoint 3 — decisão segura",
-        "body": "Escolha sempre a alternativa que controla a exposição antes de executar e que mantém a comunicação e a rastreabilidade da decisão.",
+        "title": "Caso: raio próximo",
+        "body": "Retire a equipe da exposição e siga o plano de emergência. Não permaneça no campo para observar a tempestade.",
         "bullets": [
-          "Responda antes de avançar",
-          "Não improvise controle",
-          "Se houver dúvida, comunique e reavalie"
+          "Retire a equipe da exposição e siga o plano de emergência",
+          "Não permaneça no campo para observar a tempestade",
+          "Use os critérios de suspensão definidos para a atividade e a instalação."
         ],
-        "image": "https://images.unsplash.com/photo-1581092795360-fd1ca04f0952?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": true
+        "image": "media/treino-12-2.svg",
+        "checkpoint": true,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Caso: raio próximo»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Checklist de campo",
-        "body": "Escopo; local; perigos; exposição; controles; EPI/EPC quando aplicável; comunicação; condição ambiental; ferramentas; plano de resposta.",
+        "title": "Comunicação",
+        "body": "COG, supervisão e campo precisam de canal claro para comunicar suspensão, local e condição de retorno.",
         "bullets": [
-          "Identifique o perigo",
-          "Controle a exposição",
-          "Confirme a condição segura"
+          "COG, supervisão e campo precisam de canal claro para comunicar suspensão, local e condição de retorno",
+          "Aplicação de campo: Comunicação.",
+          "Use os critérios de suspensão definidos para a atividade e a instalação."
         ],
-        "image": "https://images.unsplash.com/photo-1586864387967-d02ef85d93e8?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-12-3.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Comunicação»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Quando parar",
-        "body": "Pare diante de condição não prevista, falha de controle, equipamento danificado, clima incompatível, dúvida sobre procedimento ou qualquer exposição que não esteja controlada.",
+        "title": "Registro",
+        "body": "Quando exigido, registre horário, condição observada, atividade suspensa e decisão tomada.",
         "bullets": [
-          "Identifique o perigo",
-          "Controle a exposição",
-          "Confirme a condição segura"
+          "Quando exigido, registre horário, condição observada, atividade suspensa e decisão tomada",
+          "Aplicação de campo: Registro.",
+          "Use os critérios de suspensão definidos para a atividade e a instalação."
         ],
-        "image": "https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-12-1.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Registro»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Fixação antes da prova",
-        "body": "Você já percorreu os fundamentos de Chuva, Raios, Ventos e Condições Meteorológicas. Agora faça o caso prático, revise os checkpoints e só então avance para a avaliação final.",
+        "title": "Checklist",
+        "body": "Previsão, alertas, vento, chuva, raios, acesso, visibilidade, plano de suspensão e comunicação.",
         "bullets": [
-          "Aplique no contexto da UFV",
-          "Registre ou comunique quando necessário",
-          "Mantenha a barreira até o fim da atividade"
+          "Previsão, alertas, vento, chuva, raios, acesso, visibilidade, plano de suspensão e comunicação",
+          "Aplicação de campo: Checklist.",
+          "Use os critérios de suspensão definidos para a atividade e a instalação."
         ],
-        "image": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-12-2.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Checklist»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Fechamento",
-        "body": "Segurança é uma condição para executar. O resultado esperado é que você reconheça o risco antes que ele vire incidente e saiba quando parar e pedir suporte.",
+        "title": "Critérios de parada",
+        "body": "Suspenda quando o clima ultrapassar os critérios definidos ou quando a condição observada tornar o controle insuficiente.",
         "bullets": [
-          "Aplique no contexto da UFV",
-          "Registre ou comunique quando necessário",
-          "Mantenha a barreira até o fim da atividade"
+          "Suspenda quando o clima ultrapassar os critérios definidos ou quando a condição observada tornar o controle insuficiente",
+          "Aplicação de campo: Critérios de parada.",
+          "Use os critérios de suspensão definidos para a atividade e a instalação."
         ],
-        "image": "https://images.unsplash.com/photo-1581092795360-fd1ca04f0952?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-12-3.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Critérios de parada»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       }
     ],
     "questions": [
       {
-        "q": "Qual é a melhor abordagem de segurança em uma atividade relacionada a chuva, descargas atmosféricas, vento, tempestade e parada segura?",
+        "q": "Qual é a conduta tecnicamente mais adequada neste tema? Considerando «Clima como risco», qual alternativa está correta?",
         "options": [
-          "Executar rapidamente e corrigir depois",
-          "Identificar a exposição, aplicar controles e confirmar a condição segura antes de executar",
-          "Confiar somente na experiência do operador",
-          "Improvisar um controle temporário sem comunicar"
+          "Continuar com base apenas no hábito da equipe, sem rever a condição real.",
+          "Condições meteorológicas podem mudar rapidamente",
+          "Substituir o controle previsto por improviso e registrar depois.",
+          "Aguardar o final da atividade para comunicar qualquer desvio."
         ],
         "correct": 1,
-        "a": "Controle antes da exposição. Segurança precisa ser verificável."
+        "a": "A resposta correta está alinhada ao controle específico apresentado neste bloco."
       },
       {
-        "q": "Se uma condição relevante mudar durante a atividade, o que deve acontecer?",
+        "q": "Qual condição deve ser confirmada antes de avançar? Considerando «Chuva», qual alternativa está correta?",
         "options": [
-          "Continuar para não perder produtividade",
-          "Parar, comunicar e reavaliar o risco antes de continuar",
-          "Ignorar se a equipe já estiver acostumada",
-          "Esperar o final da tarefa para registrar"
-        ],
-        "correct": 1,
-        "a": "Mudança de cenário exige nova avaliação e controle."
-      },
-      {
-        "q": "Qual princípio é mais importante ao escolher controles?",
-        "options": [
-          "Usar somente EPI",
-          "Priorizar controles que reduzam a exposição na fonte e usar barreiras complementares",
-          "Escolher o controle mais barato",
-          "Deixar a decisão para depois da execução"
-        ],
-        "correct": 1,
-        "a": "A prevenção começa na fonte e nas barreiras, não somente no comportamento individual."
-      },
-      {
-        "q": "O que fazer quando você não consegue demonstrar que uma condição está segura?",
-        "options": [
-          "Assumir que está segura",
-          "Executar com cuidado redobrado",
-          "Parar e buscar esclarecimento/controle adequado",
-          "Pedir para outra pessoa executar"
+          "Substituir o controle previsto por improviso e registrar depois.",
+          "Continuar com base apenas no hábito da equipe, sem rever a condição real.",
+          "Chuva reduz aderência e pode afetar ferramentas e equipamentos",
+          "Aguardar o final da atividade para comunicar qualquer desvio."
         ],
         "correct": 2,
-        "a": "Dúvida sobre condição segura é motivo para não avançar."
+        "a": "A resposta correta está alinhada ao controle específico apresentado neste bloco."
       },
       {
-        "q": "Qual situação caracteriza um bom comportamento de segurança?",
+        "q": "Qual alternativa representa o controle correto? Considerando «Descargas atmosféricas», qual alternativa está correta?",
         "options": [
-          "Pular uma etapa porque a atividade é conhecida",
-          "Comunicar desvio e interromper quando o controle necessário não está disponível",
-          "Manter silêncio para evitar conflito",
-          "Adaptar o procedimento sem comunicar"
+          "Raios podem atingir a área diretamente ou por efeitos associados",
+          "Continuar com base apenas no hábito da equipe, sem rever a condição real.",
+          "Substituir o controle previsto por improviso e registrar depois.",
+          "Aguardar o final da atividade para comunicar qualquer desvio."
+        ],
+        "correct": 0,
+        "a": "A resposta correta está alinhada ao controle específico apresentado neste bloco."
+      },
+      {
+        "q": "O que caracteriza uma resposta segura nesta situação? Considerando «Atividade elétrica», qual alternativa está correta?",
+        "options": [
+          "Aguardar o final da atividade para comunicar qualquer desvio.",
+          "Continuar com base apenas no hábito da equipe, sem rever a condição real.",
+          "Substituir o controle previsto por improviso e registrar depois.",
+          "Não prossiga quando a condição meteorológica tornar os controles inadequados"
+        ],
+        "correct": 3,
+        "a": "A resposta correta está alinhada ao controle específico apresentado neste bloco."
+      },
+      {
+        "q": "Qual erro deve ser evitado no campo? Considerando «Vento», qual alternativa está correta?",
+        "options": [
+          "Continuar com base apenas no hábito da equipe, sem rever a condição real.",
+          "Vento e rajadas podem deslocar objetos, afetar equilíbrio e dificultar manuseio",
+          "Substituir o controle previsto por improviso e registrar depois.",
+          "Aguardar o final da atividade para comunicar qualquer desvio."
         ],
         "correct": 1,
-        "a": "A autoridade para interromper diante de risco é parte da cultura de prevenção."
+        "a": "A resposta correta está alinhada ao controle específico apresentado neste bloco."
       },
       {
-        "q": "Por que procedimentos e checklists são importantes?",
+        "q": "Qual informação é essencial para a decisão? Considerando «Visibilidade», qual alternativa está correta?",
         "options": [
-          "Para aumentar burocracia",
-          "Para tornar controles críticos repetíveis e verificáveis",
-          "Para substituir treinamento",
-          "Para eliminar a necessidade de julgamento"
-        ],
-        "correct": 1,
-        "a": "Procedimentos ajudam a tornar barreiras críticas consistentes e rastreáveis."
-      },
-      {
-        "q": "Qual é uma pergunta útil antes de iniciar uma tarefa?",
-        "options": [
-          "Quanto tempo falta para terminar?",
-          "Quem será culpado se algo der errado?",
-          "O que pode me atingir e como vou controlar essa exposição?",
-          "Como posso fazer sem comunicar?"
+          "Substituir o controle previsto por improviso e registrar depois.",
+          "Continuar com base apenas no hábito da equipe, sem rever a condição real.",
+          "Chuva intensa, neblina ou baixa luminosidade reduzem percepção de obstáculos e condições do equipamento",
+          "Aguardar o final da atividade para comunicar qualquer desvio."
         ],
         "correct": 2,
-        "a": "Comece pela exposição e pelos controles."
+        "a": "A resposta correta está alinhada ao controle específico apresentado neste bloco."
       },
       {
-        "q": "Um equipamento apresenta uma condição diferente da prevista. O que é mais seguro?",
+        "q": "Diante de uma condição diferente da prevista, o que fazer? Considerando «Altura e tracker», qual alternativa está correta?",
         "options": [
-          "Improvisar",
-          "Parar e escalar para decisão técnica",
-          "Continuar porque já começou",
-          "Remover uma barreira para facilitar"
+          "Aguardar o final da atividade para comunicar qualquer desvio.",
+          "Continuar com base apenas no hábito da equipe, sem rever a condição real.",
+          "Substituir o controle previsto por improviso e registrar depois.",
+          "Vento e chuva aumentam risco de queda e perda de estabilidade em estruturas elevadas e trackers"
         ],
-        "correct": 1,
-        "a": "Condição não prevista exige interrupção e avaliação."
+        "correct": 3,
+        "a": "A resposta correta está alinhada ao controle específico apresentado neste bloco."
       },
       {
-        "q": "Qual afirmação melhor representa a cultura de segurança?",
+        "q": "Qual medida reduz diretamente a exposição? Considerando «Monitoramento», qual alternativa está correta?",
         "options": [
-          "Segurança é responsabilidade do técnico de segurança",
-          "Segurança é condição de execução compartilhada pela equipe",
-          "Só o supervisor pode parar a atividade",
-          "Produção sempre vem primeiro"
+          "Use fontes meteorológicas confiáveis e recursos definidos pela operação",
+          "Continuar com base apenas no hábito da equipe, sem rever a condição real.",
+          "Substituir o controle previsto por improviso e registrar depois.",
+          "Aguardar o final da atividade para comunicar qualquer desvio."
         ],
-        "correct": 1,
-        "a": "A prevenção é responsabilidade de todos dentro dos papéis definidos."
+        "correct": 0,
+        "a": "A resposta correta está alinhada ao controle específico apresentado neste bloco."
       },
       {
-        "q": "Ao final de uma atividade, o que completa o ciclo seguro?",
+        "q": "Qual afirmação está correta para esta atividade? Considerando «Critério de suspensão», qual alternativa está correta?",
         "options": [
-          "Sair rapidamente",
-          "Restabelecer condições conforme procedimento, comunicar estado e registrar o necessário",
-          "Deixar o equipamento como ficou",
-          "Apagar os registros"
+          "Substituir o controle previsto por improviso e registrar depois.",
+          "Continuar com base apenas no hábito da equipe, sem rever a condição real.",
+          "Critérios devem vir da avaliação de risco, procedimentos e características do equipamento; não use um número único sem base",
+          "Aguardar o final da atividade para comunicar qualquer desvio."
+        ],
+        "correct": 2,
+        "a": "A resposta correta está alinhada ao controle específico apresentado neste bloco."
+      },
+      {
+        "q": "Qual é o principal critério de parada? Considerando «Retorno», qual alternativa está correta?",
+        "options": [
+          "Continuar com base apenas no hábito da equipe, sem rever a condição real.",
+          "Depois da tempestade, avalie danos, água acumulada, cabos, estruturas e solo antes de retornar",
+          "Substituir o controle previsto por improviso e registrar depois.",
+          "Aguardar o final da atividade para comunicar qualquer desvio."
         ],
         "correct": 1,
-        "a": "O encerramento seguro inclui restauração, comunicação e registro conforme aplicável."
+        "a": "A resposta correta está alinhada ao controle específico apresentado neste bloco."
       }
     ],
     "references": [
-      "NR-10 MTE",
-      "NR-35 MTE",
-      "Procedimentos internos O&M Solar"
-    ]
+      "NR-21 — Trabalhos a Céu Aberto",
+      "NR-10 — Segurança em Instalações e Serviços em Eletricidade",
+      "ABNT NBR 5419 — Proteção contra descargas atmosféricas (edição vigente)",
+      "Procedimentos meteorológicos, de suspensão e retorno O&M Solar"
+    ],
+    "case": {
+      "title": "Registro",
+      "scenario": "Quando exigido, registre horário, condição observada, atividade suspensa e decisão tomada.",
+      "question": "Qual deve ser a primeira decisão da equipe?",
+      "options": [
+        {
+          "text": "Interromper a exposição, aplicar os controles previstos e reavaliar antes de continuar.",
+          "correct": true
+        },
+        {
+          "text": "Continuar porque a atividade já começou e corrigir a condição durante a execução.",
+          "correct": false
+        },
+        {
+          "text": "Improvisar um controle temporário e comunicar somente depois da atividade.",
+          "correct": false
+        }
+      ]
+    }
   },
   {
     "id": 13,
-    "phase": "Riscos da UFV",
+    "phase": "Ambiente e Saúde",
     "title": "Animais Peçonhentos e Segurança em Áreas Rurais",
-    "description": "Reduza encontros e acidentes com animais peçonhentos durante circulação e manutenção em áreas rurais.",
-    "objective": "prevenção, inspeção, conduta após acidente e comunicação",
-    "icon": "☀️",
-    "duration": 22,
+    "description": "Reduza a exposição a animais peçonhentos e saiba agir com segurança diante de ocorrências em áreas rurais.",
+    "objective": "Animais Peçonhentos e Segurança em Áreas Rurais",
+    "icon": "🐍",
+    "duration": 25,
     "slides": [
       {
-        "title": "O que você precisa dominar",
-        "body": "Neste treinamento vamos tratar de prevenção, inspeção, conduta após acidente e comunicação. O objetivo é reconhecer a exposição, selecionar controles e tomar decisões seguras no campo.",
+        "title": "Ambiente rural",
+        "body": "Usinas em áreas rurais podem apresentar animais peçonhentos e outros animais. A prevenção começa pela inspeção e organização.",
         "bullets": [
-          "Identifique o perigo",
-          "Controle a exposição",
-          "Confirme a condição segura"
+          "Usinas em áreas rurais podem apresentar animais peçonhentos e outros animais",
+          "A prevenção começa pela inspeção e organização",
+          "Não manipule o animal; isole a área e acione o manejo adequado."
         ],
-        "image": "https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-13-1.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Ambiente rural»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Onde esse risco aparece na UFV",
-        "body": "Observe equipamentos, circulação, ferramentas, ambiente e comportamento. Em uma usina, a mesma atividade pode mudar de risco conforme local e condição.",
+        "title": "Acesso",
+        "body": "Antes de entrar em vegetação, materiais, caixas ou locais pouco movimentados, observe e evite colocar mãos ou pés sem inspeção.",
         "bullets": [
-          "Identifique o perigo",
-          "Controle a exposição",
-          "Confirme a condição segura"
+          "Antes de entrar em vegetação, materiais, caixas ou locais pouco movimentados, observe e evite colocar mãos ou pés sem inspeção",
+          "Aplicação de campo: Acesso.",
+          "Não manipule o animal; isole a área e acione o manejo adequado."
         ],
-        "image": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-13-2.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Acesso»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Identifique o mecanismo de dano",
-        "body": "Pergunte qual é o mecanismo capaz de causar lesão neste tema: energia, movimento, queda, contato, exposição ambiental, produto ou falha de comunicação.",
+        "title": "Serpentes",
+        "body": "Não tente capturar ou manipular serpentes. Mantenha distância e acione o responsável pelo manejo.",
         "bullets": [
-          "Aplique no contexto da UFV",
-          "Registre ou comunique quando necessário",
-          "Mantenha a barreira até o fim da atividade"
+          "Não tente capturar ou manipular serpentes",
+          "Mantenha distância e acione o responsável pelo manejo",
+          "Não manipule o animal; isole a área e acione o manejo adequado."
         ],
-        "image": "https://images.unsplash.com/photo-1581092795360-fd1ca04f0952?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-13-3.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Serpentes»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Checkpoint 1 — pare e pense",
-        "body": "Antes de executar, descreva mentalmente: perigo → exposição → consequência → controle. Se uma etapa não estiver clara, pare e esclareça.",
+        "title": "Aranhas e escorpiões",
+        "body": "Podem permanecer sob materiais, pedras e locais protegidos. Inspecione antes de movimentar objetos.",
         "bullets": [
-          "Responda antes de avançar",
-          "Não improvise controle",
-          "Se houver dúvida, comunique e reavalie"
+          "Podem permanecer sob materiais, pedras e locais protegidos",
+          "Inspecione antes de movimentar objetos",
+          "Não manipule o animal; isole a área e acione o manejo adequado."
         ],
-        "image": "https://images.unsplash.com/photo-1586864387967-d02ef85d93e8?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": true
+        "image": "media/treino-13-1.svg",
+        "checkpoint": true,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Aranhas e escorpiões»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Controle na fonte",
-        "body": "Sempre que possível, reduza o risco antes da pessoa entrar na zona de exposição. Use barreiras, isolamento, organização e procedimentos antes de depender somente do comportamento individual.",
+        "title": "Abelhas",
+        "body": "Colmeias e ninhos exigem afastamento. Não provoque nem tente remover sem procedimento e equipe adequados.",
         "bullets": [
-          "Identifique o perigo",
-          "Controle a exposição",
-          "Confirme a condição segura"
+          "Colmeias e ninhos exigem afastamento",
+          "Não provoque nem tente remover sem procedimento e equipe adequados",
+          "Não manipule o animal; isole a área e acione o manejo adequado."
         ],
-        "image": "https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-13-2.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Abelhas»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Condição segura",
-        "body": "Para este tema, condição segura significa que os controles relevantes foram verificados. Não confie apenas em aparência, hábito ou experiência anterior.",
+        "title": "Calçados",
+        "body": "Calçados fechados e vestimentas adequadas reduzem exposição. Inspecione botas e roupas quando necessário.",
         "bullets": [
-          "Identifique o perigo",
-          "Controle a exposição",
-          "Confirme a condição segura"
+          "Calçados fechados e vestimentas adequadas reduzem exposição",
+          "Inspecione botas e roupas quando necessário",
+          "Não manipule o animal; isole a área e acione o manejo adequado."
         ],
-        "image": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-13-3.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Calçados»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Comunicação operacional",
-        "body": "Quem executa precisa saber o escopo, as limitações e os sinais de parada. Quando houver mudança relevante, comunique antes de continuar.",
+        "title": "Vegetação",
+        "body": "Controle de vegetação melhora visibilidade e reduz abrigo, mas deve seguir os controles ambientais e de segurança.",
         "bullets": [
-          "Identifique o perigo",
-          "Controle a exposição",
-          "Confirme a condição segura"
+          "Controle de vegetação melhora visibilidade e reduz abrigo, mas deve seguir os controles ambientais e de segurança",
+          "Aplicação de campo: Vegetação.",
+          "Não manipule o animal; isole a área e acione o manejo adequado."
         ],
-        "image": "https://images.unsplash.com/photo-1581092795360-fd1ca04f0952?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-13-1.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Vegetação»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Checkpoint 2 — o cenário mudou",
-        "body": "Se surgir uma condição não prevista, a resposta segura é interromper, proteger a equipe, comunicar e reavaliar o risco. Não 'adapte no improviso'.",
+        "title": "Caixas e abrigos",
+        "body": "Faça inspeção externa antes de abrir caixas ou manipular materiais. Não introduza mãos em frestas não visíveis.",
         "bullets": [
-          "Responda antes de avançar",
-          "Não improvise controle",
-          "Se houver dúvida, comunique e reavalie"
+          "Faça inspeção externa antes de abrir caixas ou manipular materiais",
+          "Não introduza mãos em frestas não visíveis",
+          "Não manipule o animal; isole a área e acione o manejo adequado."
         ],
-        "image": "https://images.unsplash.com/photo-1586864387967-d02ef85d93e8?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": true
+        "image": "media/treino-13-2.svg",
+        "checkpoint": true,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Caixas e abrigos»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Erro comum no campo",
-        "body": "Um erro recorrente é normalizar pequenas anomalias porque 'sempre foi assim'. Desvio repetido não deixa de ser risco por ser familiar.",
+        "title": "Acidente",
+        "body": "Afaste-se do animal, mantenha a pessoa em repouso e acione atendimento médico conforme o plano local.",
         "bullets": [
-          "Identifique o perigo",
-          "Controle a exposição",
-          "Confirme a condição segura"
+          "Afaste-se do animal, mantenha a pessoa em repouso e acione atendimento médico conforme o plano local",
+          "Aplicação de campo: Acidente.",
+          "Não manipule o animal; isole a área e acione o manejo adequado."
         ],
-        "image": "https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-13-3.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Acidente»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Aplicação prática — ANI",
-        "body": "Imagine uma atividade real relacionada a animais peçonhentos e segurança em áreas rurais. Antes de iniciar, faça uma inspeção do local, confirme os controles e combine como a equipe vai interromper a atividade.",
+        "title": "O que não fazer",
+        "body": "Não faça cortes, sucção, torniquetes improvisados ou aplicações caseiras. Não tente capturar o animal para tratamento.",
         "bullets": [
-          "Identifique o perigo",
-          "Controle a exposição",
-          "Confirme a condição segura"
+          "Não faça cortes, sucção, torniquetes improvisados ou aplicações caseiras",
+          "Não tente capturar o animal para tratamento",
+          "Não manipule o animal; isole a área e acione o manejo adequado."
         ],
-        "image": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-13-1.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «O que não fazer»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Checkpoint 3 — decisão segura",
-        "body": "Escolha sempre a alternativa que controla a exposição antes de executar e que mantém a comunicação e a rastreabilidade da decisão.",
+        "title": "Registro",
+        "body": "Registre local, horário e circunstâncias conforme procedimento para apoiar atendimento e prevenção.",
         "bullets": [
-          "Responda antes de avançar",
-          "Não improvise controle",
-          "Se houver dúvida, comunique e reavalie"
+          "Registre local, horário e circunstâncias conforme procedimento para apoiar atendimento e prevenção",
+          "Aplicação de campo: Registro.",
+          "Não manipule o animal; isole a área e acione o manejo adequado."
         ],
-        "image": "https://images.unsplash.com/photo-1581092795360-fd1ca04f0952?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": true
+        "image": "media/treino-13-2.svg",
+        "checkpoint": true,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Registro»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Checklist de campo",
-        "body": "Escopo; local; perigos; exposição; controles; EPI/EPC quando aplicável; comunicação; condição ambiental; ferramentas; plano de resposta.",
+        "title": "Caso: animal em abrigo",
+        "body": "Interrompa, isole o local e acione o responsável pelo manejo. Não abra a caixa para verificar de perto.",
         "bullets": [
-          "Identifique o perigo",
-          "Controle a exposição",
-          "Confirme a condição segura"
+          "Interrompa, isole o local e acione o responsável pelo manejo",
+          "Não abra a caixa para verificar de perto",
+          "Não manipule o animal; isole a área e acione o manejo adequado."
         ],
-        "image": "https://images.unsplash.com/photo-1586864387967-d02ef85d93e8?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-13-3.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Caso: animal em abrigo»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Quando parar",
-        "body": "Pare diante de condição não prevista, falha de controle, equipamento danificado, clima incompatível, dúvida sobre procedimento ou qualquer exposição que não esteja controlada.",
+        "title": "Prevenção",
+        "body": "Treine reconhecimento de risco, mantenha áreas organizadas e trate sinais de infestação como desvio.",
         "bullets": [
-          "Identifique o perigo",
-          "Controle a exposição",
-          "Confirme a condição segura"
+          "Treine reconhecimento de risco, mantenha áreas organizadas e trate sinais de infestação como desvio",
+          "Aplicação de campo: Prevenção.",
+          "Não manipule o animal; isole a área e acione o manejo adequado."
         ],
-        "image": "https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-13-1.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Prevenção»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Fixação antes da prova",
-        "body": "Você já percorreu os fundamentos de Animais Peçonhentos e Segurança em Áreas Rurais. Agora faça o caso prático, revise os checkpoints e só então avance para a avaliação final.",
+        "title": "Checklist",
+        "body": "Vegetação, materiais, abrigos, calçados, proteção prevista, comunicação e rota de atendimento.",
         "bullets": [
-          "Aplique no contexto da UFV",
-          "Registre ou comunique quando necessário",
-          "Mantenha a barreira até o fim da atividade"
+          "Vegetação, materiais, abrigos, calçados, proteção prevista, comunicação e rota de atendimento",
+          "Aplicação de campo: Checklist.",
+          "Não manipule o animal; isole a área e acione o manejo adequado."
         ],
-        "image": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-13-2.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Checklist»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Fechamento",
-        "body": "Segurança é uma condição para executar. O resultado esperado é que você reconheça o risco antes que ele vire incidente e saiba quando parar e pedir suporte.",
+        "title": "Critérios de parada",
+        "body": "Pare diante de animal agressivo, infestação ou necessidade de manejo fora da competência da equipe.",
         "bullets": [
-          "Aplique no contexto da UFV",
-          "Registre ou comunique quando necessário",
-          "Mantenha a barreira até o fim da atividade"
+          "Pare diante de animal agressivo, infestação ou necessidade de manejo fora da competência da equipe",
+          "Aplicação de campo: Critérios de parada.",
+          "Não manipule o animal; isole a área e acione o manejo adequado."
         ],
-        "image": "https://images.unsplash.com/photo-1581092795360-fd1ca04f0952?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-13-3.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Critérios de parada»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       }
     ],
     "questions": [
       {
-        "q": "Qual é a melhor abordagem de segurança em uma atividade relacionada a prevenção, inspeção, conduta após acidente e comunicação?",
+        "q": "Qual é a conduta tecnicamente mais adequada neste tema? Considerando «Ambiente rural», qual alternativa está correta?",
         "options": [
-          "Executar rapidamente e corrigir depois",
-          "Identificar a exposição, aplicar controles e confirmar a condição segura antes de executar",
-          "Confiar somente na experiência do operador",
-          "Improvisar um controle temporário sem comunicar"
+          "Continuar com base apenas no hábito da equipe, sem rever a condição real.",
+          "Usinas em áreas rurais podem apresentar animais peçonhentos e outros animais",
+          "Substituir o controle previsto por improviso e registrar depois.",
+          "Aguardar o final da atividade para comunicar qualquer desvio."
         ],
         "correct": 1,
-        "a": "Controle antes da exposição. Segurança precisa ser verificável."
+        "a": "A resposta correta está alinhada ao controle específico apresentado neste bloco."
       },
       {
-        "q": "Se uma condição relevante mudar durante a atividade, o que deve acontecer?",
+        "q": "Qual condição deve ser confirmada antes de avançar? Considerando «Acesso», qual alternativa está correta?",
         "options": [
-          "Continuar para não perder produtividade",
-          "Parar, comunicar e reavaliar o risco antes de continuar",
-          "Ignorar se a equipe já estiver acostumada",
-          "Esperar o final da tarefa para registrar"
-        ],
-        "correct": 1,
-        "a": "Mudança de cenário exige nova avaliação e controle."
-      },
-      {
-        "q": "Qual princípio é mais importante ao escolher controles?",
-        "options": [
-          "Usar somente EPI",
-          "Priorizar controles que reduzam a exposição na fonte e usar barreiras complementares",
-          "Escolher o controle mais barato",
-          "Deixar a decisão para depois da execução"
-        ],
-        "correct": 1,
-        "a": "A prevenção começa na fonte e nas barreiras, não somente no comportamento individual."
-      },
-      {
-        "q": "O que fazer quando você não consegue demonstrar que uma condição está segura?",
-        "options": [
-          "Assumir que está segura",
-          "Executar com cuidado redobrado",
-          "Parar e buscar esclarecimento/controle adequado",
-          "Pedir para outra pessoa executar"
+          "Substituir o controle previsto por improviso e registrar depois.",
+          "Continuar com base apenas no hábito da equipe, sem rever a condição real.",
+          "Antes de entrar em vegetação, materiais, caixas ou locais pouco movimentados, observe e evite colocar mãos ou pés sem inspeção",
+          "Aguardar o final da atividade para comunicar qualquer desvio."
         ],
         "correct": 2,
-        "a": "Dúvida sobre condição segura é motivo para não avançar."
+        "a": "A resposta correta está alinhada ao controle específico apresentado neste bloco."
       },
       {
-        "q": "Qual situação caracteriza um bom comportamento de segurança?",
+        "q": "Qual alternativa representa o controle correto? Considerando «Serpentes», qual alternativa está correta?",
         "options": [
-          "Pular uma etapa porque a atividade é conhecida",
-          "Comunicar desvio e interromper quando o controle necessário não está disponível",
-          "Manter silêncio para evitar conflito",
-          "Adaptar o procedimento sem comunicar"
+          "Não tente capturar ou manipular serpentes",
+          "Continuar com base apenas no hábito da equipe, sem rever a condição real.",
+          "Substituir o controle previsto por improviso e registrar depois.",
+          "Aguardar o final da atividade para comunicar qualquer desvio."
+        ],
+        "correct": 0,
+        "a": "A resposta correta está alinhada ao controle específico apresentado neste bloco."
+      },
+      {
+        "q": "O que caracteriza uma resposta segura nesta situação? Considerando «Aranhas e escorpiões», qual alternativa está correta?",
+        "options": [
+          "Aguardar o final da atividade para comunicar qualquer desvio.",
+          "Continuar com base apenas no hábito da equipe, sem rever a condição real.",
+          "Substituir o controle previsto por improviso e registrar depois.",
+          "Podem permanecer sob materiais, pedras e locais protegidos"
+        ],
+        "correct": 3,
+        "a": "A resposta correta está alinhada ao controle específico apresentado neste bloco."
+      },
+      {
+        "q": "Qual erro deve ser evitado no campo? Considerando «Abelhas», qual alternativa está correta?",
+        "options": [
+          "Continuar com base apenas no hábito da equipe, sem rever a condição real.",
+          "Colmeias e ninhos exigem afastamento",
+          "Substituir o controle previsto por improviso e registrar depois.",
+          "Aguardar o final da atividade para comunicar qualquer desvio."
         ],
         "correct": 1,
-        "a": "A autoridade para interromper diante de risco é parte da cultura de prevenção."
+        "a": "A resposta correta está alinhada ao controle específico apresentado neste bloco."
       },
       {
-        "q": "Por que procedimentos e checklists são importantes?",
+        "q": "Qual informação é essencial para a decisão? Considerando «Calçados», qual alternativa está correta?",
         "options": [
-          "Para aumentar burocracia",
-          "Para tornar controles críticos repetíveis e verificáveis",
-          "Para substituir treinamento",
-          "Para eliminar a necessidade de julgamento"
-        ],
-        "correct": 1,
-        "a": "Procedimentos ajudam a tornar barreiras críticas consistentes e rastreáveis."
-      },
-      {
-        "q": "Qual é uma pergunta útil antes de iniciar uma tarefa?",
-        "options": [
-          "Quanto tempo falta para terminar?",
-          "Quem será culpado se algo der errado?",
-          "O que pode me atingir e como vou controlar essa exposição?",
-          "Como posso fazer sem comunicar?"
+          "Substituir o controle previsto por improviso e registrar depois.",
+          "Continuar com base apenas no hábito da equipe, sem rever a condição real.",
+          "Calçados fechados e vestimentas adequadas reduzem exposição",
+          "Aguardar o final da atividade para comunicar qualquer desvio."
         ],
         "correct": 2,
-        "a": "Comece pela exposição e pelos controles."
+        "a": "A resposta correta está alinhada ao controle específico apresentado neste bloco."
       },
       {
-        "q": "Um equipamento apresenta uma condição diferente da prevista. O que é mais seguro?",
+        "q": "Diante de uma condição diferente da prevista, o que fazer? Considerando «Vegetação», qual alternativa está correta?",
         "options": [
-          "Improvisar",
-          "Parar e escalar para decisão técnica",
-          "Continuar porque já começou",
-          "Remover uma barreira para facilitar"
+          "Aguardar o final da atividade para comunicar qualquer desvio.",
+          "Continuar com base apenas no hábito da equipe, sem rever a condição real.",
+          "Substituir o controle previsto por improviso e registrar depois.",
+          "Controle de vegetação melhora visibilidade e reduz abrigo, mas deve seguir os controles ambientais e de segurança"
         ],
-        "correct": 1,
-        "a": "Condição não prevista exige interrupção e avaliação."
+        "correct": 3,
+        "a": "A resposta correta está alinhada ao controle específico apresentado neste bloco."
       },
       {
-        "q": "Qual afirmação melhor representa a cultura de segurança?",
+        "q": "Qual medida reduz diretamente a exposição? Considerando «Caixas e abrigos», qual alternativa está correta?",
         "options": [
-          "Segurança é responsabilidade do técnico de segurança",
-          "Segurança é condição de execução compartilhada pela equipe",
-          "Só o supervisor pode parar a atividade",
-          "Produção sempre vem primeiro"
+          "Faça inspeção externa antes de abrir caixas ou manipular materiais",
+          "Continuar com base apenas no hábito da equipe, sem rever a condição real.",
+          "Substituir o controle previsto por improviso e registrar depois.",
+          "Aguardar o final da atividade para comunicar qualquer desvio."
         ],
-        "correct": 1,
-        "a": "A prevenção é responsabilidade de todos dentro dos papéis definidos."
+        "correct": 0,
+        "a": "A resposta correta está alinhada ao controle específico apresentado neste bloco."
       },
       {
-        "q": "Ao final de uma atividade, o que completa o ciclo seguro?",
+        "q": "Qual afirmação está correta para esta atividade? Considerando «Acidente», qual alternativa está correta?",
         "options": [
-          "Sair rapidamente",
-          "Restabelecer condições conforme procedimento, comunicar estado e registrar o necessário",
-          "Deixar o equipamento como ficou",
-          "Apagar os registros"
+          "Substituir o controle previsto por improviso e registrar depois.",
+          "Continuar com base apenas no hábito da equipe, sem rever a condição real.",
+          "Afaste-se do animal, mantenha a pessoa em repouso e acione atendimento médico conforme o plano local",
+          "Aguardar o final da atividade para comunicar qualquer desvio."
+        ],
+        "correct": 2,
+        "a": "A resposta correta está alinhada ao controle específico apresentado neste bloco."
+      },
+      {
+        "q": "Qual é o principal critério de parada? Considerando «O que não fazer», qual alternativa está correta?",
+        "options": [
+          "Continuar com base apenas no hábito da equipe, sem rever a condição real.",
+          "Não faça cortes, sucção, torniquetes improvisados ou aplicações caseiras",
+          "Substituir o controle previsto por improviso e registrar depois.",
+          "Aguardar o final da atividade para comunicar qualquer desvio."
         ],
         "correct": 1,
-        "a": "O encerramento seguro inclui restauração, comunicação e registro conforme aplicável."
+        "a": "A resposta correta está alinhada ao controle específico apresentado neste bloco."
       }
     ],
     "references": [
-      "NR-31 MTE",
-      "NR-01 GRO/PGR",
-      "Procedimentos internos O&M Solar"
-    ]
+      "NR-01 — Gerenciamento de Riscos Ocupacionais",
+      "NR-31 — quando aplicável ao ambiente rural",
+      "Ministério da Saúde — acidentes por animais peçonhentos",
+      "Instituto Butantan e materiais oficiais de prevenção e primeiros cuidados"
+    ],
+    "case": {
+      "title": "Prevenção",
+      "scenario": "Treine reconhecimento de risco, mantenha áreas organizadas e trate sinais de infestação como desvio.",
+      "question": "Qual deve ser a primeira decisão da equipe?",
+      "options": [
+        {
+          "text": "Interromper a exposição, aplicar os controles previstos e reavaliar antes de continuar.",
+          "correct": true
+        },
+        {
+          "text": "Continuar porque a atividade já começou e corrigir a condição durante a execução.",
+          "correct": false
+        },
+        {
+          "text": "Improvisar um controle temporário e comunicar somente depois da atividade.",
+          "correct": false
+        }
+      ]
+    }
   },
   {
     "id": 14,
-    "phase": "Riscos da UFV",
+    "phase": "Ambiente e Saúde",
     "title": "Produtos Químicos, Herbicidas e Segurança Ambiental",
-    "description": "Manuseie produtos químicos de forma controlada, com rotulagem, armazenamento e resposta a exposição.",
-    "objective": "rótulo, FISPQ/SDS, GHS, armazenamento e emergência",
-    "icon": "☀️",
-    "duration": 22,
+    "description": "Manuseie produtos químicos e herbicidas com informação de segurança, controle de exposição e proteção ambiental.",
+    "objective": "Produtos Químicos, Herbicidas e Segurança Ambiental",
+    "icon": "🧪",
+    "duration": 25,
     "slides": [
       {
-        "title": "O que você precisa dominar",
-        "body": "Neste treinamento vamos tratar de rótulo, FISPQ/SDS, GHS, armazenamento e emergência. O objetivo é reconhecer a exposição, selecionar controles e tomar decisões seguras no campo.",
+        "title": "Perigo químico",
+        "body": "Produtos usados em manutenção e controle de vegetação devem seguir rótulo, FISPQ/SDS, avaliação de risco e legislação aplicável.",
         "bullets": [
-          "Identifique o perigo",
-          "Controle a exposição",
-          "Confirme a condição segura"
+          "Produtos usados em manutenção e controle de vegetação devem seguir rótulo, FISPQ/SDS, avaliação de risco e legislação aplicável",
+          "Aplicação de campo: Perigo químico.",
+          "Consulte FISPQ/SDS e rótulo/bula antes de preparar ou aplicar."
         ],
-        "image": "https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-14-1.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Perigo químico»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Onde esse risco aparece na UFV",
-        "body": "Observe equipamentos, circulação, ferramentas, ambiente e comportamento. Em uma usina, a mesma atividade pode mudar de risco conforme local e condição.",
+        "title": "FISPQ/SDS",
+        "body": "A ficha fornece informações sobre perigos, manuseio, armazenamento, primeiros socorros e controle. Saiba onde consultá-la.",
         "bullets": [
-          "Identifique o perigo",
-          "Controle a exposição",
-          "Confirme a condição segura"
+          "A ficha fornece informações sobre perigos, manuseio, armazenamento, primeiros socorros e controle",
+          "Saiba onde consultá-la",
+          "Consulte FISPQ/SDS e rótulo/bula antes de preparar ou aplicar."
         ],
-        "image": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-14-2.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «FISPQ/SDS»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Identifique o mecanismo de dano",
-        "body": "Pergunte qual é o mecanismo capaz de causar lesão neste tema: energia, movimento, queda, contato, exposição ambiental, produto ou falha de comunicação.",
+        "title": "Identificação",
+        "body": "Nunca use produto transferido para recipiente sem identificação. O nome comercial sozinho não substitui informação de segurança.",
         "bullets": [
-          "Aplique no contexto da UFV",
-          "Registre ou comunique quando necessário",
-          "Mantenha a barreira até o fim da atividade"
+          "Nunca use produto transferido para recipiente sem identificação",
+          "O nome comercial sozinho não substitui informação de segurança",
+          "Consulte FISPQ/SDS e rótulo/bula antes de preparar ou aplicar."
         ],
-        "image": "https://images.unsplash.com/photo-1581092795360-fd1ca04f0952?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-14-3.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Identificação»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Checkpoint 1 — pare e pense",
-        "body": "Antes de executar, descreva mentalmente: perigo → exposição → consequência → controle. Se uma etapa não estiver clara, pare e esclareça.",
+        "title": "Vias de exposição",
+        "body": "Inalação e contato com pele ou olhos são vias comuns. O controle deve atuar na fonte, no ambiente e na proteção individual.",
         "bullets": [
-          "Responda antes de avançar",
-          "Não improvise controle",
-          "Se houver dúvida, comunique e reavalie"
+          "Inalação e contato com pele ou olhos são vias comuns",
+          "O controle deve atuar na fonte, no ambiente e na proteção individual",
+          "Consulte FISPQ/SDS e rótulo/bula antes de preparar ou aplicar."
         ],
-        "image": "https://images.unsplash.com/photo-1586864387967-d02ef85d93e8?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": true
+        "image": "media/treino-14-1.svg",
+        "checkpoint": true,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Vias de exposição»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Controle na fonte",
-        "body": "Sempre que possível, reduza o risco antes da pessoa entrar na zona de exposição. Use barreiras, isolamento, organização e procedimentos antes de depender somente do comportamento individual.",
+        "title": "Armazenamento",
+        "body": "Armazene conforme compatibilidade, ventilação e contenção. Não misture produtos sem indicação formal.",
         "bullets": [
-          "Identifique o perigo",
-          "Controle a exposição",
-          "Confirme a condição segura"
+          "Armazene conforme compatibilidade, ventilação e contenção",
+          "Não misture produtos sem indicação formal",
+          "Consulte FISPQ/SDS e rótulo/bula antes de preparar ou aplicar."
         ],
-        "image": "https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-14-2.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Armazenamento»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Condição segura",
-        "body": "Para este tema, condição segura significa que os controles relevantes foram verificados. Não confie apenas em aparência, hábito ou experiência anterior.",
+        "title": "Compatibilidade",
+        "body": "Produtos incompatíveis podem reagir. A segregação deve seguir FISPQ/SDS e procedimento de armazenamento.",
         "bullets": [
-          "Identifique o perigo",
-          "Controle a exposição",
-          "Confirme a condição segura"
+          "Produtos incompatíveis podem reagir",
+          "A segregação deve seguir FISPQ/SDS e procedimento de armazenamento",
+          "Consulte FISPQ/SDS e rótulo/bula antes de preparar ou aplicar."
         ],
-        "image": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-14-3.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Compatibilidade»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Comunicação operacional",
-        "body": "Quem executa precisa saber o escopo, as limitações e os sinais de parada. Quando houver mudança relevante, comunique antes de continuar.",
+        "title": "EPI",
+        "body": "Selecione proteção a partir do produto e da atividade. Uma luva ou máscara genérica não protege contra qualquer químico.",
         "bullets": [
-          "Identifique o perigo",
-          "Controle a exposição",
-          "Confirme a condição segura"
+          "Selecione proteção a partir do produto e da atividade",
+          "Uma luva ou máscara genérica não protege contra qualquer químico",
+          "Consulte FISPQ/SDS e rótulo/bula antes de preparar ou aplicar."
         ],
-        "image": "https://images.unsplash.com/photo-1581092795360-fd1ca04f0952?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-14-1.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «EPI»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Checkpoint 2 — o cenário mudou",
-        "body": "Se surgir uma condição não prevista, a resposta segura é interromper, proteger a equipe, comunicar e reavaliar o risco. Não 'adapte no improviso'.",
+        "title": "Aplicação",
+        "body": "Preparo e aplicação devem seguir rótulo, procedimento e treinamento. Controle o acesso de terceiros.",
         "bullets": [
-          "Responda antes de avançar",
-          "Não improvise controle",
-          "Se houver dúvida, comunique e reavalie"
+          "Preparo e aplicação devem seguir rótulo, procedimento e treinamento",
+          "Controle o acesso de terceiros",
+          "Consulte FISPQ/SDS e rótulo/bula antes de preparar ou aplicar."
         ],
-        "image": "https://images.unsplash.com/photo-1586864387967-d02ef85d93e8?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": true
+        "image": "media/treino-14-2.svg",
+        "checkpoint": true,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Aplicação»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Erro comum no campo",
-        "body": "Um erro recorrente é normalizar pequenas anomalias porque 'sempre foi assim'. Desvio repetido não deixa de ser risco por ser familiar.",
+        "title": "Vento e deriva",
+        "body": "Vento pode transportar gotas ou vapores. Avalie condições ambientais e restrições do produto antes da aplicação.",
         "bullets": [
-          "Identifique o perigo",
-          "Controle a exposição",
-          "Confirme a condição segura"
+          "Vento pode transportar gotas ou vapores",
+          "Avalie condições ambientais e restrições do produto antes da aplicação",
+          "Consulte FISPQ/SDS e rótulo/bula antes de preparar ou aplicar."
         ],
-        "image": "https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-14-3.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Vento e deriva»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Aplicação prática — QUI",
-        "body": "Imagine uma atividade real relacionada a produtos químicos, herbicidas e segurança ambiental. Antes de iniciar, faça uma inspeção do local, confirme os controles e combine como a equipe vai interromper a atividade.",
+        "title": "Derramamento",
+        "body": "Proteja pessoas, interrompa a fonte se seguro e acione o procedimento de contenção. Evite espalhar o produto.",
         "bullets": [
-          "Identifique o perigo",
-          "Controle a exposição",
-          "Confirme a condição segura"
+          "Proteja pessoas, interrompa a fonte se seguro e acione o procedimento de contenção",
+          "Evite espalhar o produto",
+          "Consulte FISPQ/SDS e rótulo/bula antes de preparar ou aplicar."
         ],
-        "image": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-14-1.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Derramamento»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Checkpoint 3 — decisão segura",
-        "body": "Escolha sempre a alternativa que controla a exposição antes de executar e que mantém a comunicação e a rastreabilidade da decisão.",
+        "title": "Resíduos",
+        "body": "Embalagens e resíduos devem seguir o fluxo ambiental definido. Nunca descarte de forma improvisada.",
         "bullets": [
-          "Responda antes de avançar",
-          "Não improvise controle",
-          "Se houver dúvida, comunique e reavalie"
+          "Embalagens e resíduos devem seguir o fluxo ambiental definido",
+          "Nunca descarte de forma improvisada",
+          "Consulte FISPQ/SDS e rótulo/bula antes de preparar ou aplicar."
         ],
-        "image": "https://images.unsplash.com/photo-1581092795360-fd1ca04f0952?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": true
+        "image": "media/treino-14-2.svg",
+        "checkpoint": true,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Resíduos»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Checklist de campo",
-        "body": "Escopo; local; perigos; exposição; controles; EPI/EPC quando aplicável; comunicação; condição ambiental; ferramentas; plano de resposta.",
+        "title": "Caso: recipiente sem rótulo",
+        "body": "Não utilize. Isole o material e solicite identificação e tratamento adequado.",
         "bullets": [
-          "Identifique o perigo",
-          "Controle a exposição",
-          "Confirme a condição segura"
+          "Não utilize",
+          "Isole o material e solicite identificação e tratamento adequado",
+          "Consulte FISPQ/SDS e rótulo/bula antes de preparar ou aplicar."
         ],
-        "image": "https://images.unsplash.com/photo-1586864387967-d02ef85d93e8?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-14-3.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Caso: recipiente sem rótulo»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Quando parar",
-        "body": "Pare diante de condição não prevista, falha de controle, equipamento danificado, clima incompatível, dúvida sobre procedimento ou qualquer exposição que não esteja controlada.",
+        "title": "Higiene",
+        "body": "Após a atividade, higienize mãos e equipamentos conforme procedimento. Evite levar contaminação para veículos ou refeições.",
         "bullets": [
-          "Identifique o perigo",
-          "Controle a exposição",
-          "Confirme a condição segura"
+          "Após a atividade, higienize mãos e equipamentos conforme procedimento",
+          "Evite levar contaminação para veículos ou refeições",
+          "Consulte FISPQ/SDS e rótulo/bula antes de preparar ou aplicar."
         ],
-        "image": "https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-14-1.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Higiene»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Fixação antes da prova",
-        "body": "Você já percorreu os fundamentos de Produtos Químicos, Herbicidas e Segurança Ambiental. Agora faça o caso prático, revise os checkpoints e só então avance para a avaliação final.",
+        "title": "Checklist",
+        "body": "Produto identificado, FISPQ/SDS, rótulo/bula, EPI, clima, contenção, armazenamento e descarte.",
         "bullets": [
-          "Aplique no contexto da UFV",
-          "Registre ou comunique quando necessário",
-          "Mantenha a barreira até o fim da atividade"
+          "Produto identificado, FISPQ/SDS, rótulo/bula, EPI, clima, contenção, armazenamento e descarte",
+          "Aplicação de campo: Checklist.",
+          "Consulte FISPQ/SDS e rótulo/bula antes de preparar ou aplicar."
         ],
-        "image": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-14-2.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Checklist»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Fechamento",
-        "body": "Segurança é uma condição para executar. O resultado esperado é que você reconheça o risco antes que ele vire incidente e saiba quando parar e pedir suporte.",
+        "title": "Critérios de parada",
+        "body": "Pare se produto não estiver identificado, informação de segurança estiver indisponível, EPI for inadequado ou deriva não puder ser controlada.",
         "bullets": [
-          "Aplique no contexto da UFV",
-          "Registre ou comunique quando necessário",
-          "Mantenha a barreira até o fim da atividade"
+          "Pare se produto não estiver identificado, informação de segurança estiver indisponível, EPI for inadequado ou deriva não puder ser controlada",
+          "Aplicação de campo: Critérios de parada.",
+          "Consulte FISPQ/SDS e rótulo/bula antes de preparar ou aplicar."
         ],
-        "image": "https://images.unsplash.com/photo-1581092795360-fd1ca04f0952?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-14-3.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Critérios de parada»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       }
     ],
     "questions": [
       {
-        "q": "Qual é a melhor abordagem de segurança em uma atividade relacionada a rótulo, FISPQ/SDS, GHS, armazenamento e emergência?",
+        "q": "Qual é a conduta tecnicamente mais adequada neste tema? Considerando «Perigo químico», qual alternativa está correta?",
         "options": [
-          "Executar rapidamente e corrigir depois",
-          "Identificar a exposição, aplicar controles e confirmar a condição segura antes de executar",
-          "Confiar somente na experiência do operador",
-          "Improvisar um controle temporário sem comunicar"
+          "Continuar com base apenas no hábito da equipe, sem rever a condição real.",
+          "Produtos usados em manutenção e controle de vegetação devem seguir rótulo, FISPQ/SDS, avaliação de risco e legislação aplicável",
+          "Substituir o controle previsto por improviso e registrar depois.",
+          "Aguardar o final da atividade para comunicar qualquer desvio."
         ],
         "correct": 1,
-        "a": "Controle antes da exposição. Segurança precisa ser verificável."
+        "a": "A resposta correta está alinhada ao controle específico apresentado neste bloco."
       },
       {
-        "q": "Se uma condição relevante mudar durante a atividade, o que deve acontecer?",
+        "q": "Qual condição deve ser confirmada antes de avançar? Considerando «FISPQ/SDS», qual alternativa está correta?",
         "options": [
-          "Continuar para não perder produtividade",
-          "Parar, comunicar e reavaliar o risco antes de continuar",
-          "Ignorar se a equipe já estiver acostumada",
-          "Esperar o final da tarefa para registrar"
-        ],
-        "correct": 1,
-        "a": "Mudança de cenário exige nova avaliação e controle."
-      },
-      {
-        "q": "Qual princípio é mais importante ao escolher controles?",
-        "options": [
-          "Usar somente EPI",
-          "Priorizar controles que reduzam a exposição na fonte e usar barreiras complementares",
-          "Escolher o controle mais barato",
-          "Deixar a decisão para depois da execução"
-        ],
-        "correct": 1,
-        "a": "A prevenção começa na fonte e nas barreiras, não somente no comportamento individual."
-      },
-      {
-        "q": "O que fazer quando você não consegue demonstrar que uma condição está segura?",
-        "options": [
-          "Assumir que está segura",
-          "Executar com cuidado redobrado",
-          "Parar e buscar esclarecimento/controle adequado",
-          "Pedir para outra pessoa executar"
+          "Substituir o controle previsto por improviso e registrar depois.",
+          "Continuar com base apenas no hábito da equipe, sem rever a condição real.",
+          "A ficha fornece informações sobre perigos, manuseio, armazenamento, primeiros socorros e controle",
+          "Aguardar o final da atividade para comunicar qualquer desvio."
         ],
         "correct": 2,
-        "a": "Dúvida sobre condição segura é motivo para não avançar."
+        "a": "A resposta correta está alinhada ao controle específico apresentado neste bloco."
       },
       {
-        "q": "Qual situação caracteriza um bom comportamento de segurança?",
+        "q": "Qual alternativa representa o controle correto? Considerando «Identificação», qual alternativa está correta?",
         "options": [
-          "Pular uma etapa porque a atividade é conhecida",
-          "Comunicar desvio e interromper quando o controle necessário não está disponível",
-          "Manter silêncio para evitar conflito",
-          "Adaptar o procedimento sem comunicar"
+          "Nunca use produto transferido para recipiente sem identificação",
+          "Continuar com base apenas no hábito da equipe, sem rever a condição real.",
+          "Substituir o controle previsto por improviso e registrar depois.",
+          "Aguardar o final da atividade para comunicar qualquer desvio."
+        ],
+        "correct": 0,
+        "a": "A resposta correta está alinhada ao controle específico apresentado neste bloco."
+      },
+      {
+        "q": "O que caracteriza uma resposta segura nesta situação? Considerando «Vias de exposição», qual alternativa está correta?",
+        "options": [
+          "Aguardar o final da atividade para comunicar qualquer desvio.",
+          "Continuar com base apenas no hábito da equipe, sem rever a condição real.",
+          "Substituir o controle previsto por improviso e registrar depois.",
+          "Inalação e contato com pele ou olhos são vias comuns"
+        ],
+        "correct": 3,
+        "a": "A resposta correta está alinhada ao controle específico apresentado neste bloco."
+      },
+      {
+        "q": "Qual erro deve ser evitado no campo? Considerando «Armazenamento», qual alternativa está correta?",
+        "options": [
+          "Continuar com base apenas no hábito da equipe, sem rever a condição real.",
+          "Armazene conforme compatibilidade, ventilação e contenção",
+          "Substituir o controle previsto por improviso e registrar depois.",
+          "Aguardar o final da atividade para comunicar qualquer desvio."
         ],
         "correct": 1,
-        "a": "A autoridade para interromper diante de risco é parte da cultura de prevenção."
+        "a": "A resposta correta está alinhada ao controle específico apresentado neste bloco."
       },
       {
-        "q": "Por que procedimentos e checklists são importantes?",
+        "q": "Qual informação é essencial para a decisão? Considerando «Compatibilidade», qual alternativa está correta?",
         "options": [
-          "Para aumentar burocracia",
-          "Para tornar controles críticos repetíveis e verificáveis",
-          "Para substituir treinamento",
-          "Para eliminar a necessidade de julgamento"
-        ],
-        "correct": 1,
-        "a": "Procedimentos ajudam a tornar barreiras críticas consistentes e rastreáveis."
-      },
-      {
-        "q": "Qual é uma pergunta útil antes de iniciar uma tarefa?",
-        "options": [
-          "Quanto tempo falta para terminar?",
-          "Quem será culpado se algo der errado?",
-          "O que pode me atingir e como vou controlar essa exposição?",
-          "Como posso fazer sem comunicar?"
+          "Substituir o controle previsto por improviso e registrar depois.",
+          "Continuar com base apenas no hábito da equipe, sem rever a condição real.",
+          "Produtos incompatíveis podem reagir",
+          "Aguardar o final da atividade para comunicar qualquer desvio."
         ],
         "correct": 2,
-        "a": "Comece pela exposição e pelos controles."
+        "a": "A resposta correta está alinhada ao controle específico apresentado neste bloco."
       },
       {
-        "q": "Um equipamento apresenta uma condição diferente da prevista. O que é mais seguro?",
+        "q": "Diante de uma condição diferente da prevista, o que fazer? Considerando «EPI», qual alternativa está correta?",
         "options": [
-          "Improvisar",
-          "Parar e escalar para decisão técnica",
-          "Continuar porque já começou",
-          "Remover uma barreira para facilitar"
+          "Aguardar o final da atividade para comunicar qualquer desvio.",
+          "Continuar com base apenas no hábito da equipe, sem rever a condição real.",
+          "Substituir o controle previsto por improviso e registrar depois.",
+          "Selecione proteção a partir do produto e da atividade"
         ],
-        "correct": 1,
-        "a": "Condição não prevista exige interrupção e avaliação."
+        "correct": 3,
+        "a": "A resposta correta está alinhada ao controle específico apresentado neste bloco."
       },
       {
-        "q": "Qual afirmação melhor representa a cultura de segurança?",
+        "q": "Qual medida reduz diretamente a exposição? Considerando «Aplicação», qual alternativa está correta?",
         "options": [
-          "Segurança é responsabilidade do técnico de segurança",
-          "Segurança é condição de execução compartilhada pela equipe",
-          "Só o supervisor pode parar a atividade",
-          "Produção sempre vem primeiro"
+          "Preparo e aplicação devem seguir rótulo, procedimento e treinamento",
+          "Continuar com base apenas no hábito da equipe, sem rever a condição real.",
+          "Substituir o controle previsto por improviso e registrar depois.",
+          "Aguardar o final da atividade para comunicar qualquer desvio."
         ],
-        "correct": 1,
-        "a": "A prevenção é responsabilidade de todos dentro dos papéis definidos."
+        "correct": 0,
+        "a": "A resposta correta está alinhada ao controle específico apresentado neste bloco."
       },
       {
-        "q": "Ao final de uma atividade, o que completa o ciclo seguro?",
+        "q": "Qual afirmação está correta para esta atividade? Considerando «Vento e deriva», qual alternativa está correta?",
         "options": [
-          "Sair rapidamente",
-          "Restabelecer condições conforme procedimento, comunicar estado e registrar o necessário",
-          "Deixar o equipamento como ficou",
-          "Apagar os registros"
+          "Substituir o controle previsto por improviso e registrar depois.",
+          "Continuar com base apenas no hábito da equipe, sem rever a condição real.",
+          "Vento pode transportar gotas ou vapores",
+          "Aguardar o final da atividade para comunicar qualquer desvio."
+        ],
+        "correct": 2,
+        "a": "A resposta correta está alinhada ao controle específico apresentado neste bloco."
+      },
+      {
+        "q": "Qual é o principal critério de parada? Considerando «Derramamento», qual alternativa está correta?",
+        "options": [
+          "Continuar com base apenas no hábito da equipe, sem rever a condição real.",
+          "Proteja pessoas, interrompa a fonte se seguro e acione o procedimento de contenção",
+          "Substituir o controle previsto por improviso e registrar depois.",
+          "Aguardar o final da atividade para comunicar qualquer desvio."
         ],
         "correct": 1,
-        "a": "O encerramento seguro inclui restauração, comunicação e registro conforme aplicável."
+        "a": "A resposta correta está alinhada ao controle específico apresentado neste bloco."
       }
     ],
     "references": [
-      "NR-26 MTE",
-      "NR-09 MTE",
-      "FISPQ/SDS do fabricante"
-    ]
+      "NR-26 — Sinalização de Segurança",
+      "NR-06 — Equipamento de Proteção Individual",
+      "NR-01 — Gerenciamento de Riscos Ocupacionais",
+      "FISPQ/SDS, rótulo/bula e procedimento ambiental dos produtos efetivamente utilizados"
+    ],
+    "case": {
+      "title": "Higiene",
+      "scenario": "Após a atividade, higienize mãos e equipamentos conforme procedimento. Evite levar contaminação para veículos ou refeições.",
+      "question": "Qual deve ser a primeira decisão da equipe?",
+      "options": [
+        {
+          "text": "Interromper a exposição, aplicar os controles previstos e reavaliar antes de continuar.",
+          "correct": true
+        },
+        {
+          "text": "Continuar porque a atividade já começou e corrigir a condição durante a execução.",
+          "correct": false
+        },
+        {
+          "text": "Improvisar um controle temporário e comunicar somente depois da atividade.",
+          "correct": false
+        }
+      ]
+    }
   },
   {
     "id": 15,
-    "phase": "Riscos da UFV",
+    "phase": "Mobilidade",
     "title": "Segurança Veicular e Direção Defensiva",
-    "description": "Planeje deslocamentos e conduza em áreas rurais e operacionais reduzindo riscos de colisão e atropelamento.",
-    "objective": "velocidade, terreno, ré, pedestres, fadiga e inspeção",
-    "icon": "☀️",
-    "duration": 22,
+    "description": "Aplique direção defensiva no deslocamento entre base, usina e atividades de campo, incluindo condições rurais e adversas.",
+    "objective": "Segurança Veicular e Direção Defensiva",
+    "icon": "🚗",
+    "duration": 25,
     "slides": [
       {
-        "title": "O que você precisa dominar",
-        "body": "Neste treinamento vamos tratar de velocidade, terreno, ré, pedestres, fadiga e inspeção. O objetivo é reconhecer a exposição, selecionar controles e tomar decisões seguras no campo.",
+        "title": "Direção defensiva",
+        "body": "Antecipe erros, condições adversas e comportamento de outros usuários. Reduza exposição antes que uma situação vire emergência.",
         "bullets": [
-          "Identifique o perigo",
-          "Controle a exposição",
-          "Confirme a condição segura"
+          "Antecipe erros, condições adversas e comportamento de outros usuários",
+          "Reduza exposição antes que uma situação vire emergência",
+          "Adapte velocidade, rota e decisão de deslocamento às condições reais."
         ],
-        "image": "https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-15-1.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Direção defensiva»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Onde esse risco aparece na UFV",
-        "body": "Observe equipamentos, circulação, ferramentas, ambiente e comportamento. Em uma usina, a mesma atividade pode mudar de risco conforme local e condição.",
+        "title": "Rota",
+        "body": "Planeje tempo, condições da estrada, acesso à usina e pontos de apoio. Evite pressa como método de produtividade.",
         "bullets": [
-          "Identifique o perigo",
-          "Controle a exposição",
-          "Confirme a condição segura"
+          "Planeje tempo, condições da estrada, acesso à usina e pontos de apoio",
+          "Evite pressa como método de produtividade",
+          "Adapte velocidade, rota e decisão de deslocamento às condições reais."
         ],
-        "image": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-15-2.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Rota»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Identifique o mecanismo de dano",
-        "body": "Pergunte qual é o mecanismo capaz de causar lesão neste tema: energia, movimento, queda, contato, exposição ambiental, produto ou falha de comunicação.",
+        "title": "Veículo",
+        "body": "Verifique pneus, iluminação, freios, fluidos, documentação e itens de emergência conforme política de frota.",
         "bullets": [
-          "Aplique no contexto da UFV",
-          "Registre ou comunique quando necessário",
-          "Mantenha a barreira até o fim da atividade"
+          "Verifique pneus, iluminação, freios, fluidos, documentação e itens de emergência conforme política de frota",
+          "Aplicação de campo: Veículo.",
+          "Adapte velocidade, rota e decisão de deslocamento às condições reais."
         ],
-        "image": "https://images.unsplash.com/photo-1581092795360-fd1ca04f0952?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-15-3.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Veículo»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Checkpoint 1 — pare e pense",
-        "body": "Antes de executar, descreva mentalmente: perigo → exposição → consequência → controle. Se uma etapa não estiver clara, pare e esclareça.",
+        "title": "Cinto",
+        "body": "Todos os ocupantes devem usar cinto. Não transporte pessoas em locais não destinados a passageiros.",
         "bullets": [
-          "Responda antes de avançar",
-          "Não improvise controle",
-          "Se houver dúvida, comunique e reavalie"
+          "Todos os ocupantes devem usar cinto",
+          "Não transporte pessoas em locais não destinados a passageiros",
+          "Adapte velocidade, rota e decisão de deslocamento às condições reais."
         ],
-        "image": "https://images.unsplash.com/photo-1586864387967-d02ef85d93e8?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": true
+        "image": "media/treino-15-1.svg",
+        "checkpoint": true,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Cinto»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Controle na fonte",
-        "body": "Sempre que possível, reduza o risco antes da pessoa entrar na zona de exposição. Use barreiras, isolamento, organização e procedimentos antes de depender somente do comportamento individual.",
+        "title": "Velocidade",
+        "body": "Velocidade deve considerar limite legal, visibilidade, pavimento, carga e clima. O limite da via não garante segurança em toda condição.",
         "bullets": [
-          "Identifique o perigo",
-          "Controle a exposição",
-          "Confirme a condição segura"
+          "Velocidade deve considerar limite legal, visibilidade, pavimento, carga e clima",
+          "O limite da via não garante segurança em toda condição",
+          "Adapte velocidade, rota e decisão de deslocamento às condições reais."
         ],
-        "image": "https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-15-2.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Velocidade»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Condição segura",
-        "body": "Para este tema, condição segura significa que os controles relevantes foram verificados. Não confie apenas em aparência, hábito ou experiência anterior.",
+        "title": "Estrada rural",
+        "body": "Atenção a poeira, animais, buracos, pontes, máquinas agrícolas e baixa visibilidade.",
         "bullets": [
-          "Identifique o perigo",
-          "Controle a exposição",
-          "Confirme a condição segura"
+          "Atenção a poeira, animais, buracos, pontes, máquinas agrícolas e baixa visibilidade",
+          "Aplicação de campo: Estrada rural.",
+          "Adapte velocidade, rota e decisão de deslocamento às condições reais."
         ],
-        "image": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-15-3.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Estrada rural»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Comunicação operacional",
-        "body": "Quem executa precisa saber o escopo, as limitações e os sinais de parada. Quando houver mudança relevante, comunique antes de continuar.",
+        "title": "Chuva",
+        "body": "Chuva aumenta distância de frenagem e pode reduzir aderência. Reduza velocidade e aumente distância.",
         "bullets": [
-          "Identifique o perigo",
-          "Controle a exposição",
-          "Confirme a condição segura"
+          "Chuva aumenta distância de frenagem e pode reduzir aderência",
+          "Reduza velocidade e aumente distância",
+          "Adapte velocidade, rota e decisão de deslocamento às condições reais."
         ],
-        "image": "https://images.unsplash.com/photo-1581092795360-fd1ca04f0952?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-15-1.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Chuva»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Checkpoint 2 — o cenário mudou",
-        "body": "Se surgir uma condição não prevista, a resposta segura é interromper, proteger a equipe, comunicar e reavaliar o risco. Não 'adapte no improviso'.",
+        "title": "Frenagem",
+        "body": "Antecipe frenagens e mantenha espaço suficiente para reagir. Não conduza colado ao veículo da frente.",
         "bullets": [
-          "Responda antes de avançar",
-          "Não improvise controle",
-          "Se houver dúvida, comunique e reavalie"
+          "Antecipe frenagens e mantenha espaço suficiente para reagir",
+          "Não conduza colado ao veículo da frente",
+          "Adapte velocidade, rota e decisão de deslocamento às condições reais."
         ],
-        "image": "https://images.unsplash.com/photo-1586864387967-d02ef85d93e8?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": true
+        "image": "media/treino-15-2.svg",
+        "checkpoint": true,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Frenagem»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Erro comum no campo",
-        "body": "Um erro recorrente é normalizar pequenas anomalias porque 'sempre foi assim'. Desvio repetido não deixa de ser risco por ser familiar.",
+        "title": "Celular",
+        "body": "Celular e mensagens reduzem atenção. Pare em local seguro antes de usar o telefone.",
         "bullets": [
-          "Identifique o perigo",
-          "Controle a exposição",
-          "Confirme a condição segura"
+          "Celular e mensagens reduzem atenção",
+          "Pare em local seguro antes de usar o telefone",
+          "Adapte velocidade, rota e decisão de deslocamento às condições reais."
         ],
-        "image": "https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-15-3.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Celular»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Aplicação prática — VEI",
-        "body": "Imagine uma atividade real relacionada a segurança veicular e direção defensiva. Antes de iniciar, faça uma inspeção do local, confirme os controles e combine como a equipe vai interromper a atividade.",
+        "title": "Carga",
+        "body": "Ferramentas e materiais devem estar acondicionados. Carga solta pode agravar consequências em uma colisão.",
         "bullets": [
-          "Identifique o perigo",
-          "Controle a exposição",
-          "Confirme a condição segura"
+          "Ferramentas e materiais devem estar acondicionados",
+          "Carga solta pode agravar consequências em uma colisão",
+          "Adapte velocidade, rota e decisão de deslocamento às condições reais."
         ],
-        "image": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-15-1.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Carga»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Checkpoint 3 — decisão segura",
-        "body": "Escolha sempre a alternativa que controla a exposição antes de executar e que mantém a comunicação e a rastreabilidade da decisão.",
+        "title": "Fadiga",
+        "body": "Sonolência reduz atenção e reação. Se estiver fatigado, interrompa o deslocamento e siga o procedimento.",
         "bullets": [
-          "Responda antes de avançar",
-          "Não improvise controle",
-          "Se houver dúvida, comunique e reavalie"
+          "Sonolência reduz atenção e reação",
+          "Se estiver fatigado, interrompa o deslocamento e siga o procedimento",
+          "Adapte velocidade, rota e decisão de deslocamento às condições reais."
         ],
-        "image": "https://images.unsplash.com/photo-1581092795360-fd1ca04f0952?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": true
+        "image": "media/treino-15-2.svg",
+        "checkpoint": true,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Fadiga»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Checklist de campo",
-        "body": "Escopo; local; perigos; exposição; controles; EPI/EPC quando aplicável; comunicação; condição ambiental; ferramentas; plano de resposta.",
+        "title": "Caso: estrada alagada",
+        "body": "Não atravesse água sem avaliação segura apenas porque o horário está apertado. Reavalie a rota e comunique.",
         "bullets": [
-          "Identifique o perigo",
-          "Controle a exposição",
-          "Confirme a condição segura"
+          "Não atravesse água sem avaliação segura apenas porque o horário está apertado",
+          "Reavalie a rota e comunique",
+          "Adapte velocidade, rota e decisão de deslocamento às condições reais."
         ],
-        "image": "https://images.unsplash.com/photo-1586864387967-d02ef85d93e8?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-15-3.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Caso: estrada alagada»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Quando parar",
-        "body": "Pare diante de condição não prevista, falha de controle, equipamento danificado, clima incompatível, dúvida sobre procedimento ou qualquer exposição que não esteja controlada.",
+        "title": "Pane",
+        "body": "Em pane, pare em local seguro quando possível, sinalize e acione o suporte definido pela empresa.",
         "bullets": [
-          "Identifique o perigo",
-          "Controle a exposição",
-          "Confirme a condição segura"
+          "Em pane, pare em local seguro quando possível, sinalize e acione o suporte definido pela empresa",
+          "Aplicação de campo: Pane.",
+          "Adapte velocidade, rota e decisão de deslocamento às condições reais."
         ],
-        "image": "https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-15-1.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Pane»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Fixação antes da prova",
-        "body": "Você já percorreu os fundamentos de Segurança Veicular e Direção Defensiva. Agora faça o caso prático, revise os checkpoints e só então avance para a avaliação final.",
+        "title": "Checklist",
+        "body": "Veículo, documentação, cinto, carga, rota, clima, combustível/energia, comunicação e condição do motorista.",
         "bullets": [
-          "Aplique no contexto da UFV",
-          "Registre ou comunique quando necessário",
-          "Mantenha a barreira até o fim da atividade"
+          "Veículo, documentação, cinto, carga, rota, clima, combustível/energia, comunicação e condição do motorista",
+          "Aplicação de campo: Checklist.",
+          "Adapte velocidade, rota e decisão de deslocamento às condições reais."
         ],
-        "image": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-15-2.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Checklist»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Fechamento",
-        "body": "Segurança é uma condição para executar. O resultado esperado é que você reconheça o risco antes que ele vire incidente e saiba quando parar e pedir suporte.",
+        "title": "Critérios de parada",
+        "body": "Adie ou interrompa o deslocamento quando veículo, motorista, via ou clima não oferecer condição segura.",
         "bullets": [
-          "Aplique no contexto da UFV",
-          "Registre ou comunique quando necessário",
-          "Mantenha a barreira até o fim da atividade"
+          "Adie ou interrompa o deslocamento quando veículo, motorista, via ou clima não oferecer condição segura",
+          "Aplicação de campo: Critérios de parada.",
+          "Adapte velocidade, rota e decisão de deslocamento às condições reais."
         ],
-        "image": "https://images.unsplash.com/photo-1581092795360-fd1ca04f0952?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-15-3.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Critérios de parada»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       }
     ],
     "questions": [
       {
-        "q": "Qual é a melhor abordagem de segurança em uma atividade relacionada a velocidade, terreno, ré, pedestres, fadiga e inspeção?",
+        "q": "Qual é a conduta tecnicamente mais adequada neste tema? Considerando «Direção defensiva», qual alternativa está correta?",
         "options": [
-          "Executar rapidamente e corrigir depois",
-          "Identificar a exposição, aplicar controles e confirmar a condição segura antes de executar",
-          "Confiar somente na experiência do operador",
-          "Improvisar um controle temporário sem comunicar"
+          "Continuar com base apenas no hábito da equipe, sem rever a condição real.",
+          "Antecipe erros, condições adversas e comportamento de outros usuários",
+          "Substituir o controle previsto por improviso e registrar depois.",
+          "Aguardar o final da atividade para comunicar qualquer desvio."
         ],
         "correct": 1,
-        "a": "Controle antes da exposição. Segurança precisa ser verificável."
+        "a": "A resposta correta está alinhada ao controle específico apresentado neste bloco."
       },
       {
-        "q": "Se uma condição relevante mudar durante a atividade, o que deve acontecer?",
+        "q": "Qual condição deve ser confirmada antes de avançar? Considerando «Rota», qual alternativa está correta?",
         "options": [
-          "Continuar para não perder produtividade",
-          "Parar, comunicar e reavaliar o risco antes de continuar",
-          "Ignorar se a equipe já estiver acostumada",
-          "Esperar o final da tarefa para registrar"
-        ],
-        "correct": 1,
-        "a": "Mudança de cenário exige nova avaliação e controle."
-      },
-      {
-        "q": "Qual princípio é mais importante ao escolher controles?",
-        "options": [
-          "Usar somente EPI",
-          "Priorizar controles que reduzam a exposição na fonte e usar barreiras complementares",
-          "Escolher o controle mais barato",
-          "Deixar a decisão para depois da execução"
-        ],
-        "correct": 1,
-        "a": "A prevenção começa na fonte e nas barreiras, não somente no comportamento individual."
-      },
-      {
-        "q": "O que fazer quando você não consegue demonstrar que uma condição está segura?",
-        "options": [
-          "Assumir que está segura",
-          "Executar com cuidado redobrado",
-          "Parar e buscar esclarecimento/controle adequado",
-          "Pedir para outra pessoa executar"
+          "Substituir o controle previsto por improviso e registrar depois.",
+          "Continuar com base apenas no hábito da equipe, sem rever a condição real.",
+          "Planeje tempo, condições da estrada, acesso à usina e pontos de apoio",
+          "Aguardar o final da atividade para comunicar qualquer desvio."
         ],
         "correct": 2,
-        "a": "Dúvida sobre condição segura é motivo para não avançar."
+        "a": "A resposta correta está alinhada ao controle específico apresentado neste bloco."
       },
       {
-        "q": "Qual situação caracteriza um bom comportamento de segurança?",
+        "q": "Qual alternativa representa o controle correto? Considerando «Veículo», qual alternativa está correta?",
         "options": [
-          "Pular uma etapa porque a atividade é conhecida",
-          "Comunicar desvio e interromper quando o controle necessário não está disponível",
-          "Manter silêncio para evitar conflito",
-          "Adaptar o procedimento sem comunicar"
+          "Verifique pneus, iluminação, freios, fluidos, documentação e itens de emergência conforme política de frota",
+          "Continuar com base apenas no hábito da equipe, sem rever a condição real.",
+          "Substituir o controle previsto por improviso e registrar depois.",
+          "Aguardar o final da atividade para comunicar qualquer desvio."
+        ],
+        "correct": 0,
+        "a": "A resposta correta está alinhada ao controle específico apresentado neste bloco."
+      },
+      {
+        "q": "O que caracteriza uma resposta segura nesta situação? Considerando «Cinto», qual alternativa está correta?",
+        "options": [
+          "Aguardar o final da atividade para comunicar qualquer desvio.",
+          "Continuar com base apenas no hábito da equipe, sem rever a condição real.",
+          "Substituir o controle previsto por improviso e registrar depois.",
+          "Todos os ocupantes devem usar cinto"
+        ],
+        "correct": 3,
+        "a": "A resposta correta está alinhada ao controle específico apresentado neste bloco."
+      },
+      {
+        "q": "Qual erro deve ser evitado no campo? Considerando «Velocidade», qual alternativa está correta?",
+        "options": [
+          "Continuar com base apenas no hábito da equipe, sem rever a condição real.",
+          "Velocidade deve considerar limite legal, visibilidade, pavimento, carga e clima",
+          "Substituir o controle previsto por improviso e registrar depois.",
+          "Aguardar o final da atividade para comunicar qualquer desvio."
         ],
         "correct": 1,
-        "a": "A autoridade para interromper diante de risco é parte da cultura de prevenção."
+        "a": "A resposta correta está alinhada ao controle específico apresentado neste bloco."
       },
       {
-        "q": "Por que procedimentos e checklists são importantes?",
+        "q": "Qual informação é essencial para a decisão? Considerando «Estrada rural», qual alternativa está correta?",
         "options": [
-          "Para aumentar burocracia",
-          "Para tornar controles críticos repetíveis e verificáveis",
-          "Para substituir treinamento",
-          "Para eliminar a necessidade de julgamento"
-        ],
-        "correct": 1,
-        "a": "Procedimentos ajudam a tornar barreiras críticas consistentes e rastreáveis."
-      },
-      {
-        "q": "Qual é uma pergunta útil antes de iniciar uma tarefa?",
-        "options": [
-          "Quanto tempo falta para terminar?",
-          "Quem será culpado se algo der errado?",
-          "O que pode me atingir e como vou controlar essa exposição?",
-          "Como posso fazer sem comunicar?"
+          "Substituir o controle previsto por improviso e registrar depois.",
+          "Continuar com base apenas no hábito da equipe, sem rever a condição real.",
+          "Atenção a poeira, animais, buracos, pontes, máquinas agrícolas e baixa visibilidade",
+          "Aguardar o final da atividade para comunicar qualquer desvio."
         ],
         "correct": 2,
-        "a": "Comece pela exposição e pelos controles."
+        "a": "A resposta correta está alinhada ao controle específico apresentado neste bloco."
       },
       {
-        "q": "Um equipamento apresenta uma condição diferente da prevista. O que é mais seguro?",
+        "q": "Diante de uma condição diferente da prevista, o que fazer? Considerando «Chuva», qual alternativa está correta?",
         "options": [
-          "Improvisar",
-          "Parar e escalar para decisão técnica",
-          "Continuar porque já começou",
-          "Remover uma barreira para facilitar"
+          "Aguardar o final da atividade para comunicar qualquer desvio.",
+          "Continuar com base apenas no hábito da equipe, sem rever a condição real.",
+          "Substituir o controle previsto por improviso e registrar depois.",
+          "Chuva aumenta distância de frenagem e pode reduzir aderência"
         ],
-        "correct": 1,
-        "a": "Condição não prevista exige interrupção e avaliação."
+        "correct": 3,
+        "a": "A resposta correta está alinhada ao controle específico apresentado neste bloco."
       },
       {
-        "q": "Qual afirmação melhor representa a cultura de segurança?",
+        "q": "Qual medida reduz diretamente a exposição? Considerando «Frenagem», qual alternativa está correta?",
         "options": [
-          "Segurança é responsabilidade do técnico de segurança",
-          "Segurança é condição de execução compartilhada pela equipe",
-          "Só o supervisor pode parar a atividade",
-          "Produção sempre vem primeiro"
+          "Antecipe frenagens e mantenha espaço suficiente para reagir",
+          "Continuar com base apenas no hábito da equipe, sem rever a condição real.",
+          "Substituir o controle previsto por improviso e registrar depois.",
+          "Aguardar o final da atividade para comunicar qualquer desvio."
         ],
-        "correct": 1,
-        "a": "A prevenção é responsabilidade de todos dentro dos papéis definidos."
+        "correct": 0,
+        "a": "A resposta correta está alinhada ao controle específico apresentado neste bloco."
       },
       {
-        "q": "Ao final de uma atividade, o que completa o ciclo seguro?",
+        "q": "Qual afirmação está correta para esta atividade? Considerando «Celular», qual alternativa está correta?",
         "options": [
-          "Sair rapidamente",
-          "Restabelecer condições conforme procedimento, comunicar estado e registrar o necessário",
-          "Deixar o equipamento como ficou",
-          "Apagar os registros"
+          "Substituir o controle previsto por improviso e registrar depois.",
+          "Continuar com base apenas no hábito da equipe, sem rever a condição real.",
+          "Celular e mensagens reduzem atenção",
+          "Aguardar o final da atividade para comunicar qualquer desvio."
+        ],
+        "correct": 2,
+        "a": "A resposta correta está alinhada ao controle específico apresentado neste bloco."
+      },
+      {
+        "q": "Qual é o principal critério de parada? Considerando «Carga», qual alternativa está correta?",
+        "options": [
+          "Continuar com base apenas no hábito da equipe, sem rever a condição real.",
+          "Ferramentas e materiais devem estar acondicionados",
+          "Substituir o controle previsto por improviso e registrar depois.",
+          "Aguardar o final da atividade para comunicar qualquer desvio."
         ],
         "correct": 1,
-        "a": "O encerramento seguro inclui restauração, comunicação e registro conforme aplicável."
+        "a": "A resposta correta está alinhada ao controle específico apresentado neste bloco."
       }
     ],
     "references": [
-      "NR-01 GRO/PGR",
-      "Código de Trânsito Brasileiro",
-      "Procedimentos internos O&M Solar"
-    ]
+      "Código de Trânsito Brasileiro — CTB",
+      "CONTRAN/SENATRAN — legislação e normas de trânsito vigentes",
+      "NR-01 — Gerenciamento de Riscos Ocupacionais",
+      "Política de frota e procedimento de deslocamento O&M Solar"
+    ],
+    "case": {
+      "title": "Pane",
+      "scenario": "Em pane, pare em local seguro quando possível, sinalize e acione o suporte definido pela empresa.",
+      "question": "Qual deve ser a primeira decisão da equipe?",
+      "options": [
+        {
+          "text": "Interromper a exposição, aplicar os controles previstos e reavaliar antes de continuar.",
+          "correct": true
+        },
+        {
+          "text": "Continuar porque a atividade já começou e corrigir a condição durante a execução.",
+          "correct": false
+        },
+        {
+          "text": "Improvisar um controle temporário e comunicar somente depois da atividade.",
+          "correct": false
+        }
+      ]
+    }
   },
   {
     "id": 16,
-    "phase": "Cultura",
+    "phase": "Gestão de Risco",
     "title": "Percepção de Risco e Análise Preliminar de Risco",
-    "description": "Transforme identificação de perigos em controles antes de iniciar a atividade.",
-    "objective": "perigo, risco, exposição, controles, APR e mudança de cenário",
-    "icon": "🛡️",
-    "duration": 22,
+    "description": "Transforme percepção de risco em uma APR específica, verificável e útil para a execução real.",
+    "objective": "Percepção de Risco e Análise Preliminar de Risco",
+    "icon": "🧠",
+    "duration": 25,
     "slides": [
       {
-        "title": "O que você precisa dominar",
-        "body": "Neste treinamento vamos tratar de perigo, risco, exposição, controles, APR e mudança de cenário. O objetivo é reconhecer a exposição, selecionar controles e tomar decisões seguras no campo.",
+        "title": "Perigo e exposição",
+        "body": "Percepção de risco é reconhecer o que pode causar dano antes da exposição. Use observação, dados, experiência e método.",
         "bullets": [
-          "Identifique o perigo",
-          "Controle a exposição",
-          "Confirme a condição segura"
+          "Percepção de risco é reconhecer o que pode causar dano antes da exposição",
+          "Use observação, dados, experiência e método",
+          "Se a tarefa mudar, revise a análise antes de continuar."
         ],
-        "image": "https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-16-1.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Perigo e exposição»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Onde esse risco aparece na UFV",
-        "body": "Observe equipamentos, circulação, ferramentas, ambiente e comportamento. Em uma usina, a mesma atividade pode mudar de risco conforme local e condição.",
+        "title": "Objetivo da APR",
+        "body": "A APR organiza a análise antes da execução, identificando perigos, consequências e controles que reflitam o trabalho real.",
         "bullets": [
-          "Identifique o perigo",
-          "Controle a exposição",
-          "Confirme a condição segura"
+          "A APR organiza a análise antes da execução, identificando perigos, consequências e controles que reflitam o trabalho real",
+          "Aplicação de campo: Objetivo da APR.",
+          "Se a tarefa mudar, revise a análise antes de continuar."
         ],
-        "image": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-16-2.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Objetivo da APR»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Identifique o mecanismo de dano",
-        "body": "Pergunte qual é o mecanismo capaz de causar lesão neste tema: energia, movimento, queda, contato, exposição ambiental, produto ou falha de comunicação.",
+        "title": "Etapas",
+        "body": "Divida a tarefa em etapas suficientes para enxergar mudanças de risco. Uma etapa simples pode conter vários mecanismos de dano.",
         "bullets": [
-          "Aplique no contexto da UFV",
-          "Registre ou comunique quando necessário",
-          "Mantenha a barreira até o fim da atividade"
+          "Divida a tarefa em etapas suficientes para enxergar mudanças de risco",
+          "Uma etapa simples pode conter vários mecanismos de dano",
+          "Se a tarefa mudar, revise a análise antes de continuar."
         ],
-        "image": "https://images.unsplash.com/photo-1581092795360-fd1ca04f0952?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-16-3.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Etapas»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Checkpoint 1 — pare e pense",
-        "body": "Antes de executar, descreva mentalmente: perigo → exposição → consequência → controle. Se uma etapa não estiver clara, pare e esclareça.",
+        "title": "Mecanismo de dano",
+        "body": "Pergunte como a lesão poderia ocorrer: contato elétrico, queda, esmagamento, projeção, calor, químico, tráfego ou falha de comunicação.",
         "bullets": [
-          "Responda antes de avançar",
-          "Não improvise controle",
-          "Se houver dúvida, comunique e reavalie"
+          "Pergunte como a lesão poderia ocorrer: contato elétrico, queda, esmagamento, projeção, calor, químico, tráfego ou falha de comunicação",
+          "Aplicação de campo: Mecanismo de dano.",
+          "Se a tarefa mudar, revise a análise antes de continuar."
         ],
-        "image": "https://images.unsplash.com/photo-1586864387967-d02ef85d93e8?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": true
+        "image": "media/treino-16-1.svg",
+        "checkpoint": true,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Mecanismo de dano»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Controle na fonte",
-        "body": "Sempre que possível, reduza o risco antes da pessoa entrar na zona de exposição. Use barreiras, isolamento, organização e procedimentos antes de depender somente do comportamento individual.",
+        "title": "Causa e consequência",
+        "body": "Registre causas e consequências concretas. Isso permite selecionar controles específicos.",
         "bullets": [
-          "Identifique o perigo",
-          "Controle a exposição",
-          "Confirme a condição segura"
+          "Registre causas e consequências concretas",
+          "Isso permite selecionar controles específicos",
+          "Se a tarefa mudar, revise a análise antes de continuar."
         ],
-        "image": "https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-16-2.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Causa e consequência»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Condição segura",
-        "body": "Para este tema, condição segura significa que os controles relevantes foram verificados. Não confie apenas em aparência, hábito ou experiência anterior.",
+        "title": "Hierarquia",
+        "body": "Priorize eliminação, substituição e controles de engenharia/organização conforme a avaliação. EPI é complemento.",
         "bullets": [
-          "Identifique o perigo",
-          "Controle a exposição",
-          "Confirme a condição segura"
+          "Priorize eliminação, substituição e controles de engenharia/organização conforme a avaliação",
+          "EPI é complemento",
+          "Se a tarefa mudar, revise a análise antes de continuar."
         ],
-        "image": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-16-3.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Hierarquia»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Comunicação operacional",
-        "body": "Quem executa precisa saber o escopo, as limitações e os sinais de parada. Quando houver mudança relevante, comunique antes de continuar.",
+        "title": "Controles existentes",
+        "body": "Não presuma que um controle existe só porque está escrito. Confirme disponibilidade, integridade e aplicabilidade.",
         "bullets": [
-          "Identifique o perigo",
-          "Controle a exposição",
-          "Confirme a condição segura"
+          "Não presuma que um controle existe só porque está escrito",
+          "Confirme disponibilidade, integridade e aplicabilidade",
+          "Se a tarefa mudar, revise a análise antes de continuar."
         ],
-        "image": "https://images.unsplash.com/photo-1581092795360-fd1ca04f0952?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-16-1.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Controles existentes»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Checkpoint 2 — o cenário mudou",
-        "body": "Se surgir uma condição não prevista, a resposta segura é interromper, proteger a equipe, comunicar e reavaliar o risco. Não 'adapte no improviso'.",
+        "title": "Risco residual",
+        "body": "Após controles, avalie o risco residual pela metodologia da empresa. Se não atender ao critério, não execute.",
         "bullets": [
-          "Responda antes de avançar",
-          "Não improvise controle",
-          "Se houver dúvida, comunique e reavalie"
+          "Após controles, avalie o risco residual pela metodologia da empresa",
+          "Se não atender ao critério, não execute",
+          "Se a tarefa mudar, revise a análise antes de continuar."
         ],
-        "image": "https://images.unsplash.com/photo-1586864387967-d02ef85d93e8?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": true
+        "image": "media/treino-16-2.svg",
+        "checkpoint": true,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Risco residual»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Erro comum no campo",
-        "body": "Um erro recorrente é normalizar pequenas anomalias porque 'sempre foi assim'. Desvio repetido não deixa de ser risco por ser familiar.",
+        "title": "Mudança",
+        "body": "Condição nova exige revisão da análise. Assinatura inicial não autoriza qualquer mudança de escopo.",
         "bullets": [
-          "Identifique o perigo",
-          "Controle a exposição",
-          "Confirme a condição segura"
+          "Condição nova exige revisão da análise",
+          "Assinatura inicial não autoriza qualquer mudança de escopo",
+          "Se a tarefa mudar, revise a análise antes de continuar."
         ],
-        "image": "https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-16-3.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Mudança»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Aplicação prática — APR",
-        "body": "Imagine uma atividade real relacionada a percepção de risco e análise preliminar de risco. Antes de iniciar, faça uma inspeção do local, confirme os controles e combine como a equipe vai interromper a atividade.",
+        "title": "Participação",
+        "body": "Quem executa possui informação prática importante. Use a equipe para encontrar perigos que o planejamento remoto pode não perceber.",
         "bullets": [
-          "Identifique o perigo",
-          "Controle a exposição",
-          "Confirme a condição segura"
+          "Quem executa possui informação prática importante",
+          "Use a equipe para encontrar perigos que o planejamento remoto pode não perceber",
+          "Se a tarefa mudar, revise a análise antes de continuar."
         ],
-        "image": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-16-1.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Participação»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Checkpoint 3 — decisão segura",
-        "body": "Escolha sempre a alternativa que controla a exposição antes de executar e que mantém a comunicação e a rastreabilidade da decisão.",
+        "title": "Caso: escopo mudou",
+        "body": "Se a manutenção muda de escopo no campo, interrompa, reavalie etapas e atualize controles antes de continuar.",
         "bullets": [
-          "Responda antes de avançar",
-          "Não improvise controle",
-          "Se houver dúvida, comunique e reavalie"
+          "Se a manutenção muda de escopo no campo, interrompa, reavalie etapas e atualize controles antes de continuar",
+          "Aplicação de campo: Caso: escopo mudou.",
+          "Se a tarefa mudar, revise a análise antes de continuar."
         ],
-        "image": "https://images.unsplash.com/photo-1581092795360-fd1ca04f0952?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": true
+        "image": "media/treino-16-2.svg",
+        "checkpoint": true,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Caso: escopo mudou»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Checklist de campo",
-        "body": "Escopo; local; perigos; exposição; controles; EPI/EPC quando aplicável; comunicação; condição ambiental; ferramentas; plano de resposta.",
+        "title": "Qualidade",
+        "body": "Uma APR de qualidade é específica, compreensível e verificável. Copiar documento antigo pode criar falsa segurança.",
         "bullets": [
-          "Identifique o perigo",
-          "Controle a exposição",
-          "Confirme a condição segura"
+          "Uma APR de qualidade é específica, compreensível e verificável",
+          "Copiar documento antigo pode criar falsa segurança",
+          "Se a tarefa mudar, revise a análise antes de continuar."
         ],
-        "image": "https://images.unsplash.com/photo-1586864387967-d02ef85d93e8?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-16-3.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Qualidade»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Quando parar",
-        "body": "Pare diante de condição não prevista, falha de controle, equipamento danificado, clima incompatível, dúvida sobre procedimento ou qualquer exposição que não esteja controlada.",
+        "title": "Comunicação",
+        "body": "Os envolvidos precisam conhecer riscos e controles relevantes antes da exposição e quando houver mudança.",
         "bullets": [
-          "Identifique o perigo",
-          "Controle a exposição",
-          "Confirme a condição segura"
+          "Os envolvidos precisam conhecer riscos e controles relevantes antes da exposição e quando houver mudança",
+          "Aplicação de campo: Comunicação.",
+          "Se a tarefa mudar, revise a análise antes de continuar."
         ],
-        "image": "https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-16-1.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Comunicação»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Fixação antes da prova",
-        "body": "Você já percorreu os fundamentos de Percepção de Risco e Análise Preliminar de Risco. Agora faça o caso prático, revise os checkpoints e só então avance para a avaliação final.",
+        "title": "Checklist",
+        "body": "Escopo, etapas, perigos, consequências, controles, responsáveis, ambiente, ferramentas e critério de parada.",
         "bullets": [
-          "Aplique no contexto da UFV",
-          "Registre ou comunique quando necessário",
-          "Mantenha a barreira até o fim da atividade"
+          "Escopo, etapas, perigos, consequências, controles, responsáveis, ambiente, ferramentas e critério de parada",
+          "Aplicação de campo: Checklist.",
+          "Se a tarefa mudar, revise a análise antes de continuar."
         ],
-        "image": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-16-2.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Checklist»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Fechamento",
-        "body": "Segurança é uma condição para executar. O resultado esperado é que você reconheça o risco antes que ele vire incidente e saiba quando parar e pedir suporte.",
+        "title": "Critérios de parada",
+        "body": "Pare se a APR não representar a tarefa, se controle crítico estiver ausente ou se o risco residual não atender ao critério.",
         "bullets": [
-          "Aplique no contexto da UFV",
-          "Registre ou comunique quando necessário",
-          "Mantenha a barreira até o fim da atividade"
+          "Pare se a APR não representar a tarefa, se controle crítico estiver ausente ou se o risco residual não atender ao critério",
+          "Aplicação de campo: Critérios de parada.",
+          "Se a tarefa mudar, revise a análise antes de continuar."
         ],
-        "image": "https://images.unsplash.com/photo-1581092795360-fd1ca04f0952?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-16-3.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Critérios de parada»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       }
     ],
     "questions": [
       {
-        "q": "Qual é a melhor abordagem de segurança em uma atividade relacionada a perigo, risco, exposição, controles, APR e mudança de cenário?",
+        "q": "Qual é a conduta tecnicamente mais adequada neste tema? Considerando «Perigo e exposição», qual alternativa está correta?",
         "options": [
-          "Executar rapidamente e corrigir depois",
-          "Identificar a exposição, aplicar controles e confirmar a condição segura antes de executar",
-          "Confiar somente na experiência do operador",
-          "Improvisar um controle temporário sem comunicar"
+          "Continuar com base apenas no hábito da equipe, sem rever a condição real.",
+          "Percepção de risco é reconhecer o que pode causar dano antes da exposição",
+          "Substituir o controle previsto por improviso e registrar depois.",
+          "Aguardar o final da atividade para comunicar qualquer desvio."
         ],
         "correct": 1,
-        "a": "Controle antes da exposição. Segurança precisa ser verificável."
+        "a": "A resposta correta está alinhada ao controle específico apresentado neste bloco."
       },
       {
-        "q": "Se uma condição relevante mudar durante a atividade, o que deve acontecer?",
+        "q": "Qual condição deve ser confirmada antes de avançar? Considerando «Objetivo da APR», qual alternativa está correta?",
         "options": [
-          "Continuar para não perder produtividade",
-          "Parar, comunicar e reavaliar o risco antes de continuar",
-          "Ignorar se a equipe já estiver acostumada",
-          "Esperar o final da tarefa para registrar"
-        ],
-        "correct": 1,
-        "a": "Mudança de cenário exige nova avaliação e controle."
-      },
-      {
-        "q": "Qual princípio é mais importante ao escolher controles?",
-        "options": [
-          "Usar somente EPI",
-          "Priorizar controles que reduzam a exposição na fonte e usar barreiras complementares",
-          "Escolher o controle mais barato",
-          "Deixar a decisão para depois da execução"
-        ],
-        "correct": 1,
-        "a": "A prevenção começa na fonte e nas barreiras, não somente no comportamento individual."
-      },
-      {
-        "q": "O que fazer quando você não consegue demonstrar que uma condição está segura?",
-        "options": [
-          "Assumir que está segura",
-          "Executar com cuidado redobrado",
-          "Parar e buscar esclarecimento/controle adequado",
-          "Pedir para outra pessoa executar"
+          "Substituir o controle previsto por improviso e registrar depois.",
+          "Continuar com base apenas no hábito da equipe, sem rever a condição real.",
+          "A APR organiza a análise antes da execução, identificando perigos, consequências e controles que reflitam o trabalho real",
+          "Aguardar o final da atividade para comunicar qualquer desvio."
         ],
         "correct": 2,
-        "a": "Dúvida sobre condição segura é motivo para não avançar."
+        "a": "A resposta correta está alinhada ao controle específico apresentado neste bloco."
       },
       {
-        "q": "Qual situação caracteriza um bom comportamento de segurança?",
+        "q": "Qual alternativa representa o controle correto? Considerando «Etapas», qual alternativa está correta?",
         "options": [
-          "Pular uma etapa porque a atividade é conhecida",
-          "Comunicar desvio e interromper quando o controle necessário não está disponível",
-          "Manter silêncio para evitar conflito",
-          "Adaptar o procedimento sem comunicar"
+          "Divida a tarefa em etapas suficientes para enxergar mudanças de risco",
+          "Continuar com base apenas no hábito da equipe, sem rever a condição real.",
+          "Substituir o controle previsto por improviso e registrar depois.",
+          "Aguardar o final da atividade para comunicar qualquer desvio."
+        ],
+        "correct": 0,
+        "a": "A resposta correta está alinhada ao controle específico apresentado neste bloco."
+      },
+      {
+        "q": "O que caracteriza uma resposta segura nesta situação? Considerando «Mecanismo de dano», qual alternativa está correta?",
+        "options": [
+          "Aguardar o final da atividade para comunicar qualquer desvio.",
+          "Continuar com base apenas no hábito da equipe, sem rever a condição real.",
+          "Substituir o controle previsto por improviso e registrar depois.",
+          "Pergunte como a lesão poderia ocorrer: contato elétrico, queda, esmagamento, projeção, calor, químico, tráfego ou falha de comunicação"
+        ],
+        "correct": 3,
+        "a": "A resposta correta está alinhada ao controle específico apresentado neste bloco."
+      },
+      {
+        "q": "Qual erro deve ser evitado no campo? Considerando «Causa e consequência», qual alternativa está correta?",
+        "options": [
+          "Continuar com base apenas no hábito da equipe, sem rever a condição real.",
+          "Registre causas e consequências concretas",
+          "Substituir o controle previsto por improviso e registrar depois.",
+          "Aguardar o final da atividade para comunicar qualquer desvio."
         ],
         "correct": 1,
-        "a": "A autoridade para interromper diante de risco é parte da cultura de prevenção."
+        "a": "A resposta correta está alinhada ao controle específico apresentado neste bloco."
       },
       {
-        "q": "Por que procedimentos e checklists são importantes?",
+        "q": "Qual informação é essencial para a decisão? Considerando «Hierarquia», qual alternativa está correta?",
         "options": [
-          "Para aumentar burocracia",
-          "Para tornar controles críticos repetíveis e verificáveis",
-          "Para substituir treinamento",
-          "Para eliminar a necessidade de julgamento"
-        ],
-        "correct": 1,
-        "a": "Procedimentos ajudam a tornar barreiras críticas consistentes e rastreáveis."
-      },
-      {
-        "q": "Qual é uma pergunta útil antes de iniciar uma tarefa?",
-        "options": [
-          "Quanto tempo falta para terminar?",
-          "Quem será culpado se algo der errado?",
-          "O que pode me atingir e como vou controlar essa exposição?",
-          "Como posso fazer sem comunicar?"
+          "Substituir o controle previsto por improviso e registrar depois.",
+          "Continuar com base apenas no hábito da equipe, sem rever a condição real.",
+          "Priorize eliminação, substituição e controles de engenharia/organização conforme a avaliação",
+          "Aguardar o final da atividade para comunicar qualquer desvio."
         ],
         "correct": 2,
-        "a": "Comece pela exposição e pelos controles."
+        "a": "A resposta correta está alinhada ao controle específico apresentado neste bloco."
       },
       {
-        "q": "Um equipamento apresenta uma condição diferente da prevista. O que é mais seguro?",
+        "q": "Diante de uma condição diferente da prevista, o que fazer? Considerando «Controles existentes», qual alternativa está correta?",
         "options": [
-          "Improvisar",
-          "Parar e escalar para decisão técnica",
-          "Continuar porque já começou",
-          "Remover uma barreira para facilitar"
+          "Aguardar o final da atividade para comunicar qualquer desvio.",
+          "Continuar com base apenas no hábito da equipe, sem rever a condição real.",
+          "Substituir o controle previsto por improviso e registrar depois.",
+          "Não presuma que um controle existe só porque está escrito"
         ],
-        "correct": 1,
-        "a": "Condição não prevista exige interrupção e avaliação."
+        "correct": 3,
+        "a": "A resposta correta está alinhada ao controle específico apresentado neste bloco."
       },
       {
-        "q": "Qual afirmação melhor representa a cultura de segurança?",
+        "q": "Qual medida reduz diretamente a exposição? Considerando «Risco residual», qual alternativa está correta?",
         "options": [
-          "Segurança é responsabilidade do técnico de segurança",
-          "Segurança é condição de execução compartilhada pela equipe",
-          "Só o supervisor pode parar a atividade",
-          "Produção sempre vem primeiro"
+          "Após controles, avalie o risco residual pela metodologia da empresa",
+          "Continuar com base apenas no hábito da equipe, sem rever a condição real.",
+          "Substituir o controle previsto por improviso e registrar depois.",
+          "Aguardar o final da atividade para comunicar qualquer desvio."
         ],
-        "correct": 1,
-        "a": "A prevenção é responsabilidade de todos dentro dos papéis definidos."
+        "correct": 0,
+        "a": "A resposta correta está alinhada ao controle específico apresentado neste bloco."
       },
       {
-        "q": "Ao final de uma atividade, o que completa o ciclo seguro?",
+        "q": "Qual afirmação está correta para esta atividade? Considerando «Mudança», qual alternativa está correta?",
         "options": [
-          "Sair rapidamente",
-          "Restabelecer condições conforme procedimento, comunicar estado e registrar o necessário",
-          "Deixar o equipamento como ficou",
-          "Apagar os registros"
+          "Substituir o controle previsto por improviso e registrar depois.",
+          "Continuar com base apenas no hábito da equipe, sem rever a condição real.",
+          "Condição nova exige revisão da análise",
+          "Aguardar o final da atividade para comunicar qualquer desvio."
+        ],
+        "correct": 2,
+        "a": "A resposta correta está alinhada ao controle específico apresentado neste bloco."
+      },
+      {
+        "q": "Qual é o principal critério de parada? Considerando «Participação», qual alternativa está correta?",
+        "options": [
+          "Continuar com base apenas no hábito da equipe, sem rever a condição real.",
+          "Quem executa possui informação prática importante",
+          "Substituir o controle previsto por improviso e registrar depois.",
+          "Aguardar o final da atividade para comunicar qualquer desvio."
         ],
         "correct": 1,
-        "a": "O encerramento seguro inclui restauração, comunicação e registro conforme aplicável."
+        "a": "A resposta correta está alinhada ao controle específico apresentado neste bloco."
       }
     ],
     "references": [
-      "NR-01 MTE",
-      "GRO/PGR",
-      "Procedimentos internos O&M Solar"
-    ]
+      "NR-01 — Gerenciamento de Riscos Ocupacionais",
+      "Metodologia de APR e matriz de riscos O&M Solar — versão controlada",
+      "Procedimentos operacionais das atividades analisadas",
+      "Registros de incidentes, quase acidentes e lições aprendidas da operação"
+    ],
+    "case": {
+      "title": "Comunicação",
+      "scenario": "Os envolvidos precisam conhecer riscos e controles relevantes antes da exposição e quando houver mudança.",
+      "question": "Qual deve ser a primeira decisão da equipe?",
+      "options": [
+        {
+          "text": "Interromper a exposição, aplicar os controles previstos e reavaliar antes de continuar.",
+          "correct": true
+        },
+        {
+          "text": "Continuar porque a atividade já começou e corrigir a condição durante a execução.",
+          "correct": false
+        },
+        {
+          "text": "Improvisar um controle temporário e comunicar somente depois da atividade.",
+          "correct": false
+        }
+      ]
+    }
   },
   {
     "id": 17,
-    "phase": "Cultura",
+    "phase": "Cultura de Segurança",
     "title": "Quase Acidentes, Comunicação e Cultura de Segurança",
-    "description": "Use desvios e quase acidentes como fonte de aprendizado e prevenção.",
-    "objective": "quase acidente, desvio, relato, análise e aprendizado",
-    "icon": "🛡️",
-    "duration": 22,
+    "description": "Use quase acidentes e desvios como fontes de aprendizado para corrigir barreiras antes que ocorram perdas.",
+    "objective": "Quase Acidentes, Comunicação e Cultura de Segurança",
+    "icon": "📣",
+    "duration": 25,
     "slides": [
       {
-        "title": "O que você precisa dominar",
-        "body": "Neste treinamento vamos tratar de quase acidente, desvio, relato, análise e aprendizado. O objetivo é reconhecer a exposição, selecionar controles e tomar decisões seguras no campo.",
+        "title": "Quase acidente",
+        "body": "É uma ocorrência que poderia ter causado dano, mas não causou a consequência esperada. Ele revela oportunidade de prevenção.",
         "bullets": [
-          "Identifique o perigo",
-          "Controle a exposição",
-          "Confirme a condição segura"
+          "É uma ocorrência que poderia ter causado dano, mas não causou a consequência esperada",
+          "Ele revela oportunidade de prevenção",
+          "Proteja as pessoas primeiro e preserve fatos para o aprendizado."
         ],
-        "image": "https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-17-1.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Quase acidente»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Onde esse risco aparece na UFV",
-        "body": "Observe equipamentos, circulação, ferramentas, ambiente e comportamento. Em uma usina, a mesma atividade pode mudar de risco conforme local e condição.",
+        "title": "Por que comunicar",
+        "body": "Relatar quase acidentes permite corrigir barreiras antes que uma ocorrência gere lesão ou dano material.",
         "bullets": [
-          "Identifique o perigo",
-          "Controle a exposição",
-          "Confirme a condição segura"
+          "Relatar quase acidentes permite corrigir barreiras antes que uma ocorrência gere lesão ou dano material",
+          "Aplicação de campo: Por que comunicar.",
+          "Proteja as pessoas primeiro e preserve fatos para o aprendizado."
         ],
-        "image": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-17-2.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Por que comunicar»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Identifique o mecanismo de dano",
-        "body": "Pergunte qual é o mecanismo capaz de causar lesão neste tema: energia, movimento, queda, contato, exposição ambiental, produto ou falha de comunicação.",
+        "title": "Fatos",
+        "body": "Comece por fatos observáveis: o que, onde, quando, exposição e controles. Evite conclusões precipitadas.",
         "bullets": [
-          "Aplique no contexto da UFV",
-          "Registre ou comunique quando necessário",
-          "Mantenha a barreira até o fim da atividade"
+          "Comece por fatos observáveis: o que, onde, quando, exposição e controles",
+          "Evite conclusões precipitadas",
+          "Proteja as pessoas primeiro e preserve fatos para o aprendizado."
         ],
-        "image": "https://images.unsplash.com/photo-1581092795360-fd1ca04f0952?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-17-3.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Fatos»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Checkpoint 1 — pare e pense",
-        "body": "Antes de executar, descreva mentalmente: perigo → exposição → consequência → controle. Se uma etapa não estiver clara, pare e esclareça.",
+        "title": "Comunicação imediata",
+        "body": "Risco imediato exige proteção e comunicação sem esperar o relatório formal. Primeiro proteja pessoas.",
         "bullets": [
-          "Responda antes de avançar",
-          "Não improvise controle",
-          "Se houver dúvida, comunique e reavalie"
+          "Risco imediato exige proteção e comunicação sem esperar o relatório formal",
+          "Primeiro proteja pessoas",
+          "Proteja as pessoas primeiro e preserve fatos para o aprendizado."
         ],
-        "image": "https://images.unsplash.com/photo-1586864387967-d02ef85d93e8?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": true
+        "image": "media/treino-17-1.svg",
+        "checkpoint": true,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Comunicação imediata»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Controle na fonte",
-        "body": "Sempre que possível, reduza o risco antes da pessoa entrar na zona de exposição. Use barreiras, isolamento, organização e procedimentos antes de depender somente do comportamento individual.",
+        "title": "Evidências",
+        "body": "Fotos, horários e condição do equipamento ajudam a entender o evento quando coletados com segurança e conforme procedimento.",
         "bullets": [
-          "Identifique o perigo",
-          "Controle a exposição",
-          "Confirme a condição segura"
+          "Fotos, horários e condição do equipamento ajudam a entender o evento quando coletados com segurança e conforme procedimento",
+          "Aplicação de campo: Evidências.",
+          "Proteja as pessoas primeiro e preserve fatos para o aprendizado."
         ],
-        "image": "https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-17-2.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Evidências»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Condição segura",
-        "body": "Para este tema, condição segura significa que os controles relevantes foram verificados. Não confie apenas em aparência, hábito ou experiência anterior.",
+        "title": "Causas",
+        "body": "Investigue causas imediatas e fatores organizacionais: planejamento, manutenção, treinamento, comunicação e desenho do trabalho.",
         "bullets": [
-          "Identifique o perigo",
-          "Controle a exposição",
-          "Confirme a condição segura"
+          "Investigue causas imediatas e fatores organizacionais: planejamento, manutenção, treinamento, comunicação e desenho do trabalho",
+          "Aplicação de campo: Causas.",
+          "Proteja as pessoas primeiro e preserve fatos para o aprendizado."
         ],
-        "image": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-17-3.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Causas»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Comunicação operacional",
-        "body": "Quem executa precisa saber o escopo, as limitações e os sinais de parada. Quando houver mudança relevante, comunique antes de continuar.",
+        "title": "Aprendizado",
+        "body": "Transforme informação em mudança: corrija barreiras, atualize procedimentos, treine e verifique eficácia.",
         "bullets": [
-          "Identifique o perigo",
-          "Controle a exposição",
-          "Confirme a condição segura"
+          "Transforme informação em mudança: corrija barreiras, atualize procedimentos, treine e verifique eficácia",
+          "Aplicação de campo: Aprendizado.",
+          "Proteja as pessoas primeiro e preserve fatos para o aprendizado."
         ],
-        "image": "https://images.unsplash.com/photo-1581092795360-fd1ca04f0952?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-17-1.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Aprendizado»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Checkpoint 2 — o cenário mudou",
-        "body": "Se surgir uma condição não prevista, a resposta segura é interromper, proteger a equipe, comunicar e reavaliar o risco. Não 'adapte no improviso'.",
+        "title": "Barreiras",
+        "body": "Quando uma barreira falha, pergunte por que falhou e por que outras barreiras não impediram a exposição.",
         "bullets": [
-          "Responda antes de avançar",
-          "Não improvise controle",
-          "Se houver dúvida, comunique e reavalie"
+          "Quando uma barreira falha, pergunte por que falhou e por que outras barreiras não impediram a exposição",
+          "Aplicação de campo: Barreiras.",
+          "Proteja as pessoas primeiro e preserve fatos para o aprendizado."
         ],
-        "image": "https://images.unsplash.com/photo-1586864387967-d02ef85d93e8?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": true
+        "image": "media/treino-17-2.svg",
+        "checkpoint": true,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Barreiras»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Erro comum no campo",
-        "body": "Um erro recorrente é normalizar pequenas anomalias porque 'sempre foi assim'. Desvio repetido não deixa de ser risco por ser familiar.",
+        "title": "Ações",
+        "body": "Ação corretiva deve ter responsável, prazo e critério de verificação. Fechar tarefa sem verificar eficácia não encerra o aprendizado.",
         "bullets": [
-          "Identifique o perigo",
-          "Controle a exposição",
-          "Confirme a condição segura"
+          "Ação corretiva deve ter responsável, prazo e critério de verificação",
+          "Fechar tarefa sem verificar eficácia não encerra o aprendizado",
+          "Proteja as pessoas primeiro e preserve fatos para o aprendizado."
         ],
-        "image": "https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-17-3.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Ações»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Aplicação prática — QAC",
-        "body": "Imagine uma atividade real relacionada a quase acidentes, comunicação e cultura de segurança. Antes de iniciar, faça uma inspeção do local, confirme os controles e combine como a equipe vai interromper a atividade.",
+        "title": "Caso: ferramenta caiu",
+        "body": "Interrompa exposição, proteja área, comunique e investigue como a ferramenta pôde cair e quais barreiras faltaram.",
         "bullets": [
-          "Identifique o perigo",
-          "Controle a exposição",
-          "Confirme a condição segura"
+          "Interrompa exposição, proteja área, comunique e investigue como a ferramenta pôde cair e quais barreiras faltaram",
+          "Aplicação de campo: Caso: ferramenta caiu.",
+          "Proteja as pessoas primeiro e preserve fatos para o aprendizado."
         ],
-        "image": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-17-1.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Caso: ferramenta caiu»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Checkpoint 3 — decisão segura",
-        "body": "Escolha sempre a alternativa que controla a exposição antes de executar e que mantém a comunicação e a rastreabilidade da decisão.",
+        "title": "Feedback",
+        "body": "Feedback deve ser objetivo e orientado ao comportamento e ao sistema, sem transformar automaticamente o evento em culpa.",
         "bullets": [
-          "Responda antes de avançar",
-          "Não improvise controle",
-          "Se houver dúvida, comunique e reavalie"
+          "Feedback deve ser objetivo e orientado ao comportamento e ao sistema, sem transformar automaticamente o evento em culpa",
+          "Aplicação de campo: Feedback.",
+          "Proteja as pessoas primeiro e preserve fatos para o aprendizado."
         ],
-        "image": "https://images.unsplash.com/photo-1581092795360-fd1ca04f0952?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": true
+        "image": "media/treino-17-2.svg",
+        "checkpoint": true,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Feedback»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Checklist de campo",
-        "body": "Escopo; local; perigos; exposição; controles; EPI/EPC quando aplicável; comunicação; condição ambiental; ferramentas; plano de resposta.",
+        "title": "Indicadores",
+        "body": "Indicadores de quase acidentes e desvios precisam de contexto. Mais relatos podem indicar maior capacidade de detecção.",
         "bullets": [
-          "Identifique o perigo",
-          "Controle a exposição",
-          "Confirme a condição segura"
+          "Indicadores de quase acidentes e desvios precisam de contexto",
+          "Mais relatos podem indicar maior capacidade de detecção",
+          "Proteja as pessoas primeiro e preserve fatos para o aprendizado."
         ],
-        "image": "https://images.unsplash.com/photo-1586864387967-d02ef85d93e8?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-17-3.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Indicadores»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Quando parar",
-        "body": "Pare diante de condição não prevista, falha de controle, equipamento danificado, clima incompatível, dúvida sobre procedimento ou qualquer exposição que não esteja controlada.",
+        "title": "Compartilhamento",
+        "body": "Lições aplicáveis devem chegar a outras UFVs e equipes quando pertinente, evitando repetição.",
         "bullets": [
-          "Identifique o perigo",
-          "Controle a exposição",
-          "Confirme a condição segura"
+          "Lições aplicáveis devem chegar a outras UFVs e equipes quando pertinente, evitando repetição",
+          "Aplicação de campo: Compartilhamento.",
+          "Proteja as pessoas primeiro e preserve fatos para o aprendizado."
         ],
-        "image": "https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-17-1.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Compartilhamento»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Fixação antes da prova",
-        "body": "Você já percorreu os fundamentos de Quase Acidentes, Comunicação e Cultura de Segurança. Agora faça o caso prático, revise os checkpoints e só então avance para a avaliação final.",
+        "title": "Checklist",
+        "body": "Comunique, proteja, registre fatos, identifique barreiras, defina ação, responsável e prazo.",
         "bullets": [
-          "Aplique no contexto da UFV",
-          "Registre ou comunique quando necessário",
-          "Mantenha a barreira até o fim da atividade"
+          "Comunique, proteja, registre fatos, identifique barreiras, defina ação, responsável e prazo",
+          "Aplicação de campo: Checklist.",
+          "Proteja as pessoas primeiro e preserve fatos para o aprendizado."
         ],
-        "image": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-17-2.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Checklist»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Fechamento",
-        "body": "Segurança é uma condição para executar. O resultado esperado é que você reconheça o risco antes que ele vire incidente e saiba quando parar e pedir suporte.",
+        "title": "Critérios de parada",
+        "body": "Pare quando a ocorrência revelar barreira crítica ausente ou condição capaz de expor outras pessoas.",
         "bullets": [
-          "Aplique no contexto da UFV",
-          "Registre ou comunique quando necessário",
-          "Mantenha a barreira até o fim da atividade"
+          "Pare quando a ocorrência revelar barreira crítica ausente ou condição capaz de expor outras pessoas",
+          "Aplicação de campo: Critérios de parada.",
+          "Proteja as pessoas primeiro e preserve fatos para o aprendizado."
         ],
-        "image": "https://images.unsplash.com/photo-1581092795360-fd1ca04f0952?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-17-3.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Critérios de parada»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       }
     ],
     "questions": [
       {
-        "q": "Qual é a melhor abordagem de segurança em uma atividade relacionada a quase acidente, desvio, relato, análise e aprendizado?",
+        "q": "Qual é a conduta tecnicamente mais adequada neste tema? Considerando «Quase acidente», qual alternativa está correta?",
         "options": [
-          "Executar rapidamente e corrigir depois",
-          "Identificar a exposição, aplicar controles e confirmar a condição segura antes de executar",
-          "Confiar somente na experiência do operador",
-          "Improvisar um controle temporário sem comunicar"
+          "Continuar com base apenas no hábito da equipe, sem rever a condição real.",
+          "É uma ocorrência que poderia ter causado dano, mas não causou a consequência esperada",
+          "Substituir o controle previsto por improviso e registrar depois.",
+          "Aguardar o final da atividade para comunicar qualquer desvio."
         ],
         "correct": 1,
-        "a": "Controle antes da exposição. Segurança precisa ser verificável."
+        "a": "A resposta correta está alinhada ao controle específico apresentado neste bloco."
       },
       {
-        "q": "Se uma condição relevante mudar durante a atividade, o que deve acontecer?",
+        "q": "Qual condição deve ser confirmada antes de avançar? Considerando «Por que comunicar», qual alternativa está correta?",
         "options": [
-          "Continuar para não perder produtividade",
-          "Parar, comunicar e reavaliar o risco antes de continuar",
-          "Ignorar se a equipe já estiver acostumada",
-          "Esperar o final da tarefa para registrar"
-        ],
-        "correct": 1,
-        "a": "Mudança de cenário exige nova avaliação e controle."
-      },
-      {
-        "q": "Qual princípio é mais importante ao escolher controles?",
-        "options": [
-          "Usar somente EPI",
-          "Priorizar controles que reduzam a exposição na fonte e usar barreiras complementares",
-          "Escolher o controle mais barato",
-          "Deixar a decisão para depois da execução"
-        ],
-        "correct": 1,
-        "a": "A prevenção começa na fonte e nas barreiras, não somente no comportamento individual."
-      },
-      {
-        "q": "O que fazer quando você não consegue demonstrar que uma condição está segura?",
-        "options": [
-          "Assumir que está segura",
-          "Executar com cuidado redobrado",
-          "Parar e buscar esclarecimento/controle adequado",
-          "Pedir para outra pessoa executar"
+          "Substituir o controle previsto por improviso e registrar depois.",
+          "Continuar com base apenas no hábito da equipe, sem rever a condição real.",
+          "Relatar quase acidentes permite corrigir barreiras antes que uma ocorrência gere lesão ou dano material",
+          "Aguardar o final da atividade para comunicar qualquer desvio."
         ],
         "correct": 2,
-        "a": "Dúvida sobre condição segura é motivo para não avançar."
+        "a": "A resposta correta está alinhada ao controle específico apresentado neste bloco."
       },
       {
-        "q": "Qual situação caracteriza um bom comportamento de segurança?",
+        "q": "Qual alternativa representa o controle correto? Considerando «Fatos», qual alternativa está correta?",
         "options": [
-          "Pular uma etapa porque a atividade é conhecida",
-          "Comunicar desvio e interromper quando o controle necessário não está disponível",
-          "Manter silêncio para evitar conflito",
-          "Adaptar o procedimento sem comunicar"
+          "Comece por fatos observáveis: o que, onde, quando, exposição e controles",
+          "Continuar com base apenas no hábito da equipe, sem rever a condição real.",
+          "Substituir o controle previsto por improviso e registrar depois.",
+          "Aguardar o final da atividade para comunicar qualquer desvio."
+        ],
+        "correct": 0,
+        "a": "A resposta correta está alinhada ao controle específico apresentado neste bloco."
+      },
+      {
+        "q": "O que caracteriza uma resposta segura nesta situação? Considerando «Comunicação imediata», qual alternativa está correta?",
+        "options": [
+          "Aguardar o final da atividade para comunicar qualquer desvio.",
+          "Continuar com base apenas no hábito da equipe, sem rever a condição real.",
+          "Substituir o controle previsto por improviso e registrar depois.",
+          "Risco imediato exige proteção e comunicação sem esperar o relatório formal"
+        ],
+        "correct": 3,
+        "a": "A resposta correta está alinhada ao controle específico apresentado neste bloco."
+      },
+      {
+        "q": "Qual erro deve ser evitado no campo? Considerando «Evidências», qual alternativa está correta?",
+        "options": [
+          "Continuar com base apenas no hábito da equipe, sem rever a condição real.",
+          "Fotos, horários e condição do equipamento ajudam a entender o evento quando coletados com segurança e conforme procedimento",
+          "Substituir o controle previsto por improviso e registrar depois.",
+          "Aguardar o final da atividade para comunicar qualquer desvio."
         ],
         "correct": 1,
-        "a": "A autoridade para interromper diante de risco é parte da cultura de prevenção."
+        "a": "A resposta correta está alinhada ao controle específico apresentado neste bloco."
       },
       {
-        "q": "Por que procedimentos e checklists são importantes?",
+        "q": "Qual informação é essencial para a decisão? Considerando «Causas», qual alternativa está correta?",
         "options": [
-          "Para aumentar burocracia",
-          "Para tornar controles críticos repetíveis e verificáveis",
-          "Para substituir treinamento",
-          "Para eliminar a necessidade de julgamento"
-        ],
-        "correct": 1,
-        "a": "Procedimentos ajudam a tornar barreiras críticas consistentes e rastreáveis."
-      },
-      {
-        "q": "Qual é uma pergunta útil antes de iniciar uma tarefa?",
-        "options": [
-          "Quanto tempo falta para terminar?",
-          "Quem será culpado se algo der errado?",
-          "O que pode me atingir e como vou controlar essa exposição?",
-          "Como posso fazer sem comunicar?"
+          "Substituir o controle previsto por improviso e registrar depois.",
+          "Continuar com base apenas no hábito da equipe, sem rever a condição real.",
+          "Investigue causas imediatas e fatores organizacionais: planejamento, manutenção, treinamento, comunicação e desenho do trabalho",
+          "Aguardar o final da atividade para comunicar qualquer desvio."
         ],
         "correct": 2,
-        "a": "Comece pela exposição e pelos controles."
+        "a": "A resposta correta está alinhada ao controle específico apresentado neste bloco."
       },
       {
-        "q": "Um equipamento apresenta uma condição diferente da prevista. O que é mais seguro?",
+        "q": "Diante de uma condição diferente da prevista, o que fazer? Considerando «Aprendizado», qual alternativa está correta?",
         "options": [
-          "Improvisar",
-          "Parar e escalar para decisão técnica",
-          "Continuar porque já começou",
-          "Remover uma barreira para facilitar"
+          "Aguardar o final da atividade para comunicar qualquer desvio.",
+          "Continuar com base apenas no hábito da equipe, sem rever a condição real.",
+          "Substituir o controle previsto por improviso e registrar depois.",
+          "Transforme informação em mudança: corrija barreiras, atualize procedimentos, treine e verifique eficácia"
         ],
-        "correct": 1,
-        "a": "Condição não prevista exige interrupção e avaliação."
+        "correct": 3,
+        "a": "A resposta correta está alinhada ao controle específico apresentado neste bloco."
       },
       {
-        "q": "Qual afirmação melhor representa a cultura de segurança?",
+        "q": "Qual medida reduz diretamente a exposição? Considerando «Barreiras», qual alternativa está correta?",
         "options": [
-          "Segurança é responsabilidade do técnico de segurança",
-          "Segurança é condição de execução compartilhada pela equipe",
-          "Só o supervisor pode parar a atividade",
-          "Produção sempre vem primeiro"
+          "Quando uma barreira falha, pergunte por que falhou e por que outras barreiras não impediram a exposição",
+          "Continuar com base apenas no hábito da equipe, sem rever a condição real.",
+          "Substituir o controle previsto por improviso e registrar depois.",
+          "Aguardar o final da atividade para comunicar qualquer desvio."
         ],
-        "correct": 1,
-        "a": "A prevenção é responsabilidade de todos dentro dos papéis definidos."
+        "correct": 0,
+        "a": "A resposta correta está alinhada ao controle específico apresentado neste bloco."
       },
       {
-        "q": "Ao final de uma atividade, o que completa o ciclo seguro?",
+        "q": "Qual afirmação está correta para esta atividade? Considerando «Ações», qual alternativa está correta?",
         "options": [
-          "Sair rapidamente",
-          "Restabelecer condições conforme procedimento, comunicar estado e registrar o necessário",
-          "Deixar o equipamento como ficou",
-          "Apagar os registros"
+          "Substituir o controle previsto por improviso e registrar depois.",
+          "Continuar com base apenas no hábito da equipe, sem rever a condição real.",
+          "Ação corretiva deve ter responsável, prazo e critério de verificação",
+          "Aguardar o final da atividade para comunicar qualquer desvio."
+        ],
+        "correct": 2,
+        "a": "A resposta correta está alinhada ao controle específico apresentado neste bloco."
+      },
+      {
+        "q": "Qual é o principal critério de parada? Considerando «Caso: ferramenta caiu», qual alternativa está correta?",
+        "options": [
+          "Continuar com base apenas no hábito da equipe, sem rever a condição real.",
+          "Interrompa exposição, proteja área, comunique e investigue como a ferramenta pôde cair e quais barreiras faltaram",
+          "Substituir o controle previsto por improviso e registrar depois.",
+          "Aguardar o final da atividade para comunicar qualquer desvio."
         ],
         "correct": 1,
-        "a": "O encerramento seguro inclui restauração, comunicação e registro conforme aplicável."
+        "a": "A resposta correta está alinhada ao controle específico apresentado neste bloco."
       }
     ],
     "references": [
-      "NR-01 MTE",
-      "Diretrizes internas de segurança",
-      "Procedimentos internos O&M Solar"
-    ]
+      "NR-01 — Gerenciamento de Riscos Ocupacionais",
+      "Procedimento O&M Solar de comunicação e investigação de incidentes",
+      "Registros de quase acidentes e ações corretivas",
+      "Boas práticas de investigação de incidentes e aprendizagem organizacional"
+    ],
+    "case": {
+      "title": "Compartilhamento",
+      "scenario": "Lições aplicáveis devem chegar a outras UFVs e equipes quando pertinente, evitando repetição.",
+      "question": "Qual deve ser a primeira decisão da equipe?",
+      "options": [
+        {
+          "text": "Interromper a exposição, aplicar os controles previstos e reavaliar antes de continuar.",
+          "correct": true
+        },
+        {
+          "text": "Continuar porque a atividade já começou e corrigir a condição durante a execução.",
+          "correct": false
+        },
+        {
+          "text": "Improvisar um controle temporário e comunicar somente depois da atividade.",
+          "correct": false
+        }
+      ]
+    }
   },
   {
     "id": 18,
-    "phase": "Cultura",
+    "phase": "Cultura de Segurança",
     "title": "Comunicação Operacional entre Campo, COG e Supervisão",
-    "description": "Comunique estado de equipamentos, riscos e decisões de forma objetiva e rastreável.",
-    "objective": "COG, campo, supervisão, confirmação, registro e escalonamento",
-    "icon": "🛡️",
-    "duration": 22,
+    "description": "Comunique estado, autorização, mudança e liberação de forma clara entre campo, COG e supervisão.",
+    "objective": "Comunicação Operacional entre Campo, COG e Supervisão",
+    "icon": "📡",
+    "duration": 25,
     "slides": [
       {
-        "title": "O que você precisa dominar",
-        "body": "Neste treinamento vamos tratar de COG, campo, supervisão, confirmação, registro e escalonamento. O objetivo é reconhecer a exposição, selecionar controles e tomar decisões seguras no campo.",
+        "title": "Comunicação como barreira",
+        "body": "Comunicação operacional reduz erro. Informação incompleta sobre estado, isolamento ou autorização pode gerar comando indevido.",
         "bullets": [
-          "Identifique o perigo",
-          "Controle a exposição",
-          "Confirme a condição segura"
+          "Comunicação operacional reduz erro",
+          "Informação incompleta sobre estado, isolamento ou autorização pode gerar comando indevido",
+          "Confirme equipamento, estado e autorização antes de qualquer comando crítico."
         ],
-        "image": "https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-18-1.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Comunicação como barreira»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Onde esse risco aparece na UFV",
-        "body": "Observe equipamentos, circulação, ferramentas, ambiente e comportamento. Em uma usina, a mesma atividade pode mudar de risco conforme local e condição.",
+        "title": "O que o COG precisa",
+        "body": "Informe equipamento, local, condição, impacto, atividade, responsável e restrições relevantes conforme protocolo.",
         "bullets": [
-          "Identifique o perigo",
-          "Controle a exposição",
-          "Confirme a condição segura"
+          "Informe equipamento, local, condição, impacto, atividade, responsável e restrições relevantes conforme protocolo",
+          "Aplicação de campo: O que o COG precisa.",
+          "Confirme equipamento, estado e autorização antes de qualquer comando crítico."
         ],
-        "image": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-18-2.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «O que o COG precisa»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Identifique o mecanismo de dano",
-        "body": "Pergunte qual é o mecanismo capaz de causar lesão neste tema: energia, movimento, queda, contato, exposição ambiental, produto ou falha de comunicação.",
+        "title": "Estado operacional",
+        "body": "Use termos padronizados para indicar disponibilidade, manutenção, bloqueio, alarme ou liberação conforme o protocolo interno.",
         "bullets": [
-          "Aplique no contexto da UFV",
-          "Registre ou comunique quando necessário",
-          "Mantenha a barreira até o fim da atividade"
+          "Use termos padronizados para indicar disponibilidade, manutenção, bloqueio, alarme ou liberação conforme o protocolo interno",
+          "Aplicação de campo: Estado operacional.",
+          "Confirme equipamento, estado e autorização antes de qualquer comando crítico."
         ],
-        "image": "https://images.unsplash.com/photo-1581092795360-fd1ca04f0952?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-18-3.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Estado operacional»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Checkpoint 1 — pare e pense",
-        "body": "Antes de executar, descreva mentalmente: perigo → exposição → consequência → controle. Se uma etapa não estiver clara, pare e esclareça.",
+        "title": "Mensagem clara",
+        "body": "Evite 'desliga lá'. Identifique equipamento, circuito, ação e confirmação necessária.",
         "bullets": [
-          "Responda antes de avançar",
-          "Não improvise controle",
-          "Se houver dúvida, comunique e reavalie"
+          "Evite 'desliga lá'",
+          "Identifique equipamento, circuito, ação e confirmação necessária",
+          "Confirme equipamento, estado e autorização antes de qualquer comando crítico."
         ],
-        "image": "https://images.unsplash.com/photo-1586864387967-d02ef85d93e8?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": true
+        "image": "media/treino-18-1.svg",
+        "checkpoint": true,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Mensagem clara»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Controle na fonte",
-        "body": "Sempre que possível, reduza o risco antes da pessoa entrar na zona de exposição. Use barreiras, isolamento, organização e procedimentos antes de depender somente do comportamento individual.",
+        "title": "Confirmação",
+        "body": "Para comandos críticos, confirme entendimento e resultado. Não assuma que a mensagem foi interpretada corretamente.",
         "bullets": [
-          "Identifique o perigo",
-          "Controle a exposição",
-          "Confirme a condição segura"
+          "Para comandos críticos, confirme entendimento e resultado",
+          "Não assuma que a mensagem foi interpretada corretamente",
+          "Confirme equipamento, estado e autorização antes de qualquer comando crítico."
         ],
-        "image": "https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-18-2.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Confirmação»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Condição segura",
-        "body": "Para este tema, condição segura significa que os controles relevantes foram verificados. Não confie apenas em aparência, hábito ou experiência anterior.",
+        "title": "Responsabilidade",
+        "body": "Deixe claro quem solicita, executa e autoriza conforme estrutura operacional. Não transfira responsabilidade informalmente.",
         "bullets": [
-          "Identifique o perigo",
-          "Controle a exposição",
-          "Confirme a condição segura"
+          "Deixe claro quem solicita, executa e autoriza conforme estrutura operacional",
+          "Não transfira responsabilidade informalmente",
+          "Confirme equipamento, estado e autorização antes de qualquer comando crítico."
         ],
-        "image": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-18-3.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Responsabilidade»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Comunicação operacional",
-        "body": "Quem executa precisa saber o escopo, as limitações e os sinais de parada. Quando houver mudança relevante, comunique antes de continuar.",
+        "title": "Mudança",
+        "body": "Se o estado de campo mudar, atualize COG e supervisão antes de executar ação dependente da nova condição.",
         "bullets": [
-          "Identifique o perigo",
-          "Controle a exposição",
-          "Confirme a condição segura"
+          "Se o estado de campo mudar, atualize COG e supervisão antes de executar ação dependente da nova condição",
+          "Aplicação de campo: Mudança.",
+          "Confirme equipamento, estado e autorização antes de qualquer comando crítico."
         ],
-        "image": "https://images.unsplash.com/photo-1581092795360-fd1ca04f0952?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-18-1.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Mudança»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Checkpoint 2 — o cenário mudou",
-        "body": "Se surgir uma condição não prevista, a resposta segura é interromper, proteger a equipe, comunicar e reavaliar o risco. Não 'adapte no improviso'.",
+        "title": "Prioridade",
+        "body": "Priorize por risco às pessoas, equipamento e impacto operacional conforme critérios internos.",
         "bullets": [
-          "Responda antes de avançar",
-          "Não improvise controle",
-          "Se houver dúvida, comunique e reavalie"
+          "Priorize por risco às pessoas, equipamento e impacto operacional conforme critérios internos",
+          "Aplicação de campo: Prioridade.",
+          "Confirme equipamento, estado e autorização antes de qualquer comando crítico."
         ],
-        "image": "https://images.unsplash.com/photo-1586864387967-d02ef85d93e8?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": true
+        "image": "media/treino-18-2.svg",
+        "checkpoint": true,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Prioridade»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Erro comum no campo",
-        "body": "Um erro recorrente é normalizar pequenas anomalias porque 'sempre foi assim'. Desvio repetido não deixa de ser risco por ser familiar.",
+        "title": "Rastreabilidade",
+        "body": "Registre horários, mensagens e decisões relevantes nos sistemas definidos para permitir reconstrução do evento.",
         "bullets": [
-          "Identifique o perigo",
-          "Controle a exposição",
-          "Confirme a condição segura"
+          "Registre horários, mensagens e decisões relevantes nos sistemas definidos para permitir reconstrução do evento",
+          "Aplicação de campo: Rastreabilidade.",
+          "Confirme equipamento, estado e autorização antes de qualquer comando crítico."
         ],
-        "image": "https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-18-3.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Rastreabilidade»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Aplicação prática — COM",
-        "body": "Imagine uma atividade real relacionada a comunicação operacional entre campo, cog e supervisão. Antes de iniciar, faça uma inspeção do local, confirme os controles e combine como a equipe vai interromper a atividade.",
+        "title": "Escalonamento",
+        "body": "Quando a equipe não puder resolver, escale com evidências: alarmes, fotos, medições, histórico e condição atual.",
         "bullets": [
-          "Identifique o perigo",
-          "Controle a exposição",
-          "Confirme a condição segura"
+          "Quando a equipe não puder resolver, escale com evidências: alarmes, fotos, medições, histórico e condição atual",
+          "Aplicação de campo: Escalonamento.",
+          "Confirme equipamento, estado e autorização antes de qualquer comando crítico."
         ],
-        "image": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-18-1.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Escalonamento»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Checkpoint 3 — decisão segura",
-        "body": "Escolha sempre a alternativa que controla a exposição antes de executar e que mantém a comunicação e a rastreabilidade da decisão.",
+        "title": "Caso: equipamento em manutenção",
+        "body": "Se o COG receber indicação de disponibilidade durante manutenção, confirme o estado real antes de qualquer comando.",
         "bullets": [
-          "Responda antes de avançar",
-          "Não improvise controle",
-          "Se houver dúvida, comunique e reavalie"
+          "Se o COG receber indicação de disponibilidade durante manutenção, confirme o estado real antes de qualquer comando",
+          "Aplicação de campo: Caso: equipamento em manutenção.",
+          "Confirme equipamento, estado e autorização antes de qualquer comando crítico."
         ],
-        "image": "https://images.unsplash.com/photo-1581092795360-fd1ca04f0952?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": true
+        "image": "media/treino-18-2.svg",
+        "checkpoint": true,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Caso: equipamento em manutenção»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Checklist de campo",
-        "body": "Escopo; local; perigos; exposição; controles; EPI/EPC quando aplicável; comunicação; condição ambiental; ferramentas; plano de resposta.",
+        "title": "Retorno",
+        "body": "Antes de liberar, confirme conclusão, retirada de pessoas e ferramentas, proteções e autorização conforme protocolo.",
         "bullets": [
-          "Identifique o perigo",
-          "Controle a exposição",
-          "Confirme a condição segura"
+          "Antes de liberar, confirme conclusão, retirada de pessoas e ferramentas, proteções e autorização conforme protocolo",
+          "Aplicação de campo: Retorno.",
+          "Confirme equipamento, estado e autorização antes de qualquer comando crítico."
         ],
-        "image": "https://images.unsplash.com/photo-1586864387967-d02ef85d93e8?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-18-3.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Retorno»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Quando parar",
-        "body": "Pare diante de condição não prevista, falha de controle, equipamento danificado, clima incompatível, dúvida sobre procedimento ou qualquer exposição que não esteja controlada.",
+        "title": "Falha de canal",
+        "body": "Se o canal principal falhar, utilize o canal de contingência definido. Não invente procedimento em situação crítica.",
         "bullets": [
-          "Identifique o perigo",
-          "Controle a exposição",
-          "Confirme a condição segura"
+          "Se o canal principal falhar, utilize o canal de contingência definido",
+          "Não invente procedimento em situação crítica",
+          "Confirme equipamento, estado e autorização antes de qualquer comando crítico."
         ],
-        "image": "https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-18-1.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Falha de canal»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Fixação antes da prova",
-        "body": "Você já percorreu os fundamentos de Comunicação Operacional entre Campo, COG e Supervisão. Agora faça o caso prático, revise os checkpoints e só então avance para a avaliação final.",
+        "title": "Checklist",
+        "body": "Identificação, local, equipamento, estado, ação, responsável, autorização, confirmação, registro e escalonamento.",
         "bullets": [
-          "Aplique no contexto da UFV",
-          "Registre ou comunique quando necessário",
-          "Mantenha a barreira até o fim da atividade"
+          "Identificação, local, equipamento, estado, ação, responsável, autorização, confirmação, registro e escalonamento",
+          "Aplicação de campo: Checklist.",
+          "Confirme equipamento, estado e autorização antes de qualquer comando crítico."
         ],
-        "image": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-18-2.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Checklist»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Fechamento",
-        "body": "Segurança é uma condição para executar. O resultado esperado é que você reconheça o risco antes que ele vire incidente e saiba quando parar e pedir suporte.",
+        "title": "Critérios de parada",
+        "body": "Pare se houver dúvida sobre autorização, equipamento ou estado operacional real.",
         "bullets": [
-          "Aplique no contexto da UFV",
-          "Registre ou comunique quando necessário",
-          "Mantenha a barreira até o fim da atividade"
+          "Pare se houver dúvida sobre autorização, equipamento ou estado operacional real",
+          "Aplicação de campo: Critérios de parada.",
+          "Confirme equipamento, estado e autorização antes de qualquer comando crítico."
         ],
-        "image": "https://images.unsplash.com/photo-1581092795360-fd1ca04f0952?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-18-3.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Critérios de parada»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       }
     ],
     "questions": [
       {
-        "q": "Qual é a melhor abordagem de segurança em uma atividade relacionada a COG, campo, supervisão, confirmação, registro e escalonamento?",
+        "q": "Qual é a conduta tecnicamente mais adequada neste tema? Considerando «Comunicação como barreira», qual alternativa está correta?",
         "options": [
-          "Executar rapidamente e corrigir depois",
-          "Identificar a exposição, aplicar controles e confirmar a condição segura antes de executar",
-          "Confiar somente na experiência do operador",
-          "Improvisar um controle temporário sem comunicar"
+          "Continuar com base apenas no hábito da equipe, sem rever a condição real.",
+          "Comunicação operacional reduz erro",
+          "Substituir o controle previsto por improviso e registrar depois.",
+          "Aguardar o final da atividade para comunicar qualquer desvio."
         ],
         "correct": 1,
-        "a": "Controle antes da exposição. Segurança precisa ser verificável."
+        "a": "A resposta correta está alinhada ao controle específico apresentado neste bloco."
       },
       {
-        "q": "Se uma condição relevante mudar durante a atividade, o que deve acontecer?",
+        "q": "Qual condição deve ser confirmada antes de avançar? Considerando «O que o COG precisa», qual alternativa está correta?",
         "options": [
-          "Continuar para não perder produtividade",
-          "Parar, comunicar e reavaliar o risco antes de continuar",
-          "Ignorar se a equipe já estiver acostumada",
-          "Esperar o final da tarefa para registrar"
-        ],
-        "correct": 1,
-        "a": "Mudança de cenário exige nova avaliação e controle."
-      },
-      {
-        "q": "Qual princípio é mais importante ao escolher controles?",
-        "options": [
-          "Usar somente EPI",
-          "Priorizar controles que reduzam a exposição na fonte e usar barreiras complementares",
-          "Escolher o controle mais barato",
-          "Deixar a decisão para depois da execução"
-        ],
-        "correct": 1,
-        "a": "A prevenção começa na fonte e nas barreiras, não somente no comportamento individual."
-      },
-      {
-        "q": "O que fazer quando você não consegue demonstrar que uma condição está segura?",
-        "options": [
-          "Assumir que está segura",
-          "Executar com cuidado redobrado",
-          "Parar e buscar esclarecimento/controle adequado",
-          "Pedir para outra pessoa executar"
+          "Substituir o controle previsto por improviso e registrar depois.",
+          "Continuar com base apenas no hábito da equipe, sem rever a condição real.",
+          "Informe equipamento, local, condição, impacto, atividade, responsável e restrições relevantes conforme protocolo",
+          "Aguardar o final da atividade para comunicar qualquer desvio."
         ],
         "correct": 2,
-        "a": "Dúvida sobre condição segura é motivo para não avançar."
+        "a": "A resposta correta está alinhada ao controle específico apresentado neste bloco."
       },
       {
-        "q": "Qual situação caracteriza um bom comportamento de segurança?",
+        "q": "Qual alternativa representa o controle correto? Considerando «Estado operacional», qual alternativa está correta?",
         "options": [
-          "Pular uma etapa porque a atividade é conhecida",
-          "Comunicar desvio e interromper quando o controle necessário não está disponível",
-          "Manter silêncio para evitar conflito",
-          "Adaptar o procedimento sem comunicar"
+          "Use termos padronizados para indicar disponibilidade, manutenção, bloqueio, alarme ou liberação conforme o protocolo interno",
+          "Continuar com base apenas no hábito da equipe, sem rever a condição real.",
+          "Substituir o controle previsto por improviso e registrar depois.",
+          "Aguardar o final da atividade para comunicar qualquer desvio."
+        ],
+        "correct": 0,
+        "a": "A resposta correta está alinhada ao controle específico apresentado neste bloco."
+      },
+      {
+        "q": "O que caracteriza uma resposta segura nesta situação? Considerando «Mensagem clara», qual alternativa está correta?",
+        "options": [
+          "Aguardar o final da atividade para comunicar qualquer desvio.",
+          "Continuar com base apenas no hábito da equipe, sem rever a condição real.",
+          "Substituir o controle previsto por improviso e registrar depois.",
+          "Evite 'desliga lá'"
+        ],
+        "correct": 3,
+        "a": "A resposta correta está alinhada ao controle específico apresentado neste bloco."
+      },
+      {
+        "q": "Qual erro deve ser evitado no campo? Considerando «Confirmação», qual alternativa está correta?",
+        "options": [
+          "Continuar com base apenas no hábito da equipe, sem rever a condição real.",
+          "Para comandos críticos, confirme entendimento e resultado",
+          "Substituir o controle previsto por improviso e registrar depois.",
+          "Aguardar o final da atividade para comunicar qualquer desvio."
         ],
         "correct": 1,
-        "a": "A autoridade para interromper diante de risco é parte da cultura de prevenção."
+        "a": "A resposta correta está alinhada ao controle específico apresentado neste bloco."
       },
       {
-        "q": "Por que procedimentos e checklists são importantes?",
+        "q": "Qual informação é essencial para a decisão? Considerando «Responsabilidade», qual alternativa está correta?",
         "options": [
-          "Para aumentar burocracia",
-          "Para tornar controles críticos repetíveis e verificáveis",
-          "Para substituir treinamento",
-          "Para eliminar a necessidade de julgamento"
-        ],
-        "correct": 1,
-        "a": "Procedimentos ajudam a tornar barreiras críticas consistentes e rastreáveis."
-      },
-      {
-        "q": "Qual é uma pergunta útil antes de iniciar uma tarefa?",
-        "options": [
-          "Quanto tempo falta para terminar?",
-          "Quem será culpado se algo der errado?",
-          "O que pode me atingir e como vou controlar essa exposição?",
-          "Como posso fazer sem comunicar?"
+          "Substituir o controle previsto por improviso e registrar depois.",
+          "Continuar com base apenas no hábito da equipe, sem rever a condição real.",
+          "Deixe claro quem solicita, executa e autoriza conforme estrutura operacional",
+          "Aguardar o final da atividade para comunicar qualquer desvio."
         ],
         "correct": 2,
-        "a": "Comece pela exposição e pelos controles."
+        "a": "A resposta correta está alinhada ao controle específico apresentado neste bloco."
       },
       {
-        "q": "Um equipamento apresenta uma condição diferente da prevista. O que é mais seguro?",
+        "q": "Diante de uma condição diferente da prevista, o que fazer? Considerando «Mudança», qual alternativa está correta?",
         "options": [
-          "Improvisar",
-          "Parar e escalar para decisão técnica",
-          "Continuar porque já começou",
-          "Remover uma barreira para facilitar"
+          "Aguardar o final da atividade para comunicar qualquer desvio.",
+          "Continuar com base apenas no hábito da equipe, sem rever a condição real.",
+          "Substituir o controle previsto por improviso e registrar depois.",
+          "Se o estado de campo mudar, atualize COG e supervisão antes de executar ação dependente da nova condição"
         ],
-        "correct": 1,
-        "a": "Condição não prevista exige interrupção e avaliação."
+        "correct": 3,
+        "a": "A resposta correta está alinhada ao controle específico apresentado neste bloco."
       },
       {
-        "q": "Qual afirmação melhor representa a cultura de segurança?",
+        "q": "Qual medida reduz diretamente a exposição? Considerando «Prioridade», qual alternativa está correta?",
         "options": [
-          "Segurança é responsabilidade do técnico de segurança",
-          "Segurança é condição de execução compartilhada pela equipe",
-          "Só o supervisor pode parar a atividade",
-          "Produção sempre vem primeiro"
+          "Priorize por risco às pessoas, equipamento e impacto operacional conforme critérios internos",
+          "Continuar com base apenas no hábito da equipe, sem rever a condição real.",
+          "Substituir o controle previsto por improviso e registrar depois.",
+          "Aguardar o final da atividade para comunicar qualquer desvio."
         ],
-        "correct": 1,
-        "a": "A prevenção é responsabilidade de todos dentro dos papéis definidos."
+        "correct": 0,
+        "a": "A resposta correta está alinhada ao controle específico apresentado neste bloco."
       },
       {
-        "q": "Ao final de uma atividade, o que completa o ciclo seguro?",
+        "q": "Qual afirmação está correta para esta atividade? Considerando «Rastreabilidade», qual alternativa está correta?",
         "options": [
-          "Sair rapidamente",
-          "Restabelecer condições conforme procedimento, comunicar estado e registrar o necessário",
-          "Deixar o equipamento como ficou",
-          "Apagar os registros"
+          "Substituir o controle previsto por improviso e registrar depois.",
+          "Continuar com base apenas no hábito da equipe, sem rever a condição real.",
+          "Registre horários, mensagens e decisões relevantes nos sistemas definidos para permitir reconstrução do evento",
+          "Aguardar o final da atividade para comunicar qualquer desvio."
+        ],
+        "correct": 2,
+        "a": "A resposta correta está alinhada ao controle específico apresentado neste bloco."
+      },
+      {
+        "q": "Qual é o principal critério de parada? Considerando «Escalonamento», qual alternativa está correta?",
+        "options": [
+          "Continuar com base apenas no hábito da equipe, sem rever a condição real.",
+          "Quando a equipe não puder resolver, escale com evidências: alarmes, fotos, medições, histórico e condição atual",
+          "Substituir o controle previsto por improviso e registrar depois.",
+          "Aguardar o final da atividade para comunicar qualquer desvio."
         ],
         "correct": 1,
-        "a": "O encerramento seguro inclui restauração, comunicação e registro conforme aplicável."
+        "a": "A resposta correta está alinhada ao controle específico apresentado neste bloco."
       }
     ],
     "references": [
-      "NR-10 MTE",
-      "NR-01 MTE",
-      "Procedimentos operacionais O&M Solar"
-    ]
+      "NR-01 — Gerenciamento de Riscos Ocupacionais",
+      "Procedimento de comunicação operacional Campo–COG–Supervisão O&M Solar",
+      "Protocolos de operação e liberação dos ativos",
+      "Registros de ocorrências e mudanças operacionais"
+    ],
+    "case": {
+      "title": "Falha de canal",
+      "scenario": "Se o canal principal falhar, utilize o canal de contingência definido. Não invente procedimento em situação crítica.",
+      "question": "Qual deve ser a primeira decisão da equipe?",
+      "options": [
+        {
+          "text": "Interromper a exposição, aplicar os controles previstos e reavaliar antes de continuar.",
+          "correct": true
+        },
+        {
+          "text": "Continuar porque a atividade já começou e corrigir a condição durante a execução.",
+          "correct": false
+        },
+        {
+          "text": "Improvisar um controle temporário e comunicar somente depois da atividade.",
+          "correct": false
+        }
+      ]
+    }
   },
   {
     "id": 19,
-    "phase": "Cultura",
+    "phase": "Cultura de Segurança",
     "title": "Fadiga, Sono, Ergonomia e Saúde Ocupacional",
-    "description": "Reconheça como fadiga, postura e organização do trabalho podem degradar a segurança.",
-    "objective": "fadiga, sono, ergonomia, pausas e comunicação",
-    "icon": "🛡️",
-    "duration": 22,
+    "description": "Reconheça fadiga e riscos ergonômicos e organize o trabalho para preservar atenção, capacidade física e recuperação.",
+    "objective": "Fadiga, Sono, Ergonomia e Saúde Ocupacional",
+    "icon": "🧍",
+    "duration": 25,
     "slides": [
       {
-        "title": "O que você precisa dominar",
-        "body": "Neste treinamento vamos tratar de fadiga, sono, ergonomia, pausas e comunicação. O objetivo é reconhecer a exposição, selecionar controles e tomar decisões seguras no campo.",
+        "title": "Fadiga",
+        "body": "Fadiga reduz atenção, memória de trabalho e tempo de reação. Pode afetar direção, manutenção e decisões.",
         "bullets": [
-          "Identifique o perigo",
-          "Controle a exposição",
-          "Confirme a condição segura"
+          "Fadiga reduz atenção, memória de trabalho e tempo de reação",
+          "Pode afetar direção, manutenção e decisões",
+          "Se a capacidade estiver comprometida, pare e comunique a condição."
         ],
-        "image": "https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-19-1.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Fadiga»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Onde esse risco aparece na UFV",
-        "body": "Observe equipamentos, circulação, ferramentas, ambiente e comportamento. Em uma usina, a mesma atividade pode mudar de risco conforme local e condição.",
+        "title": "Sono",
+        "body": "Privação de sono pode comprometer desempenho mesmo quando a pessoa acredita estar acostumada. Recuperação é controle.",
         "bullets": [
-          "Identifique o perigo",
-          "Controle a exposição",
-          "Confirme a condição segura"
+          "Privação de sono pode comprometer desempenho mesmo quando a pessoa acredita estar acostumada",
+          "Recuperação é controle",
+          "Se a capacidade estiver comprometida, pare e comunique a condição."
         ],
-        "image": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-19-2.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Sono»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Identifique o mecanismo de dano",
-        "body": "Pergunte qual é o mecanismo capaz de causar lesão neste tema: energia, movimento, queda, contato, exposição ambiental, produto ou falha de comunicação.",
+        "title": "Sinais",
+        "body": "Bocejos, lapsos de atenção, dificuldade de concentração e erros incomuns são sinais para intervenção.",
         "bullets": [
-          "Aplique no contexto da UFV",
-          "Registre ou comunique quando necessário",
-          "Mantenha a barreira até o fim da atividade"
+          "Bocejos, lapsos de atenção, dificuldade de concentração e erros incomuns são sinais para intervenção",
+          "Aplicação de campo: Sinais.",
+          "Se a capacidade estiver comprometida, pare e comunique a condição."
         ],
-        "image": "https://images.unsplash.com/photo-1581092795360-fd1ca04f0952?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-19-3.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Sinais»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Checkpoint 1 — pare e pense",
-        "body": "Antes de executar, descreva mentalmente: perigo → exposição → consequência → controle. Se uma etapa não estiver clara, pare e esclareça.",
+        "title": "Jornada",
+        "body": "Escalas e jornadas devem respeitar legislação, planejamento e recuperação. Horas extras não devem ser solução padrão para atraso.",
         "bullets": [
-          "Responda antes de avançar",
-          "Não improvise controle",
-          "Se houver dúvida, comunique e reavalie"
+          "Escalas e jornadas devem respeitar legislação, planejamento e recuperação",
+          "Horas extras não devem ser solução padrão para atraso",
+          "Se a capacidade estiver comprometida, pare e comunique a condição."
         ],
-        "image": "https://images.unsplash.com/photo-1586864387967-d02ef85d93e8?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": true
+        "image": "media/treino-19-1.svg",
+        "checkpoint": true,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Jornada»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Controle na fonte",
-        "body": "Sempre que possível, reduza o risco antes da pessoa entrar na zona de exposição. Use barreiras, isolamento, organização e procedimentos antes de depender somente do comportamento individual.",
+        "title": "Pausas",
+        "body": "Pausas devem considerar tarefa, exposição ambiental e organização do trabalho. Recuperação reduz acúmulo de fadiga.",
         "bullets": [
-          "Identifique o perigo",
-          "Controle a exposição",
-          "Confirme a condição segura"
+          "Pausas devem considerar tarefa, exposição ambiental e organização do trabalho",
+          "Recuperação reduz acúmulo de fadiga",
+          "Se a capacidade estiver comprometida, pare e comunique a condição."
         ],
-        "image": "https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-19-2.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Pausas»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Condição segura",
-        "body": "Para este tema, condição segura significa que os controles relevantes foram verificados. Não confie apenas em aparência, hábito ou experiência anterior.",
+        "title": "Ergonomia",
+        "body": "Adapte trabalho, ferramentas e organização às capacidades humanas. Pequenos ajustes podem reduzir esforço.",
         "bullets": [
-          "Identifique o perigo",
-          "Controle a exposição",
-          "Confirme a condição segura"
+          "Adapte trabalho, ferramentas e organização às capacidades humanas",
+          "Pequenos ajustes podem reduzir esforço",
+          "Se a capacidade estiver comprometida, pare e comunique a condição."
         ],
-        "image": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-19-3.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Ergonomia»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Comunicação operacional",
-        "body": "Quem executa precisa saber o escopo, as limitações e os sinais de parada. Quando houver mudança relevante, comunique antes de continuar.",
+        "title": "Postura",
+        "body": "Posturas forçadas, torção e força elevada aumentam sobrecarga. Ajuste o corpo e use recursos auxiliares.",
         "bullets": [
-          "Identifique o perigo",
-          "Controle a exposição",
-          "Confirme a condição segura"
+          "Posturas forçadas, torção e força elevada aumentam sobrecarga",
+          "Ajuste o corpo e use recursos auxiliares",
+          "Se a capacidade estiver comprometida, pare e comunique a condição."
         ],
-        "image": "https://images.unsplash.com/photo-1581092795360-fd1ca04f0952?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-19-1.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Postura»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Checkpoint 2 — o cenário mudou",
-        "body": "Se surgir uma condição não prevista, a resposta segura é interromper, proteger a equipe, comunicar e reavaliar o risco. Não 'adapte no improviso'.",
+        "title": "Repetição",
+        "body": "Repetição e ritmo elevado podem gerar sobrecarga. Alterne tarefas quando possível e comunique desconforto persistente.",
         "bullets": [
-          "Responda antes de avançar",
-          "Não improvise controle",
-          "Se houver dúvida, comunique e reavalie"
+          "Repetição e ritmo elevado podem gerar sobrecarga",
+          "Alterne tarefas quando possível e comunique desconforto persistente",
+          "Se a capacidade estiver comprometida, pare e comunique a condição."
         ],
-        "image": "https://images.unsplash.com/photo-1586864387967-d02ef85d93e8?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": true
+        "image": "media/treino-19-2.svg",
+        "checkpoint": true,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Repetição»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Erro comum no campo",
-        "body": "Um erro recorrente é normalizar pequenas anomalias porque 'sempre foi assim'. Desvio repetido não deixa de ser risco por ser familiar.",
+        "title": "Alcance",
+        "body": "Ferramentas fora do alcance aumentam força e repetição. Reorganize o posto antes de compensar com o corpo.",
         "bullets": [
-          "Identifique o perigo",
-          "Controle a exposição",
-          "Confirme a condição segura"
+          "Ferramentas fora do alcance aumentam força e repetição",
+          "Reorganize o posto antes de compensar com o corpo",
+          "Se a capacidade estiver comprometida, pare e comunique a condição."
         ],
-        "image": "https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-19-3.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Alcance»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Aplicação prática — FAD",
-        "body": "Imagine uma atividade real relacionada a fadiga, sono, ergonomia e saúde ocupacional. Antes de iniciar, faça uma inspeção do local, confirme os controles e combine como a equipe vai interromper a atividade.",
+        "title": "Fadiga + calor",
+        "body": "Calor, desidratação, esforço e sono insuficiente podem se somar. Trate o conjunto de exposições.",
         "bullets": [
-          "Identifique o perigo",
-          "Controle a exposição",
-          "Confirme a condição segura"
+          "Calor, desidratação, esforço e sono insuficiente podem se somar",
+          "Trate o conjunto de exposições",
+          "Se a capacidade estiver comprometida, pare e comunique a condição."
         ],
-        "image": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-19-1.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Fadiga + calor»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Checkpoint 3 — decisão segura",
-        "body": "Escolha sempre a alternativa que controla a exposição antes de executar e que mantém a comunicação e a rastreabilidade da decisão.",
+        "title": "Caso: fim da jornada",
+        "body": "Se a sonolência aparecer durante tarefa crítica, interrompa a exposição e comunique. Não pressione a pessoa a continuar.",
         "bullets": [
-          "Responda antes de avançar",
-          "Não improvise controle",
-          "Se houver dúvida, comunique e reavalie"
+          "Se a sonolência aparecer durante tarefa crítica, interrompa a exposição e comunique",
+          "Não pressione a pessoa a continuar",
+          "Se a capacidade estiver comprometida, pare e comunique a condição."
         ],
-        "image": "https://images.unsplash.com/photo-1581092795360-fd1ca04f0952?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": true
+        "image": "media/treino-19-2.svg",
+        "checkpoint": true,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Caso: fim da jornada»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Checklist de campo",
-        "body": "Escopo; local; perigos; exposição; controles; EPI/EPC quando aplicável; comunicação; condição ambiental; ferramentas; plano de resposta.",
+        "title": "Comunicação",
+        "body": "Comunicar fadiga é informação de risco, não fraqueza. Use a informação para ajustar a tarefa.",
         "bullets": [
-          "Identifique o perigo",
-          "Controle a exposição",
-          "Confirme a condição segura"
+          "Comunicar fadiga é informação de risco, não fraqueza",
+          "Use a informação para ajustar a tarefa",
+          "Se a capacidade estiver comprometida, pare e comunique a condição."
         ],
-        "image": "https://images.unsplash.com/photo-1586864387967-d02ef85d93e8?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-19-3.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Comunicação»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Quando parar",
-        "body": "Pare diante de condição não prevista, falha de controle, equipamento danificado, clima incompatível, dúvida sobre procedimento ou qualquer exposição que não esteja controlada.",
+        "title": "Organização",
+        "body": "Equipe, pausas, ferramentas, acesso e alternância são controles organizacionais que podem reduzir exposição.",
         "bullets": [
-          "Identifique o perigo",
-          "Controle a exposição",
-          "Confirme a condição segura"
+          "Equipe, pausas, ferramentas, acesso e alternância são controles organizacionais que podem reduzir exposição",
+          "Aplicação de campo: Organização.",
+          "Se a capacidade estiver comprometida, pare e comunique a condição."
         ],
-        "image": "https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-19-1.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Organização»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Fixação antes da prova",
-        "body": "Você já percorreu os fundamentos de Fadiga, Sono, Ergonomia e Saúde Ocupacional. Agora faça o caso prático, revise os checkpoints e só então avance para a avaliação final.",
+        "title": "Checklist",
+        "body": "Prontidão, jornada, tarefa crítica, pausas, ergonomia, clima, deslocamento e comunicação.",
         "bullets": [
-          "Aplique no contexto da UFV",
-          "Registre ou comunique quando necessário",
-          "Mantenha a barreira até o fim da atividade"
+          "Prontidão, jornada, tarefa crítica, pausas, ergonomia, clima, deslocamento e comunicação",
+          "Aplicação de campo: Checklist.",
+          "Se a capacidade estiver comprometida, pare e comunique a condição."
         ],
-        "image": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-19-2.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Checklist»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Fechamento",
-        "body": "Segurança é uma condição para executar. O resultado esperado é que você reconheça o risco antes que ele vire incidente e saiba quando parar e pedir suporte.",
+        "title": "Critérios de parada",
+        "body": "Replaneje quando a fadiga comprometer a execução segura, especialmente em direção, altura ou eletricidade.",
         "bullets": [
-          "Aplique no contexto da UFV",
-          "Registre ou comunique quando necessário",
-          "Mantenha a barreira até o fim da atividade"
+          "Replaneje quando a fadiga comprometer a execução segura, especialmente em direção, altura ou eletricidade",
+          "Aplicação de campo: Critérios de parada.",
+          "Se a capacidade estiver comprometida, pare e comunique a condição."
         ],
-        "image": "https://images.unsplash.com/photo-1581092795360-fd1ca04f0952?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-19-3.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Critérios de parada»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       }
     ],
     "questions": [
       {
-        "q": "Qual é a melhor abordagem de segurança em uma atividade relacionada a fadiga, sono, ergonomia, pausas e comunicação?",
+        "q": "Qual é a conduta tecnicamente mais adequada neste tema? Considerando «Fadiga», qual alternativa está correta?",
         "options": [
-          "Executar rapidamente e corrigir depois",
-          "Identificar a exposição, aplicar controles e confirmar a condição segura antes de executar",
-          "Confiar somente na experiência do operador",
-          "Improvisar um controle temporário sem comunicar"
+          "Continuar com base apenas no hábito da equipe, sem rever a condição real.",
+          "Fadiga reduz atenção, memória de trabalho e tempo de reação",
+          "Substituir o controle previsto por improviso e registrar depois.",
+          "Aguardar o final da atividade para comunicar qualquer desvio."
         ],
         "correct": 1,
-        "a": "Controle antes da exposição. Segurança precisa ser verificável."
+        "a": "A resposta correta está alinhada ao controle específico apresentado neste bloco."
       },
       {
-        "q": "Se uma condição relevante mudar durante a atividade, o que deve acontecer?",
+        "q": "Qual condição deve ser confirmada antes de avançar? Considerando «Sono», qual alternativa está correta?",
         "options": [
-          "Continuar para não perder produtividade",
-          "Parar, comunicar e reavaliar o risco antes de continuar",
-          "Ignorar se a equipe já estiver acostumada",
-          "Esperar o final da tarefa para registrar"
-        ],
-        "correct": 1,
-        "a": "Mudança de cenário exige nova avaliação e controle."
-      },
-      {
-        "q": "Qual princípio é mais importante ao escolher controles?",
-        "options": [
-          "Usar somente EPI",
-          "Priorizar controles que reduzam a exposição na fonte e usar barreiras complementares",
-          "Escolher o controle mais barato",
-          "Deixar a decisão para depois da execução"
-        ],
-        "correct": 1,
-        "a": "A prevenção começa na fonte e nas barreiras, não somente no comportamento individual."
-      },
-      {
-        "q": "O que fazer quando você não consegue demonstrar que uma condição está segura?",
-        "options": [
-          "Assumir que está segura",
-          "Executar com cuidado redobrado",
-          "Parar e buscar esclarecimento/controle adequado",
-          "Pedir para outra pessoa executar"
+          "Substituir o controle previsto por improviso e registrar depois.",
+          "Continuar com base apenas no hábito da equipe, sem rever a condição real.",
+          "Privação de sono pode comprometer desempenho mesmo quando a pessoa acredita estar acostumada",
+          "Aguardar o final da atividade para comunicar qualquer desvio."
         ],
         "correct": 2,
-        "a": "Dúvida sobre condição segura é motivo para não avançar."
+        "a": "A resposta correta está alinhada ao controle específico apresentado neste bloco."
       },
       {
-        "q": "Qual situação caracteriza um bom comportamento de segurança?",
+        "q": "Qual alternativa representa o controle correto? Considerando «Sinais», qual alternativa está correta?",
         "options": [
-          "Pular uma etapa porque a atividade é conhecida",
-          "Comunicar desvio e interromper quando o controle necessário não está disponível",
-          "Manter silêncio para evitar conflito",
-          "Adaptar o procedimento sem comunicar"
+          "Bocejos, lapsos de atenção, dificuldade de concentração e erros incomuns são sinais para intervenção",
+          "Continuar com base apenas no hábito da equipe, sem rever a condição real.",
+          "Substituir o controle previsto por improviso e registrar depois.",
+          "Aguardar o final da atividade para comunicar qualquer desvio."
+        ],
+        "correct": 0,
+        "a": "A resposta correta está alinhada ao controle específico apresentado neste bloco."
+      },
+      {
+        "q": "O que caracteriza uma resposta segura nesta situação? Considerando «Jornada», qual alternativa está correta?",
+        "options": [
+          "Aguardar o final da atividade para comunicar qualquer desvio.",
+          "Continuar com base apenas no hábito da equipe, sem rever a condição real.",
+          "Substituir o controle previsto por improviso e registrar depois.",
+          "Escalas e jornadas devem respeitar legislação, planejamento e recuperação"
+        ],
+        "correct": 3,
+        "a": "A resposta correta está alinhada ao controle específico apresentado neste bloco."
+      },
+      {
+        "q": "Qual erro deve ser evitado no campo? Considerando «Pausas», qual alternativa está correta?",
+        "options": [
+          "Continuar com base apenas no hábito da equipe, sem rever a condição real.",
+          "Pausas devem considerar tarefa, exposição ambiental e organização do trabalho",
+          "Substituir o controle previsto por improviso e registrar depois.",
+          "Aguardar o final da atividade para comunicar qualquer desvio."
         ],
         "correct": 1,
-        "a": "A autoridade para interromper diante de risco é parte da cultura de prevenção."
+        "a": "A resposta correta está alinhada ao controle específico apresentado neste bloco."
       },
       {
-        "q": "Por que procedimentos e checklists são importantes?",
+        "q": "Qual informação é essencial para a decisão? Considerando «Ergonomia», qual alternativa está correta?",
         "options": [
-          "Para aumentar burocracia",
-          "Para tornar controles críticos repetíveis e verificáveis",
-          "Para substituir treinamento",
-          "Para eliminar a necessidade de julgamento"
-        ],
-        "correct": 1,
-        "a": "Procedimentos ajudam a tornar barreiras críticas consistentes e rastreáveis."
-      },
-      {
-        "q": "Qual é uma pergunta útil antes de iniciar uma tarefa?",
-        "options": [
-          "Quanto tempo falta para terminar?",
-          "Quem será culpado se algo der errado?",
-          "O que pode me atingir e como vou controlar essa exposição?",
-          "Como posso fazer sem comunicar?"
+          "Substituir o controle previsto por improviso e registrar depois.",
+          "Continuar com base apenas no hábito da equipe, sem rever a condição real.",
+          "Adapte trabalho, ferramentas e organização às capacidades humanas",
+          "Aguardar o final da atividade para comunicar qualquer desvio."
         ],
         "correct": 2,
-        "a": "Comece pela exposição e pelos controles."
+        "a": "A resposta correta está alinhada ao controle específico apresentado neste bloco."
       },
       {
-        "q": "Um equipamento apresenta uma condição diferente da prevista. O que é mais seguro?",
+        "q": "Diante de uma condição diferente da prevista, o que fazer? Considerando «Postura», qual alternativa está correta?",
         "options": [
-          "Improvisar",
-          "Parar e escalar para decisão técnica",
-          "Continuar porque já começou",
-          "Remover uma barreira para facilitar"
+          "Aguardar o final da atividade para comunicar qualquer desvio.",
+          "Continuar com base apenas no hábito da equipe, sem rever a condição real.",
+          "Substituir o controle previsto por improviso e registrar depois.",
+          "Posturas forçadas, torção e força elevada aumentam sobrecarga"
         ],
-        "correct": 1,
-        "a": "Condição não prevista exige interrupção e avaliação."
+        "correct": 3,
+        "a": "A resposta correta está alinhada ao controle específico apresentado neste bloco."
       },
       {
-        "q": "Qual afirmação melhor representa a cultura de segurança?",
+        "q": "Qual medida reduz diretamente a exposição? Considerando «Repetição», qual alternativa está correta?",
         "options": [
-          "Segurança é responsabilidade do técnico de segurança",
-          "Segurança é condição de execução compartilhada pela equipe",
-          "Só o supervisor pode parar a atividade",
-          "Produção sempre vem primeiro"
+          "Repetição e ritmo elevado podem gerar sobrecarga",
+          "Continuar com base apenas no hábito da equipe, sem rever a condição real.",
+          "Substituir o controle previsto por improviso e registrar depois.",
+          "Aguardar o final da atividade para comunicar qualquer desvio."
         ],
-        "correct": 1,
-        "a": "A prevenção é responsabilidade de todos dentro dos papéis definidos."
+        "correct": 0,
+        "a": "A resposta correta está alinhada ao controle específico apresentado neste bloco."
       },
       {
-        "q": "Ao final de uma atividade, o que completa o ciclo seguro?",
+        "q": "Qual afirmação está correta para esta atividade? Considerando «Alcance», qual alternativa está correta?",
         "options": [
-          "Sair rapidamente",
-          "Restabelecer condições conforme procedimento, comunicar estado e registrar o necessário",
-          "Deixar o equipamento como ficou",
-          "Apagar os registros"
+          "Substituir o controle previsto por improviso e registrar depois.",
+          "Continuar com base apenas no hábito da equipe, sem rever a condição real.",
+          "Ferramentas fora do alcance aumentam força e repetição",
+          "Aguardar o final da atividade para comunicar qualquer desvio."
+        ],
+        "correct": 2,
+        "a": "A resposta correta está alinhada ao controle específico apresentado neste bloco."
+      },
+      {
+        "q": "Qual é o principal critério de parada? Considerando «Fadiga + calor», qual alternativa está correta?",
+        "options": [
+          "Continuar com base apenas no hábito da equipe, sem rever a condição real.",
+          "Calor, desidratação, esforço e sono insuficiente podem se somar",
+          "Substituir o controle previsto por improviso e registrar depois.",
+          "Aguardar o final da atividade para comunicar qualquer desvio."
         ],
         "correct": 1,
-        "a": "O encerramento seguro inclui restauração, comunicação e registro conforme aplicável."
+        "a": "A resposta correta está alinhada ao controle específico apresentado neste bloco."
       }
     ],
     "references": [
-      "NR-01 MTE",
-      "NR-07 PCMSO",
-      "Procedimentos internos O&M Solar"
-    ]
+      "NR-17 — Ergonomia",
+      "NR-07 — Programa de Controle Médico de Saúde Ocupacional",
+      "NR-01 — Gerenciamento de Riscos Ocupacionais",
+      "Orientações técnicas de ergonomia, fadiga e organização do trabalho"
+    ],
+    "case": {
+      "title": "Organização",
+      "scenario": "Equipe, pausas, ferramentas, acesso e alternância são controles organizacionais que podem reduzir exposição.",
+      "question": "Qual deve ser a primeira decisão da equipe?",
+      "options": [
+        {
+          "text": "Interromper a exposição, aplicar os controles previstos e reavaliar antes de continuar.",
+          "correct": true
+        },
+        {
+          "text": "Continuar porque a atividade já começou e corrigir a condição durante a execução.",
+          "correct": false
+        },
+        {
+          "text": "Improvisar um controle temporário e comunicar somente depois da atividade.",
+          "correct": false
+        }
+      ]
+    }
   },
   {
     "id": 20,
-    "phase": "Cultura",
+    "phase": "Emergências",
     "title": "Primeiros Socorros e Atendimento a Emergências",
-    "description": "Saiba reconhecer uma emergência, proteger a cena, acionar ajuda e evitar agravamento da vítima.",
-    "objective": "cena segura, acionamento, avaliação inicial e não agravamento",
-    "icon": "🛡️",
+    "description": "Atue nos primeiros cuidados sem agravar a vítima, controlando a cena e acionando atendimento profissional.",
+    "objective": "Primeiros Socorros e Atendimento a Emergências",
+    "icon": "⛑️",
     "duration": 22,
     "slides": [
       {
-        "title": "O que você precisa dominar",
-        "body": "Neste treinamento vamos tratar de cena segura, acionamento, avaliação inicial e não agravamento. O objetivo é reconhecer a exposição, selecionar controles e tomar decisões seguras no campo.",
+        "title": "Objetivo",
+        "body": "Primeiros socorros buscam preservar a vida, evitar agravamento e acionar atendimento adequado. O treinamento não substitui profissionais.",
         "bullets": [
-          "Identifique o perigo",
-          "Controle a exposição",
-          "Confirme a condição segura"
+          "Primeiros socorros buscam preservar a vida, evitar agravamento e acionar atendimento adequado",
+          "O treinamento não substitui profissionais",
+          "Torne a cena segura antes de prestar qualquer atendimento."
         ],
-        "image": "https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-20-1.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Objetivo»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Onde esse risco aparece na UFV",
-        "body": "Observe equipamentos, circulação, ferramentas, ambiente e comportamento. Em uma usina, a mesma atividade pode mudar de risco conforme local e condição.",
+        "title": "Cena segura",
+        "body": "Antes de tocar, torne a cena segura. Em acidente elétrico, a energia perigosa deve ser controlada antes do contato.",
         "bullets": [
-          "Identifique o perigo",
-          "Controle a exposição",
-          "Confirme a condição segura"
+          "Antes de tocar, torne a cena segura",
+          "Em acidente elétrico, a energia perigosa deve ser controlada antes do contato",
+          "Torne a cena segura antes de prestar qualquer atendimento."
         ],
-        "image": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-20-2.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Cena segura»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Identifique o mecanismo de dano",
-        "body": "Pergunte qual é o mecanismo capaz de causar lesão neste tema: energia, movimento, queda, contato, exposição ambiental, produto ou falha de comunicação.",
+        "title": "Acionamento",
+        "body": "Acione o serviço de emergência conforme plano local e informe localização, mecanismo, número de vítimas e perigos.",
         "bullets": [
-          "Aplique no contexto da UFV",
-          "Registre ou comunique quando necessário",
-          "Mantenha a barreira até o fim da atividade"
+          "Acione o serviço de emergência conforme plano local e informe localização, mecanismo, número de vítimas e perigos",
+          "Aplicação de campo: Acionamento.",
+          "Torne a cena segura antes de prestar qualquer atendimento."
         ],
-        "image": "https://images.unsplash.com/photo-1581092795360-fd1ca04f0952?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-20-3.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Acionamento»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Checkpoint 1 — pare e pense",
-        "body": "Antes de executar, descreva mentalmente: perigo → exposição → consequência → controle. Se uma etapa não estiver clara, pare e esclareça.",
+        "title": "Avaliação inicial",
+        "body": "Siga o protocolo de primeiros socorros adotado pela organização e o nível de treinamento do atendente.",
         "bullets": [
-          "Responda antes de avançar",
-          "Não improvise controle",
-          "Se houver dúvida, comunique e reavalie"
+          "Siga o protocolo de primeiros socorros adotado pela organização e o nível de treinamento do atendente",
+          "Aplicação de campo: Avaliação inicial.",
+          "Torne a cena segura antes de prestar qualquer atendimento."
         ],
-        "image": "https://images.unsplash.com/photo-1586864387967-d02ef85d93e8?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": true
+        "image": "media/treino-20-1.svg",
+        "checkpoint": true,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Avaliação inicial»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Controle na fonte",
-        "body": "Sempre que possível, reduza o risco antes da pessoa entrar na zona de exposição. Use barreiras, isolamento, organização e procedimentos antes de depender somente do comportamento individual.",
+        "title": "Consciência e respiração",
+        "body": "Avalie responsividade e respiração conforme o protocolo treinado. Em emergência, siga orientações do serviço acionado.",
         "bullets": [
-          "Identifique o perigo",
-          "Controle a exposição",
-          "Confirme a condição segura"
+          "Avalie responsividade e respiração conforme o protocolo treinado",
+          "Em emergência, siga orientações do serviço acionado",
+          "Torne a cena segura antes de prestar qualquer atendimento."
         ],
-        "image": "https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-20-2.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Consciência e respiração»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Condição segura",
-        "body": "Para este tema, condição segura significa que os controles relevantes foram verificados. Não confie apenas em aparência, hábito ou experiência anterior.",
+        "title": "Sangramento",
+        "body": "Controle sangramento importante com medidas compatíveis com o treinamento e acione atendimento. Evite procedimentos invasivos não treinados.",
         "bullets": [
-          "Identifique o perigo",
-          "Controle a exposição",
-          "Confirme a condição segura"
+          "Controle sangramento importante com medidas compatíveis com o treinamento e acione atendimento",
+          "Evite procedimentos invasivos não treinados",
+          "Torne a cena segura antes de prestar qualquer atendimento."
         ],
-        "image": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-20-3.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Sangramento»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Comunicação operacional",
-        "body": "Quem executa precisa saber o escopo, as limitações e os sinais de parada. Quando houver mudança relevante, comunique antes de continuar.",
+        "title": "Queimadura",
+        "body": "Afaste a fonte e acione avaliação. Não aplique substâncias caseiras nem rompa bolhas.",
         "bullets": [
-          "Identifique o perigo",
-          "Controle a exposição",
-          "Confirme a condição segura"
+          "Afaste a fonte e acione avaliação",
+          "Não aplique substâncias caseiras nem rompa bolhas",
+          "Torne a cena segura antes de prestar qualquer atendimento."
         ],
-        "image": "https://images.unsplash.com/photo-1581092795360-fd1ca04f0952?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-20-1.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Queimadura»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Checkpoint 2 — o cenário mudou",
-        "body": "Se surgir uma condição não prevista, a resposta segura é interromper, proteger a equipe, comunicar e reavaliar o risco. Não 'adapte no improviso'.",
+        "title": "Trauma",
+        "body": "Evite movimentar a vítima sem necessidade, especialmente com suspeita de lesão de coluna, salvo risco imediato ou orientação de emergência.",
         "bullets": [
-          "Responda antes de avançar",
-          "Não improvise controle",
-          "Se houver dúvida, comunique e reavalie"
+          "Evite movimentar a vítima sem necessidade, especialmente com suspeita de lesão de coluna, salvo risco imediato ou orientação de emergência",
+          "Aplicação de campo: Trauma.",
+          "Torne a cena segura antes de prestar qualquer atendimento."
         ],
-        "image": "https://images.unsplash.com/photo-1586864387967-d02ef85d93e8?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": true
+        "image": "media/treino-20-2.svg",
+        "checkpoint": true,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Trauma»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Erro comum no campo",
-        "body": "Um erro recorrente é normalizar pequenas anomalias porque 'sempre foi assim'. Desvio repetido não deixa de ser risco por ser familiar.",
+        "title": "Choque elétrico",
+        "body": "Não toque na vítima até controlar a fonte perigosa. Após o evento, siga o fluxo de atendimento e avaliação médica.",
         "bullets": [
-          "Identifique o perigo",
-          "Controle a exposição",
-          "Confirme a condição segura"
+          "Não toque na vítima até controlar a fonte perigosa",
+          "Após o evento, siga o fluxo de atendimento e avaliação médica",
+          "Torne a cena segura antes de prestar qualquer atendimento."
         ],
-        "image": "https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-20-3.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Choque elétrico»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Aplicação prática — PS",
-        "body": "Imagine uma atividade real relacionada a primeiros socorros e atendimento a emergências. Antes de iniciar, faça uma inspeção do local, confirme os controles e combine como a equipe vai interromper a atividade.",
+        "title": "Mal súbito e calor",
+        "body": "Retire a exposição e acione o atendimento quando necessário. Não force retorno à atividade.",
         "bullets": [
-          "Identifique o perigo",
-          "Controle a exposição",
-          "Confirme a condição segura"
+          "Retire a exposição e acione o atendimento quando necessário",
+          "Não force retorno à atividade",
+          "Torne a cena segura antes de prestar qualquer atendimento."
         ],
-        "image": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-20-1.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Mal súbito e calor»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Checkpoint 3 — decisão segura",
-        "body": "Escolha sempre a alternativa que controla a exposição antes de executar e que mantém a comunicação e a rastreabilidade da decisão.",
+        "title": "Não agravar",
+        "body": "Evite alimentos, líquidos ou medicamentos quando isso puder agravar a condição ou não fizer parte do protocolo.",
         "bullets": [
-          "Responda antes de avançar",
-          "Não improvise controle",
-          "Se houver dúvida, comunique e reavalie"
+          "Evite alimentos, líquidos ou medicamentos quando isso puder agravar a condição ou não fizer parte do protocolo",
+          "Aplicação de campo: Não agravar.",
+          "Torne a cena segura antes de prestar qualquer atendimento."
         ],
-        "image": "https://images.unsplash.com/photo-1581092795360-fd1ca04f0952?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": true
+        "image": "media/treino-20-2.svg",
+        "checkpoint": true,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Não agravar»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Checklist de campo",
-        "body": "Escopo; local; perigos; exposição; controles; EPI/EPC quando aplicável; comunicação; condição ambiental; ferramentas; plano de resposta.",
+        "title": "Caso: acidente elétrico",
+        "body": "Controle cena e energia, acione ajuda e só então preste atendimento dentro do treinamento.",
         "bullets": [
-          "Identifique o perigo",
-          "Controle a exposição",
-          "Confirme a condição segura"
+          "Controle cena e energia, acione ajuda e só então preste atendimento dentro do treinamento",
+          "Aplicação de campo: Caso: acidente elétrico.",
+          "Torne a cena segura antes de prestar qualquer atendimento."
         ],
-        "image": "https://images.unsplash.com/photo-1586864387967-d02ef85d93e8?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-20-3.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Caso: acidente elétrico»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Quando parar",
-        "body": "Pare diante de condição não prevista, falha de controle, equipamento danificado, clima incompatível, dúvida sobre procedimento ou qualquer exposição que não esteja controlada.",
+        "title": "Transferência",
+        "body": "Informe ao serviço de emergência mecanismo, sinais observados e medidas realizadas. Preserve informações relevantes.",
         "bullets": [
-          "Identifique o perigo",
-          "Controle a exposição",
-          "Confirme a condição segura"
+          "Informe ao serviço de emergência mecanismo, sinais observados e medidas realizadas",
+          "Preserve informações relevantes",
+          "Torne a cena segura antes de prestar qualquer atendimento."
         ],
-        "image": "https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-20-1.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Transferência»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Fixação antes da prova",
-        "body": "Você já percorreu os fundamentos de Primeiros Socorros e Atendimento a Emergências. Agora faça o caso prático, revise os checkpoints e só então avance para a avaliação final.",
+        "title": "Pós-emergência",
+        "body": "Registre conforme procedimento e analise a ocorrência depois para corrigir barreiras. Atendimento não substitui investigação.",
         "bullets": [
-          "Aplique no contexto da UFV",
-          "Registre ou comunique quando necessário",
-          "Mantenha a barreira até o fim da atividade"
+          "Registre conforme procedimento e analise a ocorrência depois para corrigir barreiras",
+          "Atendimento não substitui investigação",
+          "Torne a cena segura antes de prestar qualquer atendimento."
         ],
-        "image": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-20-2.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Pós-emergência»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Fechamento",
-        "body": "Segurança é uma condição para executar. O resultado esperado é que você reconheça o risco antes que ele vire incidente e saiba quando parar e pedir suporte.",
+        "title": "Critérios de parada",
+        "body": "Pare a atividade e acione emergência diante de risco à vida, cena insegura ou condição além da capacidade do atendente.",
         "bullets": [
-          "Aplique no contexto da UFV",
-          "Registre ou comunique quando necessário",
-          "Mantenha a barreira até o fim da atividade"
+          "Pare a atividade e acione emergência diante de risco à vida, cena insegura ou condição além da capacidade do atendente",
+          "Aplicação de campo: Critérios de parada.",
+          "Torne a cena segura antes de prestar qualquer atendimento."
         ],
-        "image": "https://images.unsplash.com/photo-1581092795360-fd1ca04f0952?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-20-3.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Critérios de parada»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       }
     ],
     "questions": [
       {
-        "q": "Qual é a melhor abordagem de segurança em uma atividade relacionada a cena segura, acionamento, avaliação inicial e não agravamento?",
+        "q": "Qual é a conduta tecnicamente mais adequada neste tema? Considerando «Objetivo», qual alternativa está correta?",
         "options": [
-          "Executar rapidamente e corrigir depois",
-          "Identificar a exposição, aplicar controles e confirmar a condição segura antes de executar",
-          "Confiar somente na experiência do operador",
-          "Improvisar um controle temporário sem comunicar"
+          "Continuar com base apenas no hábito da equipe, sem rever a condição real.",
+          "Primeiros socorros buscam preservar a vida, evitar agravamento e acionar atendimento adequado",
+          "Substituir o controle previsto por improviso e registrar depois.",
+          "Aguardar o final da atividade para comunicar qualquer desvio."
         ],
         "correct": 1,
-        "a": "Controle antes da exposição. Segurança precisa ser verificável."
+        "a": "A resposta correta está alinhada ao controle específico apresentado neste bloco."
       },
       {
-        "q": "Se uma condição relevante mudar durante a atividade, o que deve acontecer?",
+        "q": "Qual condição deve ser confirmada antes de avançar? Considerando «Cena segura», qual alternativa está correta?",
         "options": [
-          "Continuar para não perder produtividade",
-          "Parar, comunicar e reavaliar o risco antes de continuar",
-          "Ignorar se a equipe já estiver acostumada",
-          "Esperar o final da tarefa para registrar"
-        ],
-        "correct": 1,
-        "a": "Mudança de cenário exige nova avaliação e controle."
-      },
-      {
-        "q": "Qual princípio é mais importante ao escolher controles?",
-        "options": [
-          "Usar somente EPI",
-          "Priorizar controles que reduzam a exposição na fonte e usar barreiras complementares",
-          "Escolher o controle mais barato",
-          "Deixar a decisão para depois da execução"
-        ],
-        "correct": 1,
-        "a": "A prevenção começa na fonte e nas barreiras, não somente no comportamento individual."
-      },
-      {
-        "q": "O que fazer quando você não consegue demonstrar que uma condição está segura?",
-        "options": [
-          "Assumir que está segura",
-          "Executar com cuidado redobrado",
-          "Parar e buscar esclarecimento/controle adequado",
-          "Pedir para outra pessoa executar"
+          "Substituir o controle previsto por improviso e registrar depois.",
+          "Continuar com base apenas no hábito da equipe, sem rever a condição real.",
+          "Antes de tocar, torne a cena segura",
+          "Aguardar o final da atividade para comunicar qualquer desvio."
         ],
         "correct": 2,
-        "a": "Dúvida sobre condição segura é motivo para não avançar."
+        "a": "A resposta correta está alinhada ao controle específico apresentado neste bloco."
       },
       {
-        "q": "Qual situação caracteriza um bom comportamento de segurança?",
+        "q": "Qual alternativa representa o controle correto? Considerando «Acionamento», qual alternativa está correta?",
         "options": [
-          "Pular uma etapa porque a atividade é conhecida",
-          "Comunicar desvio e interromper quando o controle necessário não está disponível",
-          "Manter silêncio para evitar conflito",
-          "Adaptar o procedimento sem comunicar"
+          "Acione o serviço de emergência conforme plano local e informe localização, mecanismo, número de vítimas e perigos",
+          "Continuar com base apenas no hábito da equipe, sem rever a condição real.",
+          "Substituir o controle previsto por improviso e registrar depois.",
+          "Aguardar o final da atividade para comunicar qualquer desvio."
+        ],
+        "correct": 0,
+        "a": "A resposta correta está alinhada ao controle específico apresentado neste bloco."
+      },
+      {
+        "q": "O que caracteriza uma resposta segura nesta situação? Considerando «Avaliação inicial», qual alternativa está correta?",
+        "options": [
+          "Aguardar o final da atividade para comunicar qualquer desvio.",
+          "Continuar com base apenas no hábito da equipe, sem rever a condição real.",
+          "Substituir o controle previsto por improviso e registrar depois.",
+          "Siga o protocolo de primeiros socorros adotado pela organização e o nível de treinamento do atendente"
+        ],
+        "correct": 3,
+        "a": "A resposta correta está alinhada ao controle específico apresentado neste bloco."
+      },
+      {
+        "q": "Qual erro deve ser evitado no campo? Considerando «Consciência e respiração», qual alternativa está correta?",
+        "options": [
+          "Continuar com base apenas no hábito da equipe, sem rever a condição real.",
+          "Avalie responsividade e respiração conforme o protocolo treinado",
+          "Substituir o controle previsto por improviso e registrar depois.",
+          "Aguardar o final da atividade para comunicar qualquer desvio."
         ],
         "correct": 1,
-        "a": "A autoridade para interromper diante de risco é parte da cultura de prevenção."
+        "a": "A resposta correta está alinhada ao controle específico apresentado neste bloco."
       },
       {
-        "q": "Por que procedimentos e checklists são importantes?",
+        "q": "Qual informação é essencial para a decisão? Considerando «Sangramento», qual alternativa está correta?",
         "options": [
-          "Para aumentar burocracia",
-          "Para tornar controles críticos repetíveis e verificáveis",
-          "Para substituir treinamento",
-          "Para eliminar a necessidade de julgamento"
-        ],
-        "correct": 1,
-        "a": "Procedimentos ajudam a tornar barreiras críticas consistentes e rastreáveis."
-      },
-      {
-        "q": "Qual é uma pergunta útil antes de iniciar uma tarefa?",
-        "options": [
-          "Quanto tempo falta para terminar?",
-          "Quem será culpado se algo der errado?",
-          "O que pode me atingir e como vou controlar essa exposição?",
-          "Como posso fazer sem comunicar?"
+          "Substituir o controle previsto por improviso e registrar depois.",
+          "Continuar com base apenas no hábito da equipe, sem rever a condição real.",
+          "Controle sangramento importante com medidas compatíveis com o treinamento e acione atendimento",
+          "Aguardar o final da atividade para comunicar qualquer desvio."
         ],
         "correct": 2,
-        "a": "Comece pela exposição e pelos controles."
+        "a": "A resposta correta está alinhada ao controle específico apresentado neste bloco."
       },
       {
-        "q": "Um equipamento apresenta uma condição diferente da prevista. O que é mais seguro?",
+        "q": "Diante de uma condição diferente da prevista, o que fazer? Considerando «Queimadura», qual alternativa está correta?",
         "options": [
-          "Improvisar",
-          "Parar e escalar para decisão técnica",
-          "Continuar porque já começou",
-          "Remover uma barreira para facilitar"
+          "Aguardar o final da atividade para comunicar qualquer desvio.",
+          "Continuar com base apenas no hábito da equipe, sem rever a condição real.",
+          "Substituir o controle previsto por improviso e registrar depois.",
+          "Afaste a fonte e acione avaliação"
         ],
-        "correct": 1,
-        "a": "Condição não prevista exige interrupção e avaliação."
+        "correct": 3,
+        "a": "A resposta correta está alinhada ao controle específico apresentado neste bloco."
       },
       {
-        "q": "Qual afirmação melhor representa a cultura de segurança?",
+        "q": "Qual medida reduz diretamente a exposição? Considerando «Trauma», qual alternativa está correta?",
         "options": [
-          "Segurança é responsabilidade do técnico de segurança",
-          "Segurança é condição de execução compartilhada pela equipe",
-          "Só o supervisor pode parar a atividade",
-          "Produção sempre vem primeiro"
+          "Evite movimentar a vítima sem necessidade, especialmente com suspeita de lesão de coluna, salvo risco imediato ou orientação de emergência",
+          "Continuar com base apenas no hábito da equipe, sem rever a condição real.",
+          "Substituir o controle previsto por improviso e registrar depois.",
+          "Aguardar o final da atividade para comunicar qualquer desvio."
         ],
-        "correct": 1,
-        "a": "A prevenção é responsabilidade de todos dentro dos papéis definidos."
+        "correct": 0,
+        "a": "A resposta correta está alinhada ao controle específico apresentado neste bloco."
       },
       {
-        "q": "Ao final de uma atividade, o que completa o ciclo seguro?",
+        "q": "Qual afirmação está correta para esta atividade? Considerando «Choque elétrico», qual alternativa está correta?",
         "options": [
-          "Sair rapidamente",
-          "Restabelecer condições conforme procedimento, comunicar estado e registrar o necessário",
-          "Deixar o equipamento como ficou",
-          "Apagar os registros"
+          "Substituir o controle previsto por improviso e registrar depois.",
+          "Continuar com base apenas no hábito da equipe, sem rever a condição real.",
+          "Não toque na vítima até controlar a fonte perigosa",
+          "Aguardar o final da atividade para comunicar qualquer desvio."
+        ],
+        "correct": 2,
+        "a": "A resposta correta está alinhada ao controle específico apresentado neste bloco."
+      },
+      {
+        "q": "Qual é o principal critério de parada? Considerando «Mal súbito e calor», qual alternativa está correta?",
+        "options": [
+          "Continuar com base apenas no hábito da equipe, sem rever a condição real.",
+          "Retire a exposição e acione o atendimento quando necessário",
+          "Substituir o controle previsto por improviso e registrar depois.",
+          "Aguardar o final da atividade para comunicar qualquer desvio."
         ],
         "correct": 1,
-        "a": "O encerramento seguro inclui restauração, comunicação e registro conforme aplicável."
+        "a": "A resposta correta está alinhada ao controle específico apresentado neste bloco."
       }
     ],
     "references": [
-      "NR-07 MTE",
-      "Protocolos locais de emergência",
-      "Procedimentos internos O&M Solar"
-    ]
+      "NR-07 — Programa de Controle Médico de Saúde Ocupacional",
+      "NR-01 — Gerenciamento de Riscos Ocupacionais",
+      "Plano de emergência e protocolo de primeiros socorros adotado pela organização",
+      "Protocolos reconhecidos de primeiros socorros e serviço de emergência local"
+    ],
+    "case": {
+      "title": "Transferência",
+      "scenario": "Informe ao serviço de emergência mecanismo, sinais observados e medidas realizadas. Preserve informações relevantes.",
+      "question": "Qual deve ser a primeira decisão da equipe?",
+      "options": [
+        {
+          "text": "Interromper a exposição, aplicar os controles previstos e reavaliar antes de continuar.",
+          "correct": true
+        },
+        {
+          "text": "Continuar porque a atividade já começou e corrigir a condição durante a execução.",
+          "correct": false
+        },
+        {
+          "text": "Improvisar um controle temporário e comunicar somente depois da atividade.",
+          "correct": false
+        }
+      ]
+    }
   },
   {
     "id": 21,
     "phase": "Guardião",
     "title": "Comportamento Seguro, Liderança e Regras de Ouro",
-    "description": "Consolide decisões seguras, liderança pelo exemplo e regras de ouro aplicáveis ao campo.",
-    "objective": "comportamento, liderança, autoridade para parar e regras de ouro",
+    "description": "Consolide comportamento seguro, liderança pelo exemplo, autoridade para parar e Regras de Ouro da O&M Solar.",
+    "objective": "Comportamento Seguro, Liderança e Regras de Ouro",
     "icon": "🛡️",
-    "duration": 22,
+    "duration": 25,
     "slides": [
       {
-        "title": "O que você precisa dominar",
-        "body": "Neste treinamento vamos tratar de comportamento, liderança, autoridade para parar e regras de ouro. O objetivo é reconhecer a exposição, selecionar controles e tomar decisões seguras no campo.",
+        "title": "Segurança como condição",
+        "body": "Segurança é condição para executar, não uma etapa opcional depois da produtividade. A atividade precisa de controles compatíveis.",
         "bullets": [
-          "Identifique o perigo",
-          "Controle a exposição",
-          "Confirme a condição segura"
+          "Segurança é condição para executar, não uma etapa opcional depois da produtividade",
+          "A atividade precisa de controles compatíveis",
+          "Nenhum prazo justifica retirar uma barreira crítica."
         ],
-        "image": "https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-21-1.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Segurança como condição»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Onde esse risco aparece na UFV",
-        "body": "Observe equipamentos, circulação, ferramentas, ambiente e comportamento. Em uma usina, a mesma atividade pode mudar de risco conforme local e condição.",
+        "title": "Liderança pelo exemplo",
+        "body": "Decisões e exemplos da liderança moldam comportamento. Aceitar improviso contradiz qualquer regra escrita.",
         "bullets": [
-          "Identifique o perigo",
-          "Controle a exposição",
-          "Confirme a condição segura"
+          "Decisões e exemplos da liderança moldam comportamento",
+          "Aceitar improviso contradiz qualquer regra escrita",
+          "Nenhum prazo justifica retirar uma barreira crítica."
         ],
-        "image": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-21-2.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Liderança pelo exemplo»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Identifique o mecanismo de dano",
-        "body": "Pergunte qual é o mecanismo capaz de causar lesão neste tema: energia, movimento, queda, contato, exposição ambiental, produto ou falha de comunicação.",
+        "title": "Regras de Ouro",
+        "body": "As Regras de Ouro da O&M Solar devem ser tratadas como compromissos internos. A versão oficial da empresa prevalece sobre este resumo.",
         "bullets": [
-          "Aplique no contexto da UFV",
-          "Registre ou comunique quando necessário",
-          "Mantenha a barreira até o fim da atividade"
+          "As Regras de Ouro da O&M Solar devem ser tratadas como compromissos internos",
+          "A versão oficial da empresa prevalece sobre este resumo",
+          "Nenhum prazo justifica retirar uma barreira crítica."
         ],
-        "image": "https://images.unsplash.com/photo-1581092795360-fd1ca04f0952?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-21-3.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Regras de Ouro»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Checkpoint 1 — pare e pense",
-        "body": "Antes de executar, descreva mentalmente: perigo → exposição → consequência → controle. Se uma etapa não estiver clara, pare e esclareça.",
+        "title": "Autoridade para parar",
+        "body": "Trabalhadores devem poder comunicar condição insegura e interromper a exposição conforme procedimento e estrutura de autoridade.",
         "bullets": [
-          "Responda antes de avançar",
-          "Não improvise controle",
-          "Se houver dúvida, comunique e reavalie"
+          "Trabalhadores devem poder comunicar condição insegura e interromper a exposição conforme procedimento e estrutura de autoridade",
+          "Aplicação de campo: Autoridade para parar.",
+          "Nenhum prazo justifica retirar uma barreira crítica."
         ],
-        "image": "https://images.unsplash.com/photo-1586864387967-d02ef85d93e8?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": true
+        "image": "media/treino-21-1.svg",
+        "checkpoint": true,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Autoridade para parar»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Controle na fonte",
-        "body": "Sempre que possível, reduza o risco antes da pessoa entrar na zona de exposição. Use barreiras, isolamento, organização e procedimentos antes de depender somente do comportamento individual.",
+        "title": "Desvio normalizado",
+        "body": "Um desvio repetido não se torna seguro por ser familiar. A normalização reduz percepção de risco.",
         "bullets": [
-          "Identifique o perigo",
-          "Controle a exposição",
-          "Confirme a condição segura"
+          "Um desvio repetido não se torna seguro por ser familiar",
+          "A normalização reduz percepção de risco",
+          "Nenhum prazo justifica retirar uma barreira crítica."
         ],
-        "image": "https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-21-2.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Desvio normalizado»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Condição segura",
-        "body": "Para este tema, condição segura significa que os controles relevantes foram verificados. Não confie apenas em aparência, hábito ou experiência anterior.",
+        "title": "Produtividade",
+        "body": "Prazo e disponibilidade do ativo não justificam retirar uma barreira crítica. Produtividade deve ocorrer dentro de condições seguras.",
         "bullets": [
-          "Identifique o perigo",
-          "Controle a exposição",
-          "Confirme a condição segura"
+          "Prazo e disponibilidade do ativo não justificam retirar uma barreira crítica",
+          "Produtividade deve ocorrer dentro de condições seguras",
+          "Nenhum prazo justifica retirar uma barreira crítica."
         ],
-        "image": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-21-3.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Produtividade»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Comunicação operacional",
-        "body": "Quem executa precisa saber o escopo, as limitações e os sinais de parada. Quando houver mudança relevante, comunique antes de continuar.",
+        "title": "Decisão diante da dúvida",
+        "body": "Quando houver dúvida relevante, controle, esclareça e escale. Não transforme incerteza em autorização.",
         "bullets": [
-          "Identifique o perigo",
-          "Controle a exposição",
-          "Confirme a condição segura"
+          "Quando houver dúvida relevante, controle, esclareça e escale",
+          "Não transforme incerteza em autorização",
+          "Nenhum prazo justifica retirar uma barreira crítica."
         ],
-        "image": "https://images.unsplash.com/photo-1581092795360-fd1ca04f0952?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-21-1.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Decisão diante da dúvida»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Checkpoint 2 — o cenário mudou",
-        "body": "Se surgir uma condição não prevista, a resposta segura é interromper, proteger a equipe, comunicar e reavaliar o risco. Não 'adapte no improviso'.",
+        "title": "Comunicação de risco",
+        "body": "Comunique perigo, exposição, consequência potencial e controle necessário de forma objetiva.",
         "bullets": [
-          "Responda antes de avançar",
-          "Não improvise controle",
-          "Se houver dúvida, comunique e reavalie"
+          "Comunique perigo, exposição, consequência potencial e controle necessário de forma objetiva",
+          "Aplicação de campo: Comunicação de risco.",
+          "Nenhum prazo justifica retirar uma barreira crítica."
         ],
-        "image": "https://images.unsplash.com/photo-1586864387967-d02ef85d93e8?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": true
+        "image": "media/treino-21-2.svg",
+        "checkpoint": true,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Comunicação de risco»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Erro comum no campo",
-        "body": "Um erro recorrente é normalizar pequenas anomalias porque 'sempre foi assim'. Desvio repetido não deixa de ser risco por ser familiar.",
+        "title": "Feedback",
+        "body": "Feedback deve corrigir risco sem humilhar. O objetivo é fortalecer barreiras e comportamento seguro.",
         "bullets": [
-          "Identifique o perigo",
-          "Controle a exposição",
-          "Confirme a condição segura"
+          "Feedback deve corrigir risco sem humilhar",
+          "O objetivo é fortalecer barreiras e comportamento seguro",
+          "Nenhum prazo justifica retirar uma barreira crítica."
         ],
-        "image": "https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-21-3.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Feedback»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Aplicação prática — OURO",
-        "body": "Imagine uma atividade real relacionada a comportamento seguro, liderança e regras de ouro. Antes de iniciar, faça uma inspeção do local, confirme os controles e combine como a equipe vai interromper a atividade.",
+        "title": "Aprendizado",
+        "body": "Erros e quase acidentes devem gerar aprendizado sobre planejamento, equipamento, processo, comunicação e comportamento.",
         "bullets": [
-          "Identifique o perigo",
-          "Controle a exposição",
-          "Confirme a condição segura"
+          "Erros e quase acidentes devem gerar aprendizado sobre planejamento, equipamento, processo, comunicação e comportamento",
+          "Aplicação de campo: Aprendizado.",
+          "Nenhum prazo justifica retirar uma barreira crítica."
         ],
-        "image": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-21-1.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Aprendizado»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Checkpoint 3 — decisão segura",
-        "body": "Escolha sempre a alternativa que controla a exposição antes de executar e que mantém a comunicação e a rastreabilidade da decisão.",
+        "title": "Responsabilidades",
+        "body": "Cada trabalhador responde por sua conduta; organização e liderança respondem por recursos, processos e controles de suas atribuições.",
         "bullets": [
-          "Responda antes de avançar",
-          "Não improvise controle",
-          "Se houver dúvida, comunique e reavalie"
+          "Cada trabalhador responde por sua conduta; organização e liderança respondem por recursos, processos e controles de suas atribuições",
+          "Aplicação de campo: Responsabilidades.",
+          "Nenhum prazo justifica retirar uma barreira crítica."
         ],
-        "image": "https://images.unsplash.com/photo-1581092795360-fd1ca04f0952?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": true
+        "image": "media/treino-21-2.svg",
+        "checkpoint": true,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Responsabilidades»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Checklist de campo",
-        "body": "Escopo; local; perigos; exposição; controles; EPI/EPC quando aplicável; comunicação; condição ambiental; ferramentas; plano de resposta.",
+        "title": "Caso: pressão",
+        "body": "Se houver pressão para concluir com controle crítico ausente, comunique e interrompa até restabelecer a condição segura.",
         "bullets": [
-          "Identifique o perigo",
-          "Controle a exposição",
-          "Confirme a condição segura"
+          "Se houver pressão para concluir com controle crítico ausente, comunique e interrompa até restabelecer a condição segura",
+          "Aplicação de campo: Caso: pressão.",
+          "Nenhum prazo justifica retirar uma barreira crítica."
         ],
-        "image": "https://images.unsplash.com/photo-1586864387967-d02ef85d93e8?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-21-3.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Caso: pressão»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Quando parar",
-        "body": "Pare diante de condição não prevista, falha de controle, equipamento danificado, clima incompatível, dúvida sobre procedimento ou qualquer exposição que não esteja controlada.",
+        "title": "Liderança segura",
+        "body": "Liderança segura acompanha indicadores, remove obstáculos e reconhece quem interrompe uma atividade diante de risco.",
         "bullets": [
-          "Identifique o perigo",
-          "Controle a exposição",
-          "Confirme a condição segura"
+          "Liderança segura acompanha indicadores, remove obstáculos e reconhece quem interrompe uma atividade diante de risco",
+          "Aplicação de campo: Liderança segura.",
+          "Nenhum prazo justifica retirar uma barreira crítica."
         ],
-        "image": "https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-21-1.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Liderança segura»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Fixação antes da prova",
-        "body": "Você já percorreu os fundamentos de Comportamento Seguro, Liderança e Regras de Ouro. Agora faça o caso prático, revise os checkpoints e só então avance para a avaliação final.",
+        "title": "Checklist",
+        "body": "Escopo, risco, controles, competência, comunicação, condições ambientais e autoridade para parar.",
         "bullets": [
-          "Aplique no contexto da UFV",
-          "Registre ou comunique quando necessário",
-          "Mantenha a barreira até o fim da atividade"
+          "Escopo, risco, controles, competência, comunicação, condições ambientais e autoridade para parar",
+          "Aplicação de campo: Checklist.",
+          "Nenhum prazo justifica retirar uma barreira crítica."
         ],
-        "image": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-21-2.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Checklist»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       },
       {
-        "title": "Fechamento",
-        "body": "Segurança é uma condição para executar. O resultado esperado é que você reconheça o risco antes que ele vire incidente e saiba quando parar e pedir suporte.",
+        "title": "Critérios de parada",
+        "body": "Pare diante de qualquer barreira crítica ausente ou condição não controlada. Se não está seguro, não execute.",
         "bullets": [
-          "Aplique no contexto da UFV",
-          "Registre ou comunique quando necessário",
-          "Mantenha a barreira até o fim da atividade"
+          "Pare diante de qualquer barreira crítica ausente ou condição não controlada",
+          "Se não está seguro, não execute",
+          "Nenhum prazo justifica retirar uma barreira crítica."
         ],
-        "image": "https://images.unsplash.com/photo-1581092795360-fd1ca04f0952?auto=format&fit=crop&w=1200&q=80",
-        "checkpoint": false
+        "image": "media/treino-21-3.svg",
+        "checkpoint": false,
+        "checkpointQuestion": "Qual é a decisão segura ao estudar «Critérios de parada»?",
+        "checkpointAnswer": "Aplicar o controle previsto, verificar a condição segura e comunicar qualquer desvio."
       }
     ],
     "questions": [
       {
-        "q": "Qual é a melhor abordagem de segurança em uma atividade relacionada a comportamento, liderança, autoridade para parar e regras de ouro?",
+        "q": "Qual é a conduta tecnicamente mais adequada neste tema? Considerando «Segurança como condição», qual alternativa está correta?",
         "options": [
-          "Executar rapidamente e corrigir depois",
-          "Identificar a exposição, aplicar controles e confirmar a condição segura antes de executar",
-          "Confiar somente na experiência do operador",
-          "Improvisar um controle temporário sem comunicar"
+          "Continuar com base apenas no hábito da equipe, sem rever a condição real.",
+          "Segurança é condição para executar, não uma etapa opcional depois da produtividade",
+          "Substituir o controle previsto por improviso e registrar depois.",
+          "Aguardar o final da atividade para comunicar qualquer desvio."
         ],
         "correct": 1,
-        "a": "Controle antes da exposição. Segurança precisa ser verificável."
+        "a": "A resposta correta está alinhada ao controle específico apresentado neste bloco."
       },
       {
-        "q": "Se uma condição relevante mudar durante a atividade, o que deve acontecer?",
+        "q": "Qual condição deve ser confirmada antes de avançar? Considerando «Liderança pelo exemplo», qual alternativa está correta?",
         "options": [
-          "Continuar para não perder produtividade",
-          "Parar, comunicar e reavaliar o risco antes de continuar",
-          "Ignorar se a equipe já estiver acostumada",
-          "Esperar o final da tarefa para registrar"
-        ],
-        "correct": 1,
-        "a": "Mudança de cenário exige nova avaliação e controle."
-      },
-      {
-        "q": "Qual princípio é mais importante ao escolher controles?",
-        "options": [
-          "Usar somente EPI",
-          "Priorizar controles que reduzam a exposição na fonte e usar barreiras complementares",
-          "Escolher o controle mais barato",
-          "Deixar a decisão para depois da execução"
-        ],
-        "correct": 1,
-        "a": "A prevenção começa na fonte e nas barreiras, não somente no comportamento individual."
-      },
-      {
-        "q": "O que fazer quando você não consegue demonstrar que uma condição está segura?",
-        "options": [
-          "Assumir que está segura",
-          "Executar com cuidado redobrado",
-          "Parar e buscar esclarecimento/controle adequado",
-          "Pedir para outra pessoa executar"
+          "Substituir o controle previsto por improviso e registrar depois.",
+          "Continuar com base apenas no hábito da equipe, sem rever a condição real.",
+          "Decisões e exemplos da liderança moldam comportamento",
+          "Aguardar o final da atividade para comunicar qualquer desvio."
         ],
         "correct": 2,
-        "a": "Dúvida sobre condição segura é motivo para não avançar."
+        "a": "A resposta correta está alinhada ao controle específico apresentado neste bloco."
       },
       {
-        "q": "Qual situação caracteriza um bom comportamento de segurança?",
+        "q": "Qual alternativa representa o controle correto? Considerando «Regras de Ouro», qual alternativa está correta?",
         "options": [
-          "Pular uma etapa porque a atividade é conhecida",
-          "Comunicar desvio e interromper quando o controle necessário não está disponível",
-          "Manter silêncio para evitar conflito",
-          "Adaptar o procedimento sem comunicar"
+          "As Regras de Ouro da O&M Solar devem ser tratadas como compromissos internos",
+          "Continuar com base apenas no hábito da equipe, sem rever a condição real.",
+          "Substituir o controle previsto por improviso e registrar depois.",
+          "Aguardar o final da atividade para comunicar qualquer desvio."
+        ],
+        "correct": 0,
+        "a": "A resposta correta está alinhada ao controle específico apresentado neste bloco."
+      },
+      {
+        "q": "O que caracteriza uma resposta segura nesta situação? Considerando «Autoridade para parar», qual alternativa está correta?",
+        "options": [
+          "Aguardar o final da atividade para comunicar qualquer desvio.",
+          "Continuar com base apenas no hábito da equipe, sem rever a condição real.",
+          "Substituir o controle previsto por improviso e registrar depois.",
+          "Trabalhadores devem poder comunicar condição insegura e interromper a exposição conforme procedimento e estrutura de autoridade"
+        ],
+        "correct": 3,
+        "a": "A resposta correta está alinhada ao controle específico apresentado neste bloco."
+      },
+      {
+        "q": "Qual erro deve ser evitado no campo? Considerando «Desvio normalizado», qual alternativa está correta?",
+        "options": [
+          "Continuar com base apenas no hábito da equipe, sem rever a condição real.",
+          "Um desvio repetido não se torna seguro por ser familiar",
+          "Substituir o controle previsto por improviso e registrar depois.",
+          "Aguardar o final da atividade para comunicar qualquer desvio."
         ],
         "correct": 1,
-        "a": "A autoridade para interromper diante de risco é parte da cultura de prevenção."
+        "a": "A resposta correta está alinhada ao controle específico apresentado neste bloco."
       },
       {
-        "q": "Por que procedimentos e checklists são importantes?",
+        "q": "Qual informação é essencial para a decisão? Considerando «Produtividade», qual alternativa está correta?",
         "options": [
-          "Para aumentar burocracia",
-          "Para tornar controles críticos repetíveis e verificáveis",
-          "Para substituir treinamento",
-          "Para eliminar a necessidade de julgamento"
-        ],
-        "correct": 1,
-        "a": "Procedimentos ajudam a tornar barreiras críticas consistentes e rastreáveis."
-      },
-      {
-        "q": "Qual é uma pergunta útil antes de iniciar uma tarefa?",
-        "options": [
-          "Quanto tempo falta para terminar?",
-          "Quem será culpado se algo der errado?",
-          "O que pode me atingir e como vou controlar essa exposição?",
-          "Como posso fazer sem comunicar?"
+          "Substituir o controle previsto por improviso e registrar depois.",
+          "Continuar com base apenas no hábito da equipe, sem rever a condição real.",
+          "Prazo e disponibilidade do ativo não justificam retirar uma barreira crítica",
+          "Aguardar o final da atividade para comunicar qualquer desvio."
         ],
         "correct": 2,
-        "a": "Comece pela exposição e pelos controles."
+        "a": "A resposta correta está alinhada ao controle específico apresentado neste bloco."
       },
       {
-        "q": "Um equipamento apresenta uma condição diferente da prevista. O que é mais seguro?",
+        "q": "Diante de uma condição diferente da prevista, o que fazer? Considerando «Decisão diante da dúvida», qual alternativa está correta?",
         "options": [
-          "Improvisar",
-          "Parar e escalar para decisão técnica",
-          "Continuar porque já começou",
-          "Remover uma barreira para facilitar"
+          "Aguardar o final da atividade para comunicar qualquer desvio.",
+          "Continuar com base apenas no hábito da equipe, sem rever a condição real.",
+          "Substituir o controle previsto por improviso e registrar depois.",
+          "Quando houver dúvida relevante, controle, esclareça e escale"
         ],
-        "correct": 1,
-        "a": "Condição não prevista exige interrupção e avaliação."
+        "correct": 3,
+        "a": "A resposta correta está alinhada ao controle específico apresentado neste bloco."
       },
       {
-        "q": "Qual afirmação melhor representa a cultura de segurança?",
+        "q": "Qual medida reduz diretamente a exposição? Considerando «Comunicação de risco», qual alternativa está correta?",
         "options": [
-          "Segurança é responsabilidade do técnico de segurança",
-          "Segurança é condição de execução compartilhada pela equipe",
-          "Só o supervisor pode parar a atividade",
-          "Produção sempre vem primeiro"
+          "Comunique perigo, exposição, consequência potencial e controle necessário de forma objetiva",
+          "Continuar com base apenas no hábito da equipe, sem rever a condição real.",
+          "Substituir o controle previsto por improviso e registrar depois.",
+          "Aguardar o final da atividade para comunicar qualquer desvio."
         ],
-        "correct": 1,
-        "a": "A prevenção é responsabilidade de todos dentro dos papéis definidos."
+        "correct": 0,
+        "a": "A resposta correta está alinhada ao controle específico apresentado neste bloco."
       },
       {
-        "q": "Ao final de uma atividade, o que completa o ciclo seguro?",
+        "q": "Qual afirmação está correta para esta atividade? Considerando «Feedback», qual alternativa está correta?",
         "options": [
-          "Sair rapidamente",
-          "Restabelecer condições conforme procedimento, comunicar estado e registrar o necessário",
-          "Deixar o equipamento como ficou",
-          "Apagar os registros"
+          "Substituir o controle previsto por improviso e registrar depois.",
+          "Continuar com base apenas no hábito da equipe, sem rever a condição real.",
+          "Feedback deve corrigir risco sem humilhar",
+          "Aguardar o final da atividade para comunicar qualquer desvio."
+        ],
+        "correct": 2,
+        "a": "A resposta correta está alinhada ao controle específico apresentado neste bloco."
+      },
+      {
+        "q": "Qual é o principal critério de parada? Considerando «Aprendizado», qual alternativa está correta?",
+        "options": [
+          "Continuar com base apenas no hábito da equipe, sem rever a condição real.",
+          "Erros e quase acidentes devem gerar aprendizado sobre planejamento, equipamento, processo, comunicação e comportamento",
+          "Substituir o controle previsto por improviso e registrar depois.",
+          "Aguardar o final da atividade para comunicar qualquer desvio."
         ],
         "correct": 1,
-        "a": "O encerramento seguro inclui restauração, comunicação e registro conforme aplicável."
+        "a": "A resposta correta está alinhada ao controle específico apresentado neste bloco."
       }
     ],
     "references": [
-      "NR-01 MTE",
-      "NR-10 MTE",
-      "NR-35 MTE",
-      "Regras de Ouro O&M Solar"
-    ]
+      "NR-01 — Gerenciamento de Riscos Ocupacionais",
+      "NR-10 — Segurança em Instalações e Serviços em Eletricidade",
+      "NR-35 — Trabalho em Altura",
+      "Regras de Ouro O&M Solar e procedimentos internos — versão controlada"
+    ],
+    "case": {
+      "title": "Liderança segura",
+      "scenario": "Liderança segura acompanha indicadores, remove obstáculos e reconhece quem interrompe uma atividade diante de risco.",
+      "question": "Qual deve ser a primeira decisão da equipe?",
+      "options": [
+        {
+          "text": "Interromper a exposição, aplicar os controles previstos e reavaliar antes de continuar.",
+          "correct": true
+        },
+        {
+          "text": "Continuar porque a atividade já começou e corrigir a condição durante a execução.",
+          "correct": false
+        },
+        {
+          "text": "Improvisar um controle temporário e comunicar somente depois da atividade.",
+          "correct": false
+        }
+      ]
+    }
   }
 ];
